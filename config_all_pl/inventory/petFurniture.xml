@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<config id="furniture">
+    <category id="petFurniture" label="#petFurnitureCategory" library="petsFurniture" logCategory1="petFurniture" priority="1"
+              typeClass="petFurniture" visible="true">
+        <category id="petBox" label="#petCategory" logCategory2="pets" priority="3" typeClass="petBox"
+                  visible="false">
+            <item allowAnimation="1" id="foxBox1" name="FoxPetBox" label="#foxLabel" tags="cell"
+                  icon="FoxPetBoxIcon@cityPetIcons" library="pets" loadType="file"
+                  gold="489" priority="1" theme="fox" petType="Fox" canBuy="0" description="#petBoxDescription">
+                <placement floor="1"/>
+                <dimension height="1.5" length="3" sitZ="1" width="2"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item allowAnimation="1" id="dogBox1" name="DogPetBox" label="#dogLabel"
+                  icon="DogPetBoxIcon@cityPetIcons" library="pets" tags="cell"
+                  gold="480" priority="2" theme="dog" petType="Dog" canBuy="0" loadType="file" description="#petBoxDescription">
+                <placement floor="1"/>
+                <dimension height="1.5" length="3" sitZ="1" width="2"/>
+                <direction names="SW,SE"/>
+            </item>
+        </category>
+        <category id="petCouch" label="#petCouchCategory" logCategory2="petCouch" priority="1" visible="true">
+            <category id="petCarpet" visible="false">
+                <item id="petCarpet1" name="PetCarpet1" label="#petCarpet1Label" tags="sit,cell"
+                      icon="PetCarpet01Icon@cityPetIcons" library="pets" loadType="file"
+                      bones="0" priority="1" rating="199" canBuy="0" description="#petCarpetDescription">
+                    <placement floor="1"/>
+                    <dimension height="0.2" length="3" sitZ="1" width="2"/>
+                    <direction names="SW,SE"/>
+                </item>
+                <item id="petCarpet2" name="PetCarpet2" label="#petCarpet2Label" tags="sit,cell"
+                      icon="PetCarpet02Icon@cityPetIcons" library="pets" loadType="file"
+                      bones="719" priority="2" rating="479" description="#petCarpetDescription">
+                    <placement floor="1"/>
+                    <dimension height="0.1" length="3" sitZ="1" width="3"/>
+                    <direction names="SW,SE"/>
+                </item>
+                <item id="petCarpet3" name="PetCarpet3" label="#petCarpet3Label" tags="sit,cell"
+                      icon="PetCarpet03Icon@cityPetIcons" library="pets" loadType="file"
+                      bones="810" priority="3" rating="540" description="#petCarpetDescription">
+                    <placement floor="1"/>
+                    <dimension height="0.1" length="4" sitZ="1" width="4"/>
+                    <direction names="SW,SE"/>
+                </item>
+                <item id="petCarpet4" name="PetCarpet4" label="#petCarpet4Label" tags="sit,cell"
+                      icon="PetCarpet04Icon@cityPetIcons" library="pets" loadType="file"
+                      bones="851" priority="4" rating="567" description="#petCarpetDescription">
+                    <placement floor="1"/>
+                    <dimension height="0.2" length="5" sitZ="1" width="4"/>
+                    <direction names="SW,SE"/>
+                </item>
+            </category>
+            <category id="petSitObject" visible="false">
+                <item id="petBedHeart" name="PetBedHeart" label="#petBedHeartLabel"
+                      icon="PetBedHeartIcon@cityPetIcons" loadType="file" tags="cell,sit"
+                      bones="538" priority="5" rating="359" description="#petCarpetDescription">
+                    <placement floor="1"/>
+                    <dimension height="0.2" length="3" sitZ="1" width="3"/>
+                    <direction names="SW,SE"/>
+                </item>
+                <item id="petBed" name="PetBed" label="#petBedLabel"
+                      icon="PetBedIcon@cityPetIcons" loadType="file" tags="cell,sit"
+                      bones="592" priority="6" rating="395" description="#petCarpetDescription">
+                    <placement floor="1"/>
+                    <dimension height="2" length="2" sitZ="1" width="3"/>
+                    <direction names="SW,SE"/>
+                </item>
+                <item id="petStand" name="PetStand" label="#petStandLabel"
+                      icon="PetStandIcon@cityPetIcons" loadType="file" tags="cell,sit"
+                      bones="559" priority="7" rating="373" description="#petCarpetDescription">
+                    <placement floor="1"/>
+                    <dimension height="4" length="3" sitZ="1" width="2"/>
+                    <direction names="SW,SE"/>
+                </item>
+                <item id="petBedShark" name="PetBedShark" label="#petBedSharkLabel"
+                      icon="PetBedSharkIcon@cityPetIcons" loadType="file" tags="cell,sit"
+                      bones="615" priority="8" rating="410" description="#petCarpetDescription">
+                    <placement floor="1"/>
+                    <dimension height="2" length="3" sitZ="1" width="3"/>
+                    <direction names="SW,SE"/>
+                </item>
+                <item id="petStandPurple" name="PetStandPurple" label="#petStandPurpleLabel"
+                      icon="PetStandPurpleIcon@cityPetIcons" loadType="file" tags="cell,sit"
+                      bones="594" priority="9" rating="396" description="#petCarpetDescription">
+                    <placement floor="1"/>
+                    <dimension height="7" length="4" sitZ="1" width="2"/>
+                    <direction names="SW,SE"/>
+                </item>
+                <item id="petSmallHouse" name="PetSmallHouse" label="#petSmallHouseLabel"
+                      icon="PetSmallHouseIcon@cityPetIcons" loadType="file" tags="cell,sit"
+                      bones="546" priority="10" rating="364" description="#petCarpetDescription">
+                    <placement floor="1"/>
+                    <dimension height="4" length="3" sitZ="1" width="2"/>
+                    <direction names="SW,SE"/>
+                </item>
+            </category>
+        </category>
+        <category id="petDecor" label="#petDecorCategory" logCategory2="petDecor" priority="2" visible="true">
+            <item id="petPictureDog" name="PetPictureDog" label="#petPictureDogLabel"
+                  icon="PetPictureDogIcon@cityPetIcons" loadType="file" tags="ground"
+                  bones="291" priority="1" rating="194">
+                <placement floor="1" wall="1"/>
+                <dimension defaultZ="0.9" height="4.8" length="3.3" width="0.1"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item id="petPictureDoor" name="PetPictureDoor" label="#petPictureDoorLabel"
+                  icon="PetPictureDoorIcon@cityPetIcons" loadType="file" tags="ground"
+                  bones="255" priority="2" rating="170">
+                <placement floor="1" wall="1"/>
+                <dimension defaultZ="0.5" height="2.5" length="2" width="0.1"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item id="petPictureFox" name="PetPictureFox" label="#petPictureFoxLabel"
+                  icon="PetPictureFoxIcon@cityPetIcons" loadType="file" tags="ground"
+                  bones="179" priority="3" rating="119">
+                <placement floor="1" wall="1"/>
+                <dimension defaultZ="2.5" height="2.6" length="2" width="0.1"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item id="petPicturePaw" name="PetPicturePaw" label="#petPicturePawLabel"
+                  icon="PetPicturePawIcon@cityPetIcons" loadType="file" tags="ground"
+                  bones="255" priority="4" rating="170">
+                <placement floor="1" wall="1"/>
+                <dimension defaultZ="2.2" height="2.5" length="1.5" width="0.1"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item id="petToyBone" name="PetToyBone" label="#petToyBoneLabel"
+                  icon="PetToyBoneIcon@cityPetIcons" loadType="file" tags="cell"
+                  bones="139" priority="5" rating="93">
+                <placement floor="1"/>
+                <dimension height="0.2" length="1" width="1"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item id="petToyDuck" name="PetToyDuck" label="#petToyDuckLabel"
+                  icon="PetToyDuckIcon@cityPetIcons" loadType="file" tags="cell"
+                  bones="156" priority="6" rating="104">
+                <placement floor="1"/>
+                <dimension height="0.5" length="2" width="1"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item id="petDecorRainbow" name="PetDecorRainbow" label="#petDecorRainbowLabel"
+                  icon="PetDecorRainbowIcon@cityPetIcons" loadType="file" tags="cell"
+                  bones="315" priority="7" rating="210">
+                <placement floor="1"/>
+                <dimension height="1.3" length="2" width="1"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item id="petToyDonut" name="PetToyDonut" label="#PetToyDonutLabel"
+                  icon="PetToyDonutIcon@cityPetIcons" loadType="file" tags="cell"
+                  bones="128" priority="8" rating="85">
+                <placement floor="1"/>
+                <dimension height="0.2" length="1" width="1"/>
+                <direction names="SW"/>
+            </item>
+            <item id="petToyMouse" name="PetToyMouse" label="#PetToyMouseLabel"
+                  icon="PetToyMouseIcon@cityPetIcons" loadType="file" tags="cell"
+                  bones="126" priority="9" rating="84">
+                <placement floor="1"/>
+                <dimension height="0.2" length="1" width="1"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item allowAnimation="1" id="petLampBone" name="PetLampBone" label="#petLampBoneLabel"
+                  icon="PetLampBoneIcon@cityPetIcons" loadType="file" tags="ground"
+                  bones="352" priority="10" rating="235">
+                <placement floor="1" wall="1"/>
+                <dimension defaultZ="2.5" height="2" length="3" width="0.1"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item allowAnimation="1" id="petLampPaw" name="PetLampPaw" label="#petLampPawLabel"
+                  icon="PetLampPawIcon@cityPetIcons" loadType="file" tags="ground"
+                  bones="389" priority="11" rating="259">
+                <placement floor="1" wall="1"/>
+                <dimension defaultZ="2" height="2.5" length="2.2" width="0.3"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item id="petTray" name="PetTray" label="#petTrayLabel"
+                  icon="PetTrayIcon@cityPetIcons" loadType="file" tags="cell"
+                  bones="235" priority="12" rating="157">
+                <placement floor="1"/>
+                <dimension height="0.7" length="2" width="2"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item id="petFood" name="PetFood" label="#petFoodLabel"
+                  icon="PetFoodIcon@cityPetIcons" loadType="file" tags="cell"
+                  bones="202" priority="13" rating="135">
+                <placement floor="1"/>
+                <dimension height="1.5" length="1" width="1"/>
+                <direction names="SW,SE"/>
+            </item>
+        </category>
+        <category id="petInteractive" label="#petInteractiveCategory" logCategory2="petInteractive" priority="3"
+                  visible="true">
+            <category id="petWaterBowl" visible="false">
+                <item id="petWaterBowl" name="PetWaterBowl" label="#petWaterBowlLabel" tags="sit,cell"
+                      icon="PetWaterBowlIcon@cityPetIcons" loadType="file" priority="1" bones="1013" rating="675"
+                      description="#petBowlDescription" buyCount="1">
+                    <placement floor="1"/>
+                    <dimension height="1" length="3" width="2"/>
+                    <direction names="SW,SE"/>
+                </item>
+            </category>
+            <category id="petFoodBowl" visible="false">
+                <item id="petFoodBowl" name="PetFoodBowl" label="#petFoodBowlLabel" tags="sit,cell"
+                      icon="PetFoodBowlIcon@cityPetIcons" loadType="file" priority="2" bones="999" rating="666"
+                      description="#petBowlDescription" buyCount="1">
+                    <placement floor="1"/>
+                    <dimension height="0.5" length="2" width="2"/>
+                    <direction names="SW,SE"/>
+                </item>
+            </category>
+        </category>
+    </category>
+</config>

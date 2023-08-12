@@ -1,0 +1,691 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<games>
+    <game id="fight" confirmRequired="true">
+        <disablePanels>true</disablePanels>
+        <disableWorld>false</disableWorld>
+        <disableMouse>true</disableMouse>
+        <disableAvatars>false</disableAvatars>
+        <hideAvatars>false</hideAvatars>
+
+        <moves>
+            <move id="0" energy="0" bonus="0" type="undefined" target="undefined">
+                <animation name="PillowWait" duration="30" tool="Pillow"/>
+                <damage min="0" max="0"/>
+                <blockDamage min="0" max="0"/>
+            </move>
+
+            <move id="98" energy="0" bonus="0" type="damaged" target="top">
+                <animation name="PillowDamageHead" duration="12" tool="Pillow"/>
+                <damage min="0" max="0"/>
+                <blockDamage min="0" max="0"/>
+            </move>
+
+            <move id="99" energy="0" bonus="0" type="damaged" target="bottom">
+                <animation name="PillowDamageBody" duration="17" tool="Pillow"/>
+                <damage min="0" max="0"/>
+                <blockDamage min="0" max="0"/>
+            </move>
+
+            <move id="1" title="#fightPillowUpMove" icon="FightPillowUpIcon@location" energy="8" bonus="1" type="attack"
+                target="top">
+                <animation name="PillowToHead" duration="36" tool="Pillow" strikeTick="31"/>
+                <damage min="6" max="9"/>
+                <blockDamage min="0" max="0"/>
+            </move>
+
+            <move id="2" title="#fightPillowDownMove" icon="FightPillowDownIcon@location" energy="6" bonus="1"
+                type="attack" target="bottom">
+                <animation name="PillowToBody" duration="36" tool="Pillow" strikeTick="31"/>
+                <damage min="5" max="7"/>
+                <blockDamage min="0" max="0"/>
+            </move>
+
+            <move id="3" title="#fightDefenceUpMove" icon="FightDefenceUpIcon@location" energy="4" bonus="1"
+                type="block" target="top">
+                <animation name="PillowCoverHead" tool="Pillow" duration="25" strikeTick="12"/>
+            </move>
+
+            <move id="4" title="#fightDefenceDownMove" icon="FightDefenceDownIcon@location" energy="3" bonus="1"
+                type="block" target="bottom">
+                <animation name="PillowCoverBody" tool="Pillow" duration="25" strikeTick="12"/>
+            </move>
+        </moves>
+    </game>
+    <game id="beachRace" energyPrice="30" location="publicBeach" confirmRequired="true">
+        <disablePanels>true</disablePanels>
+        <disableWorld>true</disableWorld>
+        <disableMouse>true</disableMouse>
+        <disableAvatars>true</disableAvatars>
+        <hideAvatars>true</hideAvatars>
+
+        <objects>
+            <object id="fsh" type="bonus" asset="FishIdle@publicBeach" animation="FishEffect@publicBeach"/>
+            <object id="n2o" type="bonus" asset="N2OIdle@publicBeach" animation="N2OEffect@publicBeach"/>
+            <object id="pplr" type="bonus" asset="PropellerIdle@publicBeach" animation="PropellerEffect@publicBeach"/>
+
+            <object id="stn" type="barrier" asset="StoneIdle@publicBeach" animation="WaterBlow@publicBeach"/>
+            <object id="brl" type="barrier" asset="BarrelIdle@publicBeach" animation="WaterBlow@publicBeach"/>
+            <object id="wrpl" type="barrier" asset="WhirlpoolIdle@publicBeach" animation="WaterBlow@publicBeach"
+                layer="bottomLayer"/>
+
+            <object id="ptl" type="portal" asset="PortalIdle@publicBeach" animation="PortalEffect@publicBeach"/>
+        </objects>
+
+        <types>
+            <type id="barrier" icon="BeachRaceBarrierIcon@publicBeach" label="beachRaceBarrierLabel" count="2"/>
+            <type id="portal" icon="BeachRacePortalIcon@publicBeach" label="beachRacePortalLabel" count="1"/>
+            <type id="bonus" icon="BeachRaceBonusIcon@publicBeach" label="beachRaceBonusLabel" count="2"/>
+        </types>
+
+        <moves>
+            <move id="pickUp" icon="BeachRacePickUpMoveIcon@publicBeach" label="beachRacePickupLabel" count="2">
+                <points>
+                    <type id="bonus" shift="1" points="25"/>
+                    <type id="barrier" shift="-1" points="-5"/>
+                    <type id="portal" shift="0" points="5"/>
+                </points>
+            </move>
+            <move id="bypass" icon="BeachRaceBypassMoveIcon@publicBeach" label="beachRaceBypassLabel" count="2">
+                <points>
+                    <type id="bonus" shift="0" points="5"/>
+                    <type id="barrier" shift="1" points="25"/>
+                    <type id="portal" shift="0" points="5"/>
+                </points>
+            </move>
+            <move id="usePortal" icon="UsePortalMoveIcon@publicBeach" label="beachRaceUsePortalLabel" count="1">
+                <points>
+                    <type id="bonus" shift="0" points="5"/>
+                    <type id="barrier" shift="0" points="-5"/>
+                    <type id="portal" shift="2" points="50"/>
+                </points>
+            </move>
+        </moves>
+    </game>
+    <game id="canyonRace" energyPrice="30" location="canyon" confirmRequired="true">
+        <disablePanels>true</disablePanels>
+        <disableWorld>true</disableWorld>
+        <disableMouse>true</disableMouse>
+        <disableAvatars>true</disableAvatars>
+        <hideAvatars>true</hideAvatars>
+
+        <objects>
+            <object id="rckt" type="bonus" asset="RocketFuelIdle@canyon" animation="RocketFuelEffect@canyon"/>
+            <object id="n2o" type="bonus" asset="NO2Idle@canyon" animation="NO2Effect@canyon"/>
+            <object id="wl" type="bonus" asset="WheelIdle@canyon" animation="WheelEffect@canyon" replace="1"/>
+
+            <object id="dnt" type="barrier" asset="DinamitIdle@canyon" animation="DinamitEffect@canyon"/>
+            <object id="pt" type="barrier" asset="PitIdle@canyon" animation="PitEffect@canyon" layer="bottomLayer"
+                hideAfterUse="0"/>
+            <object id="rdf" type="barrier" asset="RoadFenceIdle@canyon" animation="RoadFenceEffect@canyon"/>
+
+            <object id="ufo" type="portal" asset="UFOIdle@canyon" animation="UFOEffect@canyon"/>
+        </objects>
+
+        <types>
+            <type id="barrier" icon="CanyonBarrierIcon@canyon" label="canyonRaceBarrierLabel" count="2"/>
+            <type id="portal" icon="UFOIcon@canyon" label="canyonRacePortalLabel" count="1"/>
+            <type id="bonus" icon="CanyonBonusIcon@canyon" label="canyonRaceBonusLabel" count="2"/>
+        </types>
+
+        <moves>
+            <move id="pickUp" icon="CanyonPickUpMoveIcon@canyon" label="canyonRacePickupLabel" count="2">
+                <points>
+                    <type id="bonus" shift="1" points="25"/>
+                    <type id="barrier" shift="-1" points="-5"/>
+                    <type id="portal" shift="0" points="5"/>
+                </points>
+            </move>
+            <move id="bypass" icon="CanyonBypassMoveIcon@canyon" label="canyonRaceBypassLabel" count="2">
+                <points>
+                    <type id="bonus" shift="0" points="5"/>
+                    <type id="barrier" shift="1" points="25"/>
+                    <type id="portal" shift="0" points="5"/>
+                </points>
+            </move>
+            <move id="usePortal" icon="StopUFOMoveIcon@canyon" label="canyonRaceUsePortalLabel" count="1">
+                <points>
+                    <type id="bonus" shift="0" points="5"/>
+                    <type id="barrier" shift="0" points="-5"/>
+                    <type id="portal" shift="2" points="50"/>
+                </points>
+            </move>
+        </moves>
+
+        <cars>
+            <car typeId="carVip1" asset="CarFerrariRed@canyon" wheelAsset="FerrariWheel@canyon" sitX="0" sitY="-0.5"/>
+            <car typeId="carVip2" asset="CarFerrariWhite@canyon" wheelAsset="FerrariWheel@canyon" sitX="0" sitY="-0.5"/>
+            <car typeId="carVip3" asset="CarFerrariGirl@canyon" wheelAsset="FerrariWheel@canyon" sitX="0" sitY="-0.5"/>
+            <car typeId="carBtlBl" asset="CarBeetleBlue@canyon" wheelAsset="BeetleWheel@canyon" sitX="-0.25"
+                sitY="-0.75"/>
+            <car typeId="carBtlOg" asset="CarBeetleOrange@canyon" wheelAsset="BeetleWheel@canyon" sitX="-0.25"
+                sitY="-0.75"/>
+            <car typeId="carJeepMil" asset="CarJeepMilitary@canyon" wheelAsset="JeepWheel@canyon" sitX="1.25"
+                sitY="-1.9"/>
+            <car typeId="carJeepYel" asset="CarJeepYellow@canyon" wheelAsset="JeepWheel@canyon" sitX="1.25"
+                sitY="-1.9"/>
+            <car typeId="carLmbGrn" asset="CarLamboGreen@canyon" wheelAsset="LamboWheel@canyon" sitX="-0.5"
+                sitY="-0.5"/>
+            <car typeId="carLmbWht" asset="CarLamboWhite@canyon" wheelAsset="LamboWheel@canyon" sitX="-0.5"
+                sitY="-0.5"/>
+            <car typeId="carLtsRd" asset="CarLotusRed@canyon" wheelAsset="LotusWheel@canyon" sitX="0" sitY="-0.5"/>
+            <car typeId="carLtsVlt" asset="CarLotusViolet@canyon" wheelAsset="LotusWheel@canyon" sitX="0" sitY="-0.5"/>
+            <car typeId="carPtcBlk" asset="CarPontiacBlack@canyon" wheelAsset="PontiacWheel@canyon" sitX="0.5"
+                sitY="-1"/>
+            <car typeId="carPtcChrry" asset="CarPontiacCherry@canyon" wheelAsset="PontiacWheel@canyon" sitX="0.5"
+                sitY="-1"/>
+
+            <car typeId="carJntr" asset="CarJanitor@canyon" wheelAsset="JanitorWheel@canyon" sitX="0" sitY="-1"/>
+
+            <car typeId="wddnCar" asset="WeddingCar@canyon" wheelAsset="BeetleWheel@canyon" sitX="0" sitY="-1"/>
+
+            <car typeId="bikeRsrGrn" asset="BikeRaiserGreen@canyon" wheelAsset="RaiserWheel@canyon" sitX="-0.7"
+                sitY="-1.7" isBike="1"/>
+            <car typeId="bikeRsrWht" asset="BikeRaiserWhite@canyon" wheelAsset="RaiserWheel@canyon" sitX="-0.7"
+                sitY="-1.7" isBike="1"/>
+
+            <car typeId="bikeDctOrg" asset="BikeDucattiOrange@canyon" wheelAsset="DucattiWheel@canyon" sitX="-0.3"
+                sitY="-2" isBike="1"/>
+            <car typeId="bikeDctYllw" asset="BikeDucattiYellow@canyon" wheelAsset="DucattiWheel@canyon" sitX="-0.3"
+                sitY="-2" isBike="1"/>
+
+            <car typeId="bikeChpprBl" asset="BikeChopperBlue@canyon" wheelAsset="ChopperWheel@canyon" sitX="-0.8"
+                sitY="-1.8" isBike="1"/>
+            <car typeId="bikeChpprRd" asset="BikeChopperRed@canyon" wheelAsset="ChopperWheel@canyon" sitX="-0.8"
+                sitY="-1.8" isBike="1"/>
+
+            <car typeId="tankDzo20Pink" asset="TankDzo20Pink@canyon" sitX="2.2" sitY="-4.8" isTank="1"/>
+            <car typeId="tankDzo20Green" asset="TankDzo20Green@canyon" sitX="2.2" sitY="-4.8" isTank="1"/>
+            <car typeId="zilDzo2021" asset="ZilDzo2021@canyon" sitX="2.2" sitY="-4.8" isTank="1"/>
+            <car typeId="spaceXRocket" asset="SpaceXRocket@canyon" sitX="2.2" sitY="-4.8" isTank="1"/>
+            <car typeId="carBentley" asset="CarBentley@canyon" wheelAsset="BentleyWheel@canyon" sitX="0.3" sitY="-0.4"/>
+            <car typeId="bikeYamaha2021" asset="BikeYamaha2021@canyon" wheelAsset="YamahaWheel@canyon" sitX="0.1"
+                sitY="-1.8" isBike="1"/>
+            <car typeId="carBumblebee" asset="CarBumblebee@canyon" wheelAsset="BumblebeeWheel@canyon" sitX="0"
+                sitY="-0.4"/>
+            <car typeId="carDiscover" asset="CarDiscover@canyon" wheelAsset="DiscoverWheel@canyon" sitX="2.2"
+                sitY="-4.8"/>
+            <car typeId="carNY22Sled" asset="CarNY22Sled@canyon" wheelAsset="SledWheel@canyon" sitX="1.2" sitY="-1"
+                needFire="0"/>
+            <car typeId="zil41041" asset="CarZil41041@canyon" wheelAsset="CarZil41041Wheel@canyon" sitX="-0.4"
+                sitY="-0.4"/>
+            <car typeId="flyShip" asset="FlyShip@canyon" wheelAsset="FlyShipWheel@canyon" sitX="1.5" sitY="-1.3"/>
+            <car typeId="ufo22" asset="Ufo22@canyon" wheelAsset="Ufo22Wheel@canyon" sitX="2.3" sitY="-2.2" needFire="0"/>
+            <car typeId="carZombie22" asset="CarZombie22@canyon" wheelAsset="CarZombie22Wheel@canyon" sitX="-0.4" sitY="-0.5"/>
+            <car typeId="ny23Cyberbike" asset="NY23Cyberbike@canyon" wheelAsset="CyberbikeFrontWheel@canyon"
+                backWheelAsset="CyberbikeBackWheel@canyon" sitX="-0.8" sitY="-1.6" isBike="1"/>
+            <car typeId="carOven23" asset="CarOven23@canyon" wheelAsset="CarOven23Wheel@canyon" sitX="2.3" sitY="-2.2" needFire="0"/>
+            <car typeId="starsShip23" asset="StarsShip23@canyon" wheelAsset="StarsShip23Wheel@canyon" sitX="2.2" sitY="-4.3"/>
+        </cars>
+    </game>
+    <game id="meerkat" location="canyon:pc1:l2" confirmRequired="true">
+        <disablePanels>true</disablePanels>
+        <disableWorld>true</disableWorld>
+        <disableMouse>true</disableMouse>
+        <disableAvatars>true</disableAvatars>
+        <hideAvatars>true</hideAvatars>
+
+        <awards>
+            <award id="ma1" hits="10" silver="50" awardType="cityInfo" hitsIcon="x10@canyon" title="#mkLllppTitle">
+                <item id="mkLllppBl" icon="LollypopBlueBigIcon@canyon" smallIcon="MeerkatLollypopBlueIcon@location"
+                    viewClass="MeerkatLollypopBlue"/>
+                <item id="mkLllppRd" icon="LollypopRedBigIcon@canyon" smallIcon="MeerkatLollypopRedIcon@location"
+                    viewClass="MeerkatLollypopRed"/>
+            </award>
+            <award id="ma2" hits="20" silver="100" awardType="cityInfoWithSave" hitsIcon="x20@canyon"
+                title="#mkBllnTitle">
+                <item id="mkBllnBl" icon="BalloonBlueBigIcon@canyon" smallIcon="MeerkatBlueBallIcon@location"
+                    viewClass="MeerkatBlueBall"/>
+                <item id="mkBllnRd" icon="BalloonRedBigIcon@canyon" smallIcon="MeerkatRedBallIcon@location"
+                    viewClass="MeerkatRedBall"/>
+                <item id="mkBllnYw" icon="BalloonYellowBigIcon@canyon" smallIcon="MeerkatYellowBallIcon@location"
+                    viewClass="MeerkatYellowBall"/>
+            </award>
+            <award id="ma3" hits="30" silver="150" awardType="inventory" hitsIcon="x30@canyon" title="#mkBearTitle">
+                <item id="mkBear" icon="BearBigIcon@canyon" smallIcon="MeerkatBearIcon@decor"/>
+            </award>
+        </awards>
+    </game>
+
+    <game id="snowboardRace" energyPrice="30" location="skiResort" confirmRequired="true" ratingFactor="0.1">
+        <disablePanels>true</disablePanels>
+        <disableWorld>true</disableWorld>
+        <disableMouse>true</disableMouse>
+        <disableAvatars>true</disableAvatars>
+        <hideAvatars>true</hideAvatars>
+
+        <objects>
+            <object id="sngb" type="springboard" asset="Springboard@skiResort" animation="WaterBlowEffect@skiResort"/>
+            <object id="brl" type="barrier" asset="TreeBarrier@skiResort" animation="WaterBlowEffect@skiResort"/>
+        </objects>
+
+        <types>
+            <type id="barrier" icon="BarrierIcon@skiResort" label="snowboardRaceBarrierLabel" count="2"/>
+            <type id="springboard" icon="PortalIcon@skiResort" label="snowboardRaceSpringboardLabel" count="3"/>
+        </types>
+
+        <moves>
+            <move id="jump" icon="JumpIcon@skiResort" label="snowboardRaceJumpLabel" count="2">
+                <points>
+                    <type id="barrier" shift="-1" points="-5"/>
+                    <type id="springboard" shift="1" points="25"/>
+                </points>
+            </move>
+            <move id="sitDown" icon="DownIcon@skiResort" label="snowboardRaceDownLabel" count="2">
+                <points>
+                    <type id="barrier" shift="1" points="25"/>
+                    <type id="springboard" shift="-1" points="-5"/>
+                </points>
+            </move>
+            <move id="trick" icon="SkiResortBonusIcon@skiResort" label="snowboardRaceTrickLabel" count="1"
+                snowboardId="sbRS2">
+                <points>
+                    <type id="barrier" shift="3" points="75"/>
+                    <type id="springboard" shift="3" points="75"/>
+                </points>
+            </move>
+            <move id="jump" icon="JumpIcon@skiResort" label="snowboardRaceJumpLabel" count="1" snowboardId="sbRS1">
+                <points>
+                    <type id="barrier" shift="-1" points="-5"/>
+                    <type id="springboard" shift="1" points="25"/>
+                </points>
+            </move>
+        </moves>
+
+        <awards>
+            <award awardType="normal" energy="10" silver="150" gold="0"/>
+            <award awardType="vip" energy="20" silver="350" gold="0"/>
+        </awards>
+    </game>
+    <game id="memories" location="park" turnTime="30" successTurnPointsCount="10" confirmRequired="true" energyPrice="0">
+        <disablePanels>true</disablePanels>
+        <disableWorld>true</disableWorld>
+        <disableMouse>false</disableMouse>
+        <disableAvatars>true</disableAvatars>
+        <hideAvatars>true</hideAvatars>
+
+        <awards>
+            <award awardType="win" energy="0" silver="1500" gold="0"/>
+            <award awardType="loose" energy="0" silver="500" gold="0"/>
+            <award awardType="draw" energy="0" silver="1000" gold="0"/>
+        </awards>
+    </game>
+
+    <game id="wellAimedShooter">
+        <disablePanels panels="top,friends,bottom,chat">true</disablePanels>
+        <disableWorld>true</disableWorld>
+        <disableMouse>true</disableMouse>
+        <disableAvatars>true</disableAvatars>
+        <hideAvatars>true</hideAvatars>
+
+        <energyPrice>10</energyPrice>
+        <satietyPrice>20</satietyPrice>
+
+        <targets>
+            <target shoot="1" type="static"/>
+            <target shoot="2" type="static"/>
+            <target shoot="3" type="tilted"/>
+            <target shoot="4" type="tilted"/>
+            <target shoot="5" type="tilted"/>
+            <target shoot="6" type="moving" speed="1"/>
+            <target shoot="7" type="moving" speed="1"/>
+            <target shoot="8" type="moving" speed="3"/>
+            <target shoot="9" type="moving" speed="3"/>
+            <target shoot="10" type="moving" speed="6"/>
+        </targets>
+
+        <awards>
+            <level id="1">
+                <award id="0" minScore="0" maxScore="3" exp="2" bones="0"/>
+                <award id="1" minScore="4" maxScore="6" exp="4" bones="6"/>
+                <award id="2" minScore="7" maxScore="9" exp="7" bones="10"/>
+                <award id="3" minScore="10" maxScore="10" exp="10" bones="15"/>
+            </level>
+            <level id="2">
+                <award id="0" minScore="0" maxScore="3" exp="2" bones="0"/>
+                <award id="1" minScore="4" maxScore="6" exp="4" bones="6"/>
+                <award id="2" minScore="7" maxScore="9" exp="7" bones="10"/>
+                <award id="3" minScore="10" maxScore="10" exp="10" bones="15"/>
+            </level>
+            <level id="3">
+                <award id="0" minScore="0" maxScore="3" exp="2" bones="0"/>
+                <award id="1" minScore="4" maxScore="6" exp="4" bones="6"/>
+                <award id="2" minScore="7" maxScore="9" exp="7" bones="10"/>
+                <award id="3" minScore="10" maxScore="10" exp="10" bones="15"/>
+            </level>
+            <level id="4">
+                <award id="0" minScore="0" maxScore="3" exp="2" bones="0"/>
+                <award id="1" minScore="4" maxScore="6" exp="4" bones="6"/>
+                <award id="2" minScore="7" maxScore="9" exp="7" bones="10"/>
+                <award id="3" minScore="10" maxScore="10" exp="10" bones="15"/>
+            </level>
+
+            <level id="5">
+                <award id="0" minScore="0" maxScore="3" exp="2" bones="0"/>
+                <award id="1" minScore="4" maxScore="6" exp="4" bones="7"/>
+                <award id="2" minScore="7" maxScore="9" exp="7" bones="11"/>
+                <award id="3" minScore="10" maxScore="10" exp="10" bones="16"/>
+            </level>
+            <level id="6">
+                <award id="0" minScore="0" maxScore="3" exp="2" bones="0"/>
+                <award id="1" minScore="4" maxScore="6" exp="4" bones="8"/>
+                <award id="2" minScore="7" maxScore="9" exp="7" bones="12"/>
+                <award id="3" minScore="10" maxScore="10" exp="10" bones="17"/>
+            </level>
+            <level id="7">
+                <award id="0" minScore="0" maxScore="3" exp="2" bones="0"/>
+                <award id="1" minScore="4" maxScore="6" exp="4" bones="9"/>
+                <award id="2" minScore="7" maxScore="9" exp="7" bones="13"/>
+                <award id="3" minScore="10" maxScore="10" exp="10" bones="18"/>
+            </level>
+            <level id="8">
+                <award id="0" minScore="0" maxScore="3" exp="2" bones="0"/>
+                <award id="1" minScore="4" maxScore="6" exp="4" bones="10"/>
+                <award id="2" minScore="7" maxScore="9" exp="7" bones="14"/>
+                <award id="3" minScore="10" maxScore="10" exp="10" bones="19"/>
+            </level>
+            <level id="9">
+                <award id="0" minScore="0" maxScore="3" exp="2" bones="0"/>
+                <award id="1" minScore="4" maxScore="6" exp="4" bones="11"/>
+                <award id="2" minScore="7" maxScore="9" exp="7" bones="15"/>
+                <award id="3" minScore="10" maxScore="10" exp="10" bones="20"/>
+            </level>
+            <level id="10">
+                <award id="0" minScore="0" maxScore="3" exp="2" bones="0"/>
+                <award id="1" minScore="4" maxScore="6" exp="4" bones="12"/>
+                <award id="2" minScore="7" maxScore="9" exp="7" bones="16"/>
+                <award id="3" minScore="10" maxScore="10" exp="10" bones="21"/>
+            </level>
+            <level id="11">
+                <award id="0" minScore="0" maxScore="3" exp="2" bones="0"/>
+                <award id="1" minScore="4" maxScore="6" exp="4" bones="13"/>
+                <award id="2" minScore="7" maxScore="9" exp="7" bones="17"/>
+                <award id="3" minScore="10" maxScore="10" exp="10" bones="25"/>
+            </level>
+            <level id="12">
+                <award id="0" minScore="0" maxScore="3" exp="2" bones="0"/>
+                <award id="1" minScore="4" maxScore="6" exp="4" bones="14"/>
+                <award id="2" minScore="7" maxScore="9" exp="7" bones="18"/>
+                <award id="3" minScore="10" maxScore="10" exp="10" bones="26"/>
+            </level>
+            <level id="13">
+                <award id="0" minScore="0" maxScore="3" exp="2" bones="0"/>
+                <award id="1" minScore="4" maxScore="6" exp="4" bones="15"/>
+                <award id="2" minScore="7" maxScore="9" exp="7" bones="19"/>
+                <award id="3" minScore="10" maxScore="10" exp="10" bones="27"/>
+            </level>
+            <level id="14">
+                <award id="0" minScore="0" maxScore="3" exp="2" bones="0"/>
+                <award id="1" minScore="4" maxScore="6" exp="4" bones="16"/>
+                <award id="2" minScore="7" maxScore="9" exp="7" bones="20"/>
+                <award id="3" minScore="10" maxScore="10" exp="10" bones="28"/>
+            </level>
+            <level id="15">
+                <award id="0" minScore="0" maxScore="3" exp="2" bones="0"/>
+                <award id="1" minScore="4" maxScore="6" exp="4" bones="18"/>
+                <award id="2" minScore="7" maxScore="9" exp="7" bones="21"/>
+                <award id="3" minScore="10" maxScore="10" exp="10" bones="29"/>
+            </level>
+            <level id="16">
+                <award id="0" minScore="0" maxScore="3" exp="2" bones="0"/>
+                <award id="1" minScore="4" maxScore="6" exp="4" bones="18"/>
+                <award id="2" minScore="7" maxScore="9" exp="7" bones="22"/>
+                <award id="3" minScore="10" maxScore="10" exp="10" bones="30"/>
+            </level>
+            <level id="17">
+                <award id="0" minScore="0" maxScore="3" exp="2" bones="0"/>
+                <award id="1" minScore="4" maxScore="6" exp="4" bones="19"/>
+                <award id="2" minScore="7" maxScore="9" exp="7" bones="23"/>
+                <award id="3" minScore="10" maxScore="10" exp="10" bones="31"/>
+            </level>
+            <level id="18">
+                <award id="0" minScore="0" maxScore="3" exp="2" bones="0"/>
+                <award id="1" minScore="4" maxScore="6" exp="4" bones="20"/>
+                <award id="2" minScore="7" maxScore="9" exp="7" bones="24"/>
+                <award id="3" minScore="10" maxScore="10" exp="10" bones="32"/>
+            </level>
+            <level id="19">
+                <award id="0" minScore="0" maxScore="3" exp="2" bones="0"/>
+                <award id="1" minScore="4" maxScore="6" exp="4" bones="21"/>
+                <award id="2" minScore="7" maxScore="9" exp="7" bones="25"/>
+                <award id="3" minScore="10" maxScore="10" exp="10" bones="33"/>
+            </level>
+            <level id="20">
+                <award id="0" minScore="0" maxScore="3" exp="2" bones="0"/>
+                <award id="1" minScore="4" maxScore="6" exp="4" bones="26"/>
+                <award id="2" minScore="7" maxScore="9" exp="7" bones="30"/>
+                <award id="3" minScore="10" maxScore="10" exp="10" bones="35"/>
+            </level>
+        </awards>
+    </game>
+    <game id="biter">
+        <disablePanels panels="top,friends,bottom,chat">true</disablePanels>
+        <disableWorld>true</disableWorld>
+        <disableMouse>true</disableMouse>
+        <disableAvatars>true</disableAvatars>
+        <hideAvatars>true</hideAvatars>
+
+        <energyPrice>20</energyPrice>
+        <loot>
+            clay,peaceOfWood,water,flowerBud,phial,bigPhial,bow,wrappingPaper,peaceOfIron,likeCoin,photograph,swordHilt,generosity,love,hatred,happiness,feather,wick,thread,beauty,glamor,idea,muse,diligence,skill,industry,luck,screw,wrench
+        </loot>
+        <smilesLoot>fa23Smile</smilesLoot>
+        <goals>
+            <goal id="0" winCount="20" smiles="50"/>
+            <goal id="1" winCount="50" smiles="100"/>
+            <goal id="2" winCount="100" smiles="250"/>
+            <goal id="3" winCount="200" smiles="400"/>
+            <goal id="4" winCount="300" smiles="600"/>
+        </goals>
+    </game>
+    <game id="crazyBallMachine">
+        <disablePanels panels="top,friends,bottom,chat">true</disablePanels>
+        <disableWorld>true</disableWorld>
+        <disableMouse>true</disableMouse>
+        <disableAvatars>true</disableAvatars>
+        <hideAvatars>true</hideAvatars>
+
+        <energyPrice>10</energyPrice>
+        <happinessPrice>20</happinessPrice>
+        <minPetLevel>4</minPetLevel>
+
+        <bonusFallSpeed>15</bonusFallSpeed>
+        <frozenTime>3000</frozenTime>
+        <ballIntersectLimit>250</ballIntersectLimit>
+
+        <intervals>
+            <level id="1">
+                <ballInterval time="2000" count="5" interval="2000" speed="10"/>
+                <ballInterval time="12000" count="10" interval="1500" speed="13"/>
+                <ballInterval time="30000" count="15" interval="1000" speed="15"/>
+
+                <iceInterval time="6000" count="4" interval="2500" speed="8"/>
+                <iceInterval time="12000" count="9" interval="2000" speed="12"/>
+                <iceInterval time="30000" count="12" interval="1500" speed="14"/>
+            </level>
+        </intervals>
+
+        <awards>
+            <level id="4">
+                <award id="0" minScore="0" maxScore="9" exp="2" bones="0"/>
+                <award id="1" minScore="10" maxScore="19" exp="5" bones="2"/>
+                <award id="2" minScore="20" maxScore="26" exp="10" bones="6"/>
+                <award id="3" minScore="27" maxScore="30" exp="12" bones="10"/>
+            </level>
+            <level id="5">
+                <award id="0" minScore="0" maxScore="9" exp="2" bones="0"/>
+                <award id="1" minScore="10" maxScore="19" exp="5" bones="3"/>
+                <award id="2" minScore="20" maxScore="26" exp="10" bones="7"/>
+                <award id="3" minScore="27" maxScore="30" exp="12" bones="11"/>
+            </level>
+            <level id="6">
+                <award id="0" minScore="0" maxScore="9" exp="2" bones="0"/>
+                <award id="1" minScore="10" maxScore="19" exp="5" bones="4"/>
+                <award id="2" minScore="20" maxScore="26" exp="10" bones="8"/>
+                <award id="3" minScore="27" maxScore="30" exp="12" bones="12"/>
+            </level>
+            <level id="7">
+                <award id="0" minScore="0" maxScore="9" exp="2" bones="0"/>
+                <award id="1" minScore="10" maxScore="19" exp="5" bones="5"/>
+                <award id="2" minScore="20" maxScore="26" exp="10" bones="9"/>
+                <award id="3" minScore="27" maxScore="30" exp="12" bones="13"/>
+            </level>
+            <level id="8">
+                <award id="0" minScore="0" maxScore="9" exp="2" bones="0"/>
+                <award id="1" minScore="10" maxScore="19" exp="5" bones="6"/>
+                <award id="2" minScore="20" maxScore="26" exp="10" bones="10"/>
+                <award id="3" minScore="27" maxScore="30" exp="12" bones="14"/>
+            </level>
+            <level id="9">
+                <award id="0" minScore="0" maxScore="9" exp="2" bones="0"/>
+                <award id="1" minScore="10" maxScore="19" exp="5" bones="7"/>
+                <award id="2" minScore="20" maxScore="26" exp="10" bones="11"/>
+                <award id="3" minScore="27" maxScore="30" exp="12" bones="15"/>
+            </level>
+            <level id="10">
+                <award id="0" minScore="0" maxScore="9" exp="2" bones="0"/>
+                <award id="1" minScore="10" maxScore="19" exp="5" bones="8"/>
+                <award id="2" minScore="20" maxScore="26" exp="10" bones="12"/>
+                <award id="3" minScore="27" maxScore="30" exp="12" bones="16"/>
+            </level>
+            <level id="11">
+                <award id="0" minScore="0" maxScore="9" exp="2" bones="0"/>
+                <award id="1" minScore="10" maxScore="19" exp="5" bones="9"/>
+                <award id="2" minScore="20" maxScore="26" exp="10" bones="13"/>
+                <award id="3" minScore="27" maxScore="30" exp="12" bones="20"/>
+            </level>
+            <level id="12">
+                <award id="0" minScore="0" maxScore="9" exp="2" bones="0"/>
+                <award id="1" minScore="10" maxScore="19" exp="5" bones="10"/>
+                <award id="2" minScore="20" maxScore="26" exp="10" bones="14"/>
+                <award id="3" minScore="27" maxScore="30" exp="12" bones="21"/>
+            </level>
+            <level id="13">
+                <award id="0" minScore="0" maxScore="9" exp="2" bones="0"/>
+                <award id="1" minScore="10" maxScore="19" exp="5" bones="11"/>
+                <award id="2" minScore="20" maxScore="26" exp="10" bones="15"/>
+                <award id="3" minScore="27" maxScore="30" exp="12" bones="22"/>
+            </level>
+            <level id="14">
+                <award id="0" minScore="0" maxScore="9" exp="2" bones="0"/>
+                <award id="1" minScore="10" maxScore="19" exp="5" bones="12"/>
+                <award id="2" minScore="20" maxScore="26" exp="10" bones="16"/>
+                <award id="3" minScore="27" maxScore="30" exp="12" bones="23"/>
+            </level>
+            <level id="15">
+                <award id="0" minScore="0" maxScore="9" exp="2" bones="0"/>
+                <award id="1" minScore="10" maxScore="19" exp="5" bones="13"/>
+                <award id="2" minScore="20" maxScore="26" exp="10" bones="17"/>
+                <award id="3" minScore="27" maxScore="30" exp="12" bones="24"/>
+            </level>
+            <level id="16">
+                <award id="0" minScore="0" maxScore="9" exp="2" bones="0"/>
+                <award id="1" minScore="10" maxScore="19" exp="5" bones="14"/>
+                <award id="2" minScore="20" maxScore="26" exp="10" bones="18"/>
+                <award id="3" minScore="27" maxScore="30" exp="12" bones="25"/>
+            </level>
+            <level id="17">
+                <award id="0" minScore="0" maxScore="9" exp="2" bones="0"/>
+                <award id="1" minScore="10" maxScore="19" exp="5" bones="15"/>
+                <award id="2" minScore="20" maxScore="26" exp="10" bones="19"/>
+                <award id="3" minScore="27" maxScore="30" exp="12" bones="26"/>
+            </level>
+            <level id="18">
+                <award id="0" minScore="0" maxScore="9" exp="2" bones="0"/>
+                <award id="1" minScore="10" maxScore="19" exp="5" bones="16"/>
+                <award id="2" minScore="20" maxScore="26" exp="10" bones="20"/>
+                <award id="3" minScore="27" maxScore="30" exp="12" bones="27"/>
+            </level>
+            <level id="19">
+                <award id="0" minScore="0" maxScore="9" exp="2" bones="0"/>
+                <award id="1" minScore="10" maxScore="19" exp="5" bones="17"/>
+                <award id="2" minScore="20" maxScore="26" exp="10" bones="21"/>
+                <award id="3" minScore="27" maxScore="30" exp="12" bones="28"/>
+            </level>
+            <level id="20">
+                <award id="0" minScore="0" maxScore="9" exp="2" bones="0"/>
+                <award id="1" minScore="10" maxScore="19" exp="5" bones="18"/>
+                <award id="2" minScore="20" maxScore="26" exp="10" bones="22"/>
+                <award id="3" minScore="27" maxScore="30" exp="12" bones="45"/>
+            </level>
+        </awards>
+    </game>
+    <game id="asteroid" energyPrice="0" maxShipLevel="5" piastrePerCoin="10">
+        <disablePanels panels="top,friends,bottom,chat">true</disablePanels>
+        <disablePanels>true</disablePanels>
+        <disableWorld>true</disableWorld>
+        <disableMouse>false</disableMouse>
+        <disableAvatars>true</disableAvatars>
+        <hideAvatars>true</hideAvatars>
+
+        <modules>
+            <module type="shield" level="1" value="3"/>
+            <module type="shield" level="2" value="7"/>
+            <module type="shield" level="3" value="10"/>
+            <module type="shield" level="4" value="15"/>
+            <module type="shield" level="5" value="25"/>
+            <module type="engine" level="1" value="4"/>
+            <module type="engine" level="2" value="4"/>
+            <module type="engine" level="3" value="5"/>
+            <module type="engine" level="4" value="5"/>
+            <module type="engine" level="5" value="6"/>
+            <module type="cover" level="1" value="2"/>
+            <module type="cover" level="2" value="3"/>
+            <module type="cover" level="3" value="4"/>
+            <module type="cover" level="4" value="5"/>
+            <module type="cover" level="5" value="6"/>
+        </modules>
+        <missions>
+            <mission type="1" minShipLevel="1" fuel="1" energyPrice="15" timeLimit="60000" title="AsteroidMission1Title"/>
+            <mission type="2" minShipLevel="2" fuel="1" energyPrice="15" timeLimit="60000" title="AsteroidMission2Title"/>
+            <mission type="3" minShipLevel="3" fuel="1" energyPrice="15" timeLimit="60000" title="AsteroidMission3Title"/>
+            <mission type="4" minShipLevel="4" fuel="1" energyPrice="15" timeLimit="60000" title="AsteroidMission4Title"/>
+        </missions>
+
+        <missionIntervals>
+            <type id="1" maxCoins="10">
+                <interval time="0" interval="2300" speed="13" ySpread="90" minRocks="1" maxRocks="3"/>
+                <interval time="5000" interval="2200" speed="15" ySpread="90" minRocks="1" maxRocks="3"/>
+                <interval time="15000" interval="2100" speed="17" ySpread="90" minRocks="2" maxRocks="3"/>
+                <interval time="22000" interval="2000" speed="18" ySpread="100" minRocks="1" maxRocks="4"/>
+                <interval time="30000" interval="1800" speed="20" ySpread="110" minRocks="2" maxRocks="4"/>
+                <interval time="45000" interval="1500" speed="22" ySpread="120" minRocks="3" maxRocks="4"/>
+            </type>
+            <type id="2" maxCoins="25">
+                <interval time="0" interval="2400" speed="17" ySpread="90" minRocks="2" maxRocks="3"/>
+                <interval time="5000" interval="2200" speed="17" ySpread="95" minRocks="1" maxRocks="4"/>
+                <interval time="10000" interval="2000" speed="20" ySpread="105" minRocks="2" maxRocks="4"/>
+                <interval time="15000" interval="1600" speed="22" ySpread="110" minRocks="1" maxRocks="4"/>
+                <interval time="30000" interval="1400" speed="23" ySpread="125" minRocks="2" maxRocks="4"/>
+                <interval time="45000" interval="1300" speed="25" ySpread="150" minRocks="3" maxRocks="4"/>
+            </type>
+            <type id="3" maxCoins="35">
+                <interval time="0" interval="2400" speed="17" ySpread="110" minRocks="2" maxRocks="4"/>
+                <interval time="5000" interval="2400" speed="20" ySpread="120" minRocks="2" maxRocks="4"/>
+                <interval time="15000" interval="2200" speed="22" ySpread="145" minRocks="2" maxRocks="4"/>
+                <interval time="22000" interval="1500" speed="23" ySpread="150" minRocks="3" maxRocks="4"/>
+                <interval time="30000" interval="1300" speed="25" ySpread="150" minRocks="1" maxRocks="4"/>
+                <interval time="45000" interval="1000" speed="25" ySpread="160" minRocks="1" maxRocks="4"/>
+            </type>
+            <type id="4" maxCoins="45">
+                <interval time="0" interval="1200" speed="17" ySpread="110" minRocks="2" maxRocks="4"/>
+                <interval time="5000" interval="1250" speed="20" ySpread="120" minRocks="2" maxRocks="4"/>
+                <interval time="10000" interval="1500" speed="22" ySpread="145" minRocks="2" maxRocks="4"/>
+                <interval time="20000" interval="1400" speed="23" ySpread="160" minRocks="3" maxRocks="4"/>
+                <interval time="30000" interval="1300" speed="26" ySpread="150" minRocks="3" maxRocks="4"/>
+                <interval time="45000" interval="1200" speed="28" ySpread="150" minRocks="1" maxRocks="4"/>
+            </type>
+        </missionIntervals>
+
+        <awards>
+            <award awardType="win" energy="0" silver="1500" gold="0"/>
+            <award awardType="loose" energy="0" silver="500" gold="0"/>
+            <award awardType="draw" energy="0" silver="1000" gold="0"/>
+        </awards>
+    </game>
+    <game id="leagueBattle" location="leagueBattle">
+        <disablePanels panels="top,friends,bottom,chat">true</disablePanels>
+        <params blueBombs="2" redBombs="2" goldBombs="1" blueKeys="2" redKeys="2" goldKeys="1" maxStrength="100" maxHints="3"/>
+        <field cols="9" rows="9"/>
+        <prices open="5" hint="6" bomb="20"/>
+    </game>
+</games>

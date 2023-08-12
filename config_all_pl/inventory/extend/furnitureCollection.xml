@@ -1,0 +1,1538 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<furnitureCollections>
+
+    <!-- COMMON COLLECTIONS -->
+
+    <!-- PHOTO SALON -->
+    <furnitureCollection id="photoSalon" label="#photoSalonLabel" priority="20" professionId="phtghr">
+        <item itemId="proPhtCmr"/>
+        <item itemId="proPhtCrpt"/>
+        <item itemId="proPhtCff"/>
+        <item itemId="proPhtFn1"/>
+        <item itemId="proPhtFn2"/>
+        <item itemId="proPhtLmp"/>
+        <item itemId="proPhtPctr"/>
+        <item itemId="proPhtScrn"/>
+        <item itemId="proPhtTri"/>
+        <item itemId="proPhtUmrl"/>
+        <item itemId="proPhtVs"/>
+
+        <item itemId="proPhtDr"/>
+        <item itemId="proPhtFlr"/>
+        <item itemId="proPhtWll"/>
+
+        <item itemId="proPhtChr"/>
+        <item itemId="proPhtSf"/>
+        <item itemId="proPhtTbl"/>
+    </furnitureCollection>
+
+    <!-- BLACK ROSE -->
+    <furnitureCollection id="blackRose" label="#blackRoseLabel" priority="19" holiday="halloween">
+        <item itemId="wllBlkRs"/>
+        <item itemId="drBlkRs"/>
+        <item itemId="flrBlkRs"/>
+        <item itemId="wdwBlkRs"/>
+
+        <item itemId="bdBlkRs"/>
+        <item itemId="sfBlkRs"/>
+        <item itemId="armchrBlkRs"/>
+        <item itemId="tblBlkRs"/>
+
+        <item itemId="pctBlkRs1"/>
+        <item itemId="pctBlkRs2"/>
+        <item itemId="pctBlkRs3"/>
+        <item itemId="pctBlkRs4"/>
+        <item itemId="bookBlkRs"/>
+        <item itemId="musCentBlkRs"/>
+    </furnitureCollection>
+
+    <!-- HOSPITAL -->
+    <furnitureCollection id="hospital" label="#hsptlLbl" priority="18">
+        <item itemId="lmpHsptl"/>
+        <item itemId="fldngScrnHsptl"/>
+        <item itemId="drpCuntrHsptl"/>
+        <item itemId="vntltnHsptl"/>
+        <item itemId="dfbrlltrHsptl"/>
+        <item itemId="bdHsptl"/>
+        <item itemId="nsHsptl"/>
+    </furnitureCollection>
+
+    <!-- TROPICAL BEDROOM -->
+    <furnitureCollection id="tropicalBedroom" iconName="Halloween1Icon@house" label="#tropicalBedroom" priority="17">
+        <item itemId="chrTrBth"/>
+        <item itemId="bdTrBth"/>
+        <item itemId="tblTrBth"/>
+
+        <item itemId="clmTrBth"/>
+        <item itemId="bookTrBth"/>
+        <item itemId="vsTrBth"/>
+        <item itemId="pctTrBth"/>
+
+        <item itemId="drTrBth"/>
+        <item itemId="wllTrBth"/>
+        <item itemId="flrTrBth"/>
+        <item itemId="wdwTrBth"/>
+    </furnitureCollection>
+
+    <furnitureCollection id="conanCollection" iconName="Halloween1Icon@house" label="#conanCollection" priority="16">
+        <item itemId="flrCnn"/>
+        <item itemId="wllCnn"/>
+        <item itemId="drCnn"/>
+        <item itemId="clmnCnn"/>
+        <item itemId="frPltCnn"/>
+        <item itemId="thrnCnn"/>
+    </furnitureCollection>
+    <furnitureCollection id="bunkerCollection" iconName="Halloween1Icon@house" label="#dzo14Collection" priority="15">
+        <item itemId="lmpFeb23"/>
+        <item itemId="vntFeb23"/>
+        <item itemId="clckFeb23"/>
+        <item itemId="drFeb23"/>
+        <item itemId="wdwFeb23"/>
+        <item itemId="flrFeb23"/>
+        <item itemId="wllFeb23"/>
+    </furnitureCollection>
+    <furnitureCollection id="garageTechnoCollection" label="#garageTechnoCollection" priority="14">
+        <item itemId="flrGTch"/>
+        <item itemId="wllGTch"/>
+        <item itemId="drGTch"/>
+        <item itemId="wdwGTch"/>
+        <item itemId="lkptGTch"/>
+    </furnitureCollection>
+    <furnitureCollection id="garageRetroCollection" label="#garageRetroCollection" priority="13">
+        <item itemId="flrGRtr"/>
+        <item itemId="wllGRtr"/>
+        <item itemId="drGRtr"/>
+        <item itemId="wdwGRtr"/>
+        <item itemId="tblGRtr"/>
+        <item itemId="drktGRtr"/>
+        <item itemId="fireExtGRtr"/>
+        <item itemId="fuelGRtr"/>
+        <item itemId="gasStnGRtr"/>
+        <item itemId="hlmtGRtr"/>
+        <item itemId="lkptGRtr"/>
+        <item itemId="spwGRtr"/>
+        <item itemId="trsGRtr"/>
+        <item itemId="tlpnGRtr"/>
+    </furnitureCollection>
+    <furnitureCollection id="bikesCollection" label="#bikesCategory" priority="12">
+        <item itemId="bikeChpprBl"/>
+        <item itemId="bikeChpprRd"/>
+        <item itemId="bikeDctOrg"/>
+        <item itemId="bikeDctYllw"/>
+        <item itemId="bikeRsrGrn"/>
+        <item itemId="bikeRsrWht"/>
+        <item itemId="bikeYamaha2021"/>
+        <item itemId="ny23Cyberbike"/>
+    </furnitureCollection>
+    <furnitureCollection id="raceCarsPublic" label="#raceCarsCollection" priority="11">
+        <item itemId="carVip1"/>
+        <item itemId="carVip2"/>
+        <item itemId="carVip3"/>
+        <item itemId="carBtlBl"/>
+        <item itemId="carBtlOg"/>
+        <item itemId="carJeepMil"/>
+        <item itemId="carJeepYel"/>
+        <item itemId="carLmbGrn"/>
+        <item itemId="carLmbWht"/>
+        <item itemId="carLtsRd"/>
+        <item itemId="carLtsVlt"/>
+        <item itemId="carPtcBlk"/>
+        <item itemId="carPtcChrry"/>
+        <item itemId="wddnCar"/>
+        <item itemId="carBentley"/>
+        <item itemId="zil41041"/>
+    </furnitureCollection>
+    <furnitureCollection id="seaKitchen" label="#seaKitchenCollection" priority="10">
+        <item itemId="chrSeaBlue"/>
+        <item itemId="chrSeaWht"/>
+        <item itemId="tblSea"/>
+        <item itemId="armchSea"/>
+        <item itemId="uSeaBrd"/>
+        <item itemId="uSeaBox"/>
+        <item itemId="uSeaCpbrd"/>
+        <item itemId="uSeaCpbrdTop"/>
+        <item itemId="uSeaExtrctr"/>
+        <item itemId="uSeaMcrwvTop"/>
+        <item itemId="uSeaSink"/>
+        <item itemId="uSeaStv"/>
+        <item itemId="cptSea"/>
+        <item itemId="cllsSea"/>
+        <item itemId="drSea"/>
+        <item itemId="flrSea"/>
+        <item itemId="wllSea"/>
+    </furnitureCollection>
+    <furnitureCollection id="nyrfCollection" label="#nyrfCollection" priority="9">
+        <item itemId="chrNYRf"/>
+        <item itemId="lngNYRf"/>
+        <item itemId="tblNYRf"/>
+        <item itemId="bnclrNYRf"/>
+        <item itemId="plntNYRf"/>
+        <item itemId="mnnwsNYRf"/>
+        <item itemId="tspNYRf"/>
+        <item itemId="drNYRf"/>
+        <item itemId="flrNYRf"/>
+        <item itemId="wllNYRf"/>
+    </furnitureCollection>
+    <furnitureCollection id="myaCollection" iconName="MayaCollectionIcon@house" label="#mayaCollection1Label"
+                         priority="8">
+        <item itemId="drMya"/>
+        <item itemId="floorMya"/>
+        <item itemId="wllMya"/>
+        <item itemId="wdwMya"/>
+        <item itemId="csMya"/>
+        <item itemId="sfMya"/>
+        <item itemId="bthMya"/>
+        <item itemId="mrrMya"/>
+        <item itemId="tltMya"/>
+        <item itemId="flvrMya"/>
+        <item itemId="treeMya"/>
+        <item itemId="tshMya"/>
+        <item itemId="lmpMaya1"/>
+        <item itemId="lmpMaya2"/>
+        <item itemId="cptMya"/>
+    </furnitureCollection>
+    <furnitureCollection id="countryCollection" label="#countryCollectionLabel" priority="7">
+        <item itemId="wallCtr1"/>
+        <item itemId="floorCtr1"/>
+        <item itemId="drCntr1"/>
+        <item itemId="wdwCtr1"/>
+        <item itemId="tblCtr1"/>
+        <item itemId="fireplaceCtr"/>
+        <item itemId="tblCtr2"/>
+        <item itemId="sfCtr"/>
+        <item itemId="csCtr"/>
+        <item itemId="ptCtr"/>
+    </furnitureCollection>
+    <furnitureCollection id="princessCollection" label="#princessCollectionLabel" priority="6">
+        <item itemId="wallPrns1"/>
+        <item itemId="floorPrns1"/>
+        <item itemId="drPrns1"/>
+        <item itemId="wdwPrns1"/>
+        <item itemId="wdwPrns2"/>
+        <item itemId="pctrPrns"/>
+        <item itemId="cptPrns"/>
+        <item itemId="lmpPrns"/>
+        <item itemId="csPrns"/>
+        <item itemId="drPrns"/>
+        <item itemId="nsPrns"/>
+        <item itemId="sfPrncss"/>
+        <item itemId="bdPrncss"/>
+        <item itemId="armPrncssBrwn"/>
+        <item itemId="armPrncssGrn"/>
+    </furnitureCollection>
+    <furnitureCollection id="alienCollection" label="#alienCollectionLabel" priority="5">
+        <item itemId="wallAln1"/>
+        <item itemId="floorAlien1"/>
+        <item itemId="drAln1"/>
+        <item itemId="wdwAln1"/>
+        <item itemId="chrAln1"/>
+        <item itemId="cptAln"/>
+        <item itemId="barAln"/>
+        <item itemId="bdAln"/>
+        <item itemId="wdwAln2"/>
+        <item itemId="chrAln2"/>
+        <item itemId="chrAln3"/>
+        <item itemId="djAln"/>
+        <item itemId="ppAln1"/>
+        <item itemId="tblAln"/>
+        <item itemId="tvAln"/>
+        <item itemId="actAln"/>
+    </furnitureCollection>
+    <furnitureCollection id="japanCollection" label="#japanCollectionLabel" priority="4">
+        <item itemId="pctrJpn1"/>
+        <item itemId="lampJpn"/>
+        <item itemId="ktnJpnRd"/>
+        <item itemId="wallJpn1"/>
+        <item itemId="drJpn1"/>
+        <item itemId="floorJpn1"/>
+        <item itemId="pctrJpn2"/>
+        <item itemId="cptJpn"/>
+        <item itemId="ktnJpnBl"/>
+        <item itemId="tptJpn"/>
+        <item itemId="bdJpn1"/>
+        <item itemId="tblJpn1"/>
+    </furnitureCollection>
+    <furnitureCollection id="beachCollection" label="#beachCollectionLabel" priority="3">
+        <item itemId="wallBch1"/>
+        <item itemId="floorBch1"/>
+        <item itemId="fshBch1"/>
+        <item itemId="plmBch1"/>
+        <item itemId="plmBch2"/>
+        <item itemId="plmBch3"/>
+        <item itemId="bedBch"/>
+        <item itemId="chrBch"/>
+        <item itemId="poolBch"/>
+        <item itemId="sfBch1"/>
+        <item itemId="tblBch1"/>
+    </furnitureCollection>
+    <furnitureCollection id="artnouveauCollection" label="#artnouveauCollectionLabel" priority="2">
+        <item itemId="wallArtNv1"/>
+        <item itemId="floorArtNv1"/>
+        <item itemId="drArtNv1"/>
+        <item itemId="wdwArtNv1"/>
+        <item itemId="lmpArtNv"/>
+        <item itemId="tblArtNv1"/>
+        <item itemId="tblArtNv2"/>
+    </furnitureCollection>
+
+    <!-- AMUSIMENT -->
+    <furnitureCollection id="amusimentCollection" label="#amusimentCollectionLabel" priority="77">
+        <item itemId="intFlr1" priority="1"/>
+        <item itemId="intFlr2" priority="2"/>
+        <item itemId="dram1" priority="3"/>
+        <item itemId="dram2" priority="4"/>
+        <item itemId="gdnTre1" priority="5"/>
+        <item itemId="gdnTre2" priority="6"/>
+    </furnitureCollection>
+
+    <!-- HOLIDAYS & EVENTS -->
+    <furnitureCollection id="halloweenCollection1" iconName="Halloween1Icon@house" label="#halloweenCollection1Label"
+                         priority="99" holiday="halloween">
+        <item itemId="hlwnKitchenDecor1"/>
+        <item itemId="hlwnTable1"/>
+        <item itemId="hlwnChair1"/>
+        <item itemId="hlwnChair2"/>
+        <item itemId="hlwnChair3"/>
+        <item itemId="hlwnChair4"/>
+        <item itemId="sofaHlwn1"/>
+        <item itemId="sofaHlwn2"/>
+        <item itemId="sofaHlwn3"/>
+        <item itemId="caseHlwn1"/>
+        <item itemId="caseHlwn2"/>
+        <item itemId="treeHlwn"/>
+        <item itemId="pumpkinSmall"/>
+        <item itemId="broomHlwn"/>
+        <item itemId="batHlwn"/>
+        <item itemId="batHlwnRed"/>
+        <item itemId="webHlwn"/>
+        <item itemId="wreathBlack"/>
+        <item itemId="candleCobweb"/>
+        <item itemId="candleWallHlwn"/>
+        <item itemId="ghostBlack"/>
+        <item itemId="pumpkinBlack"/>
+        <item itemId="pumpkinHlwn"/>
+        <item itemId="pumpkinSilver"/>
+        <item itemId="scullCandle"/>
+        <item itemId="carpetGhost"/>
+        <item itemId="wall24"/>
+        <item itemId="wall25"/>
+        <item itemId="door8"/>
+        <item itemId="door9"/>
+        <item itemId="floor24"/>
+        <item itemId="floor25"/>
+        <item itemId="hlwnMrrw"/>
+        <item itemId="hlwnBlrmCndl"/>
+        <item itemId="hlwnBlrmVs"/>
+        <item itemId="hlwnBlrmPn"/>
+        <item itemId="hlwnBlrmLmp"/>
+        <item itemId="hlwnBlrmSf"/>
+        <item itemId="hlwnBlrmChr"/>
+    </furnitureCollection>
+    <furnitureCollection id="newYearCollection" iconName="NewYear1Icon@house" label="#newYearCollection1Label"
+                         priority="99" holiday="NY">
+        <item itemId="nyCandle" priority="1"/>
+        <item itemId="garlandNYSphere" priority="2"/>
+        <item itemId="garlandNYViolett" priority="3"/>
+        <item itemId="presentNYBlue" priority="4"/>
+        <item itemId="presentNYBlueBig" priority="5"/>
+        <item itemId="presentNYGold" priority="6"/>
+        <item itemId="presentNYRed" priority="7"/>
+        <item itemId="snowflakeWall" priority="8"/>
+        <item itemId="sockNYBlue" priority="9"/>
+        <item itemId="sockNYGold" priority="10"/>
+        <item itemId="sockNYRed" priority="11"/>
+        <item itemId="treeNYPresent" priority="12"/>
+        <item itemId="treeNYViolett" priority="13"/>
+        <item itemId="wreathNYRed" priority="14"/>
+        <item itemId="wreathNYGold" priority="15"/>
+        <item itemId="wreathNYBlue" priority="16"/>
+        <item itemId="wallNY1" priority="17"/>
+        <item itemId="wallNY2" priority="18"/>
+        <item itemId="floorNY1" priority="19"/>
+        <item itemId="nyFir" priority="20"/>
+        <item itemId="sofaVip4" priority="21"/>
+        <item itemId="decorNYFir1" priority="22"/>
+        <item itemId="decorNYFir2" priority="23"/>
+        <item itemId="decorNYFir3" priority="24"/>
+        <item itemId="nyDcr1" priority="25"/>
+        <item itemId="nyDcr2" priority="26"/>
+        <item itemId="nyDcr3" priority="27"/>
+        <item itemId="nyDcr4" priority="28"/>
+        <item itemId="nyDcr5" priority="29"/>
+        <item itemId="nyDcr6" priority="30"/>
+        <item itemId="nyDcr7" priority="31"/>
+        <item itemId="nyDcr8" priority="32"/>
+        <item itemId="nyDcr9" priority="33"/>
+        <item itemId="nyDcr10" priority="34"/>
+    </furnitureCollection>
+
+    <!--SUPER HERO-->
+    <furnitureCollection id="superHeroCollection" label="#superHeroCollectionLabel" priority="100">
+        <item itemId="shWll" priority="1"/>
+        <item itemId="shDr" priority="2"/>
+        <item itemId="shFlr" priority="3"/>
+        <item itemId="shWdw" priority="4"/>
+        <item itemId="shWdmm" priority="5"/>
+        <item itemId="shMdmm" priority="6"/>
+        <item itemId="shJPck" priority="7"/>
+        <item itemId="shWldm" priority="8"/>
+        <item itemId="shGlb" priority="9"/>
+        <item itemId="shWpl" priority="10"/>
+        <item itemId="shChr" priority="11"/>
+    </furnitureCollection>
+
+    <!-- PIRATE ROOM -->
+    <furnitureCollection id="pirateRoomCollection" label="#pirateRoomCollectionLabel" priority="101">
+        <item itemId="prtrWll" priority="1"/>
+        <item itemId="prtrWdw" priority="2"/>
+        <item itemId="prtrFlr" priority="3"/>
+        <item itemId="prtrDr" priority="4"/>
+        <item itemId="prtrCrpt" priority="5"/>
+        <item itemId="prtrMap" priority="6"/>
+        <item itemId="prtrTbl" priority="7"/>
+        <item itemId="prtrArmchr" priority="8"/>
+        <item itemId="prtrChr" priority="9"/>
+        <item itemId="prtrMrt" priority="10"/>
+        <item itemId="prtrCore" priority="11"/>
+        <item itemId="prtrBook" priority="12"/>
+        <item itemId="prtrChst" priority="13"/>
+        <item itemId="prtrBrlSbr" priority="14"/>
+        <item itemId="prtrBrl" priority="15"/>
+        <item itemId="prtrLmp" priority="16"/>
+        <item itemId="prtrCndl" priority="17"/>
+    </furnitureCollection>
+
+    <!-- GYM -->
+    <furnitureCollection id="gymCollection" label="#gymCollectionLabel" priority="102">
+        <item itemId="gymWll" priority="1"/>
+        <item itemId="gymDr" priority="2"/>
+        <item itemId="gymWdw" priority="3"/>
+        <item itemId="gymFlr" priority="4"/>
+        <item itemId="gymRbrCrpt" priority="5"/>
+        <item itemId="gymYgBlkCrpt" priority="6"/>
+        <item itemId="gymYgGrnCrpt" priority="7"/>
+        <item itemId="gymMtsBed" priority="8"/>
+        <item itemId="gymBllChr" priority="9"/>
+        <item itemId="gymBnchSofa" priority="10"/>
+        <item itemId="gymPstr" priority="11"/>\
+        <item itemId="gymExit" priority="12"/>
+        <item itemId="gymJmpRp" priority="13"/>
+        <item itemId="gymDmbl" priority="14"/>
+        <item itemId="gymSlfDmbl" priority="15"/>
+        <item itemId="gymCpbd" priority="16"/>
+        <item itemId="gymPngBag" priority="17"/>
+        <item itemId="gymStr" priority="18"/>
+    </furnitureCollection>
+
+    <!-- PIANO ROOM -->
+    <furnitureCollection id="pnRmCollection" label="#pnRmCollectionLabel" priority="103">
+        <item itemId="pnRmWll" priority="1"/>
+        <item itemId="pnRmDr" priority="2"/>
+        <item itemId="pnRmWdw" priority="3"/>
+        <item itemId="pnRmFlr" priority="4"/>
+        <item itemId="pnRmChr" priority="5"/>
+        <item itemId="pnRmTbl" priority="6"/>
+        <item itemId="pnRmSf" priority="7"/>
+        <item itemId="pnRmPn" priority="8"/>
+        <item itemId="pnRmCs" priority="9"/>
+        <item itemId="pnRmVs" priority="10"/>
+        <item itemId="pnRmLmp" priority="11"/>\
+        <item itemId="pnRmMetro" priority="12"/>
+        <item itemId="pnRmViolin" priority="13"/>
+    </furnitureCollection>
+
+    <!--GAMER ROOM-->
+    <furnitureCollection id="gmrRmCollection" label="#gmrRmCollectionLabel" priority="104">
+        <item itemId="gamerTable" priority="1"/>
+        <item itemId="gamerChair" priority="2"/>
+        <item itemId="gamerNightstand" priority="3"/>
+        <item itemId="gamerShelf" priority="4"/>
+        <item itemId="gamerGuitar" priority="5"/>
+        <item itemId="gamerLamp" priority="6"/>
+        <item itemId="gamerLoudspeaker" priority="7"/>
+        <item itemId="gamerPoster" priority="8"/>
+        <item itemId="gamerWatch" priority="9"/>
+        <item itemId="gamerHeadphones" priority="10"/>
+        <item itemId="gamerWheel" priority="11"/>
+    </furnitureCollection>
+
+    <!--RETRO CAFE 2019-->
+    <furnitureCollection id="rtrCfCollection" label="#rtrCfCollectionLabel" priority="105">
+        <item itemId="rtrCfWll" priority="1"/>
+        <item itemId="rtrCfFlr" priority="2"/>
+        <item itemId="rtrCfWnd" priority="3"/>
+        <item itemId="rtrCfDr" priority="4"/>
+        <item itemId="rtrCfAnglSf" priority="5"/>
+        <item itemId="rtrCfSf" priority="6"/>
+        <item itemId="rtrCfBarChr" priority="7"/>
+        <item itemId="rtrCfGrnChr" priority="8"/>
+        <item itemId="rtrCfRdChr" priority="9"/>
+        <item itemId="rtrCfGrnPf" priority="10"/>
+        <item itemId="rtrCfRdPf" priority="11"/>
+        <item itemId="barCounterRtrCf" priority="12"/>
+        <item itemId="rndTblRtrCf" priority="13"/>
+        <item itemId="sqrTblRtrCf" priority="14"/>
+        <item itemId="rtrCfMscRcrd" priority="15"/>
+        <item itemId="rtrCfNeon" priority="16"/>
+        <item itemId="rtrCfClmn" priority="17"/>
+        <item itemId="rtrCfOvrh" priority="18"/>
+        <item itemId="rtrCfCctl" priority="19"/>
+        <item itemId="rtrCfSc" priority="20"/>
+        <item itemId="rtrCfSgnbrd" priority="21"/>
+        <item itemId="rtrCfClckOwl" priority="22"/>
+        <item itemId="rtrCfGumMchn" priority="23"/>
+        <item itemId="rtrCfMscMchn" priority="24"/>
+    </furnitureCollection>
+
+    <!-- CLANS-->
+    <furnitureCollection id="glmrClnFrCollection" label="#glmrClnFrCollectionLabel" priority="106" clanOnly="1">
+        <item itemId="pnkSofaClnGlmr" priority="1"/>
+        <item itemId="grnSofaClnGlmr" priority="1"/>
+        <item itemId="uncrnClnGlmr" priority="1"/>
+        <item itemId="tblClnGlmr" priority="1"/>
+        <item itemId="lampClnGlmr" priority="1"/>
+        <item itemId="uncrnHeadClnGlmr" priority="1"/>
+        <item itemId="pnkCrptClnGlmr" priority="1"/>
+        <item itemId="brwnCrptClnGlmr" priority="1"/>
+        <item itemId="brwnCrptClnGlmr" priority="1"/>
+        <item itemId="mrrClnGlmr" priority="1"/>
+        <item itemId="vaseClnGlmr" priority="1"/>
+        <item itemId="scrnClnGlmr" priority="1"/>
+        <item itemId="bxsClnGlmr" priority="1"/>
+        <item itemId="trayClnGlmr" priority="1"/>
+    </furnitureCollection>
+
+    <furnitureCollection id="mgkClnFrCollection" label="#mgkClnFrCollectionLabel" priority="107" clanOnly="1">
+        <item itemId="lngSofaClnMgk" priority="1"/>
+        <item itemId="chrClnMgk" priority="1"/>
+        <item itemId="stlClnMgk" priority="1"/>
+        <item itemId="tblClnMgk" priority="1"/>
+        <item itemId="torchClnMgk" priority="1"/>
+        <item itemId="carpetClnMgk" priority="1"/>
+        <item itemId="flagClnMgk" priority="1"/>
+        <item itemId="tblBkClnMgk" priority="1"/>
+        <item itemId="armsphrClnMgk" priority="1"/>
+        <item itemId="mgkWndClnMgk" priority="1"/>
+        <item itemId="tlscpClnMgk" priority="1"/>
+    </furnitureCollection>
+
+    <furnitureCollection id="sciFiClnFrCollection" label="#sciFiClnFrCollectionLabel" priority="108" clanOnly="1">
+        <item itemId="armchrGrnClnSciFi" priority="1"/>
+        <item itemId="armchrOrngClnSciFi" priority="1"/>
+        <item itemId="otmnClnSciFi" priority="1"/>
+        <item itemId="stlClnSciFi" priority="1"/>
+        <item itemId="tblClnSciFi" priority="1"/>
+        <item itemId="barClnSciFi" priority="1"/>
+        <item itemId="carpetClnSciFi" priority="1"/>
+        <item itemId="plantClnSciFi" priority="1"/>
+        <item itemId="ccmbrClnSciFi" priority="1"/>
+        <item itemId="wllPnlClnSciFi" priority="1"/>
+        <item itemId="brmnClnSciFi" priority="1"/>
+        <item itemId="infPnlClnSciFi" priority="1"/>
+        <item itemId="infShpPnlClnSciFi" priority="1"/>
+        <item itemId="holoPlanetsClnSciFi" priority="1"/>
+    </furnitureCollection>
+
+    <furnitureCollection id="pstApcClnCollection" label="#pstApcClnCollectionLabel" priority="106" clanOnly="1">
+        <item itemId="trChrClnPstApc" priority="1"/>
+        <item itemId="carClnPstApc" priority="2"/>
+        <item itemId="brlTblClnPstApc" priority="3"/>
+        <item itemId="tblClnPstApc" priority="4"/>
+        <item itemId="brlClnPstApc" priority="5"/>
+        <item itemId="duckClnPstApc" priority="6"/>
+        <item itemId="bbordClnPstApc" priority="7"/>
+        <item itemId="crtClnPstApc" priority="8"/>
+        <item itemId="fncClnPstApc" priority="9"/>
+        <item itemId="radioClnPstApc" priority="10"/>
+    </furnitureCollection>
+
+    <furnitureCollection id="pdmNY20Collection" label="#pdmNY20CollectionLabel" priority="107">
+        <item itemId="pdmNY20Wll" priority="1"/>
+        <item itemId="pdmNY20Dr" priority="2"/>
+        <item itemId="pdmNY20Flr" priority="3"/>
+        <item itemId="pdmNY20Chr" priority="4"/>
+        <item itemId="pdmNY20Crpt" priority="5"/>
+        <item itemId="pdmNY20Lamp" priority="6"/>
+        <item itemId="pdmNY20FlrLamp" priority="7"/>
+        <item itemId="pdmNY20SptLght" priority="8"/>
+        <item itemId="pdmNY20Clmn" priority="9"/>
+        <item itemId="pdmNY20Brr" priority="10"/>
+    </furnitureCollection>
+
+    <furnitureCollection id="wndrlndCollection" label="#wndrlndCollectionLabel" priority="108" >
+        <item itemId="wndrlndArmchr" priority="0"/>
+        <item itemId="wndrlndPf" priority="1"/>
+        <item itemId="wndrlndStl" priority="2"/>
+        <item itemId="wndrlndTbl" priority="3"/>
+        <item itemId="wndrlndFlr" priority="4"/>
+        <item itemId="wndrlndWll" priority="5"/>
+        <item itemId="wndrlndDr" priority="6"/>
+        <item itemId="wndrlndWndw" priority="7"/>
+        <item itemId="wndrlndCk" priority="8"/>
+        <item itemId="wndrlndCrds" priority="9"/>
+        <item itemId="wndrlndClck" priority="10"/>
+        <item itemId="wndrlndCp1" priority="11"/>
+        <item itemId="wndrlndCp2" priority="12"/>
+        <item itemId="wndrlndCp3" priority="13"/>
+        <item itemId="wndrlndCpcks" priority="14"/>
+        <item itemId="wndrlndFlwr" priority="15"/>
+        <item itemId="wndrlndKttl1" priority="16"/>
+        <item itemId="wndrlndKttl2" priority="17"/>
+        <item itemId="wndrlndP" priority="18"/>
+        <item itemId="wndrlndVs" priority="19"/>
+        <item itemId="wndrlndFlmng" priority="20"/>
+        <item itemId="wndrlndPntngs" priority="21"/>
+        <item itemId="wndrlndRg" priority="22"/>
+    </furnitureCollection>
+
+    <!-- RESTAURANT 2019  -->
+    <furnitureCollection id="rstrnt2019Collection" label="#rstrnt2019CollectionLabel" priority="109">
+        <item itemId="rstrnt2019Armchr1" priority="0"/>
+        <item itemId="rstrnt2019Armchr2" priority="1"/>
+        <item itemId="rstrnt2019BrStl1" priority="2"/>
+        <item itemId="rstrnt2019BrStl2" priority="3"/>
+        <item itemId="rstrnt2019Sf1" priority="4"/>
+        <item itemId="rstrnt2019Sf2" priority="5"/>
+        <item itemId="rstrnt2019RndTbl" priority="6"/>
+        <item itemId="rstrnt2019Tbl" priority="7"/>
+        <item itemId="rstrnt2019BrTbl" priority="8"/>
+        <item itemId="rstrnt2019Flr" priority="9"/>
+        <item itemId="rstrnt2019Wll" priority="10"/>
+        <item itemId="rstrnt2019Dr" priority="11"/>
+        <item itemId="rstrnt2019Wndw" priority="12"/>
+        <item itemId="rstrnt2019BrShlf1" priority="13"/>
+        <item itemId="rstrnt2019BrShlf2" priority="14"/>
+        <item itemId="rstrnt2019Pctr" priority="15"/>
+        <item itemId="rstrnt2019Lmp" priority="16"/>
+        <item itemId="rstrnt2019Prttn" priority="17"/>
+        <item itemId="rstrnt2019BlPlt" priority="18"/>
+        <item itemId="rstrnt2019PnkPlt" priority="19"/>
+        <item itemId="rstrnt2019Bttl" priority="20"/>
+        <item itemId="rstrnt2019Flwr" priority="21"/>
+        <item itemId="rstrnt2019Cndl" priority="22"/>
+    </furnitureCollection>
+
+    <!--ARTIST WORKSHOP-->
+    <furnitureCollection id="rtstWrkshpCollection" label="#rtstWrkshpCollectionLabel" priority="110">
+        <item itemId="rtstWrkshpFlwr1" priority="0"/>
+        <item itemId="rtstWrkshpFlwr2" priority="1"/>
+        <item itemId="rtstWrkshpBttrfls" priority="2"/>
+        <item itemId="rtstWrkshpPntng1" priority="3"/>
+        <item itemId="rtstWrkshpPntng2" priority="4"/>
+        <item itemId="rtstWrkshpPntng3" priority="5"/>
+        <item itemId="rtstWrkshpPntng4" priority="6"/>
+        <item itemId="rtstWrkshpPntng5" priority="7"/>
+        <item itemId="rtstWrkshpPntng6" priority="8"/>
+        <item itemId="rtstWrkshpPrjctr" priority="9"/>
+        <item itemId="rtstWrkshpBrshs" priority="10"/>
+        <item itemId="rtstWrkshpCnvs" priority="11"/>
+        <item itemId="rtstWrkshpFlwrShlf" priority="12"/>
+        <item itemId="rtstWrkshpPntCps" priority="13"/>
+        <item itemId="rtstWrkshpPntShlf" priority="14"/>
+        <item itemId="rtstWrkshpPllt" priority="15"/>
+        <item itemId="rtstWrkshpBx" priority="16"/>
+        <item itemId="rtstWrkshpClTbl" priority="17"/>
+        <item itemId="rtstWrkshpTbl" priority="18"/>
+        <item itemId="rtstWrkshpChr" priority="19"/>
+        <item itemId="rtstWrkshpArmchr" priority="20"/>
+        <item itemId="rtstWrkshpWll" priority="21"/>
+        <item itemId="rtstWrkshpLft" priority="22"/>
+        <item itemId="rtstWrkshpWndw" priority="23"/>
+        <item itemId="rtstWrkshpFlr" priority="24"/>
+    </furnitureCollection>
+
+    <!-- EASTER 2020 -->
+    <furnitureCollection id="estr20Collection" label="#estr20CollectionLabel" priority="111">
+        <item itemId="estr20Carpet" priority="0"/>
+        <item itemId="estr20RbtCarpet" priority="1"/>
+        <item itemId="estr20ChkToy" priority="2"/>
+        <item itemId="estr20RbtToy" priority="3"/>
+        <item itemId="estr20Eggs" priority="4"/>
+        <item itemId="estr20Wtch" priority="5"/>
+        <item itemId="estr20Flgs" priority="6"/>
+        <item itemId="easter20Nest" priority="7"/>
+        <item itemId="estr20ChrChk" priority="8"/>
+        <item itemId="estr20ChrRbt" priority="9"/>
+        <item itemId="estr20ChrEgg" priority="10"/>
+        <item itemId="estr20Stnd" priority="11"/>
+        <item itemId="estr20Tbl" priority="12"/>
+        <item itemId="estr20Wll" priority="13"/>
+        <item itemId="estr20Dr" priority="14"/>
+        <item itemId="estr20Wnd" priority="15"/>
+        <item itemId="estr20Flr" priority="16"/>
+    </furnitureCollection>
+
+    <!-- BATHROOM 2020 -->
+    <furnitureCollection id="bath20Collection" label="#bath20CollectionLabel" priority="112">
+        <item itemId="bath20Dr" priority="0"/>
+        <item itemId="bath20Wll" priority="1"/>
+        <item itemId="bath20Flr" priority="2"/>
+        <item itemId="tltBath20" priority="3"/>
+        <item itemId="shwrBath20" priority="4"/>
+        <item itemId="jczzBath20" priority="5"/>
+        <item itemId="bowlBath20" priority="6"/>
+        <item itemId="crptBath20" priority="7"/>
+        <item itemId="twl1Bath20" priority="8"/>
+        <item itemId="twl2Bath20" priority="9"/>
+        <item itemId="tmbBath20" priority="10"/>
+        <item itemId="vaseBath20" priority="11"/>
+        <item itemId="brshBath20" priority="12"/>
+    </furnitureCollection>
+
+    <!-- 9 MAY 2020 -->
+    <furnitureCollection id="9May20Collection" label="#9May20CollectionLabel" priority="113">
+        <item itemId="9may20Wll" priority="0"/>
+        <item itemId="9may20Dr" priority="1"/>
+        <item itemId="9may20Flr" priority="2"/>
+        <item itemId="blLmp9may20" priority="3"/>
+        <item itemId="flrLmp9may20" priority="4"/>
+        <item itemId="rpg9May20" priority="5"/>
+        <item itemId="unfrm9May20" priority="6"/>
+        <item itemId="hStnd9May20" priority="7"/>
+        <item itemId="lStnd9May20" priority="8"/>
+        <item itemId="gsMsk9May20" priority="9"/>
+        <item itemId="gsMskBr9May20" priority="10"/>
+        <item itemId="fnc9May20" priority="11"/>
+        <item itemId="wpn9May20" priority="12"/>
+        <item itemId="tank9May20" priority="13"/>
+        <item itemId="katusha9May20" priority="14"/>
+    </furnitureCollection>
+
+    <!-- MODERN BEDROOM-->
+    <furnitureCollection id="modernBedroomCollection" label="#modernBedroomCollectionLabel" priority="114">
+        <item itemId="wllMdrnBdrm"/>
+        <item itemId="flrMdrnBdrm"/>
+        <item itemId="drMdrnBdrm"/>
+        <item itemId="wdwMdrnBdrm"/>
+        <item itemId="pnlMdrnBdrm"/>
+        <item itemId="bdsdTblMdrnBdrm"/>
+        <item itemId="cffTblMdrnBdrm"/>
+        <item itemId="crptMdrnBdrm"/>
+        <item itemId="bdMdrnBdrm"/>
+        <item itemId="hngngLmpMdrnBdrm"/>
+        <item itemId="wrdrbMdrnBdrm"/>
+        <item itemId="tblMdrnBdrm"/>
+        <item itemId="plntMdrnBdrm"/>
+        <item itemId="bksMdrnBdrm"/>
+        <item itemId="crtnsMdrnBdrm"/>
+        <item itemId="pffMdrnBdrm"/>
+        <item itemId="flwrMdrnBdrm"/>
+        <item itemId="rndPffMdrnBdrm"/>
+        <item itemId="tblLmpMdrnBdrm"/>
+        <item itemId="vsMdrnBdrm"/>
+        <item itemId="flwrVsMdrnBdrm"/>
+        <item itemId="dcrPnlMdrnBdrm"/>
+    </furnitureCollection>
+
+    <!-- GREENHOUSE 2020-->
+    <furnitureCollection id="greenHouseCollection" label="#greenHouseCollectionLabel" priority="115">
+        <item itemId="drGrnHs"/>
+        <item itemId="flrGrnHs"/>
+        <item itemId="wllGrnHs"/>
+        <item itemId="pondGrnHs"/>
+        <item itemId="sofaGrnHs"/>
+        <item itemId="tbl1GrnHs"/>
+        <item itemId="tbl2GrnHs"/>
+        <item itemId="wtrCanGrnHs"/>
+        <item itemId="flwrGrnHs1"/>
+        <item itemId="flwrGrnHs2"/>
+        <item itemId="flwrGrnHs3"/>
+        <item itemId="flwrGrnHs4"/>
+        <item itemId="flwrGrnHs5"/>
+        <item itemId="flwrGrnHs6"/>
+        <item itemId="flwrGrnHs7"/>
+        <item itemId="flwrGrnHs8"/>
+        <item itemId="flwrGrnHs9"/>
+        <item itemId="flwrGrnHs10"/>
+    </furnitureCollection>
+
+    <!-- ST. PATRICK 2021-->
+    <furnitureCollection id="stPatrick21Collection" label="#stPatrick21CollectionLabel" priority="116">
+        <item itemId="doorStPtr21"/>
+        <item itemId="floorStPtr21"/>
+        <item itemId="wallStPtr21"/>
+        <item itemId="windowStPtr21"/>
+        <item itemId="stPtr21BarTbl"/>
+        <item itemId="stPtr21Tbl"/>
+        <item itemId="stPtr21Stnd"/>
+        <item itemId="stPtr21Chr"/>
+        <item itemId="stPtr21GrnBarChr"/>
+        <item itemId="stPtr21RedBarChr"/>
+        <item itemId="stPtr21Sofa"/>
+        <item itemId="stPtr21Board"/>
+        <item itemId="stPtr21Crpt"/>
+        <item itemId="stPtr21Clower"/>
+        <item itemId="stPtr21Coctail1"/>
+        <item itemId="stPtr21Coctail2"/>
+        <item itemId="stPtr21Flag"/>
+        <item itemId="stPtr21Menu"/>
+        <item itemId="stPtr21Lamp1"/>
+        <item itemId="stPtr21Lamp2"/>
+    </furnitureCollection>
+
+    <!-- ANIME ROOM 2021-->
+    <furnitureCollection id="animeRoomCollection" label="#animeRoomCollectionLabel" priority="117">
+        <item itemId="doorAnimeRoom"/>
+        <item itemId="floorAnimeRoom"/>
+        <item itemId="wallAnimeRoom"/>
+        <item itemId="bedAnimeRoom"/>
+        <item itemId="footAnimeRoom"/>
+        <item itemId="chairAnimeRoom"/>
+        <item itemId="tableAnimeRoom"/>
+        <item itemId="catPosterAnimeRoom"/>
+        <item itemId="carpetAnimeRoom"/>
+        <item itemId="catLampAnimeRoom"/>
+        <item itemId="cupboardAnimeRoom"/>
+        <item itemId="lunarPrismAnimeRoom"/>
+        <item itemId="shelfAnimeRoom"/>
+        <item itemId="posterAnimeRoom"/>
+    </furnitureCollection>
+
+    <!-- KIDS ROOM 2021-->
+    <furnitureCollection id="kdRm21Collection" label="#kdRm21CollectionLabel" priority="118">
+        <item itemId="doorKdRm21"/>
+        <item itemId="floorKdRm21"/>
+        <item itemId="wallKdRm21"/>
+        <item itemId="windowKdRm21"/>
+        <item itemId="kdRm21Ball"/>
+        <item itemId="kdRm21BigCactus"/>
+        <item itemId="kdRm21Car"/>
+        <item itemId="kdRm21Carpet"/>
+        <item itemId="kdRm21Chair"/>
+        <item itemId="kdRm21ChairToy"/>
+        <item itemId="kdRm21Cupboard"/>
+        <item itemId="kdRm21LittleCactus"/>
+        <item itemId="kdRm21Rabbit"/>
+        <item itemId="kdRm21Shark"/>
+        <item itemId="kdRm21Sofa"/>
+        <item itemId="kdRm21Table"/>
+        <item itemId="kdRm21Train"/>
+        <item itemId="kdRm21Plane"/>
+        <item itemId="kdRm21Shelf"/>
+        <item itemId="kdRm21Bed"/>
+        <item itemId="kdRm21Horse"/>
+        <item itemId="kdRm21Swing"/>
+    </furnitureCollection>
+
+    <!-- CUBERPUNK 2021 -->
+    <furnitureCollection id="cbr21Collection" label="#cbr21CollectionLabel" priority="119">
+        <item itemId="doorCbr21"/>
+        <item itemId="floorCbr21"/>
+        <item itemId="wallCbr21"/>
+        <item itemId="windowCbr21"/>
+        <item itemId="cbr21Armchar"/>
+        <item itemId="cbr21Chair"/>
+        <item itemId="cbr21Cabine"/>
+        <item itemId="cbr21Table"/>
+        <item itemId="cbr21Barrel"/>
+        <item itemId="cbr21Box"/>
+        <item itemId="cbr21Cube"/>
+        <item itemId="cbr21Flwr"/>
+        <item itemId="cbr21HorLamp"/>
+        <item itemId="cbr21VertLamp"/>
+        <item itemId="cbr21WallDecor"/>
+        <item itemId="cbr21WallWpn"/>
+    </furnitureCollection>
+
+    <!-- BIRTHDAY 2021-->
+    <furnitureCollection id="ab21Collection" label="#ab21CollectionLabel" priority="120">
+        <item itemId="doorAB21"/>
+        <item itemId="floorAB21"/>
+        <item itemId="wallAB21"/>
+        <item itemId="ab21AquariumTable"/>
+        <item itemId="ab21Armchair"/>
+        <item itemId="ab21Carpet"/>
+        <item itemId="ab21CoffeeTable"/>
+        <item itemId="ab21Cupboard"/>
+        <item itemId="ab21Decor"/>
+        <item itemId="ab21Globe"/>
+        <item itemId="ab21LampFloor"/>
+        <item itemId="ab21LampProjector"/>
+        <item itemId="ab21LampTable"/>
+        <item itemId="ab21Plant"/>
+        <item itemId="ab21Sofa"/>
+        <item itemId="ab21SpyGlass"/>
+        <item itemId="ab21Table"/>
+    </furnitureCollection>
+
+    <!-- BLACK 2021-->
+    <furnitureCollection id="blk21Collection" label="#blk21CollectionLabel" priority="121">
+        <item itemId="doorBlk21"/>
+        <item itemId="floorBlk21"/>
+        <item itemId="wallBlk21"/>
+        <item itemId="windowBlk21"/>
+        <item itemId="blk21Armchair"/>
+        <item itemId="blk21BedsideTable"/>
+        <item itemId="blk21Candle"/>
+        <item itemId="blk21Carpet"/>
+        <item itemId="blk21Flower"/>
+        <item itemId="blk21Flower2"/>
+        <item itemId="blk21Flower3"/>
+        <item itemId="blk21Flower4"/>
+        <item itemId="blk21Icosahedron"/>
+        <item itemId="blk21Lamp"/>
+        <item itemId="blk21Light"/>
+        <item itemId="blk21Moon"/>
+        <item itemId="blk21Paintings"/>
+        <item itemId="blk21Poof"/>
+        <item itemId="blk21Sofa"/>
+        <item itemId="blk21Table"/>
+        <item itemId="blk21Table2"/>
+        <item itemId="blk21Vase"/>
+        <item itemId="blk21Vase2"/>
+    </furnitureCollection>
+
+    <!-- WATERPOOL 2021 -->
+    <furnitureCollection id="wtrpl21Collection" label="#wtrpl21CollectionLabel" priority="121">
+        <item itemId="doorWtrpl21"/>
+        <item itemId="floorWtrpl21"/>
+        <item itemId="wallWtrpl21"/>
+        <item itemId="window1Wtrpl21"/>
+        <item itemId="window2Wtrpl21"/>
+        <item itemId="wtrpl21Fruit"/>
+        <item itemId="wtrpl21Plant"/>
+        <item itemId="wtrpl21Sunbed"/>
+        <item itemId="wtrpl21Table"/>
+        <item itemId="wtrpl21Waterpool"/>
+    </furnitureCollection>
+
+    <!-- SCIFI 2021-->
+    <furnitureCollection id="sciFi21Collection" label="#sciFi21CollectionLabel" priority="122">
+        <item itemId="doorSciFi21"/>
+        <item itemId="floorSciFi21"/>
+        <item itemId="wallSciFi21"/>
+        <item itemId="windowSciFi21"/>
+        <item itemId="sciFi21Armchair"/>
+        <item itemId="sciFi21Box"/>
+        <item itemId="sciFi21Chair"/>
+        <item itemId="sciFi21Fuse"/>
+        <item itemId="sciFi21Lamp"/>
+        <item itemId="sciFi21Monitor"/>
+        <item itemId="sciFi21Panel"/>
+        <item itemId="sciFi21Plant"/>
+        <item itemId="sciFi21Table1"/>
+        <item itemId="sciFi21Table2"/>
+        <item itemId="sciFi21Warning"/>
+    </furnitureCollection>
+
+    <!-- SALOON 2021-->
+    <furnitureCollection id="sln21Collection" label="#sln21CollectionLabel" priority="122">
+        <item itemId="doorSln21"/>
+        <item itemId="wallSln21"/>
+        <item itemId="flrSln21"/>
+        <item itemId="sln21Chair"/>
+        <item itemId="sln21Stool"/>
+        <item itemId="sln21Table"/>
+        <item itemId="sln21Barrel"/>
+        <item itemId="sln21Cactus"/>
+        <item itemId="sln21Cup"/>
+        <item itemId="sln21Darts"/>
+        <item itemId="sln21Hanger"/>
+        <item itemId="sln21Horseshoe"/>
+        <item itemId="sln21Lamp"/>
+        <item itemId="sln21Mill"/>
+        <item itemId="sln21Piano"/>
+        <item itemId="sln21Poster"/>
+        <item itemId="sln21Shotgun"/>
+        <item itemId="sln21Skull"/>
+        <item itemId="sln21Bull"/>
+    </furnitureCollection>
+
+    <!-- HALLOWEEN LABORATORY 2021-->
+    <furnitureCollection id="hl21Collection" label="#hl21CollectionLabel" priority="123">
+        <item itemId="doorHL21"/>
+        <item itemId="floorHL21"/>
+        <item itemId="wallHL21"/>
+        <item itemId="hl21Armchair"/>
+        <item itemId="hl21Bed"/>
+        <item itemId="hl21Brain"/>
+        <item itemId="hl21Chair"/>
+        <item itemId="hl21ChestXRay"/>
+        <item itemId="hl21Dresser"/>
+        <item itemId="hl21Eye"/>
+        <item itemId="hl21Flask1"/>
+        <item itemId="hl21Flask2"/>
+        <item itemId="hl21FootXRay"/>
+        <item itemId="hl21Hand"/>
+        <item itemId="hl21Jaw"/>
+        <item itemId="hl21Lamp"/>
+        <item itemId="hl21Monitor"/>
+        <item itemId="hl21Panel"/>
+        <item itemId="hl21Sewerage1"/>
+        <item itemId="hl21Sewerage2"/>
+        <item itemId="hl21SmallTable"/>
+        <item itemId="hl21Table"/>
+    </furnitureCollection>
+
+    <!-- HITECH KITCHEN 2021-->
+    <furnitureCollection id="hiTechKitchenCollection" label="#hiTechKitchenCollectionLabel" priority="124">
+        <item itemId="doorHiTechKitchen2021"/>
+        <item itemId="floorHiTechKitchen2021"/>
+        <item itemId="wallHiTechKitchen2021"/>
+        <item itemId="windowHiTechKitchen2021"/>
+        <item itemId="hiTechKitchen2021Stove"/>
+        <item itemId="hiTechKitchen2021Trash"/>
+        <item itemId="hiTechKitchen2021Chair"/>
+        <item itemId="hiTechKitchen2021Clock"/>
+        <item itemId="hiTechKitchen2021Cupboard"/>
+        <item itemId="hiTechKitchen2021CutingBoard"/>
+        <item itemId="hiTechKitchen2021Fridge"/>
+        <item itemId="hiTechKitchen2021Jar"/>
+        <item itemId="hiTechKitchen2021Kettle"/>
+        <item itemId="hiTechKitchen2021Knives"/>
+        <item itemId="hiTechKitchen2021Module1"/>
+        <item itemId="hiTechKitchen2021Module2"/>
+        <item itemId="hiTechKitchen2021Module3"/>
+        <item itemId="hiTechKitchen2021Module4"/>
+        <item itemId="hiTechKitchen2021Module5"/>
+        <item itemId="hiTechKitchen2021Module6"/>
+        <item itemId="hiTechKitchen2021Module7"/>
+        <item itemId="hiTechKitchen2021Monitor"/>
+        <item itemId="hiTechKitchen2021Plates"/>
+        <item itemId="hiTechKitchen2021Pot"/>
+        <item itemId="hiTechKitchen2021Sink"/>
+        <item itemId="hiTechKitchen2021Table"/>
+        <item itemId="hiTechKitchen2021Vase1"/>
+        <item itemId="hiTechKitchen2021Vase2"/>
+        <item itemId="hiTechKitchen2021Vase3"/>
+    </furnitureCollection>
+
+    <!-- SKANDI 2021-->
+    <furnitureCollection id="skandi2021Collection" label="#skandi2021CollectionLabel" priority="125">
+        <item itemId="floorSkandi2021"/>
+        <item itemId="wallSkandi2021"/>
+        <item itemId="smallWindowSkandi2021"/>
+        <item itemId="bigWindowSkandi2021"/>
+        <item itemId="doorSkandi2021"/>
+        <item itemId="skandi2021Armchair"/>
+        <item itemId="skandi2021BedsideTable"/>
+        <item itemId="skandi2021Carpet"/>
+        <item itemId="skandi2021Decor"/>
+        <item itemId="skandi2021Dishes"/>
+        <item itemId="skandi2021Flower1"/>
+        <item itemId="skandi2021Flower2"/>
+        <item itemId="skandi2021Flower3"/>
+        <item itemId="skandi2021Flower4"/>
+        <item itemId="skandi2021Lamp"/>
+        <item itemId="skandi2021Mirror"/>
+        <item itemId="skandi2021Paintings"/>
+        <item itemId="skandi2021Plate"/>
+        <item itemId="skandi2021Sofa"/>
+        <item itemId="skandi2021Table1"/>
+        <item itemId="skandi2021Table2"/>
+        <item itemId="skandi2021Vase1"/>
+        <item itemId="skandi2021Vase2"/>
+    </furnitureCollection>
+
+    <!-- EGYPT 2022-->
+    <furnitureCollection id="egypt2022Collection" label="#egypt2022CollectionLabel" priority="126">
+        <item itemId="doorEgypt2022"/>
+        <item itemId="floorEgypt2022"/>
+        <item itemId="wallEgypt2022"/>
+        <item itemId="window1Egypt2022"/>
+        <item itemId="window2Egypt2022"/>
+        <item itemId="egypt2022Bench"/>
+        <item itemId="egypt2022CatStatue"/>
+        <item itemId="egypt2022Column"/>
+        <item itemId="egypt2022FlowerPot"/>
+        <item itemId="egypt2022Table"/>
+        <item itemId="egypt2022WallWings"/>
+    </furnitureCollection>
+
+    <!-- MUSEUM 2022-->
+    <furnitureCollection id="museum2022Collection" label="#museum2022CollectionLabel" priority="127">
+        <item itemId="doorMuseum2022"/>
+        <item itemId="floorMuseum2022"/>
+        <item itemId="wallMuseum2022"/>
+        <item itemId="museum2022Ammonites"/>
+        <item itemId="museum2022Babyrousa"/>
+        <item itemId="museum2022Claw"/>
+        <item itemId="museum2022Exhibit"/>
+        <item itemId="museum2022Fossils"/>
+        <item itemId="museum2022Info"/>
+        <item itemId="museum2022Lamp"/>
+        <item itemId="museum2022Machairodontinae"/>
+        <item itemId="museum2022Nameplate"/>
+        <item itemId="museum2022Skeleton"/>
+        <item itemId="museum2022Spinosaurus"/>
+        <item itemId="museum2022Tyrannosaurus"/>
+    </furnitureCollection>
+
+    <!-- PLANETARIUM 2022-->
+    <furnitureCollection id="planetarium2022Collection" label="#planetarium2022CollectionLabel" priority="128">
+        <item itemId="planetarium2022Door"/>
+        <item itemId="planetarium2022Screen1"/>
+        <item itemId="planetarium2022Screen2"/>
+        <item itemId="planetarium2022Floor1"/>
+        <item itemId="planetarium2022Floor2"/>
+        <item itemId="planetarium2022Wall"/>
+        <item itemId="planetarium2022Saturn"/>
+        <item itemId="planetarium2022Jupiter"/>
+        <item itemId="planetarium2022Earth"/>
+        <item itemId="planetarium2022Light"/>
+        <item itemId="planetarium2022Astronaut"/>
+        <item itemId="planetarium2022Chair"/>
+        <item itemId="planetarium2022Rocket"/>
+    </furnitureCollection>
+
+    <!-- FASHION ROOM 2022-->
+    <furnitureCollection id="fashionRoom22Collection" label="#fashionRoom22CollectionLabel" priority="129">
+        <item itemId="fashionRoom22Floor"/>
+        <item itemId="fashionRoom22Door"/>
+        <item itemId="fashionRoom22Wall"/>
+        <item itemId="fashionRoom22Dummy"/>
+        <item itemId="fashionRoom22Podium"/>
+        <item itemId="fashionRoom22Mirror"/>
+        <item itemId="fashionRoom22Hanger1"/>
+        <item itemId="fashionRoom22Hanger2"/>
+        <item itemId="fashionRoom22Tools"/>
+        <item itemId="fashionRoom22SewingMachine"/>
+        <item itemId="fashionRoom22Sketches"/>
+        <item itemId="fashionRoom22Box"/>
+        <item itemId="fashionRoom22Lamp"/>
+        <item itemId="fashionRoom22Rack"/>
+        <item itemId="fashionRoom22Table1"/>
+        <item itemId="fashionRoom22Table2"/>
+        <item itemId="fashionRoom22Chair"/>
+        <item itemId="fashionRoom22Pouf"/>
+        <item itemId="fashionRoom22Sofa"/>
+    </furnitureCollection>
+
+    <!-- STEAMPUNK 2022-->
+    <furnitureCollection id="steampunk22Collection" label="#steampunk22CollectionLabel" priority="130">
+        <item itemId="steampunk22Wall"/>
+        <item itemId="steampunk22Floor"/>
+        <item itemId="steampunk22Window"/>
+        <item itemId="steampunk22Door"/>
+        <item itemId="steampunk22Chair"/>
+        <item itemId="steampunk22Table1"/>
+        <item itemId="steampunk22Table2"/>
+        <item itemId="steampunk22Lamp1"/>
+        <item itemId="steampunk22Lamp2"/>
+        <item itemId="steampunk22Book"/>
+        <item itemId="steampunk22Switch"/>
+        <item itemId="steampunk22Telescope"/>
+        <item itemId="steampunk22Motor"/>
+        <item itemId="steampunk22Apparatus"/>
+        <item itemId="steampunk22Cogwheels"/>
+        <item itemId="steampunk22Planet"/>
+    </furnitureCollection>
+
+    <!--NIGHT CLUB 2022-->
+    <furnitureCollection id="nightClub2022Collection" label="#nightClub2022CollectionLabel" priority="131">
+        <item itemId="nightClub2022Floor"/>
+        <item itemId="nightClub2022Wall"/>
+        <item itemId="nightClub2022Door"/>
+        <item itemId="nightClub2022Table"/>
+        <item itemId="nightClub2022BarTable"/>
+        <item itemId="nightClub2022Chair"/>
+        <item itemId="nightClub2022BarChair"/>
+        <item itemId="nightClub2022Sofa"/>
+        <item itemId="nightClub2022Star"/>
+        <item itemId="nightClub2022Decor"/>
+        <item itemId="nightClub2022Ball"/>
+        <item itemId="nightClub2022SceneLight"/>
+        <item itemId="nightClub2022Grid"/>
+        <item itemId="nightClub2022BlueLamp"/>
+        <item itemId="nightClub2022Lamp"/>
+        <item itemId="nightClub2022Champagne"/>
+        <item itemId="nightClub2022Cocktail1"/>
+        <item itemId="nightClub2022Cocktail2"/>
+        <item itemId="nightClub2022Cocktail3"/>
+        <item itemId="nightClub2022Scene"/>
+    </furnitureCollection>
+
+    <!-- PALACE 2022-->
+    <furnitureCollection id="palace22Collection" label="#palace22CollectionLabel" priority="132">
+        <item itemId="palace22Wall"/>
+        <item itemId="palace22Door"/>
+        <item itemId="palace22Floor"/>
+        <item itemId="palace22Window"/>
+        <item itemId="palace22Chair1"/>
+        <item itemId="palace22Chair2"/>
+        <item itemId="palace22Armchair"/>
+        <item itemId="palace22Sofa"/>
+        <item itemId="palace22Footrest"/>
+        <item itemId="palace22Table1"/>
+        <item itemId="palace22Table2"/>
+        <item itemId="palace22Book"/>
+        <item itemId="palace22Carpet"/>
+        <item itemId="palace22Candle"/>
+        <item itemId="palace22Lamp"/>
+        <item itemId="palace22Vase1"/>
+        <item itemId="palace22Vase2"/>
+        <item itemId="palace22Vase3"/>
+        <item itemId="palace22Fireplace"/>
+    </furnitureCollection>
+
+    <!-- KIDS ROOM 2022-->
+    <furnitureCollection id="kidsRoom22Collection" label="#kidsRoom22CollectionLabel" priority="133">
+        <item itemId="kidsRoom22Floor"/>
+        <item itemId="kidsRoom22Wall"/>
+        <item itemId="kidsRoom22Window"/>
+        <item itemId="kidsRoom22Door"/>
+        <item itemId="kidsRoom22Cat"/>
+        <item itemId="kidsRoom22Lama"/>
+        <item itemId="kidsRoom22Carpet"/>
+        <item itemId="kidsRoom22Closet"/>
+        <item itemId="kidsRoom22Buggy"/>
+        <item itemId="kidsRoom22Lullaby"/>
+        <item itemId="kidsRoom22Toys"/>
+    </furnitureCollection>
+
+    <!-- ELVEN HARBOR 2022-->
+    <furnitureCollection id="elvenHarbor22Collection" label="#elvenHarbor22CollectionLabel" priority="134">
+        <item itemId="elvenHarbor22Floor"/>
+        <item itemId="elvenHarbor22Wall"/>
+        <item itemId="elvenHarbor22Window"/>
+        <item itemId="elvenHarbor22Door"/>
+        <item itemId="elvenHarbor22Table"/>
+        <item itemId="elvenHarbor22Chair"/>
+        <item itemId="elvenHarbor22Screen"/>
+        <item itemId="elvenHarbor22Lamp"/>
+        <item itemId="elvenHarbor22WallLamp"/>
+        <item itemId="elvenHarbor22Flower1"/>
+        <item itemId="elvenHarbor22Flower2"/>
+        <item itemId="elvenHarbor22Vase1"/>
+        <item itemId="elvenHarbor22Vase2"/>
+        <item itemId="elvenHarbor22Fountain"/>
+    </furnitureCollection>
+
+    <!-- JUNGLE 22 FURNITURE-->
+    <furnitureCollection id="jungle22Collection" label="#jungle22CollectionLabel" priority="135">
+        <item itemId="jungle22Door"/>
+        <item itemId="jungle22Floor"/>
+        <item itemId="jungle22BigFlower"/>
+        <item itemId="jungle22Bird"/>
+        <item itemId="jungle22Chair"/>
+        <item itemId="jungle22Mushrooms"/>
+        <item itemId="jungle22OrangeFlower"/>
+        <item itemId="jungle22RedFlower"/>
+        <item itemId="jungle22Shrub"/>
+        <item itemId="jungle22Sofa"/>
+        <item itemId="jungle22Volcano"/>
+        <item itemId="jungle22Wall"/>
+    </furnitureCollection>
+
+    <!-- HALLOWEEN 22 FURNITURE -->
+    <furnitureCollection id="halloween22Collection" label="#halloween22CollectionLabel" priority="136">
+        <item itemId="doorHalloween22"/>
+        <item itemId="floorHalloween22"/>
+        <item itemId="halloween22BarLocker"/>
+        <item itemId="halloween22BarTable"/>
+        <item itemId="halloween22Bike"/>
+        <item itemId="halloween22Carpet"/>
+        <item itemId="halloween22Chair1"/>
+        <item itemId="halloween22Chair2"/>
+        <item itemId="halloween22Elevator"/>
+        <item itemId="halloween22Lamp"/>
+        <item itemId="halloween22Mirror"/>
+        <item itemId="halloween22Newspaper"/>
+        <item itemId="halloween22Table"/>
+        <item itemId="halloween22Typewriter"/>
+        <item itemId="halloween22Window"/>
+        <item itemId="wallHalloween22"/>
+    </furnitureCollection>
+
+    <furnitureCollection id="dracula22Collection" label="#dracula22CollectionLabel" priority="137">
+        <item itemId="dracula22Floor"/>
+        <item itemId="dracula22Wall"/>
+        <item itemId="dracula22Door"/>
+        <item itemId="dracula22Window"/>
+        <item itemId="dracula22Woodpile"/>
+        <item itemId="dracula22Table"/>
+        <item itemId="dracula22SmallTable"/>
+        <item itemId="dracula22Sofa"/>
+        <item itemId="dracula22Vase"/>
+        <item itemId="dracula22Tree"/>
+        <item itemId="dracula22Candle"/>
+        <item itemId="dracula22Stand"/>
+        <item itemId="dracula22FloorCandles"/>
+        <item itemId="dracula22Fireplace"/>
+        <item itemId="dracula22FireplaceSet"/>
+        <item itemId="dracula22Cage"/>
+        <item itemId="dracula22Picture1"/>
+        <item itemId="dracula22Picture2"/>
+        <item itemId="dracula22Picture3"/>
+    </furnitureCollection>
+
+    <furnitureCollection id="prison22Collection" label="#prison22CollectionLabel" priority="138">
+        <item itemId="prison22Floor"/>
+        <item itemId="prison22Door"/>
+        <item itemId="prison22Wall"/>
+        <item itemId="prison22Window"/>
+        <item itemId="prison22Bed"/>
+        <item itemId="prison22Box"/>
+        <item itemId="prison22Chair"/>
+        <item itemId="prison22Table"/>
+        <item itemId="prison22SmallTable"/>
+        <item itemId="prison22BedsideTable"/>
+        <item itemId="prison22DecorTv"/>
+        <item itemId="prison22DecorBed"/>
+        <item itemId="prison22Poster"/>
+        <item itemId="prison22Cup"/>
+        <item itemId="prison22Plate"/>
+        <item itemId="prison22Mouse"/>
+    </furnitureCollection>
+
+    <!-- SQUARE 22 FURNITURE-->
+    <furnitureCollection id="square22Collection" label="#square22CollectionLabel" priority="139">
+        <item itemId="square22Wall"/>
+        <item itemId="square22Floor"/>
+        <item itemId="square22Door"/>
+        <item itemId="square22Bench"/>
+        <item itemId="square22Shrub"/>
+        <item itemId="square22BigTree"/>
+        <item itemId="square22SmallTree"/>
+        <item itemId="square22Swan"/>
+        <item itemId="square22Pumpkins"/>
+        <item itemId="square22Fountain"/>
+        <item itemId="square22StreetLight"/>
+        <item itemId="square22Vase"/>
+    </furnitureCollection>
+
+    <!-- Sea 2022 Furniture -->
+    <furnitureCollection id="underwater2022Collection" label="#underwater2022CollectionLabel" priority="140">
+        <item itemId="underwater2022Aplysinaarcheri"/>
+        <item itemId="underwater2022Armchair"/>
+        <item itemId="underwater2022Carpet1"/>
+        <item itemId="underwater2022Carpet2"/>
+        <item itemId="underwater2022Door"/>
+        <item itemId="underwater2022Laminaria"/>
+        <item itemId="underwater2022Phyllophora"/>
+        <item itemId="underwater2022Purplealgae"/>
+        <item itemId="underwater2022Sofa"/>
+        <item itemId="underwater2022Table"/>
+        <item itemId="underwater2022Floor"/>
+        <item itemId="underwater2022Lamp"/>
+        <item itemId="underwater2022Aquarium"/>
+        <item itemId="underwater2022Wall"/>
+    </furnitureCollection>
+
+    <!-- NEW YEAR 2023 FURNITURE-->
+    <furnitureCollection id="ny23Collection" label="#ny23CollectionLabel" priority="141">
+        <item itemId="ny23Window"/>
+        <item itemId="ny23Wall"/>
+        <item itemId="ny23Floor"/>
+        <item itemId="ny23Door"/>
+        <item itemId="ny23Sofa"/>
+        <item itemId="ny23Table"/>
+        <item itemId="ny23Armchair"/>
+        <item itemId="ny23RockingArmchair"/>
+        <item itemId="ny23RedCarpet"/>
+        <item itemId="ny23Carpet"/>
+        <item itemId="ny23Chess"/>
+        <item itemId="ny23Box"/>
+        <item itemId="ny23Fir"/>
+        <item itemId="ny23Cup"/>
+        <item itemId="ny23Plate"/>
+        <item itemId="ny23Stars"/>
+        <item itemId="ny23Lamp"/>
+        <item itemId="ny23Luminaire"/>
+        <item itemId="ny23Sleigh"/>
+        <item itemId="ny23YellowBox"/>
+    </furnitureCollection>
+
+    <!-- MAGE ROOM 2023 FURNITURE-->
+    <furnitureCollection id="mageRoom23Collection" label="#mageRoom23CollectionLabel" priority="142">
+        <item itemId="mageRoom23Wall"/>
+        <item itemId="mageRoom23Floor"/>
+        <item itemId="mageRoom23Door"/>
+        <item itemId="mageRoom23Window"/>
+        <item itemId="mageRoom23Ball"/>
+        <item itemId="mageRoom23Table1"/>
+        <item itemId="mageRoom23Table2"/>
+        <item itemId="mageRoom23Cauldron"/>
+        <item itemId="mageRoom23Bird"/>
+        <item itemId="mageRoom23Candles"/>
+        <item itemId="mageRoom23Bed"/>
+        <item itemId="mageRoom23Chair"/>
+        <item itemId="mageRoom23Stool"/>
+    </furnitureCollection>
+
+    <!-- FIRST APRIL 23 FURNITURE-->
+    <furnitureCollection id="avapark23Collection" label="#avapark23CollectionLabel" priority="143">
+        <item itemId="avapark23Floor"/>
+        <item itemId="avapark23Door"/>
+        <item itemId="avapark23Wall"/>
+        <item itemId="avapark23Bench"/>
+        <item itemId="avapark23Balloons"/>
+        <item itemId="avapark23Fence"/>
+        <item itemId="avapark23Bush"/>
+        <item itemId="avapark23Clock"/>
+        <item itemId="avapark23Arrow"/>
+        <item itemId="avapark23Pointer"/>
+        <item itemId="avapark23Car"/>
+        <item itemId="avapark23Board"/>
+        <item itemId="avapark23Amusement"/>
+    </furnitureCollection>
+
+    <!-- ATOMIC 2023 FURNITURE-->
+    <furnitureCollection id="atomic2023Collection" label="#atomic2023CollectionLabel" priority="144">
+        <item itemId="atomic2023Barrel1"/>
+        <item itemId="atomic2023Barrel2"/>
+        <item itemId="atomic2023Bedsidetable"/>
+        <item itemId="atomic2023Counter"/>
+        <item itemId="atomic2023Cup"/>
+        <item itemId="atomic2023Door1"/>
+        <item itemId="atomic2023Door2"/>
+        <item itemId="atomic2023Fireextinguisher"/>
+        <item itemId="atomic2023Floor"/>
+        <item itemId="atomic2023Hatch"/>
+        <item itemId="atomic2023Indicator1"/>
+        <item itemId="atomic2023Indicator2"/>
+        <item itemId="atomic2023Lamp"/>
+        <item itemId="atomic2023Lever"/>
+        <item itemId="atomic2023Ventilation"/>
+        <item itemId="atomic2023Wall"/>
+        <item itemId="atomic2023Window"/>
+        <item itemId="atomic2023Table"/>
+        <item itemId="atomic2023Speaker"/>
+    </furnitureCollection>
+
+    <!-- GAME 23 FURNITURE -->
+    <furnitureCollection id="game23Collection" label="#game23CollectionLabel" priority="145">
+        <item itemId="game23Bed"/>
+        <item itemId="game23Chair"/>
+        <item itemId="game23Door"/>
+        <item itemId="game23Floor"/>
+        <item itemId="game23Flower"/>
+        <item itemId="game23Locker"/>
+        <item itemId="game23Mushroom"/>
+        <item itemId="game23Paintmushroom"/>
+        <item itemId="game23Paintprincess"/>
+        <item itemId="game23Table"/>
+        <item itemId="game23Wall"/>
+        <item itemId="game23Lamp"/>
+        <item itemId="game23TV"/>
+    </furnitureCollection>
+
+    <!-- USSR 23 FURNITURE -->
+    <furnitureCollection id="ussr23Collection" label="#ussr23CollectionLabel" priority="146">
+        <item itemId="ussr23Bed"/>
+        <item itemId="ussr23Bedsidetable"/>
+        <item itemId="ussr23Carpet"/>
+        <item itemId="ussr23CarpetWall"/>
+        <item itemId="ussr23Chair"/>
+        <item itemId="ussr23Door"/>
+        <item itemId="ussr23Dumbbells"/>
+        <item itemId="ussr23Floor"/>
+        <item itemId="ussr23Flowers"/>
+        <item itemId="ussr23Healthdisk"/>
+        <item itemId="ussr23Lamp"/>
+        <item itemId="ussr23Newspaper"/>
+        <item itemId="ussr23Phone"/>
+        <item itemId="ussr23Recordplayer"/>
+        <item itemId="ussr23Tablebig"/>
+        <item itemId="ussr23Tablesmall"/>
+        <item itemId="ussr23TV"/>
+        <item itemId="ussr23Wall"/>
+        <item itemId="ussr23Wardrobe"/>
+        <item itemId="ussr23Window"/>
+    </furnitureCollection>
+
+    <!-- LIFESPACE 2023 FURNITURE -->
+    <furnitureCollection id="lifeSpace2023Collection" label="#lifeSpace2023CollectionLabel" priority="147">
+        <item itemId="lifeSpace2023Bed"/>
+        <item itemId="lifeSpace2023Book"/>
+        <item itemId="lifeSpace2023Door"/>
+        <item itemId="lifeSpace2023Drink"/>
+        <item itemId="lifeSpace2023Floor"/>
+        <item itemId="lifeSpace2023Flower1"/>
+        <item itemId="lifeSpace2023Flower2"/>
+        <item itemId="lifeSpace2023Frame"/>
+        <item itemId="lifeSpace2023Lamp"/>
+        <item itemId="lifeSpace2023Pouf"/>
+        <item itemId="lifeSpace2023Screen"/>
+        <item itemId="lifeSpace2023Sofa"/>
+        <item itemId="lifeSpace2023Table"/>
+        <item itemId="lifeSpace2023TableRed"/>
+        <item itemId="lifeSpace2023Vase"/>
+        <item itemId="lifeSpace2023Wall"/>
+        <item itemId="lifeSpace2023Window"/>
+    </furnitureCollection>
+
+    <!-- DARK FANTASY 23 FURNITURE -->
+    <furnitureCollection id="darkFantasy23Collection" label="#darkFantasy23CollectionLabel" priority="148">
+        <item itemId="darkFantasy23Altar"/>
+        <item itemId="darkFantasy23Banner1"/>
+        <item itemId="darkFantasy23Banner2"/>
+        <item itemId="darkFantasy23Bench"/>
+        <item itemId="darkFantasy23Candles"/>
+        <item itemId="darkFantasy23Carpet"/>
+        <item itemId="darkFantasy23Door"/>
+        <item itemId="darkFantasy23Floor"/>
+        <item itemId="darkFantasy23Pillar"/>
+        <item itemId="darkFantasy23Vessel"/>
+        <item itemId="darkFantasy23Wall"/>
+        <item itemId="darkFantasy23Window"/>
+    </furnitureCollection>
+
+    <!-- GAME BAR 2023 FURNITURE -->
+    <furnitureCollection id="gameBar23Collection" label="#gameBar23CollectionLabel" priority="149">
+        <item itemId="gameBar23Bar"/>
+        <item itemId="gameBar23Chair"/>
+        <item itemId="gameBar23Claw"/>
+        <item itemId="gameBar23Door"/>
+        <item itemId="gameBar23Flamingos"/>
+        <item itemId="gameBar23Floor"/>
+        <item itemId="gameBar23Hockey"/>
+        <item itemId="gameBar23Music"/>
+        <item itemId="gameBar23Plant"/>
+        <item itemId="gameBar23Racing"/>
+        <item itemId="gameBar23Signboard"/>
+        <item itemId="gameBar23Table"/>
+        <item itemId="gameBar23Wall"/>
+        <item itemId="gameBar23Window"/>
+    </furnitureCollection>
+
+    <!-- PIXELS 23 FURNITURE -->
+    <furnitureCollection id="pixels23Collection" label="#pixels23CollectionLabel" priority="150">
+        <item itemId="pixels23Armchair"/>
+        <item itemId="pixels23Book"/>
+        <item itemId="pixels23Bookcase"/>
+        <item itemId="pixels23Carpet"/>
+        <item itemId="pixels23Door"/>
+        <item itemId="pixels23Dresser"/>
+        <item itemId="pixels23Floor"/>
+        <item itemId="pixels23Flower1"/>
+        <item itemId="pixels23Flower2"/>
+        <item itemId="pixels23Flower3"/>
+        <item itemId="pixels23Flower4"/>
+        <item itemId="pixels23Picture1"/>
+        <item itemId="pixels23Picture2"/>
+        <item itemId="pixels23Picture3"/>
+        <item itemId="pixels23Picture4"/>
+        <item itemId="pixels23Sofa"/>
+        <item itemId="pixels23Table"/>
+        <item itemId="pixels23Wall"/>
+        <item itemId="pixels23Watch"/>
+        <item itemId="pixels23Window"/>
+    </furnitureCollection>
+
+    <!-- HUT 23 FURNITURE -->
+    <furnitureCollection id="hut23Collection" label="#hut23CollectionLabel" priority="151">
+        <item itemId="hut23Armchair"/>
+        <item itemId="hut23Book"/>
+        <item itemId="hut23Box"/>
+        <item itemId="hut23Carpet"/>
+        <item itemId="hut23Chest"/>
+        <item itemId="hut23Cone"/>
+        <item itemId="hut23Door"/>
+        <item itemId="hut23Floor"/>
+        <item itemId="hut23Ladder"/>
+        <item itemId="hut23Map"/>
+        <item itemId="hut23Poster"/>
+        <item itemId="hut23Pumpkin"/>
+        <item itemId="hut23Rock"/>
+        <item itemId="hut23Sign"/>
+        <item itemId="hut23Skull"/>
+        <item itemId="hut23Stool"/>
+        <item itemId="hut23Tabble1"/>
+        <item itemId="hut23Tabble2"/>
+        <item itemId="hut23Tablet"/>
+        <item itemId="hut23Tage"/>
+        <item itemId="hut23Wall"/>
+        <item itemId="hut23Window"/>
+    </furnitureCollection>
+</furnitureCollections>

@@ -1,0 +1,88 @@
+<?xml version="1.0" ?>
+<map width="43" length="32">
+  <viewport x="515" y="-480" width="1195" height="795"/>
+  <items>
+    <item class="backgroundItem" wx="23" wy="-7" skin="ParkBackground@park"/>
+    <item class="sitItem" wz="0" kind="fairParkBench" direction="SE" wx="14" wy="6" id="sitItem9"/>
+    <item class="landscapeItem" kind="parkLake" wx="19" wy="8" wz="0" id="landscapeItem10"/>
+    <item class="landscapeItem" kind="fairParkTable" wx="11" wy="26" wz="0" id="landscapeItem11"/>
+    <item class="sitItem" wz="0" kind="fairParkChair" direction="SW" wx="14" wy="26" id="sitItem12"/>
+    <item class="sitItem" wz="0" kind="fairParkChair" direction="SE" wx="12" wy="24" id="sitItem13"/>
+    <item class="landscapeItem" kind="treeWhite" wx="5" wy="13" wz="0" id="landscapeItem14"/>
+    <item class="landscapeItem" kind="treeWhite" wx="23" wy="0" wz="0" id="landscapeItem15"/>
+    <item class="landscapeItem" kind="grass" wx="20" wy="10" wz="0" id="landscapeItem16"/>
+    <item class="landscapeItem" kind="grass" wx="25" wy="9" wz="0" id="landscapeItem17"/>
+    <item class="landscapeItem" kind="grass" wx="26" wy="10" wz="0" id="landscapeItem18"/>
+    <item class="landscapeItem" kind="grass" wx="25" wy="14" wz="0" id="landscapeItem19"/>
+    <item class="landscapeItem" kind="grass" wx="30" wy="8" wz="0" id="landscapeItem21"/>
+    <item class="landscapeItem" kind="treeKiparis" wx="22" wy="3" wz="0" id="landscapeItem23"/>
+    <item class="landscapeItem" kind="grass" wx="21" wy="3" wz="0" id="landscapeItem24"/>
+    <item class="landscapeItem" kind="treeRed" wx="24" wy="4" wz="0" id="landscapeItem25"/>
+    <item class="landscapeItem" kind="treeRed" wx="6" wy="10" wz="0" id="landscapeItem26"/>
+    <item class="landscapeItem" kind="treeRed" wx="11" wy="37" wz="0" id="landscapeItem27"/>
+    <item class="landscapeItem" kind="treeRed" wx="21" wy="25" wz="0" id="landscapeItem28"/>
+    <item class="landscapeItem" kind="treeRed" wx="36" wy="14" wz="0" id="landscapeItem29"/>
+    <item class="landscapeItem" kind="treeWhite2" wx="32" wy="7" wz="0" id="landscapeItem30"/>
+    <item class="landscapeItem" kind="treeDark2" wx="27" wy="23" wz="0" id="landscapeItem32"/>
+    <item class="landscapeItem" kind="treePink" wx="14" wy="36" wz="0" id="landscapeItem34"/>
+    <item class="landscapeItem" kind="grass" wx="19" wy="28" wz="0" id="landscapeItem35"/>
+    <item class="landscapeItem" kind="grass" wx="22" wy="28" wz="0" id="landscapeItem36"/>
+    <item class="landscapeItem" kind="treeWhite2" wx="23" wy="27" wz="0" id="landscapeItem37"/>
+    <item class="landscapeItem" kind="treeWhite" wx="36" wy="10" wz="0" id="landscapeItem38"/>
+    <item class="landscapeItem" kind="treeWhite" wx="34" wy="7" wz="0" id="landscapeItem39"/>
+    <item class="landscapeItem" kind="treeRed" wx="35" wy="9" wz="0" id="landscapeItem40"/>
+    <item class="landscapeItem" kind="treePink" wx="27" wy="5" wz="0" id="landscapeItem41"/>
+    <item class="landscapeItem" kind="treeRed" wx="31" wy="4" wz="0" id="landscapeItem42"/>
+    <item class="landscapeItem" kind="treeDark2" wx="20" wy="-2" wz="0" id="landscapeItem44"/>
+    <item class="landscapeItem" kind="treePink" wx="16" wy="-1" wz="0" id="landscapeItem45"/>
+    <item class="landscapeItem" kind="treeKiparis" wx="13" wy="5" wz="0" id="landscapeItem46"/>
+    <item class="landscapeItem" kind="treeKiparis" wx="1" wy="15" wz="0" id="landscapeItem48"/>
+    <item class="landscapeItem" kind="grass" wx="23" wy="5" wz="0" id="landscapeItem49"/>
+    <item class="landscapeItem" kind="grass" wx="26" wy="6" wz="0" id="landscapeItem50"/>
+    <item class="landscapeItem" kind="grass" wx="18" wy="7" wz="0" id="landscapeItem51"/>
+    <item class="landscapeItem" kind="grass" wx="8" wy="25" wz="0" id="landscapeItem52"/>
+    <item class="landscapeItem" kind="grass" wx="8" wy="22" wz="0" id="landscapeItem53"/>
+    <item class="landscapeItem" kind="flowerBlue" wx="8" wy="26" wz="0" id="landscapeItem54"/>
+    <item class="landscapeItem" kind="flowerBlue" wx="20" wy="23" wz="0" id="landscapeItem55"/>
+    <item class="landscapeItem" kind="flowerBlue" wx="22" wy="24" wz="0" id="landscapeItem56"/>
+    <item class="dispositionItem" wx="21" wy="17" id="dispositionItem142"/>
+    <item class="dispositionItem" wx="14" wy="11" id="dispositionItem143"/>
+    <item class="dispositionItem" wx="7" wy="19" id="dispositionItem144"/>
+    <item class="visibilityGridItem" cols="43" rows="32">
+      <grid>
+        <row values="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"/>
+        <row values="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"/>
+        <row values="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"/>
+        <row values="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"/>
+        <row values="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"/>
+        <row values="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"/>
+        <row values="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,0,0,1,1,1,1,0,0,0,0,0,0,0,0,0,0"/>
+        <row values="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0"/>
+        <row values="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,0,0,0,0,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0"/>
+        <row values="0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0"/>
+        <row values="0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0"/>
+        <row values="0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0"/>
+        <row values="0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,1,1,1,0,0,0,0,0"/>
+        <row values="0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,1,1,1,0,0,0,0,0,0"/>
+        <row values="0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0"/>
+        <row values="0,0,0,1,1,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0"/>
+        <row values="0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0"/>
+        <row values="0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0"/>
+        <row values="0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"/>
+        <row values="0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"/>
+        <row values="0,0,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"/>
+        <row values="0,0,0,1,1,1,1,0,0,0,1,1,1,1,0,0,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"/>
+        <row values="0,0,0,0,0,1,1,0,0,0,1,1,1,0,0,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"/>
+        <row values="0,0,0,0,0,1,1,0,0,1,1,1,0,0,0,1,1,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"/>
+        <row values="0,0,0,0,0,0,1,0,0,1,1,1,0,0,1,1,0,0,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"/>
+        <row values="0,0,0,0,0,0,0,1,1,1,1,0,0,0,0,0,0,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"/>
+        <row values="0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"/>
+        <row values="0,0,0,0,0,0,0,0,0,1,1,0,0,0,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"/>
+        <row values="0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"/>
+        <row values="0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"/>
+        <row values="0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"/>
+        <row values="0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"/>
+      </grid>
+    </item>
+  </items>
+</map>

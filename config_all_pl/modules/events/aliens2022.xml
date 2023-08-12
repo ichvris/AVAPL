@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module id="aliens2022">
+    <aliensUnlock questsCount="4" alienGoldPrice="0.25"/>
+
+    <room id="aliens2022Room" label="#al2022RoomLabel" canBuy="0">
+        <item id="1" typeId="aliens2022Portal" x="13" y="4.62" z="0" direction="5" targetRoomId="livingroom" />
+        <item id="2" typeId="aliens2022Wall" x="0" y="0" z="0" direction="3" />
+        <item id="3" typeId="aliens2022Wall" x="13" y="0" z="0" direction="5" />
+        <item id="4" typeId="aliens2022Floor" x="0" y="0" z="0" direction="5" />
+        <item id="5" typeId="aliens2022Teleport" x="6" y="1.5" z="0" direction="5" />
+        <item id="6" typeId="aliens2022Hill" x="10" y="9" z="0" direction="5" />
+        <item id="7" typeId="aliens2022Tree" x="0" y="0" z="0" direction="5" />
+    </room>
+
+    <awards>
+        <award id="1" itemType="furniture" itemId="alien22Carpet" progress="300"
+            receiveIcon="CarpetAwardIcon" progressIcon="CarpetProgressIcon" label="alien22CarpetLabel" />
+        <award id="2" itemType="game" itemId="aliensMobileAccessory" progress="800"
+            receiveIcon="PhoneAwardIcon" progressIcon="MobileProgressIcon"  label="aliensMobileAccessoryTitle" />
+        <award id="3" itemType="furniture" itemId="avapacAlien22" progress="1600"
+            receiveIcon="AvapacaAwardIcon" progressIcon="AvapacaProgressIcon" label="avapacAlien22Label" />
+        <award id="4" itemType="furniture" itemId="alien22Window" progress="2600"
+            receiveIcon="WindowAwardIcon" progressIcon="WindowProgressIcon" label="alien22WindowLabel" />
+        <award id="5" itemType="clothesSet" itemId="boyPredator22Set" gender="1" progress="4000"
+            receiveIcon="CostumeBoyAwardIcon" progressIcon="CostumeBoyProgressIcon" label="boyPredator22SetLabel" />
+        <award id="6" itemType="clothesSet" itemId="girlPredator22Set" gender="2" progress="4000"
+            receiveIcon="CostumeGirlAwardIcon" progressIcon="CostumeGirlProgressIcon" label="girlPredator22SetLabel" />
+        <award id="7" itemType="trophy" itemId="alien2022" count="0" progress="5900"
+            receiveIcon="TrophyAwardIcon" progressIcon="TrophyProgressIcon" label="alien2022Title" />
+    </awards>
+
+    <quests>
+        <quest id="0" price="25">
+            <task type="pillowFight" label="al22QuestTask1Tittle" count="12"/>
+            <task type="giftRandomItem" label="al22QuestTask2Tittle" count="15">
+                <item typeId="cfCak"/>
+                <item typeId="cfCof"/>
+                <item typeId="cfPiz"/>
+            </task>
+        </quest>
+        <quest id="1" price="40">
+            <task type="winBeachRaceTask" label="al22QuestTask3Tittle" count="20"/>
+            <task type="dance" label="al22QuestTask4Tittle" count="10">
+                <item typeId="publicBeach"/>
+            </task>
+        </quest>
+        <quest id="2" price="50">
+            <task type="craftItem" label="al22QuestTask5Tittle" count="1">
+                <item typeId="sbRS1"/>
+            </task>
+            <task type="winSnowboardRaceTask" label="al22QuestTask6Tittle" count="20"/>
+        </quest>
+        <quest id="3" price="75">
+            <task type="meerkatAward" label="al22QuestTask7Tittle" count="5">
+                <item typeId="ma2"/>
+            </task>
+            <task type="winCarRaceTask" label="al22QuestTask8Tittle" count="15"/>
+        </quest>
+    </quests>
+
+    <inventory>
+        <category id="craftLoot" typeClass="loot">
+            <item id="al22Alien" label="#al22AlienLabel" name="AlienLootIcon@aliens2022"
+                icon="AlienLootIcon@aliens2022" canBuy="0"/>
+        </category>
+    </inventory>
+
+    <aliensDrop neighbourCount="2" neighbourProbability="0.5"
+        gardenerCount="2" gardenerProbability="0.5"
+        janitorCount="2" janitorProbability="0.5"/>
+
+    <everydayAliens>
+        <day day="1" alienCount="5"/>
+        <day day="2" alienCount="10"/>
+        <day day="3" alienCount="20"/>
+        <day day="4" alienCount="30"/>
+        <day day="5" alienCount="45"/>
+        <day day="6" alienCount="60"/>
+        <day day="7" alienCount="75"/>
+        <day day="8" alienCount="105"/>
+    </everydayAliens>>
+
+</module>

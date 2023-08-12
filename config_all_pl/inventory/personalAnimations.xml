@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config id="personalAnimations">
+    <category id="personalAnimations" logCategory1="personalAnimations" typeClass="personalAnimation" visible="false">
+        <item icon="DanceActionButtonAsset@ui" id="danceBoyMill" name="DanceMill" label="#danceMillTitle"/>
+        <item icon="DanceActionButtonAsset@ui" id="danceGirlMill" name="DanceMill" label="#danceMillTitle"/>
+        <item icon="RazzButtonActionAsset@ui" id="razz" name="Razz" label="#razzButtonTitle"/>
+        <item icon="RoseShowerButtonActionAsset@ui" id="rozeShower" name="RoseShower" label="#rozeShowerButtonTitle"/>
+        <item icon="ScareButtonActionAsset@ui" id="scare" name="Scare" label="#scareButtonTitle"/>
+        <item icon="TicklingButtonActionAsset@ui" id="tickling" name="Tickling" label="#ticklingButtonTitle"/>
+        <item icon="BlasterBangActionButtonAsset@ui" id="blasterBangShow" name="BlasterBangShow" label="#blasterBangTitle"/>
+    </category>
+    <category id="shadowAnimations" logCategory1="shadowAnimations" typeClass="shadowAnimation" visible="false">
+        <item id="magicalWavesShadow" label="#magicalWavesShadowLabel"/>
+    </category>
+</config>

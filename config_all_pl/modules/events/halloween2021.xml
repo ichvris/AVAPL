@@ -1,0 +1,944 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<module id="halloween2021">
+    <trophy progress="3999" discount="20"/>
+
+    <farm>
+        <seeds>
+            <seed typeId="1" type="pumpkin" silver="333" ripeTime="3600" fruitTime="0" fadeTime="2700"
+                  name="#hlwn21PumpkinName" description="#hlwn21PumpkinPlantDescription"
+                  dialogBg="PlantInfoDialogPumpkinBG@halloween2021">
+                <drop>
+                    <item type="hlwn21PumpkinMeat" count="6"/>
+                    <item type="hlwn21Swirls" count="6"/>
+                    <item type="hlwn21PumpkinJuice" count="6"/>
+                    <item type="hlwn21Petals" count="6"/>
+                </drop>
+            </seed>
+            <seed typeId="2" type="triffid" silver="666" ripeTime="5400" fruitTime="0" fadeTime="3600"
+                  name="#hlwn21TriffidName" description="#hlwn21TriffidPlantDescription"
+                  dialogBg="PlantInfoDialogTriffidBG@halloween2021">
+                <drop>
+                    <item type="hlwn21Liquid" count="4"/>
+                    <item type="hlwn21Root" count="4"/>
+                    <item type="hlwn21Insects" count="4"/>
+                    <item type="hlwn21Sting" count="4"/>
+                </drop>
+            </seed>
+            <seed typeId="3" type="witchFlower" gold="2" ripeTime="7200" fruitTime="0" fadeTime="5400"
+                  name="#hlwn21WitchFlowerName" description="#hlwn21WitchFlowerPlantDescription"
+                  dialogBg="PlantInfoDialogWitchFlowerBG@halloween2021">
+                <drop>
+                    <item type="hlwn21Phosphorus" count="2"/>
+                    <item type="hlwn21Leaf" count="2"/>
+                    <item type="hlwn21Bud" count="2"/>
+                    <item type="hlwn21Pollen" count="2"/>
+                </drop>
+            </seed>
+        </seeds>
+        <energy plant="10" harvest="0" clear="10"/>
+        <scarecrow gold="13" time="7200"/>
+        <crows count="4" scareEnergy="5" minScareTime="1200" maxScareTime="2400"/>
+    </farm>
+
+    <awards>
+        <award id="1" itemType="trophy" itemId="halloween2021"
+               count="0"
+               icon="Hw21AwardIcon@halloween2021"
+               label="#halloween2021Title"/>
+    </awards>
+
+    <packs>
+        <pack id="candyPack50" candyCount="50" gold="50" bonus="0"/>
+        <pack id="candyPack100" candyCount="100" gold="100" bonus="10"/>
+        <pack id="candyPack300" candyCount="300" gold="300" bonus="50"/>
+        <pack id="candyPack500" candyCount="500" gold="500" bonus="150"/>
+    </packs>
+
+    <inventory>
+        <category id="game" typeClass="game">
+            <item id="hlwn21SpiritPotion" label="#hlwn21SpiritPotionLabel" description="#hw21PotionDescription"
+                  name="SpiritPotion@halloween2021" icon="SpiritPotionIcon@halloween2021" canBuy="0"/>
+            <item id="hlwn21WitchPotion" label="#hlwn21WitchPotionLabel" description="#hw21PotionDescription"
+                  name="WitchPotion@halloween2021" icon="WitchPotionIcon@halloween2021" canBuy="0"/>
+            <item id="hlwn21ShamanPotion" label="#hlwn21ShamanPotionLabel" description="#hw21PotionDescription"
+                  name="ShamanPotion@halloween2021" icon="ShamanPotionIcon@halloween2021" canBuy="0"/>
+        </category>
+
+        <category id="craftLoot" typeClass="loot">
+            <item id="hw21Pumpkin" name="Pumpkin@halloween2021" gold="8" probability="0.5" ignoreVip="true"
+                  ignoreReputation="true"/>
+            <item id="hw21Candy" name="Candy@halloween2021" gold="100"/>
+
+            <!--PUMPKIN LOOT-->
+            <item id="hlwn21PumpkinMeat" label="#hlwn21PumpkinMeatLabel" name="PumpkinMeat@halloween2021"
+                  description="#hlwn21PumpkinLootDescription" icon="PumpkinMeatIcon@halloween2021" gold="100"/>
+            <item id="hlwn21Swirls" label="#hlwn21SwirlsLabel" name="Swirls@halloween2021"
+                  description="#hlwn21PumpkinLootDescription" icon="SwirlsIcon@halloween2021" gold="100"/>
+            <item id="hlwn21PumpkinJuice" label="#hlwn21PumpkinJuiceLabel" name="PumpkinJuice@halloween2021"
+                  description="#hlwn21PumpkinLootDescription" icon="PumpkinJuiceIcon@halloween2021" gold="100"/>
+            <item id="hlwn21Petals" label="#hlwn21PetalsLabel" name="Petals@halloween2021"
+                  description="#hlwn21PumpkinLootDescription" icon="PetalsIcon@halloween2021" gold="100"/>
+
+            <!--TRIFFID LOOT-->
+            <item id="hlwn21Insects" label="#hlwn21InsectsLabel" name="Insects@halloween2021"
+                  description="#hlwn21TriffidLootDescription" icon="InsectsIcon@halloween2021" gold="200"/>
+            <item id="hlwn21Liquid" label="#hlwn21LiquidLabel" name="Liquid@halloween2021"
+                  description="#hlwn21TriffidLootDescription" icon="LiquidIcon@halloween2021" gold="200"/>
+            <item id="hlwn21Root" label="#hlwn21RootLabel" name="Root@halloween2021" icon="RootIcon@halloween2021"
+                  description="#hlwn21TriffidLootDescription" gold="200"/>
+            <item id="hlwn21Sting" label="#hlwn21StingLabel" name="Sting@halloween2021" icon="StingIcon@halloween2021"
+                  description="#hlwn21TriffidLootDescription" gold="200"/>
+
+            <!--WITCH FLOWER LOOT-->
+            <item id="hlwn21Phosphorus" label="#hlwn21PhosphorusLabel" name="Phosphorus@halloween2021"
+                  description="#hlwn21WitchFlowerDescription" icon="PhosphorusIcon@halloween2021" gold="300"/>
+            <item id="hlwn21Leaf" label="#hlwn21LeafLabel" name="Leaf@halloween2021" icon="LeafIcon@halloween2021"
+                  description="#hlwn21WitchFlowerDescription" gold="300"/>
+            <item id="hlwn21Bud" label="#hlwn21BudLabel" name="Bud@halloween2021" icon="BudIcon@halloween2021"
+                  description="#hlwn21WitchFlowerDescription" gold="300"/>
+            <item id="hlwn21Pollen" label="#hlwn21PollenLabel" name="Pollen@halloween2021"
+                  description="#hlwn21WitchFlowerDescription" icon="PollenIcon@halloween2021" gold="300"/>
+        </category>
+    </inventory>
+
+    <craft>
+        <craftedItem itemId="hlwn21SpiritPotion" holiday="">
+            <moduleComponent itemId="hlwn21PumpkinJuice" count="24"/>
+            <moduleComponent itemId="hlwn21Leaf" count="6"/>
+            <moduleComponent itemId="hlwn21Root" count="12"/>
+            <moduleComponent itemId="hlwn21Petals" count="24"/>
+        </craftedItem>
+        <craftedItem itemId="hlwn21WitchPotion" holiday="">
+            <moduleComponent itemId="hlwn21Swirls" count="24"/>
+            <moduleComponent itemId="hlwn21Phosphorus" count="6"/>
+            <moduleComponent itemId="hlwn21Insects" count="12"/>
+            <moduleComponent itemId="hlwn21Bud" count="6"/>
+        </craftedItem>
+        <craftedItem itemId="hlwn21ShamanPotion" holiday="">
+            <moduleComponent itemId="hlwn21PumpkinMeat" count="24"/>
+            <moduleComponent itemId="hlwn21Pollen" count="6"/>
+            <moduleComponent itemId="hlwn21Sting" count="12"/>
+            <moduleComponent itemId="hlwn21Liquid" count="12"/>
+        </craftedItem>
+    </craft>
+
+    <shop>
+        <category id="hw21" typeClass="hw21Type">
+            <category id="hw21Clothes" label="#hw19ClothesCategory" type="clothes" priority="1">
+                <category id="hw21ClothesSets" label="#costumesLabel" type="clothesSet">
+                    <!--BOY SETS-->
+                    <item id="hw21boyAlexSet" itemId="boyAlexSet" candy="428" priority="1"/>
+                    <item id="hw21boyHttrSet" itemId="boyHttrSet" candy="393" priority="2"/>
+                    <item id="hw21boyDmnSet" itemId="boyDmnSet" candy="625" priority="3"/>
+                    <item id="hw21boyDmnHntSet" itemId="boyDmnHntSet" candy="424" priority="4"/>
+                    <item id="hw21boyHlwnVmpSet" itemId="boyHlwnVmpSet" candy="357" priority="5"/>
+                    <item id="hw21boyJackOvrlSet" itemId="boyJackOvrlSet" candy="350" priority="6"/>
+                    <item id="hw21boyHlwnSawSet" itemId="boyHlwnSawSet" candy="683" priority="7"/>
+                    <item id="hw21boyHlwnPyrmdSet" itemId="boyHlwnPyrmdSet" candy="498" priority="8"/>
+                    <item id="hw21boyHlwnPnnySet" itemId="boyHlwnPnnySet" candy="666" priority="9"/>
+                    <item id="hw21hlwnBSt1" itemId="hlwnBSt1" candy="46" priority="10"/>
+                    <item id="hw21hlwnBSt2" itemId="hlwnBSt2" candy="113" priority="11"/>
+                    <item id="hw21hlwnBSt3" itemId="hlwnBSt3" candy="30"/>
+                    <item id="hw21hlwnBSt4" itemId="hlwnBSt4" candy="145" priority="12"/>
+                    <item id="hw21hlwnBSt5" itemId="hlwnBSt5" candy="75" priority="13"/>
+                    <item id="hw21hlwnBSt6" itemId="hlwnBSt6" candy="65" priority="14"/>
+                    <item id="hw21hlwnBSt7" itemId="hlwnBSt7" candy="109" priority="15"/>
+                    <item id="hw21hlwnBSt8" itemId="hlwnBSt8" candy="149" priority="16"/>
+                    <item id="hw21hlwnBSt9" itemId="hlwnBSt9" candy="154" priority="17"/>
+                    <item id="hw21hlwnBSt10" itemId="hlwnBSt10" candy="495" priority="18"/>
+                    <item id="hw21hlwnBSt11" itemId="hlwnBSt11" candy="436" priority="19"/>
+                    <item id="hw21BoyWarlockSet" itemId="boyWarlockHalloween2020Set" candy="509" priority="20"/>
+                    <item id="hw21BoyWizzardSet" itemId="boyWizzardHalloween2020Set" candy="499" priority="21"/>
+                    <item id="hw21boyHlwn21P1Set" itemId="boyHlwn21P1Set" candy="920" isNew="1" priority="22"/>
+                    <item id="hw21boyHlwn21P2Set" itemId="boyHlwn21P2Set" candy="780" isNew="1" priority="23"/>
+
+                    <!--GIRL SETS-->
+                    <item id="hw21girlAliceSet" itemId="girlAliceSet" candy="428" priority="24"/>
+                    <item id="hw21girlHatterSet" itemId="girlHatterSet" candy="393" priority="25"/>
+                    <item id="hw21girlDemonSet" itemId="girlDemonSet" candy="625" priority="26"/>
+                    <item id="hw21girlDemonHunterSet" itemId="girlDemonHunterSet" candy="424" priority="27"/>
+                    <item id="hw21hlwnGSt1" itemId="hlwnGSt1" candy="30" priority="28"/>
+                    <item id="hw21hlwnGSt2" itemId="hlwnGSt2" candy="128" priority="29"/>
+                    <item id="hw21hlwnGSt3" itemId="hlwnGSt3" candy="104" priority="30"/>
+                    <item id="hw21hlwnGSt4" itemId="hlwnGSt4" candy="144" priority="31"/>
+                    <item id="hw21hlwnGSt5" itemId="hlwnGSt5" candy="116" priority="32"/>
+                    <item id="hw21hlwnGSt6" itemId="hlwnGSt6" candy="59" priority="33"/>
+                    <item id="hw21hlwnGSt7" itemId="hlwnGSt7" candy="73" priority="34"/>
+                    <item id="hw21hlwnGSt8" itemId="hlwnGSt8" candy="214" priority="35"/>
+                    <item id="hw21hlwnGSt9" itemId="hlwnGSt9" candy="144" priority="36"/>
+                    <item id="hw21hlwnGSt10" itemId="hlwnGSt10" candy="228" priority="37"/>
+                    <item id="hw21hlwnGSt11" itemId="hlwnGSt11" candy="679" priority="38"/>
+                    <item id="hw21girlHlwnVmpSet" itemId="girlHlwnVmpSet" candy="300" priority="39"/>
+                    <item id="hw21girlJillOvrlSet" itemId="girlJillOvrlSet" candy="350" priority="40"/>
+                    <item id="hw21girHlwnSawSet" itemId="girHlwnSawSet" candy="683" priority="41"/>
+                    <item id="hw21girHlwnCllSet" itemId="girHlwnCllSet" candy="498" priority="42"/>
+                    <item id="hw21girHlwnPnnySet" itemId="girHlwnPnnySet" candy="666" priority="43"/>
+                    <item id="hw21GirlWarlockSet" itemId="girlWarlockHalloween2020Set" candy="593" priority="44"/>
+                    <item id="hw21GirlWizzardSet" itemId="girlWizzardHalloween2020Set" candy="499" priority="45"/>
+                    <item id="hw21girlHlwn21P1Set" itemId="girlHlwn21P1Set" candy="870" isNew="1" priority="46"/>
+                    <item id="hw21girlHlwn21P2Set" itemId="girlHlwn21P2Set" candy="840" isNew="1" priority="47"/>
+                </category>
+
+                <category id="hw21TopClothes" label="#clothesCategoryTops" type="clothes">
+                    <!--BOY-->
+                    <item id="hw21boyHlwn27" itemId="boyHlwn27" candy="7" priority="1"/>
+                    <item id="hw21boyHlwn23" itemId="boyHlwn23" candy="18" priority="2"/>
+                    <item id="hw217boyHlwn2" itemId="boyHlwn2" candy="33" priority="3"/>
+                    <item id="hw21boyHlwn10" itemId="boyHlwn10" candy="37" priority="4"/>
+                    <item id="hw21boyHlwn26" itemId="boyHlwn26" candy="33" priority="5"/>
+                    <item id="hw21boyHlwn24" itemId="boyHlwn24" candy="24" priority="6"/>
+                    <item id="hw21boyHlwn9" itemId="boyHlwn9" candy="22" priority="7"/>
+                    <item id="hw21boyHlwn25" itemId="boyHlwn25" candy="9" priority="8"/>
+                    <item id="hw21boyHlwn35" itemId="boyHlwn35" candy="29" priority="9"/>
+                    <item id="hw21boyHlwn34" itemId="boyHlwn34" candy="33" priority="10"/>
+                    <item id="hw21hlwn2015PDCt" itemId="hlwn2015PDCt" candy="95" priority="11"/>
+                    <item id="hw21hlwn2015BShrt" itemId="hlwn2015BShrt" candy="65" priority="12"/>
+                    <item id="hw21boyHlwnVmpJkt" itemId="boyHlwnVmpJkt" candy="80" priority="13"/>
+                    <item id="hw21boyHlwnVmpTSht" itemId="boyHlwnVmpTSht" candy="46" priority="14"/>
+                    <item id="hw21boyTShrtHlwnSaw" itemId="boyTShrtHlwnSaw" candy="39" priority="15"/>
+                    <item id="hw21boyJcktHlnwSaw" itemId="boyJcktHlnwSaw" candy="99" priority="16"/>
+                    <item id="hw21boyJcktHlnwPnny" itemId="boyJcktHlnwPnny" candy="99" priority="17"/>
+                    <item id="hw21boyTShrtAlex" itemId="boyTShrtAlex" candy="70" priority="18"/>
+                    <item id="hw21boyJcktAlex" itemId="boyJcktAlex" candy="55" priority="19"/>
+                    <item id="hw21boyTShrtHttr" itemId="boyTShrtHttr" candy="40" priority="20"/>
+                    <item id="hw21boyJcktHttr" itemId="boyJcktHttr" candy="60" priority="21"/>
+                    <item id="hw21boyTShrtDmnHnt" itemId="boyTShrtDmnHnt" candy="50" priority="22"/>
+                    <item id="hw21boyJcktDmnHnt" itemId="boyJcktDmnHnt" candy="102" priority="23"/>
+                    <item id="hw21boyShrtWrlcHW20" itemId="boyShrtWrlcHW20" candy="89" priority="24"/>
+                    <item id="hw21boyCtWrlcHW20" itemId="boyCtWrlcHW20" candy="113" priority="25"/>
+                    <item id="hw21boyShrtWzrdHW20" itemId="boyShrtWzrdHW20" candy="102" priority="26"/>
+                    <item id="hw21boyCtWzrdHW20" itemId="boyCtWzrdHW20" candy="125" priority="27"/>
+                    <item id="hw21boyTShrtHlwn21P1" itemId="boyTShrtHlwn21P1" candy="100" isNew="1" priority="28"/>
+                    <item id="hw21boyJcktHlwn21P1" itemId="boyJcktHlwn21P1" candy="230" isNew="1" priority="29"/>
+                    <item id="hw21boyTShrtHlwn21P2" itemId="boyTShrtHlwn21P2" candy="130" isNew="1" priority="30"/>
+
+                    <!--GIRL-->
+                    <item id="hw21girlHlwn7" itemId="girlHlwn7" candy="46" priority="31"/>
+                    <item id="hw21girlHlwn5" itemId="girlHlwn5" candy="39" priority="32"/>
+                    <item id="hw21girlHlwn3" itemId="girlHlwn3" candy="25" priority="33"/>
+                    <item id="hw21girlHlwn4" itemId="girlHlwn4" candy="13" priority="34"/>
+                    <item id="hw21girlHlwn6" itemId="girlHlwn6" candy="28" priority="35"/>
+                    <item id="hw21girlHlwn36" itemId="girlHlwn36" candy="99" priority="36"/>
+                    <item id="hw21girlHlwn40" itemId="girlHlwn40" candy="47" priority="37"/>
+                    <item id="hw21hlwn2015BWDrs" itemId="hlwn2015BWDrs" candy="125" priority="38"/>
+                    <item id="hw21hlwn2015GDrs" itemId="hlwn2015GDrs" candy="185" priority="39"/>
+                    <item id="hw21hlwn2015GPlrn" itemId="hlwn2015GPlrn" candy="425" priority="40"/>
+                    <item id="hw21grlHlwnVmpDrs" itemId="grlHlwnVmpDrs" candy="99" priority="41"/>
+                    <item id="hw21girlTShrtHlwnSaw" itemId="girlTShrtHlwnSaw" candy="39" priority="42"/>
+                    <item id="hw21girlJktHlwnSaw" itemId="girlJktHlwnSaw" candy="99" priority="43"/>
+                    <item id="hw21girlDrsHlwnCll" itemId="girlDrsHlwnCll" candy="99" priority="44"/>
+                    <item id="hw21girlDrsHlwnPnny" itemId="girlDrsHlwnPnny" candy="99" priority="45"/>
+                    <item id="hw21girlDrssAlice" itemId="girlDrssAlice" candy="135" priority="46"/>
+                    <item id="hw21girlTShrtHttr" itemId="girlTShrtHttr" candy="40" priority="47"/>
+                    <item id="hw21girlJcktHttr" itemId="girlJcktHttr" candy="60" priority="48"/>
+                    <item id="hw21girlJcktDmnHnt" itemId="girlJcktDmnHnt" candy="102" priority="49"/>
+                    <item id="hw21girlTShrtDmnHnt" itemId="girlTShrtDmnHnt" candy="50" priority="50"/>
+                    <item id="hw21girlTopWrlcHW20" itemId="girlTopWrlcHW20" candy="89" priority="51"/>
+                    <item id="hw21girlCtWrlcHW20" itemId="girlCtWrlcHW20" candy="113" priority="52"/>
+                    <item id="hw21girlDrssWzrdHW20" itemId="girlDrssWzrdHW20" candy="102" priority="53"/>
+                    <item id="hw21girlDressHlwn21P1" itemId="girlDressHlwn21P1" candy="310" isNew="1" priority="54"/>
+                    <item id="hw21girlJcktHlwn21P2" itemId="girlJcktHlwn21P2" candy="180" isNew="1" priority="55"/>
+                    <item id="hw21girlDressHlwn21P2" itemId="girlDressHlwn21P2" candy="230" isNew="1" priority="56"/>
+                </category>
+
+                <category id="hw21BottomClothes" label="#clothesCategoryBottoms" type="clothes">
+                    <!--BOY-->
+                    <item id="hw21boyHlwn15" itemId="boyHlwn15" candy="9" priority="1"/>
+                    <item id="hw21boyHlwn14" itemId="boyHlwn14" candy="8" priority="2"/>
+                    <item id="hw21boyHlwn16" itemId="boyHlwn16" candy="10" priority="3"/>
+                    <item id="hw21boyHlwn12" itemId="boyHlwn12" candy="13" priority="4"/>
+                    <item id="hw21boyHlwn13" itemId="boyHlwn13" candy="13" priority="5"/>
+                    <item id="hw21boyHlwn30" itemId="boyHlwn30" candy="34" priority="6"/>
+                    <item id="hw21boyHlwn36" itemId="boyHlwn36" candy="17" priority="7"/>
+                    <item id="hw21bhlwn2015PDPnts" itemId="hlwn2015PDPnts" candy="50" priority="8"/>
+                    <item id="hw21bhlwn2015BPts" itemId="hlwn2015BPts" candy="132" priority="9"/>
+                    <item id="hw21boyHlwnVmpPnt" itemId="boyHlwnVmpPnt" candy="95" priority="10"/>
+                    <item id="hw21boyPntsHlwnSaw" itemId="boyPntsHlwnSaw" candy="29" priority="11"/>
+                    <item id="hw21boyHlwnPyrmdSkrt" itemId="boyHlwnPyrmdSkrt" candy="78" priority="12"/>
+                    <item id="hw21boyPntsHlwnPnny" itemId="boyPntsHlwnPnny" candy="19" priority="13"/>
+                    <item id="hw21boyPntsAlex" itemId="boyPntsAlex" candy="65" priority="14"/>
+                    <item id="hw21boyPntsHttr" itemId="boyPntsHttr" candy="60" priority="15"/>
+                    <item id="hw21boyPntsDmnHnt" itemId="boyPntsDmnHnt" candy="50" priority="16"/>
+                    <item id="hw21boyPntsWrlcHW20" itemId="boyPntsWrlcHW20" candy="56" priority="17"/>
+                    <item id="hw21boyPntsWzrdHW20" itemId="boyPntsWzrdHW20" candy="64" priority="18"/>
+                    <item id="hw21boyPntsHlwn21P1" itemId="boyPntsHlwn21P1" candy="160" isNew="1" priority="19"/>
+                    <item id="hw21boyOvrllsHlwn21P2" itemId="boyOvrllsHlwn21P2" candy="190" isNew="1" priority="20"/>
+
+                    <!--GIRL-->
+                    <item id="hw21girlHlwn31" itemId="girlHlwn31" candy="23" priority="21"/>
+                    <item id="hw21hlwn2015GStck" itemId="hlwn2015GStck" candy="50" priority="22"/>
+                    <item id="hw21girlPntsHlwnSaw" itemId="girlPntsHlwnSaw" candy="29" priority="23"/>
+                    <item id="hw21girlSksHlwnPnny" itemId="girlSksHlwnPnny" candy="19" priority="24"/>
+                    <item id="hw21girlTghtAlice" itemId="girlTghtAlice" candy="55" priority="25"/>
+                    <item id="hw21girlPntsHttr" itemId="girlPntsHttr" candy="60" priority="26"/>
+                    <item id="hw21girlPntsDmnHnt" itemId="girlPntsDmnHnt" candy="50" priority="27"/>
+                    <item id="hw21girlTghtsWrlcHW20" itemId="girlTghtsWrlcHW20" candy="53" priority="28"/>
+                    <item id="hw21girlSkrtWrlcHW20" itemId="girlSkrtWrlcHW20" candy="44" priority="29"/>
+                    <item id="hw21girlSkrtWzrdHW20" itemId="girlSkrtWzrdHW20" candy="125" priority="30"/>
+                    <item id="hw21girlHlwn44" itemId="girlHlwn44" candy="33" priority="31"/>
+                    <item id="hw21girlTghtsWzrdHW20" itemId="girlTghtsWzrdHW20" candy="64" priority="32"/>
+                </category>
+
+                <category id="hw21ClothesShoes" label="#clothesCategoryShoes" type="clothes">
+                    <!--BOY-->
+                    <item id="hw21boyHlwn20" itemId="boyHlwn20" candy="4" priority="1"/>
+                    <item id="hw21boyHlwn19" itemId="boyHlwn19" candy="6" priority="2"/>
+                    <item id="hw21boyHlwn21" itemId="boyHlwn21" candy="12" priority="3"/>
+                    <item id="hw21boyHlwn18" itemId="boyHlwn18" candy="15" priority="4"/>
+                    <item id="hw21boyHlwn22" itemId="boyHlwn22" candy="13" priority="5"/>
+                    <item id="hw21boyShoes9" itemId="boyShoes9" candy="21" priority="6"/>
+                    <item id="hw21boyHlwn33" itemId="boyHlwn33" candy="13" priority="7"/>
+                    <item id="hw21hlwn2015PDBts" itemId="hlwn2015PDBts" candy="18" priority="8"/>
+                    <item id="hw21hlwn2015BBts" itemId="hlwn2015BBts" candy="91" priority="9"/>
+                    <item id="hw21boyBtsDvl16" itemId="boyBtsDvl16" candy="22" priority="10"/>
+                    <item id="hw21boyHlwnVmpShs" itemId="boyHlwnVmpShs" candy="20" priority="11"/>
+                    <item id="hw21boyBtsHlwnSaw" itemId="boyBtsHlwnSaw" candy="59" priority="12"/>
+                    <item id="hw21boyBtsHlwnPyrmd" itemId="boyBtsHlwnPyrmd" candy="39" priority="13"/>
+                    <item id="hw21boyBtsHlwnPnny" itemId="boyBtsHlwnPnny" candy="29" priority="14"/>
+                    <item id="hw21boyBtsAlex" itemId="boyBtsAlex" candy="112" priority="15"/>
+                    <item id="hw21boyBtsHttr" itemId="boyBtsHttr" candy="30" priority="16"/>
+                    <item id="hw21boyBtsDmnHnt" itemId="boyBtsDmnHnt" candy="31" priority="17"/>
+                    <item id="hw21boyBtsWrlcHW20" itemId="boyBtsWrlcHW20" candy="47" priority="18"/>
+                    <item id="hw21boyBtsWzrdHW20" itemId="boyBtsWzrdHW20" candy="56" priority="19"/>
+                    <item id="hw21boyShsHlwn21P1" itemId="boyShsHlwn21P1" candy="140" isNew="1" priority="20"/>
+                    <item id="hw21boyShsHlwn21P2" itemId="boyShsHlwn21P2" candy="130" isNew="1" priority="21"/>
+                    <!--GIRL-->
+                    <item id="hw21girlHlwn30" itemId="girlHlwn30" candy="19" priority="22"/>
+                    <item id="hw21girlHlwn28" itemId="girlHlwn28" candy="21" priority="23"/>
+                    <item id="hw21girlHlwn27" itemId="girlHlwn27" candy="13" priority="24"/>
+                    <item id="hw21girlHlwn26" itemId="girlHlwn26" candy="18" priority="25"/>
+                    <item id="hw21girlHlwn29" itemId="girlHlwn29" candy="13" priority="26"/>
+                    <item id="hw21girlHlwn42" itemId="girlHlwn42" candy="66" priority="27"/>
+                    <item id="hw21girlHlwn43" itemId="girlHlwn43" candy="13" priority="28"/>
+                    <item id="hw21hlwn2015BWBts" itemId="hlwn2015BWBts" candy="48" priority="29"/>
+                    <item id="hw21hlwn2015GBts" itemId="hlwn2015GBts" candy="48" priority="30"/>
+                    <item id="hw21grlBtsDvl16" itemId="grlBtsDvl16" candy="22" priority="31"/>
+                    <item id="hw21grlHlwnVmpShs" itemId="grlHlwnVmpShs" candy="45" priority="32"/>
+                    <item id="hw21girlBtsHlwnSaw" itemId="girlBtsHlwnSaw" candy="59" priority="33"/>
+                    <item id="hw21girlBtsHlwnCll" itemId="girlBtsHlwnCll" candy="19" priority="34"/>
+                    <item id="hw21girlBtsHlwnPnny" itemId="girlBtsHlwnPnny" candy="29" priority="35"/>
+                    <item id="hw21girlBtsAlice" itemId="girlBtsAlice" candy="112" priority="36"/>
+                    <item id="hw21girlBtsHttr" itemId="girlBtsHttr" candy="30" priority="37"/>
+                    <item id="hw21girlBtsDmnHnt" itemId="girlBtsDmnHnt" candy="31" priority="38"/>
+                    <item id="hw21girlBtsWrlcHW20" itemId="girlBtsWrlcHW20" candy="47" priority="39"/>
+                    <item id="hw21girlBtsWzrdHW20" itemId="girlBtsWzrdHW20" candy="56" priority="40"/>
+                    <item id="hw21girlShsHlwn21P2" itemId="girlShsHlwn21P2" candy="110" isNew="1" priority="41"/>
+                    <item id="hw21girlShsHlwn21P1" itemId="girlShsHlwn21P1" candy="140" isNew="1" priority="42"/>
+                </category>
+
+                <category id="hw21ClothesOther" label="#clothesCategoryOther" type="clothes">
+                    <!--BOY-->
+                    <item id="hw21boyHw17Crsbw" itemId="boyHw17Crsbw" candy="199" priority="1"/>
+                    <item id="hw21boyHlwn3" itemId="boyHlwn3" candy="15" priority="2"/>
+                    <item id="hw21boyHlwn11" itemId="boyHlwn11" candy="113" priority="3"/>
+                    <item id="hw21boyHlwn5" itemId="boyHlwn5" candy="5" priority="4"/>
+                    <item id="hw21boyHlwn17" itemId="boyHlwn17" candy="4" priority="5"/>
+                    <item id="hw21boyHlwn7" itemId="boyHlwn7" candy="20" priority="6"/>
+                    <item id="hw21boyHlwn6" itemId="boyHlwn6" candy="23" priority="7"/>
+                    <item id="hw21boyHlwn4" itemId="boyHlwn4" candy="8" priority="8"/>
+                    <item id="hw21boyHlwn8" itemId="boyHlwn8" candy="38" priority="9"/>
+                    <item id="hw21boyHlwn1" itemId="boyHlwn1" candy="71" priority="10"/>
+                    <item id="hw21boyHlwn31" itemId="boyHlwn31" candy="45" priority="11"/>
+                    <item id="hw21boyHlwn37" itemId="boyHlwn37" candy="20" priority="12"/>
+                    <item id="hw21boyHlwn32" itemId="boyHlwn32" candy="75" priority="13"/>
+                    <item id="hw21boyHlwn28" itemId="boyHlwn28" candy="16" priority="14"/>
+                    <item id="hw21hlwn2015PDGlv" itemId="hlwn2015PDGlv" candy="223" priority="15"/>
+                    <item id="hw21hlwn2015PDHat" itemId="hlwn2015PDHat" candy="35" priority="16"/>
+                    <item id="hw21hlwn2015PDHlmt" itemId="hlwn2015PDHlmt" candy="85" priority="17"/>
+                    <item id="hw21hlwn2015PDRats" itemId="hlwn2015PDRats" candy="152" priority="18"/>
+                    <item id="hw21hlwn2015BHat" itemId="hlwn2015BHat" candy="45" priority="19"/>
+                    <item id="hw21hlwn2015BMncl" itemId="hlwn2015BMncl" candy="28" priority="20"/>
+                    <item id="hw21hlwn2015BStck" itemId="hlwn2015BStck" candy="75" priority="21"/>
+                    <item id="hw21boyHrnDvl16" itemId="boyHrnDvl16" candy="89" priority="22"/>
+                    <item id="hw21boyTalDvl16" itemId="boyTalDvl16" candy="55" priority="23"/>
+                    <item id="hw21boyMskHlb16" itemId="boyMskHlb16" candy="115" priority="24"/>
+                    <item id="hw21boyHlwnVmpScf" itemId="boyHlwnVmpScf" candy="15" priority="25"/>
+                    <item id="hw21boyHlwnVmpWng" itemId="boyHlwnVmpWng" candy="66" priority="26"/>
+                    <item id="hw21boyHlwnVmpHat" itemId="boyHlwnVmpHat" candy="35" priority="27"/>
+                    <item id="hw21boyJackOvrl" itemId="boyJackOvrl" candy="399" priority="28"/>
+                    <item id="hw21boyHlmtHlwnJack" itemId="boyHlmtHlwnJack" candy="99" priority="29"/>
+                    <item id="hw21boyGlvsHlwnSaw" itemId="boyGlvsHlwnSaw" candy="19" priority="30"/>
+                    <item id="hw21boyHandSaw" itemId="boyHandSaw" candy="399" priority="31"/>
+                    <item id="hw21boyHlwnSawMsk" itemId="boyHlwnSawMsk" candy="499" priority="32"/>
+                    <item id="hw21boyGlvsHlwnPyrmd" itemId="boyGlvsHlwnPyrmd" candy="9" priority="33"/>
+                    <item id="hw21boyHlwnPyrmdMsk" itemId="boyHlwnPyrmdMsk" candy="399" priority="34"/>
+                    <item id="hw21boyPyrmdKnf" itemId="boyPyrmdKnf" candy="299" priority="35"/>
+                    <item id="hw21boyGlvsHlwnPnny" itemId="boyGlvsHlwnPnny" candy="9" priority="36"/>
+                    <item id="hw21boyHandPnny" itemId="boyHandPnny" candy="399" priority="37"/>
+                    <item id="hw21boyHlwnPnnyMsk" itemId="boyHlwnPnnyMsk" candy="399" priority="38"/>
+                    <item id="hw21boyGlvsAlex" itemId="boyGlvsAlex" candy="56" priority="39"/>
+                    <item id="hw21boyDcrAlex" itemId="boyDcrAlex" candy="70" priority="40"/>
+                    <item id="hw21boySksHttr" itemId="boySksHttr" candy="20" priority="41"/>
+                    <item id="hw21boyHtHttr" itemId="boyHtHttr" candy="102" priority="42"/>
+                    <item id="hw21boyAcsHttr" itemId="boyAcsHttr" candy="31" priority="43"/>
+                    <item id="hw21boyHttrMsk" itemId="boyHttrMsk" candy="50" priority="44"/>
+                    <item id="hw21boyNclDmn" itemId="boyNclDmn" candy="17" priority="45"/>
+                    <item id="hw21boyAcsDmn" itemId="boyAcsDmn" candy="68" priority="46"/>
+                    <item id="hw21boyWngsDmn" itemId="boyWngsDmn" candy="250" priority="47"/>
+                    <item id="hw21boyHrnDmn" itemId="boyHrnDmn" candy="90" priority="48"/>
+                    <item id="hw21boyDmnMsk" itemId="boyDmnMsk" candy="150" priority="49"/>
+                    <item id="hw21boyDmnOvrl" itemId="boyDmnOvrl" candy="50" priority="50"/>
+                    <item id="hw21boyHtDmnHnt" itemId="boyHtDmnHnt" candy="51" priority="51"/>
+                    <item id="hw21boyGlvsDmnHnt" itemId="boyGlvsDmnHnt" candy="25" priority="52"/>
+                    <item id="hw21boyAcsDmnHnt" itemId="boyAcsDmnHnt" candy="35" priority="53"/>
+                    <item id="hw21boyDcrDmnHnt" itemId="boyDcrDmnHnt" candy="80" priority="54"/>
+                    <item id="hw21boyHtWrlcHW20" itemId="boyHtWrlcHW20" candy="47" priority="55"/>
+                    <item id="hw21boyErrWrlcHW20" itemId="boyErrWrlcHW20" candy="54" priority="56"/>
+                    <item id="hw21boyBltWrlcHW20" itemId="boyBltWrlcHW20" candy="51" priority="57"/>
+                    <item id="hw21boySkllWrlcHW20" itemId="boySkllWrlcHW20" candy="52" priority="58"/>
+                    <item id="hw21boyHtWzrdHW20" itemId="boyHtWzrdHW20" candy="41" priority="59"/>
+                    <item id="hw21boyGlvWzrdHW20" itemId="boyGlvWzrdHW20" candy="64" priority="60"/>
+                    <item id="hw21boyBkWzrdHW20" itemId="boyBkWzrdHW20" candy="47" priority="61"/>
+                    <item id="hw21boyMaskHlwn21P1" itemId="boyMaskHlwn21P1" candy="150" isNew="1" priority="62"/>
+                    <item id="hw21boyWpnHlwn21P1" itemId="boyWpnHlwn21P1" candy="140" isNew="1" priority="63"/>
+                    <item id="hw21boyWigHlwn21P2" itemId="boyWigHlwn21P2" candy="120" isNew="1" priority="64"/>
+                    <item id="hw21boyScrsHlwn21P2" itemId="boyScrsHlwn21P2" candy="100" isNew="1" priority="65"/>
+                    <item id="hw21boyKnifeHlwn21P2" itemId="boyKnifeHlwn21P2" candy="110" isNew="1" priority="66"/>
+
+                    <!--GIRL-->
+                    <item id="hw21girlHw17Crsbw" itemId="girlHw17Crsbw" candy="199" priority="67"/>
+                    <item id="hw21girlHlwn33" itemId="girlHlwn33" candy="7" priority="67"/>
+                    <item id="hw21girlHlwn19" itemId="girlHlwn19" candy="19" priority="68"/>
+                    <item id="hw21girlHlwn25" itemId="girlHlwn25" candy="4" priority="69"/>
+                    <item id="hw21girlHlwn14" itemId="girlHlwn14" candy="8" priority="70"/>
+                    <item id="hw21girlHlwn24" itemId="girlHlwn24" candy="9" priority="71"/>
+                    <item id="hw21girlHlwn1" itemId="girlHlwn1" candy="15" priority="72"/>
+                    <item id="hw21girlHlwn22" itemId="girlHlwn22" candy="21" priority="73"/>
+                    <item id="hw21girlHlwn12" itemId="girlHlwn12" candy="16" priority="74"/>
+                    <item id="hw21girlHlwn17" itemId="girlHlwn17" candy="15" priority="75"/>
+                    <item id="hw21girlDecor104" itemId="girlDecor104" candy="6" priority="76"/>
+                    <item id="hw21girlHlwn10" itemId="girlHlwn10" candy="8" priority="77"/>
+                    <item id="hw21girlHlwn2" itemId="girlHlwn2" candy="33" priority="78"/>
+                    <item id="hw21girlHlwn32" itemId="girlHlwn32" candy="20" priority="79"/>
+                    <item id="hw21girlHlwn11" itemId="girlHlwn11" candy="14" priority="80"/>
+                    <item id="hw21girlHlwn21" itemId="girlHlwn21" candy="102" priority="81"/>
+                    <item id="hw21girlHlwn13" itemId="girlHlwn13" candy="6" priority="82"/>
+                    <item id="hw21girlHlwn9" itemId="girlHlwn9" candy="6" priority="83"/>
+                    <item id="hw21girlHlwn35" itemId="girlHlwn35" candy="7" priority="84"/>
+                    <item id="hw21girlHlwn16" itemId="girlHlwn16" candy="9" priority="85"/>
+                    <item id="hw21girlHlwn8" itemId="girlHlwn8" candy="4" priority="86"/>
+                    <item id="hw21girlHlwn34" itemId="girlHlwn34" candy="9" priority="87"/>
+                    <item id="hw21girlHlwn23" itemId="girlHlwn23" candy="19" priority="88"/>
+                    <item id="hw21girlHlwn37" itemId="girlHlwn37" candy="49" priority="89"/>
+                    <item id="hw21girlHlwn38" itemId="girlHlwn38" candy="13" priority="90"/>
+                    <item id="hw21girlHlwn39" itemId="girlHlwn39" candy="25" priority="91"/>
+                    <item id="hw21girlHlwn41" itemId="girlHlwn41" candy="13" priority="92"/>
+                    <item id="hw21hlwn2015GGlv" itemId="hlwn2015GGlv" candy="162" priority="93"/>
+                    <item id="hw21hlwn2015GHat" itemId="hlwn2015GHat" candy="35" priority="94"/>
+                    <item id="hw21hlwn2015GPndnt" itemId="hlwn2015GPndnt" candy="65" priority="95"/>
+                    <item id="hw21grlMskVmp16" itemId="grlMskVmp16" candy="99" priority="96"/>
+                    <item id="hw21grlTalDvl16" itemId="grlTalDvl16" candy="55" priority="97"/>
+                    <item id="hw21grlHlwnVmpGlv" itemId="grlHlwnVmpGlv" candy="15" priority="98"/>
+                    <item id="hw21grlHlwnVmpHat" itemId="grlHlwnVmpHat" candy="55" priority="99"/>
+                    <item id="hw21grlHlwnVmpNckl" itemId="grlHlwnVmpNckl" candy="20" priority="100"/>
+                    <item id="hw21grlHlwnVmpWng" itemId="grlHlwnVmpWng" candy="66" priority="101"/>
+                    <item id="hw21girlJillOvrl" itemId="girlJillOvrl" candy="399" priority="102"/>
+                    <item id="hw21girlHlmtHlwnJill" itemId="girlHlmtHlwnJill" candy="99" priority="103"/>
+                    <item id="hw21girlGlvsHlwnSaw" itemId="girlGlvsHlwnSaw" candy="19" priority="104"/>
+                    <item id="hw21girlHandSaw" itemId="girlHandSaw" candy="399" priority="105"/>
+                    <item id="hw21girlMskHlwnSaw" itemId="girlMskHlwnSaw" candy="499" priority="106"/>
+                    <item id="hw21girlSksHlwnCll" itemId="girlSksHlwnCll" candy="9" priority="107"/>
+                    <item id="hw21girlAcsCll" itemId="girlAcsCll" candy="299" priority="108"/>
+                    <item id="hw21girlMskHlwnCll" itemId="girlMskHlwnCll" candy="399" priority="109"/>
+                    <item id="hw21girlAcsPnny" itemId="girlAcsPnny" candy="399" priority="110"/>
+                    <item id="hw21girlMskHlwnPnny" itemId="girlMskHlwnPnny" candy="399" priority="111"/>
+                    <item id="hw21girlBtsAlice" itemId="girlBtsAlice" candy="112" priority="112"/>
+                    <item id="hw21girlDcrAlice" itemId="girlDcrAlice" candy="56" priority="113"/>
+                    <item id="hw21girlKnfAlice" itemId="girlKnfAlice" candy="70" priority="114"/>
+                    <item id="hw21girlSksHttr" itemId="girlSksHttr" candy="20" priority="115"/>
+                    <item id="hw21girlHtHttr" itemId="girlHtHttr" candy="102" priority="116"/>
+                    <item id="hw21girlHttrMsk" itemId="girlHttrMsk" candy="50" priority="117"/>
+                    <item id="hw21girlAcsHttr" itemId="girlAcsHttr" candy="31" priority="118"/>
+                    <item id="hw21girlDmnOvrl" itemId="girlDmnOvrl" candy="50" priority="119"/>
+                    <item id="hw21girlHrnDmn" itemId="girlHrnDmn" candy="90" priority="120"/>
+                    <item id="hw21girlDmnMsk" itemId="girlDmnMsk" candy="150" priority="121"/>
+                    <item id="hw21girlWngDmn" itemId="girlWngDmn" candy="250" priority="122"/>
+                    <item id="hw21girlNcklDmn" itemId="girlNcklDmn" candy="17" priority="123"/>
+                    <item id="hw21girlAcsDmn" itemId="girlAcsDmn" candy="68" priority="124"/>
+                    <item id="hw21girlHtDmnHnt" itemId="girlHtDmnHnt" candy="51" priority="125"/>
+                    <item id="hw21girlGlvDmnHnt" itemId="girlGlvDmnHnt" candy="25" priority="126"/>
+                    <item id="hw21girlBltDmnHnt" itemId="girlBltDmnHnt" candy="35" priority="127"/>
+                    <item id="hw21girlAcsDmnHnt" itemId="girlAcsDmnHnt" candy="80" priority="128"/>
+                    <item id="hw21grlMskWtc16" itemId="grlMskWtc16" candy="115" priority="129"/>
+                    <item id="hw21girlHtWrlcHW20" itemId="girlHtWrlcHW20" candy="47" priority="130"/>
+                    <item id="hw21girlErrWrlcHW20" itemId="girlErrWrlcHW20" candy="54" priority="131"/>
+                    <item id="hw21girlGlvsWrlcHW20" itemId="girlGlvsWrlcHW20" candy="43" priority="132"/>
+                    <item id="hw21girlBltWrlcHW20" itemId="girlBltWrlcHW20" candy="51" priority="133"/>
+                    <item id="hw21girlSkllWrlcHW20" itemId="girlSkllWrlcHW20" candy="52" priority="134"/>
+                    <item id="hw21girlHlwn20" itemId="girlHlwn20" candy="31" priority="135"/>
+                    <item id="hw21hlwn2015BWHat" itemId="hlwn2015BWHat" candy="55" priority="136"/>
+                    <item id="hw21girlHatWzrdHW20" itemId="girlHatWzrdHW20" candy="41" priority="137"/>
+                    <item id="hw21girlGlvsWzrdHW20" itemId="girlGlvsWzrdHW20" candy="64" priority="138"/>
+                    <item id="hw21girlBkWzrdHW20" itemId="girlBkWzrdHW20" candy="47" priority="139"/>
+                    <item id="hw21girlGlvsHlwnPnny" itemId="girlGlvsHlwnPnny" candy="9" priority="140"/>
+                    <item id="hw21girlHlwn18" itemId="girlHlwn18" candy="8" priority="141"/>
+                    <item id="hw21girlDiademHlwn21P1" itemId="girlDiademHlwn21P1" candy="130" isNew="1" priority="142"/>
+                    <item id="hw21girlMaskHlwn21P1" itemId="girlMaskHlwn21P1" candy="150" isNew="1" priority="143"/>
+                    <item id="hw21girlWpnHlwn21P1" itemId="girlWpnHlwn21P1" candy="140" isNew="1" priority="144"/>
+                    <item id="hw21girlWigHlwn21P2" itemId="girlWigHlwn21P2" candy="110" isNew="1" priority="145"/>
+                    <item id="hw21girlTattooHlwn21P2" itemId="girlTattooHlwn21P2" candy="100" isNew="1" priority="146"/>
+                    <item id="hw21girlGunHlwn21P2" itemId="girlGunHlwn21P2" candy="110" isNew="1" priority="147"/>
+                </category>
+            </category>
+
+            <category id="hw21Furniture" label="#furnitureShopTitle" type="furniture" priority="2">
+                <category id="hw21blackRose" label="#halloween15RoomLabel">
+                    <item id="hw21wllBlkRs" itemId="wllBlkRs" candy="191" priority="1"/>
+                    <item id="hw21drBlkRs" itemId="drBlkRs" candy="324" priority="2"/>
+                    <item id="hw21flrBlkRs" itemId="flrBlkRs" candy="383" priority="3"/>
+                    <item id="hw21bdBlkRs" itemId="bdBlkRs" candy="360" priority="4"/>
+                    <item id="hw21armchrBlkRs" itemId="armchrBlkRs" candy="94" priority="5"/>
+                    <item id="hw21pctBlkRs1" itemId="pctBlkRs1" candy="133" priority="6"/>
+                    <item id="hw21pctBlkRs2" itemId="pctBlkRs2" candy="83" priority="7"/>
+                    <item id="hw21pctBlkRs3" itemId="pctBlkRs3" candy="83" priority="8"/>
+                    <item id="hw21pctBlkRs4" itemId="pctBlkRs4" candy="83" priority="9"/>
+                    <item id="hw21wdwBlkRs" itemId="wdwBlkRs" candy="443" priority="10"/>
+                    <item id="hw21bookBlkRs" itemId="bookBlkRs" candy="27" priority="11"/>
+                    <item id="hw21tblBlkRs" itemId="tblBlkRs" candy="160" priority="12"/>
+                    <item id="hw21musCentBlkRs" itemId="musCentBlkRs" candy="249" priority="13"/>
+                    <item id="hw21sfBlkRs" itemId="sfBlkRs" candy="291" priority="14"/>
+                </category>
+                <category id="hw21hlwn14" label="#halloweenCollection1Label">
+                    <item id="hw21hlwnKitchenDecor1" itemId="hlwnKitchenDecor1" candy="3" priority="15"/>
+                    <item id="hw21hlwnTable1" itemId="hlwnTable1" candy="18" priority="16"/>
+                    <item id="hw21hlwnChair1" itemId="hlwnChair1" candy="7" priority="17"/>
+                    <item id="hw21hlwnChair2" itemId="hlwnChair2" candy="7" priority="18"/>
+                    <item id="hw21hlwnChair3" itemId="hlwnChair3" candy="8" priority="19"/>
+                    <item id="hw21hlwnChair4" itemId="hlwnChair4" candy="8" priority="20"/>
+                    <item id="hw21sofaHlwn1" itemId="sofaHlwn1" candy="15" priority="21"/>
+                    <item id="hw21sofaHlwn2" itemId="sofaHlwn2" candy="15" priority="22"/>
+                    <item id="hw21sofaHlwn3" itemId="sofaHlwn3" candy="63" priority="23"/>
+                    <item id="hw21caseHlwn1" itemId="caseHlwn1" candy="27" priority="24"/>
+                    <item id="hw21caseHlwn2" itemId="caseHlwn2" candy="27" priority="25"/>
+                    <item id="hw21treeHlwn" itemId="treeHlwn" candy="25" priority="26"/>
+                    <item id="hw21pumpkinSmall" itemId="pumpkinSmall" candy="4" priority="27"/>
+                    <item id="hw21broomHlwn" itemId="broomHlwn" candy="3" priority="28"/>
+                    <item id="hw21batHlwn" itemId="batHlwn" candy="6" priority="29"/>
+                    <item id="hw21batHlwnRed" itemId="batHlwnRed" candy="6" priority="30"/>
+                    <item id="hw21webHlwn" itemId="webHlwn" candy="6" priority="31"/>
+                    <item id="hw21wreathBlack" itemId="wreathBlack" candy="7" priority="32"/>
+                    <item id="hw21candleCobweb" itemId="candleCobweb" candy="15" priority="33"/>
+                    <item id="hw21candleWallHlwn" itemId="candleWallHlwn" candy="11" priority="34"/>
+                    <item id="hw21ghostBlack" itemId="ghostBlack" candy="10" priority="35"/>
+                    <item id="hw21pumpkinBlack" itemId="pumpkinBlack" candy="9" priority="36"/>
+                    <item id="hw21pumpkinHlwn" itemId="pumpkinHlwn" candy="11" priority="37"/>
+                    <item id="hw21pumpkinSilver" itemId="pumpkinSilver" candy="7" priority="38"/>
+                    <item id="hw21scullCandle" itemId="scullCandle" candy="7" priority="39"/>
+                    <item id="hw21carpetGhost" itemId="carpetGhost" candy="12" priority="40"/>
+                    <item id="hw21wall24" itemId="wall24" candy="14" priority="41"/>
+                    <item id="hw21wall25" itemId="wall25" candy="12" priority="42"/>
+                    <item id="hw21door8" itemId="door8" candy="6" priority="43"/>
+                    <item id="hw21door9" itemId="door9" candy="29" priority="44"/>
+                    <item id="hw21floor24" itemId="floor24" candy="10" priority="45"/>
+                    <item id="hw21floor25" itemId="floor25" candy="10" priority="46"/>
+                    <item id="hw21hlwnMrrw" itemId="hlwnMrrw" candy="277" priority="47"/>
+                    <item id="hw21hlwnBlrmCndl" itemId="hlwnBlrmCndl" candy="20" priority="48"/>
+                    <item id="hw21hlwnBlrmVs" itemId="hlwnBlrmVs" candy="35" priority="49"/>
+                    <item id="hw21hlwnBlrmPn" itemId="hlwnBlrmPn" candy="224" priority="50"/>
+                    <item id="hw21hlwnBlrmLmp" itemId="hlwnBlrmLmp" candy="55" priority="51"/>
+                    <item id="hw21hlwnBlrmSf" itemId="hlwnBlrmSf" candy="149" priority="52"/>
+                    <item id="hw21hlwnBlrmChr" itemId="hlwnBlrmChr" candy="66" priority="53"/>
+                </category>
+                <category id="hw21hlwn18" label="#halloweenCollection1Label 2018">
+                    <item id="hw21hlwn18Wnd" itemId="hlwn18Wnd" candy="49" priority="54"/>
+                    <item id="hw21evilFlower" itemId="evilFlower" candy="112" priority="55"/>
+                    <item id="hw21infernalRabbit" itemId="infernalRabbit" candy="187" priority="56"/>
+                    <item id="hw21fireplaceWitchHlwn2018" itemId="fireplaceWitchHlwn2018" candy="199" priority="57"/>
+                </category>
+                <category id="hw21orcl" label="#orclCollectionLabel">
+                    <item id="hw21hw2019Chr" itemId="hw2019Chr" candy="27" priority="58"/>
+                    <item id="hw21grlndHW2019" itemId="grlndHW2019" candy="35" priority="59"/>
+                    <item id="hw21hw2019Dr" itemId="hw2019Dr" candy="39" priority="60"/>
+                    <item id="hw21hw2019Sf" itemId="hw2019Sf" candy="30" priority="61"/>
+                    <item id="hw21pntngHW2019" itemId="pntngHW2019" candy="43" priority="62"/>
+                    <item id="hw21hw2019Wll" itemId="hw2019Wll" candy="36" priority="63"/>
+                    <item id="hw21hw2019Wnd" itemId="hw2019Wnd" candy="39" priority="64"/>
+                    <item id="hw21hw2019Flr" itemId="hw2019Flr" candy="20" priority="65"/>
+                    <item id="hw21sphrHW2019" itemId="sphrHW2019" candy="47" priority="66"/>
+                    <item id="hw21wrdrbHW2019" itemId="wrdrbHW2019" candy="29" priority="67"/>
+                    <item id="hw21tblHW2019" itemId="tblHW2019" candy="43" priority="68"/>
+                </category>
+                <category id="hw21drgcv" label="#drgCvCollectionLabel">
+                    <item id="hw21drgn2019Dr" itemId="drgn2019Dr" candy="43" priority="69"/>
+                    <item id="hw21drgnSkull2019" itemId="drgnSkull2019" candy="36" priority="70"/>
+                    <item id="hw21drgn2019Wll" itemId="drgn2019Wll" candy="35" priority="71"/>
+                    <item id="hw21drgn2019Flr" itemId="drgn2019Flr" candy="120" priority="72"/>
+                    <item id="hw21drgnChst2019" itemId="drgnChst2019" candy="56" priority="73"/>
+                    <item id="hw21drgnThrn2019" itemId="drgnThrn2019" candy="48" priority="74"/>
+                    <item id="hw21drgnFrplc2019" itemId="drgnFrplc2019" candy="23" priority="75"/>
+                    <item id="hw21drgnFntn2019" itemId="drgnFntn2019" candy="80" priority="76"/>
+                </category>
+
+                <category id="hw21frkShw" label="#halloween2020CollectionLabel">
+                    <item id="hw21drHW20" itemId="drHW20" candy="210" priority="77"/>
+                    <item id="hw21flrHW20" itemId="flrHW20" candy="60" priority="78"/>
+                    <item id="hw21wlHW20" itemId="wlHW20" candy="270" priority="79"/>
+                    <item id="hw21hw20Bln" itemId="hw20Bln" candy="60" priority="80"/>
+                    <item id="hw21hw20BxDcr" itemId="hw20BxDcr" candy="60" priority="81"/>
+                    <item id="hw21hw20Csh" itemId="hw20Csh" candy="50" priority="82"/>
+                    <item id="hw21hw20ExArr" itemId="hw20ExArr" candy="70" priority="83"/>
+                    <item id="hw21hw20MskDcr" itemId="hw20MskDcr" candy="30" priority="84"/>
+                    <item id="hw21hw20Ppcrn" itemId="hw20Ppcrn" candy="120" priority="85"/>
+                    <item id="hw21hw20Pstr1" itemId="hw20Pstr1" candy="20" priority="86"/>
+                    <item id="hw21hw20Pstr2" itemId="hw20Pstr2" candy="20" priority="87"/>
+                    <item id="hw21hw20Tbl" itemId="hw20Tbl" candy="80" priority="88"/>
+                    <item id="hw21hw20BlChr" itemId="hw20BlChr" candy="50" priority="89"/>
+                    <item id="hw21hw20RdChr" itemId="hw20RdChr" candy="50" priority="90"/>
+                    <item id="hw21hw20Crrg" itemId="hw20Crrg" candy="380" priority="91"/>
+                    <item id="hw21hw20SprlDcr" itemId="hw20SprlDcr" candy="40" priority="92"/>
+                </category>
+
+                <category id="hl21Collection" label="#hl21CollectionLabel">
+                    <item id="hw21floorHL21" itemId="floorHL21" candy="90" isNew="1" priority="93"/>
+                    <item id="hw21wallHL21" itemId="wallHL21" candy="100" isNew="1" priority="94"/>
+                    <item id="hw21doorHL21" itemId="doorHL21" candy="120" isNew="1" priority="95"/>
+                    <item id="hw21hl21Bed" itemId="hl21Bed" candy="370" isNew="1" priority="96"/>
+                    <item id="hw21hl21Brain" itemId="hl21Brain" candy="250" isNew="1" priority="97"/>
+                    <item id="hw21hl21Armchair" itemId="hl21Armchair" candy="220" isNew="1" priority="98"/>
+                    <item id="hw21hl21Eye" itemId="hl21Eye" candy="90" isNew="1" priority="99"/>
+                    <item id="hw21hl21Dresser" itemId="hl21Dresser" candy="80" isNew="1" priority="100"/>
+                    <item id="hw21hl21Monitor" itemId="hl21Monitor" candy="220" isNew="1" priority="101"/>
+                    <item id="hw21hl21Table" itemId="hl21Table" candy="120" isNew="1" priority="102"/>
+                    <item id="hw21hl21SmallTable" itemId="hl21SmallTable" candy="80" isNew="1" priority="103"/>
+                    <item id="hw21hl21Lamp" itemId="hl21Lamp" candy="100" isNew="1" priority="104"/>
+                    <item id="hw21hl21Chair" itemId="hl21Chair" candy="90" isNew="1" priority="105"/>
+                    <item id="hw21hl21Flask2" itemId="hl21Flask2" candy="110" isNew="1" priority="106"/>
+                    <item id="hw21hl21ChestXRay" itemId="hl21ChestXRay" candy="60" isNew="1" priority="107"/>
+                    <item id="hw21hl21FootXRay" itemId="hl21FootXRay" candy="60" isNew="1" priority="108"/>
+                    <item id="hw21hl21Flask1" itemId="hl21Flask1" candy="50" isNew="1" priority="109"/>
+                    <item id="hw21hl21Sewerage1" itemId="hl21Sewerage1" candy="60" isNew="1" priority="110"/>
+                    <item id="hw21hl21Hand" itemId="hl21Hand" candy="40" isNew="1" priority="111"/>
+                    <item id="hw21hl21Jaw" itemId="hl21Jaw" candy="50" isNew="1" priority="112"/>
+                    <item id="hw21hl21Panel" itemId="hl21Panel" candy="70" isNew="1" priority="113"/>
+                    <item id="hw21hl21Sewerage2" itemId="hl21Sewerage2" candy="50" isNew="1" priority="114"/>
+                </category>
+            </category>
+
+            <category id="hw21Other" label="#miscCategory" priority="3">
+                <item id="hw21batChatBubbleDecor" itemId="batChatBubbleDecor" candy="500" type="chatDecor"
+                      priority="1"/>
+                <item id="hw21ghostMobileAccessory" itemId="ghostMobileAccessory" candy="200" type="mobileDecor"
+                      priority="2"/>
+                <item id="hw21jackStickerPack" itemId="jackStickerPack" candy="1666" type="stickerPack" priority="3"/>
+                <item id="hw21halloween2018" itemId="halloween2018" candy="2000" cooldown="0" type="trophy"
+                      priority="4"/>
+                <item id="hw21GiftHw17Gft1" itemId="hw17Gft1" candy="199" type="presents" priority="5"/>
+                <item id="hw21GiftHw17Gft2" itemId="hw17Gft2" candy="599" type="presents" priority="6"/>
+                <item id="hw21GiftHw17Gft3" itemId="hw17Gft3" candy="799" type="presents" priority="7"/>
+                <item id="hw21pumpkinsMobileAccessory" itemId="pumpkinsMobileAccessory" candy="388" cooldown="0"
+                      type="mobileDecor" isNew="1" priority="8"/>
+                <item id="hw21webMobileAccessory" itemId="webMobileAccessory" candy="363" cooldown="0"
+                      type="mobileDecor" isNew="1" priority="9"/>
+                <item id="hw21witchChatBubbleDecor" itemId="witchChatBubbleDecor" candy="498" cooldown="0"
+                      type="chatDecor" isNew="1" priority="10"/>
+                <item id="hw21pumpkinChatBubbleDecor" itemId="pumpkinChatBubbleDecor" candy="485" cooldown="0"
+                      type="chatDecor" isNew="1" priority="11"/>
+            </category>
+        </category>
+    </shop>
+
+    <locations>
+        <location id="park" zoneId="street" loadingContent="parkHlwn,landscape" defaultRoomId="p1">
+            <rooms>
+                <room id="p1" map="modules/map/halloween2018_park_map" userCount="15" criticalUserCount="30"
+                      backgroundSound="hwSound1,hwSound2,hwSound3,hwSound4,hwSound5"
+                      dresscode="outside"/>
+                <room id="p1e" map="modules/map/halloween2018_park_map" userCount="30" criticalUserCount="45"
+                      backgroundSound="hwSound1,hwSound2,hwSound3,hwSound4,hwSound5"
+                      dresscode="outside"/>
+            </rooms>
+        </location>
+
+        <location id="hw21Farm" zoneId="street" loadingContent="halloween2021" defaultRoomId="hw21">
+            <rooms>
+                <room id="hw21" map="modules/map/pumpkin_farm_map_2021" userCount="1" criticalUserCount="1"
+                      dresscode="outside"
+                      backgroundSound="hwSound1,hwSound2,hwSound3,hwSound4,hwSound5"/>
+            </rooms>
+        </location>
+
+        <location id="ballroom" zoneId="street" loadingContent="ballroomHlwn, halloween2017" defaultRoomId="br1">
+            <rooms>
+                <room id="br1" map="modules/map/halloween2020_ballroom_map" userCount="15" criticalUserCount="20"
+                      backgroundSound="Piano1,Piano2,Piano3,Piano4,Piano5" dresscode="outside"/>
+                <room id="br1e" map="modules/map/halloween2020_ballroom_map" userCount="15" criticalUserCount="20"
+                      backgroundSound="Piano1,Piano2,Piano3,Piano4,Piano5" dresscode="outside"/>
+            </rooms>
+        </location>
+        <location id="club" zoneId="street" loadingContent="club,vip" defaultRoomId="cl1">
+            <rooms>
+                <room id="cl1" map="modules/map/club_halloween_1_map" userCount="15" criticalUserCount="30"
+                      backgroundSound="club1" minLevel="4" dresscode="outside"/>
+                <room id="cl1e" map="modules/map/club_halloween_1_map" userCount="30" criticalUserCount="48"
+                      backgroundSound="club1" minLevel="4" dresscode="outside"/>
+
+                <room id="v1" map="vip_1_map" userCount="15" criticalUserCount="30" backgroundSound="vip1" vip="1"
+                      dresscode="outside"/>
+                <room id="v1e" map="vip_1_map" userCount="30" criticalUserCount="48" backgroundSound="vip1" vip="1"
+                      dresscode="outside"/>
+            </rooms>
+        </location>
+    </locations>
+
+    <potions>
+        <!--SPIRIT POTION ENCHANTMENTS-->
+        <potion id="hlwn21SpiritPotion">
+            <enchantment id="boySpiritEnch1" gender="1">
+                <item type="skinSet" id="8"/>
+            </enchantment>
+            <enchantment id="boySpiritEnch2" gender="1">
+                <item type="skinSet" id="9"/>
+            </enchantment>
+            <enchantment id="boySpiritEnch3" gender="1">
+                <item type="skinSet" id="10"/>
+            </enchantment>
+            <enchantment id="boySpiritEnch4" gender="1">
+                <item type="skinSet" id="11"/>
+            </enchantment>
+            <enchantment id="boySpiritEnch5" gender="1">
+                <item type="skinSet" id="12"/>
+            </enchantment>
+            <enchantment id="boySpiritEnch6" gender="1">
+                <item type="skinSet" id="13"/>
+            </enchantment>
+
+            <enchantment id="girlSpiritEnch1" gender="2">
+                <item type="skinSet" id="8"/>
+            </enchantment>
+            <enchantment id="girlSpiritEnch2" gender="2">
+                <item type="skinSet" id="9"/>
+            </enchantment>
+            <enchantment id="girlSpiritEnch3" gender="2">
+                <item type="skinSet" id="10"/>
+            </enchantment>
+            <enchantment id="girlSpiritEnch4" gender="2">
+                <item type="skinSet" id="11"/>
+            </enchantment>
+            <enchantment id="girlSpiritEnch5" gender="2">
+                <item type="skinSet" id="12"/>
+            </enchantment>
+            <enchantment id="girlSpiritEnch6" gender="2">
+                <item type="skinSet" id="13"/>
+            </enchantment>
+        </potion>
+
+        <!--WITCH POTION ENCHANTMENTS-->
+        <potion id="hlwn21WitchPotion">
+            <enchantment id="boyWitchEnch1" gender="1">
+                <item type="appearance" subType="1" id="36"/>
+
+                <item type="appearance" subType="2" id="0"/>
+                <item type="appearance" subType="6" id="0"/>
+            </enchantment>
+            <enchantment id="boyWitchEnch2" gender="1">
+                <item type="appearance" subType="1" id="37"/>
+
+                <item type="appearance" subType="2" id="0"/>
+                <item type="appearance" subType="6" id="0"/>
+            </enchantment>
+            <enchantment id="boyWitchEnch3" gender="1">
+                <item type="appearance" subType="1" id="38"/>
+            </enchantment>
+            <enchantment id="boyWitchEnch4" gender="1">
+                <item type="appearance" subType="11" id="25"/>
+            </enchantment>
+            <enchantment id="boyWitchEnch5" gender="1">
+                <item type="appearance" subType="10" id="10"/>
+
+                <item type="appearance" subType="1" id="0"/>
+                <item type="appearance" subType="2" id="0"/>
+                <item type="appearance" subType="3" id="0"/>
+                <item type="appearance" subType="5" id="0"/>
+                <item type="appearance" subType="6" id="0"/>
+                <item type="appearance" subType="9" id="0"/>
+                <item type="appearance" subType="11" id="0"/>
+            </enchantment>
+
+            <enchantment id="girlWitchEnch1" gender="2">
+                <item type="appearance" subType="1" id="53"/>
+
+                <item type="appearance" subType="2" id="0"/>
+                <item type="appearance" subType="6" id="0"/>
+            </enchantment>
+            <enchantment id="girlWitchEnch2" gender="2">
+                <item type="appearance" subType="1" id="54"/>
+
+                <item type="appearance" subType="2" id="0"/>
+                <item type="appearance" subType="6" id="0"/>
+            </enchantment>
+            <enchantment id="girlWitchEnch3" gender="2">
+                <item type="appearance" subType="1" id="55"/>
+            </enchantment>
+            <enchantment id="girlWitchEnch4" gender="2">
+                <item type="appearance" subType="11" id="25"/>
+            </enchantment>
+            <enchantment id="girlWitchEnch5" gender="2">
+                <item type="appearance" subType="10" id="10"/>
+
+                <item type="appearance" subType="1" id="0"/>
+                <item type="appearance" subType="2" id="0"/>
+                <item type="appearance" subType="3" id="0"/>
+                <item type="appearance" subType="6" id="0"/>
+                <item type="appearance" subType="7" id="0"/>
+                <item type="appearance" subType="8" id="0"/>
+                <item type="appearance" subType="9" id="0"/>
+                <item type="appearance" subType="11" id="0"/>
+            </enchantment>
+        </potion>
+
+        <!--SHAMAN POTION ENCHANTMENTS-->
+        <potion id="hlwn21ShamanPotion">
+            <enchantment id="boyShamanEnch1" gender="1">
+                <item type="clothes" id="boyHatHE21b1"/>
+            </enchantment>
+            <enchantment id="boyShamanEnch2" gender="1">
+                <item type="clothes" id="boyHatHE21b2"/>
+            </enchantment>
+            <enchantment id="boyShamanEnch3" gender="1">
+                <item type="clothes" id="boyMaskHE21b3"/>
+            </enchantment>
+            <enchantment id="boyShamanEnch4" gender="1">
+                <item type="clothes" id="boyMaskHE21b4"/>
+            </enchantment>
+            <enchantment id="boyShamanEnch5" gender="1">
+                <item type="clothes" id="boyHatHE21b5"/>
+            </enchantment>
+
+            <enchantment id="girlShamanEnch1" gender="2">
+                <item type="clothes" id="girlHatHE21b1"/>
+            </enchantment>
+            <enchantment id="girlShamanEnch2" gender="2">
+                <item type="clothes" id="girlHatHE21b2"/>
+            </enchantment>
+            <enchantment id="girlShamanEnch3" gender="2">
+                <item type="clothes" id="girlMaskHE21b3"/>
+            </enchantment>
+            <enchantment id="girlShamanEnch4" gender="2">
+                <item type="clothes" id="girlMaskHE21b4"/>
+            </enchantment>
+            <enchantment id="girlShamanEnch5" gender="2">
+                <item type="clothes" id="girlHatHE21b5"/>
+            </enchantment>
+        </potion>
+    </potions>
+
+    <colors>
+        <skinSet index="8">
+            <color name="0" value="0x546475"/>
+            <color name="1" value="0x404C56"/>
+            <color name="2" value="0x363F4C"/>
+            <color name="3" value="0x363F4C"/>
+            <color name="4" value="0x232833"/>
+            <color name="5" value="0x1B1F26"/>
+        </skinSet>
+
+        <skinSet index="9">
+            <color name="0" value="0xF2F7F9"/>
+            <color name="1" value="0xF2F7F9"/>
+            <color name="2" value="0xD7E9F2"/>
+            <color name="3" value="0xD7E9F2"/>
+            <color name="4" value="0x9FB8D6"/>
+            <color name="5" value="0x8D9FB7"/>
+        </skinSet>
+
+        <skinSet index="10">
+            <color name="0" value="0xEA5E5E"/>
+            <color name="1" value="0xD65F5F"/>
+            <color name="2" value="0xB7504B"/>
+            <color name="3" value="0xB7504B"/>
+            <color name="4" value="0x9B3434"/>
+            <color name="5" value="0x7C2323"/>
+        </skinSet>
+
+        <skinSet index="11">
+            <color name="0" value="0xC38FDB"/>
+            <color name="1" value="0xB084BF"/>
+            <color name="2" value="0x916FA5"/>
+            <color name="3" value="0x916FA5"/>
+            <color name="4" value="0x6F4E89"/>
+            <color name="5" value="0x583D72"/>
+        </skinSet>
+
+        <skinSet index="12">
+            <color name="0" value="0x58B9DB"/>
+            <color name="1" value="0x69A6C9"/>
+            <color name="2" value="0x568DB2"/>
+            <color name="3" value="0x568DB2"/>
+            <color name="4" value="0x28678E"/>
+            <color name="5" value="0x29536D"/>
+        </skinSet>
+
+        <skinSet index="13">
+            <color name="0" value="0x52BF90"/>
+            <color name="1" value="0x52AF7C"/>
+            <color name="2" value="0x3E8C63"/>
+            <color name="3" value="0x3E8C63"/>
+            <color name="4" value="0x2B704A"/>
+            <color name="5" value="0x1F5938"/>
+        </skinSet>
+    </colors>
+
+    <messages>
+        <message stageId="0" messageKey="hw18NpcMessage1"/>
+        <message stageId="0" messageKey="hw18NpcMessage2"/>
+
+        <message stageId="1" messageKey="hw18NpcMessage3"/>
+        <message stageId="1" messageKey="hw18NpcMessage4"/>
+        <message stageId="1" messageKey="hw18NpcMessage5"/>
+        <message stageId="1" messageKey="hw18NpcMessage6"/>
+        <message stageId="1" messageKey="hw18NpcMessage7"/>
+
+        <message stageId="1" messageKey="hw18NpcMessage4"/>
+        <message stageId="1" messageKey="hw18NpcMessage7"/>
+        <message stageId="1" messageKey="hw18NpcMessage8"/>
+        <message stageId="1" messageKey="hw18NpcMessage9"/>
+        <message stageId="1" messageKey="hw18NpcMessage10"/>
+
+        <message stageId="1" messageKey="hw18NpcMessage4"/>
+        <message stageId="1" messageKey="hw18NpcMessage9"/>
+        <message stageId="1" messageKey="hw18NpcMessage11"/>
+        <message stageId="1" messageKey="hw18NpcMessage12"/>
+        <message stageId="1" messageKey="hw18NpcMessage13"/>
+
+        <message stageId="1" messageKey="hw18NpcMessage4"/>
+        <message stageId="1" messageKey="hw18NpcMessage11"/>
+        <message stageId="1" messageKey="hw18NpcMessage15"/>
+        <message stageId="1" messageKey="hw18NpcMessage16"/>
+        <message stageId="1" messageKey="hw18NpcMessage17"/>
+    </messages>
+
+    <gifts>
+        <gift id="hw17Gft1">
+            <content>
+                <block order="1" title="resourceCategory" image="HWGift1Resources"/>
+                <block order="2" title="craftLoot" image="HWGiftCraftComponents"/>
+                <block order="3" title="clothesShopTitle" image="HWGift1ClothesBoy" gender="1" label="moreItemLabel"/>
+                <block order="3" title="clothesShopTitle" image="HWGift1ClothesGirl" gender="2" label="moreItemLabel"/>
+                <block order="4" title="furnitureShopTitle" image="HWGift1Furniture" label="moreItemLabel"/>
+            </content>
+        </gift>
+        <gift id="hw17Gft2">
+            <content>
+                <block order="1" title="resourceCategory" image="HWGift2Resources"/>
+                <block order="2" title="craftLoot" image="HWGiftCraftComponents"/>
+                <block order="3" title="clothesShopTitle" image="HWGift2ClothesBoy" gender="1" label="moreItemLabel"/>
+                <block order="3" title="clothesShopTitle" image="HWGift2ClothesGirl" gender="2" label="moreItemLabel"/>
+                <block order="4" title="furnitureShopTitle" image="HWGift2Furniture" label="moreItemLabel"/>
+                <block order="5" title="uniqueItemTitle" image="HWGiftGraffity"/>
+            </content>
+        </gift>
+        <gift id="hw17Gft3">
+            <content>
+                <block order="1" title="resourceCategory" image="HWGift3Resources"/>
+                <block order="2" title="craftLoot" image="HWGiftCraftComponents"/>
+                <block order="3" title="clothesShopTitle" image="HWGift3ClothesBoy" gender="1" label="moreItemLabel"/>
+                <block order="3" title="clothesShopTitle" image="HWGift3ClothesGirl" gender="2" label="moreItemLabel"/>
+                <block order="4" title="furnitureShopTitle" image="HWGift3Furniture" label="moreItemLabel"/>
+                <block order="5" title="uniqueItemTitle" image="HWGiftGraffity"/>
+                <block order="6" title="uniqueItemTitle" image="HWGiftCar"/>
+                <block order="7" title="uniqueItemTitle" image="HWGiftWall"/>
+            </content>
+        </gift>
+    </gifts>
+</module>

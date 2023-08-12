@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module id="avatar2022" maxDiscountPercent="75">
+    <products>
+        <!--LOCAL-->
+        <product id="av22SpecialOffer" socialNetwork="local" points="14700" oldPoints="21000" tag="avatar22,complex"
+            description="av22SpecialOfferDescription"
+            productIcon="AvatarTreeOfferIcon@avatar2022"
+
+            photo="http://cdn-sp.tortugasocial.com/avataria-ru/promo/modules/bf22/av22SpecialOfferProductIcon.png">
+            <items>
+                <item id="wayOfWater2022Tree" type="furniture" count="1" icon="AvatarTreeOfferAwardIcon@avatar2022"/>
+            </items>
+        </product>
+
+        <!--TGC-->
+        <product id="av22SpecialOffer" socialNetwork="tgc" points="14700" oldPoints="21000" tag="avatar22,complex"
+            description="av22SpecialOfferDescription"
+            productIcon="AvatarTreeOfferIcon@avatar2022"
+            title="Специальное предложение"
+            photo="http://cdn-sp.tortugasocial.com/avataria-ru/promo/modules/bf22/av22SpecialOfferProductIcon.png">
+            <items>
+                <item id="wayOfWater2022Tree" type="furniture" count="1" icon="AvatarTreeOfferAwardIcon@avatar2022"/>
+            </items>
+        </product>
+
+        <!--TGC MOBILE-->
+        <product id="av22SpecialOffer" socialNetwork="tgcMobile" points="14700" oldPoints="21000" tag="avatar22,complex"
+            description="av22SpecialOfferDescription" productIcon="AvatarTreeOfferIcon@avatar2022"
+            title="Специальное предложение"
+            photo="http://cdn-sp.tortugasocial.com/avataria-ru/promo/modules/bf22/av22SpecialOfferProductIcon.png">
+            <items>
+                <item id="wayOfWater2022Tree" type="furniture" count="1" icon="AvatarTreeOfferAwardIcon@avatar2022"/>
+            </items>
+        </product>
+
+        <!--TGC STANDALONE -->
+        <product id="av22SpecialOffer" socialNetwork="tgcStandalone" points="14700" oldPoints="21000" tag="avatar22,complex"
+            description="av22SpecialOfferDescription" productIcon="AvatarTreeOfferIcon@avatar2022"
+            title="Специальное предложение"
+            photo="http://cdn-sp.tortugasocial.com/avataria-ru/promo/modules/bf22/av22SpecialOfferProductIcon.png">
+            <items>
+                <item id="wayOfWater2022Tree" type="furniture" count="1" icon="AvatarTreeOfferAwardIcon@avatar2022"/>
+            </items>
+        </product>
+
+        <!--TGC SOCIAL-->
+        <product id="av22SpecialOffer" socialNetwork="tgcSocial" points="14700" oldPoints="21000" tag="avatar22,complex"
+            description="av22SpecialOfferDescription" productIcon="AvatarTreeOfferIcon@avatar2022"
+            title="Специальное предложение"
+            photo="http://cdn-sp.tortugasocial.com/avataria-ru/promo/modules/bf22/av22SpecialOfferProductIcon.png">
+            <items>
+                <item id="wayOfWater2022Tree" type="furniture" count="1" icon="AvatarTreeOfferAwardIcon@avatar2022"/>
+            </items>
+        </product>
+
+        <!--VKONTAKTE-->
+        <product id="av22SpecialOffer" socialNetwork="vkontakte" points="14700" oldPoints="21000" tag="avatar22,complex"
+            description="av22SpecialOfferDescription" productIcon="AvatarTreeOfferIcon@avatar2022"
+            title="Специальное предложение"
+            photo="http://cdn-sp.tortugasocial.com/avataria-ru/promo/modules/bf22/av22SpecialOfferProductIcon.png">
+            <items>
+                <item id="wayOfWater2022Tree" type="furniture" count="1" icon="AvatarTreeOfferAwardIcon@avatar2022"/>
+            </items>
+        </product>
+
+        <!--ODNOKLASSNIKI-->
+        <product id="av22SpecialOffer" socialNetwork="odnoklassniki" points="14700" oldPoints="21000" tag="avatar22,complex"
+            description="av22SpecialOfferDescription" productIcon="AvatarTreeOfferIcon@avatar2022"
+            title="Специальное предложение"
+            photo="http://cdn-sp.tortugasocial.com/avataria-ru/promo/modules/bf22/av22SpecialOfferProductIcon.png">
+            <items>
+                <item id="wayOfWater2022Tree" type="furniture" count="1" icon="AvatarTreeOfferAwardIcon@avatar2022"/>
+            </items>
+        </product>
+
+        <!--MAILRU-->
+        <product id="av22SpecialOffer" socialNetwork="mailru" points="14700" oldPoints="21000" tag="avatar22,complex"
+            description="av22SpecialOfferDescription" productIcon="AvatarTreeOfferIcon@avatar2022"
+            title="Специальное предложение"
+            photo="http://cdn-sp.tortugasocial.com/avataria-ru/promo/modules/bf22/av22SpecialOfferProductIcon.png">
+            <items>
+                <item id="wayOfWater2022Tree" type="furniture" count="1" icon="AvatarTreeOfferAwardIcon@avatar2022"/>
+            </items>
+        </product>
+
+        <!--FOTOSTRANA-->
+        <product id="av22SpecialOffer" socialNetwork="fotostrana" points="15300 " oldPoints="21800" tag="avatar22,complex"
+            description="av22SpecialOfferDescription" productIcon="AvatarTreeOfferIcon@avatar2022"
+            title="Специальное предложение"
+            photo="http://cdn-sp.tortugasocial.com/avataria-ru/promo/modules/bf22/av22SpecialOfferProductIcon.png">
+            <items>
+                <item id="wayOfWater2022Tree" type="furniture" count="1" icon="AvatarTreeOfferAwardIcon@avatar2022"/>
+            </items>
+        </product>
+
+        <!--MY GAMES-->
+        <product id="av22SpecialOffer" socialNetwork="gamesmailru" points="14700" oldPoints="21000" tag="avatar22,complex"
+            description="av22SpecialOfferDescription" productIcon="AvatarTreeOfferIcon@avatar2022"
+            title="Специальное предложение"
+            photo="http://cdn-sp.tortugasocial.com/avataria-ru/promo/modules/bf22/av22SpecialOfferProductIcon.png">
+            <items>
+                <item id="wayOfWater2022Tree" type="furniture" count="1" icon="AvatarTreeOfferAwardIcon@avatar2022"/>
+            </items>
+        </product>
+
+        <!--GAMEXP-->
+        <product id="av22SpecialOffer" socialNetwork="gamexp" points="15400" oldPoints="22000" tag="avatar22,complex"
+            description="av22SpecialOfferDescription" productIcon="AvatarTreeOfferIcon@avatar2022"
+            title="Специальное предложение"
+            photo="http://cdn-sp.tortugasocial.com/avataria-ru/promo/modules/bf22/av22SpecialOfferProductIcon.png">
+            <items>
+                <item id="wayOfWater2022Tree" type="furniture" count="1" icon="AvatarTreeOfferAwardIcon@avatar2022"/>
+            </items>
+        </product>
+    </products>
+</module>

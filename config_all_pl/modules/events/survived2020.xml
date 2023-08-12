@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module id="survived2020">
+
+    <tasks>
+        <task type="giftRandomItem" label="questRusDay1Task3Title" count="10">
+            <item typeId="clMoc"/>
+            <item typeId="clBlr"/>
+            <item typeId="clB52"/>
+        </task>
+        <task type="pillowFight" label="winPillowBattle" count="10"/>
+        <task type="winBeachRaceTask" label="winBeachRace" count="10"/>
+        <task type="pickTrash" label="friendsHelp" count="10"/>
+        <task type="winSnowboardRaceTask" label="winSnowboardRace" count="10"/>
+        <task type="winCarRaceTask" label="winCarRace" count="10"/>
+    </tasks>
+
+    <awards>
+        <award id="1" itemType="clothes" itemId="boyTShrtResp20" count="1" gender="1"/>
+        <award id="2" itemType="clothes" itemId="girlTShrtResp20" count="1" gender="2"/>
+        <award id="3" itemType="resource" itemId="gold" count="35"/>
+        <award id="4" itemType="resource" itemId="energy" count="2020"/>
+    </awards>
+</module>

@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module id="firstApril2020" makePhotoFilmPrice="5"
+    trophy="firstApril2021" smilesProgress="3000" trophyIcon="trophyAwardIcon@firstApril2020" minSmilesCount="4">
+    <inventory>
+        <category id="craftLoot">
+            <item id="fa20Smile" name="SmileLoot@firstApril2020"/>
+            <item id="fa20Cake" name="CakeLootIcon@firstApril2020" label="#fa20CakeLabel"
+                description="#fa20CakeLootDescription" icon="CakeIcon@firstApril2020" gold="50"/>
+            <item id="fa20Balloon" name="BallonCraftFA21Icon@firstApril2020"
+                icon="BallonCraftFA21Icon@firstApril2020" label="#fa20BalloonLabel"/>
+            <item id="fa20Hat" name="HatCraftFA21Icon@firstApril2020"
+                icon="HatCraftFA21Icon@firstApril2020" label="#fa20HatLabel"/>
+        </category>
+    </inventory>
+
+    <smilesAward>
+        <item id="balloon" count="10"/>
+        <item id="hat" count="11"/>
+        <item id="pillowWin" count="4"/>
+        <item id="pillowDraw" count="2"/>
+    </smilesAward>
+
+    <actionAward>
+        <item id="ckStrwb" count="1"/>
+        <item id="ckBlckb" count="2"/>
+        <item id="ckOrng" count="3"/>
+        <item id="drGrfft" count="3"/>
+        <item id="broke" count="2"/>
+        <item id="ptbm" count="2"/>
+        <item id="kickAss" count="1"/>
+        <item id="bombExplode" count="1"/>
+    </actionAward>
+
+    <shops title="#shopsTitle">
+        <item id="fa20Shop" index="8" category="dialog" targetId="fa20Shop">
+            <icon name="FA20ShopIcon@firstApril2020" title="#fa2020ShopDialogTitle" titleGlowColor="0x008093"/>
+        </item>
+    </shops>
+
+    <craft>
+        <craftedItem itemId="fa20Balloon" title="#fa20BalloonLabel" holiday="">
+            <component itemId="idea" count="4"/>
+            <component itemId="happiness" count="6"/>
+            <component itemId="phial" count="5"/>
+            <moduleComponent itemId="fa20Cake" count="8"/>
+        </craftedItem>
+
+        <craftedItem itemId="fa20Hat" title="#fa20HatLabel" holiday="">
+            <component itemId="water" count="4"/>
+            <component itemId="generosity" count="6"/>
+            <component itemId="wrappingPaper" count="4"/>
+            <moduleComponent itemId="fa20Cake" count="8"/>
+        </craftedItem>
+    </craft>
+
+    <balloon>
+        <item type="Blln1FA21"/>
+        <item type="Blln2FA21"/>
+        <item type="Blln3FA21"/>
+        <item type="Blln4FA21"/>
+        <item type="Blln5FA21"/>
+        <item type="Blln6FA21"/>
+    </balloon>
+
+    <hat>
+        <item type="HatApplFA21"/>
+        <item type="HatChknFA21"/>
+        <item type="HatIcecrmFA21"/>
+        <item type="HatPnplFA21"/>
+        <item type="HatUFOFA21"/>
+        <item type="HatEyesFA21"/>
+        <item type="HatLpsFA21"/>
+        <item type="NoseDogFA21"/>
+    </hat>
+
+    <animations>
+        <animation name="BushStand" type="process" start="1" length="1" loop="true"/>
+        <animation name="BushDance" type="process" start="2" length="29" loop="false"/>
+        <animation name="BushHello" type="process" start="32" length="60" loop="false"/>
+        <animation name="BushWink" type="process" start="93" length="60" loop="false"/>
+    </animations>
+
+    <messages>
+        <message gender="1" messageKey="fa19NpcMessage1"/>
+        <message gender="1" messageKey="fa19NpcMessage2"/>
+        <message gender="1" messageKey="fa19NpcMessage3"/>
+        <message gender="1" messageKey="fa19NpcMessage4"/>
+        <message gender="1" messageKey="fa19NpcMessage5"/>
+        <message gender="2" messageKey="fa19NpcMessage6"/>
+        <message gender="2" messageKey="fa19NpcMessage7"/>
+        <message gender="2" messageKey="fa19NpcMessage8"/>
+        <message gender="2" messageKey="fa19NpcMessage4"/>
+        <message gender="2" messageKey="fa19NpcMessage5"/>
+    </messages>
+
+    <poses>
+        <pose id="1" view="PhotoPose4" gender="Boy" rotate="1"/>
+        <pose id="2" view="PhotoPose5" gender="Boy" rotate="1"/>
+        <pose id="3" view="PhotoPose7" gender="Boy" rotate="0"/>
+        <pose id="4" view="PhotoPose8" gender="Boy" rotate="1"/>
+        <pose id="5" view="PhotoPose9" gender="Boy" rotate="1"/>
+
+        <pose id="6" view="PhotoPose3" gender="Girl" rotate="1"/>
+        <pose id="7" view="PhotoPose4" gender="Girl" rotate="1"/>
+        <pose id="8" view="PhotoPose5" gender="Girl" rotate="1"/>
+        <pose id="9" view="PhotoPose7" gender="Girl" rotate="1"/>
+        <pose id="10" view="PhotoPose10" gender="Girl" rotate="0"/>
+    </poses>
+
+    <packs>
+        <pack id="SmilesPack300" icon="SmilePack1" smilesCount="300"  bonus="30" gold="75"/>
+        <pack id="SmilesPack500" icon="SmilePack2" smilesCount="500" bonus="60" gold="125"/>
+        <pack id="SmilesPack1200" icon="SmilePack3" smilesCount="1200" bonus="200" gold="300"/>
+        <pack id="SmilesPack1600" icon="SmilePack4" smilesCount="1600" bonus="400" gold="400"/>
+    </packs>
+
+    <shop>
+        <category id="fa21" typeClass="FA20ShopItemType" priority="0">
+            <category id="fa21Clothes" label="#clothesShopTitle" type="clothes" priority="1">
+                <category id="fa21ClothesSets" label="#costumesLabel" type="clothesSet" priority="0">
+                    <item id="fa21boyHtDgSet" itemId="boyHtDgSet" smiles="810" priority="1"/>
+                    <item id="fa21boyFA2018Set" itemId="boyFA2018Set" smiles="2550" priority="2"/>
+                    <item id="fa21boyDrlBlrnCsm" itemId="boyDrlBlrnCsm" smiles="5000" priority="3"/>
+                    <item id="fa21boyDrlCookCsm" itemId="boyDrlCookCsm" smiles="4250" priority="4"/>
+                    <item id="fa21boyAprPixCsm" itemId="boyAprPixCsm" smiles="6250" priority="5"/>
+                    <item id="fa21boyFA20Set" itemId="boyFA20Set" smiles="2640" priority="6"/>
+                    <item id="fa21boyFA21P1Set" itemId="boyFA21P1Set" smiles="2037" priority="7" isNew="1"/>
+                    <item id="fa21boyFA21P2Set" itemId="boyFA21P2Set" smiles="2002" priority="8" isNew="1"/>
+
+
+                    <item id="fa21girlFA2018Set" itemId="girlFA2018Set" smiles="2490" priority="9"/>
+                    <item id="fa21girlFriSet" itemId="girlFriSet" smiles="840" priority="10"/>
+                    <item id="fa21grlDrlBkrCsm" itemId="grlDrlBkrCsm" smiles="6250" priority="11"/>
+                    <item id="fa21grlDrlHckCsm" itemId="grlDrlHckCsm" smiles="5000" priority="12"/>
+                    <item id="fa21grlAprChrCsm" itemId="grlAprChrCsm" smiles="5750" priority="13"/>
+                    <item id="fa21girlFA20Set" itemId="girlFA20Set" smiles="2820" priority="14"/>
+                    <item id="fa21girlFA21P1Set" itemId="girlFA21P1Set" smiles="2100" priority="15" isNew="1"/>
+                    <item id="fa21girlFA21P2Set" itemId="girlFA21P2Set" smiles="2051" priority="16" isNew="1"/>
+                </category>
+
+                <category id="fa21TopClothes" label="#clothesCategoryTops" type="clothes" priority="1">
+                    <item id="fa21boyHtDgOvrl" itemId="boyHtDgOvrl" smiles="430" priority="1"/>
+                    <item id="fa21boyDrlBlrnOvr" itemId="boyDrlBlrnOvr" smiles="3500" priority="2"/>
+                    <item id="fa21boyDrlCookOvr" itemId="boyDrlCookOvr" smiles="3500" priority="3"/>
+                    <item id="fa21boyAprPixOvr" itemId="boyAprPixOvr" smiles="2500" priority="4"/>
+                    <item id="fa21boyFA18TShrt" itemId="boyFA18TShrt" smiles="450" priority="5"/>
+                    <item id="fa21boyTShirtFA20" itemId="boyTShirtFA20" smiles="390" priority="6"/>
+                    <item id="fa21boyJcktFA20" itemId="boyJcktFA20" smiles="756" priority="7"/>
+                    <item id="fa21boyJcktFA21P1" itemId="boyJcktFA21P1" smiles="595" priority="8" isNew="1"/>
+                    <item id="fa21boyShrtFA21P2" itemId="boyShrtFA21P2" smiles="525" priority="9" isNew="1"/>
+
+                    <item id="fa21girlJcktFA21P2" itemId="girlJcktFA21P2" smiles="539" priority="10" isNew="1"/>
+                    <item id="fa21girlFA18TShrt" itemId="girlFA18TShrt" smiles="450" priority="11"/>
+                    <item id="fa21girlDrssFri" itemId="girlDrssFri" smiles="200" priority="12"/>
+                    <item id="fa21grlDrlBkrOvr" itemId="grlDrlBkrOvr" smiles="3500" priority="13"/>
+                    <item id="fa21grlDrlHckOvr" itemId="grlDrlHckOvr" smiles="3000" priority="14"/>
+                    <item id="fa21grlAprChrOvr" itemId="grlAprChrOvr" smiles="3000" priority="15"/>
+                    <item id="fa21girlTShirtFA20" itemId="girlTShirtFA20" smiles="360" priority="16"/>
+                    <item id="fa21girlJcktFA20" itemId="girlJcktFA20" smiles="750" priority="17"/>
+                    <item id="fa21girlDressFA21P1" itemId="girlDressFA21P1" smiles="574" priority="18" isNew="1"/>
+                    <item id="fa21girlShirtFA21P2" itemId="girlShirtFA21P2" smiles="189" priority="19" isNew="1"/>
+                </category>
+
+                <category id="fa21BottomClothes" label="#clothesCategoryBottoms" type="clothes" priority="2">
+                    <item id="fa21boyFA18Shorts" itemId="boyFA18Shorts" smiles="450" priority="1"/>
+                    <item id="fa21boyPntsFA20" itemId="boyPntsFA20" smiles="270" priority="2"/>
+                    <item id="fa21boyPntsFA21P1" itemId="boyPntsFA21P1" smiles="441" priority="3" isNew="1"/>
+                    <item id="fa21boyPntsFA21P2" itemId="boyPntsFA21P2" smiles="483" priority="4" isNew="1"/>
+
+                    <item id="fa21girlFA18Skt" itemId="girlFA18Skt" smiles="300" priority="5"/>
+                    <item id="fa21girlFA18Tghts" itemId="girlFA18Tghts" smiles="300" priority="6"/>
+                    <item id="fa21girlStkFri" itemId="girlStkFri" smiles="120" priority="7"/>
+                    <item id="fa21girlSktFA20" itemId="girlSktFA20" smiles="276" priority="8"/>
+                    <item id="fa21girlTghtFA20" itemId="girlTghtFA20" smiles="210" priority="9"/>
+                    <item id="fa21girlSocksFA21P1" itemId="girlSocksFA21P1" smiles="476" priority="10" isNew="1"/>
+                    <item id="fa21girlSkirtFA21P2" itemId="girlSkirtFA21P2" smiles="420" priority="11" isNew="1"/>
+                </category>
+
+                <category id="fa21ClothesShoes" label="#clothesCategoryShoes" type="clothes" priority="3">
+                    <item id="fa21boyBtsHtDg" itemId="boyBtsHtDg" smiles="180" priority="1"/>
+                    <item id="fa21boyFA18Bts" itemId="boyFA18Bts" smiles="400" priority="2"/>
+                    <item id="fa21boyAprPixShs" itemId="boyAprPixShs" smiles="1000" priority="3"/>
+                    <item id="fa21boyBtsFA20" itemId="boyBtsFA20" smiles="300" priority="4"/>
+                    <item id="fa21boySnkrsFA21P1" itemId="boySnkrsFA21P1" smiles="469" priority="5" isNew="1"/>
+                    <item id="fa21boyBtsFA21P2" itemId="boyBtsFA21P2" smiles="406" priority="6" isNew="1"/>
+
+                    <item id="fa21girlFA18Bts" itemId="girlFA18Bts" smiles="500" priority="7"/>
+                    <item id="fa21girlBtsFri" itemId="girlBtsFri" smiles="100" priority="8"/>
+                    <item id="fa21grlDrlBkrBts" itemId="grlDrlBkrBts" smiles="1000" priority="9"/>
+                    <item id="fa21grlAprChrShs" itemId="grlAprChrShs" smiles="1000" priority="10"/>
+                    <item id="fa21girlBtsFA20" itemId="girlBtsFA20" smiles="300" priority="11"/>
+                    <item id="fa21girlBtsFA21P1" itemId="girlBtsFA21P1" smiles="546" priority="12" isNew="1"/>
+                    <item id="fa21girlSnkrsFA21P2" itemId="girlSnkrsFA21P2" smiles="406" priority="13" isNew="1"/>
+                </category>
+
+                <category id="fa21ClothesOther" label="#clothesCategoryOther" type="clothes" priority="4">
+                    <item id="fa21boyGlssHtDg" itemId="boyGlssHtDg" smiles="180" priority="1"/>
+                    <item id="fa21boyGlssRbt" itemId="boyGlssRbt" smiles="200" priority="2"/>
+                    <item id="fa21boyGlssEyes" itemId="boyGlssEyes" smiles="200" priority="3"/>
+                    <item id="fa21boyGlssEyes" itemId="boyGlssEyes" smiles="200" priority="4"/>
+                    <item id="fa21boyGlssNse" itemId="boyGlssNse" smiles="200" priority="5"/>
+                    <item id="fa21boyGlssPxl" itemId="boyGlssPxl" smiles="250" priority="6"/>
+                    <item id="fa21boyHtDgAcs" itemId="boyHtDgAcs" smiles="140" priority="7"/>
+                    <item id="fa21boyDrlBlrnDcr" itemId="boyDrlBlrnDcr" smiles="1500" priority="8"/>
+                    <item id="fa21boyDrlCookHat" itemId="boyDrlCookHat" smiles="750" priority="9"/>
+                    <item id="fa21boyAprPixRim" itemId="boyAprPixRim" smiles="750" priority="10"/>
+                    <item id="fa21boyAprPixStc" itemId="boyAprPixStc" smiles="1000" priority="11"/>
+                    <item id="fa21boyAprPixWng" itemId="boyAprPixWng" smiles="1000" priority="12"/>
+                    <item id="fa21boyFA18Nose" itemId="boyFA18Nose" smiles="110" priority="13"/>
+                    <item id="fa21boyTblSmlAm" itemId="boyTblSmlAm" smiles="250" priority="14"/>
+                    <item id="fa21boyTblSmlHp" itemId="boyTblSmlHp" smiles="250" priority="15"/>
+                    <item id="fa21boyTblSmlDl" itemId="boyTblSmlDl" smiles="100" priority="26"/>
+                    <item id="fa21boyTblSmlSh" itemId="boyTblSmlSh" smiles="100" priority="17"/>
+                    <item id="fa21boyTblSmlGr" itemId="boyTblSmlGr" smiles="100" priority="18"/>
+                    <item id="fa21boyFA18Bag" itemId="boyFA18Bag" smiles="650" priority="19"/>
+                    <item id="fa21boyFA18Wig" itemId="boyFA18Wig" smiles="600" priority="20"/>
+                    <item id="fa21boyHtShrk" itemId="boyHtShrk" smiles="250" priority="21"/>
+                    <item id="fa21boyHtCrb" itemId="boyHtCrb" smiles="250" priority="22"/>
+                    <item id="fa21boyHtFrg" itemId="boyHtFrg" smiles="250" priority="23"/>
+                    <item id="fa21boyHatFA20" itemId="boyHatFA20" smiles="480" priority="24"/>
+                    <item id="fa21boyMaskFA20" itemId="boyMaskFA20" smiles="120" priority="25"/>
+                    <item id="fa21boySckrfFA20" itemId="boySckrfFA20" smiles="180" priority="26"/>
+                    <item id="fa21boyAcs1FA20" itemId="boyAcs1FA20" smiles="144" priority="27"/>
+                    <item id="fa21boyBrnMcsFA20" itemId="boyBrnMcsFA20" smiles="204" priority="28"/>
+                    <item id="fa21boyClwnFA20" itemId="boyClwnFA20" smiles="222" priority="29"/>
+                    <item id="fa21boyMskClwnFA20" itemId="boyMskClwnFA20" smiles="198" priority="30"/>
+                    <item id="fa21boyMskMdcnA20" itemId="boyMskMdcnA20" smiles="210" priority="31"/>
+                    <item id="fa21boyMskPgA20" itemId="boyMskPgA20" smiles="186" priority="32"/>
+                    <item id="fa21boyArlcnFA20" itemId="boyArlcnFA20" smiles="228" priority="33"/>
+                    <item id="fa21boyGopFA20" itemId="boyGopFA20" smiles="210" priority="34"/>
+                    <item id="fa21boyAcs3FA20" itemId="boyAcs3FA20" smiles="189" priority="35"/>
+                    <item id="fa21boyAcs5FA20" itemId="boyAcs5FA20" smiles="182" priority="37"/>
+                    <item id="fa21boyAcs4FA20" itemId="boyAcs4FA20" smiles="189" priority="38"/>
+                    <item id="fa21boyAcs2FA20" itemId="boyAcs2FA20" smiles="182" priority="39"/>
+                    <item id="fa21boyAcs2FA20" itemId="boyAcs2FA20" smiles="182" priority="39"/>
+                    <item id="fa21boyGlssAnm" itemId="boyGlssAnm" smiles="200" priority="40"/>
+                    <item id="fa21boyMskFA21P1" itemId="boyMskFA21P1" smiles="273" priority="41" isNew="1"/>
+                    <item id="fa21boyCupFA21P1" itemId="boyCupFA21P1" smiles="259" priority="42" isNew="1"/>
+                    <item id="fa21boyGlssFA21P2" itemId="boyGlssFA21P2" smiles="308" priority="43" isNew="1"/>
+                    <item id="fa21boyNeckFA21P2" itemId="boyNeckFA21P2" smiles="280" priority="44" isNew="1"/>
+                    <item id="fa21boyWatchFA21P2" itemId="boyWatchFA21P2" smiles="441" priority="45" isNew="1"/>
+
+                    <item id="fa21girlGlssEyes" itemId="girlGlssEyes" smiles="200" priority="46"/>
+                    <item id="fa21girlGlssRbt" itemId="girlGlssRbt" smiles="200" priority="47"/>
+                    <item id="fa21girlGlssAln" itemId="girlGlssAln" smiles="200" priority="48"/>
+                    <item id="fa21girlGlssAnm" itemId="girlGlssAnm" smiles="200" priority="49"/>
+                    <item id="fa21girlGlssNse" itemId="girlGlssNse" smiles="200" priority="50"/>
+                    <item id="fa21girlGlssPxl" itemId="girlGlssPxl" smiles="250" priority="51"/>
+                    <item id="fa21girlHtShrk" itemId="girlHtShrk" smiles="250" priority="52"/>
+                    <item id="fa21girlHtCrb" itemId="girlHtCrb" smiles="250" priority="53"/>
+                    <item id="fa21girlHtFrg" itemId="girlHtFrg" smiles="250" priority="54"/>
+                    <item id="fa21girlFA18Wig" itemId="girlFA18Wig" smiles="450" priority="55"/>
+                    <item id="fa21girlFA18Bag" itemId="girlFA18Bag" smiles="500" priority="56"/>
+                    <item id="fa21girlGlssFri" itemId="girlGlssFri" smiles="180" priority="57"/>
+                    <item id="fa21girlDcrFri" itemId="girlDcrFri" smiles="200" priority="58"/>
+                    <item id="fa21girlAcsFri" itemId="girlAcsFri" smiles="40" priority="59"/>
+                    <item id="fa21girlFA18Nose" itemId="girlFA18Nose" smiles="110" priority="60"/>
+                    <item id="fa21girlTblSmlAm" itemId="girlTblSmlAm" smiles="250" priority="61"/>
+                    <item id="fa21girlTblSmlHp" itemId="girlTblSmlHp" smiles="250" priority="62"/>
+                    <item id="fa21girlTblSmlDl" itemId="girlTblSmlDl" smiles="100" priority="63"/>
+                    <item id="fa21girlTblSmlSh" itemId="girlTblSmlSh" smiles="100" priority="54"/>
+                    <item id="fa21girlTblSmlGr" itemId="girlTblSmlGr" smiles="100" priority="55"/>
+                    <item id="fa21grlDrlBkrGls" itemId="grlDrlBkrGls" smiles="500" priority="66"/>
+                    <item id="fa21grlDrlBkrHat" itemId="grlDrlBkrHat" smiles="750" priority="67"/>
+                    <item id="fa21grlDrlBkrTto" itemId="grlDrlBkrTto" smiles="500" priority="68"/>
+                    <item id="fa21grlDrlHckHlm" itemId="grlDrlHckHlm" smiles="1000" priority="69"/>
+                    <item id="fa21grlDrlHckStc" itemId="grlDrlHckStc" smiles="1000" priority="70"/>
+                    <item id="fa21grlAprChrHat" itemId="grlAprChrHat" smiles=" 750" priority="71"/>
+                    <item id="fa21grlAprChrMst" itemId="grlAprChrMst" smiles=" 500" priority="72"/>
+                    <item id="fa21grlAprChrStc" itemId="grlAprChrStc" smiles=" 500" priority="73"/>
+                    <item id="fa21girlHtFA20" itemId="girlHtFA20" smiles="480" priority="74"/>
+                    <item id="fa21girlMaskFA20" itemId="girlMaskFA20" smiles="120" priority="75"/>
+                    <item id="fa21girlSckrfFA20" itemId="girlSckrfFA20" smiles="180" priority="76"/>
+                    <item id="fa21girlAcs1FA20" itemId="girlAcs1FA20" smiles="144" priority="77"/>
+                    <item id="fa21girlBrnMcsFA20" itemId="girlBrnMcsFA20" smiles="204" priority="78"/>
+                    <item id="fa21girlClwnFA20" itemId="girlClwnFA20" smiles="222" priority="79"/>
+                    <item id="fa21girlMskClwnFA20" itemId="girlMskClwnFA20" smiles="198" priority="80"/>
+                    <item id="fa21girlMskMdcnA20" itemId="girlMskMdcnA20" smiles="210" priority="81"/>
+                    <item id="fa21girlMskPgA20" itemId="girlMskPgA20" smiles="186" priority="82"/>
+                    <item id="fa21girlArlcnFA20" itemId="girlArlcnFA20" smiles="228" priority="83"/>
+                    <item id="fa21girlGopFA20" itemId="girlGopFA20" smiles="210" priority="84"/>
+                    <item id="fa21girlAcs3FA20" itemId="girlAcs3FA20" smiles="189" priority="85"/>
+                    <item id="fa21girlAcs5FA20" itemId="girlAcs5FA20" smiles="182" priority="86"/>
+                    <item id="fa21girlAcs4FA20" itemId="girlAcs4FA20" smiles="189" priority="87"/>
+                    <item id="fa21girlAcs2FA20" itemId="girlAcs2FA20" smiles="182" priority="88"/>
+                    <item id="fa21girlMskFA21P1" itemId="girlMskFA21P1" smiles="245" priority="89" isNew="1"/>
+                    <item id="fa21girlCupFA21P1" itemId="girlCupFA21P1" smiles="259" priority="90" isNew="1"/>
+                    <item id="fa21girlGlssFA21P2" itemId="girlGlssFA21P2" smiles="308" priority="91" isNew="1"/>
+                    <item id="fa21girlSocksFA21P2" itemId="girlSocksFA21P2" smiles="189" priority="92" isNew="1"/>
+                </category>
+            </category>
+
+            <category id="fa21Furniture" label="#furnitureCategory" type="furniture" priority="2">
+                <item id="fa21puffBrownFA20" itemId="puffBrownFA20" smiles="330" priority="1"/>
+                <item id="fa21chrTltFA20" itemId="chrTltFA20" smiles="138" priority="2"/>
+                <item id="fa21puffDisorFA20" itemId="puffDisorFA20" smiles="270" priority="3"/>
+                <item id="fa21puffGrinFA20" itemId="puffGrinFA20" smiles="270" priority="4"/>
+                <item id="fa21puffJoyFA20" itemId="puffJoyFA20" smiles="270" priority="5"/>
+                <item id="fa21puffLoveFA20" itemId="puffLoveFA20" smiles="270" priority="6"/>
+                <item id="fa21puffRageFA20" itemId="puffRageFA20" smiles="270" priority="7"/>
+                <item id="fa21puffRownFA20" itemId="puffRownFA20" smiles="270" priority="8"/>
+                <item id="fa21puffSunGlassFA20" itemId="puffSunGlassFA20" smiles="270" priority="9"/>
+                <item id="fa21puffWinkLFA20" itemId="puffWinkLFA20" smiles="270" priority="10"/>
+                <item id="fa21puffWinkRFA20" itemId="puffWinkRFA20" smiles="270" priority="11"/>
+                <item id="fa21fa20Dcr" itemId="fa20Dcr" smiles="50" priority="12"/>
+                <item id="fa21AquaDisco" itemId="fa21AquaDisco" smiles="3150" priority="13"  isNew="1"/>
+                <item id="fa21ChairDouble" itemId="fa21ChairDouble" smiles="357" priority="14" isNew="1"/>
+                <item id="fa21Sofa" itemId="fa21Sofa" smiles="1225" priority="15" isNew="1"/>
+                <item id="fa21Commode" itemId="fa21Commode" smiles="525" priority="16" isNew="1"/>
+                <item id="fa21ChairTongue" itemId="fa21ChairTongue" smiles="434" priority="17" isNew="1"/>
+                <item id="fa21Table" itemId="fa21Table" smiles="546" priority="18" isNew="1"/>
+            </category>
+        </category>
+    </shop>
+</module>

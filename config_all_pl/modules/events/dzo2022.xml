@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<module active="true" id="dzo2020" trophy="dzo2022" starsProgress="3499">
+
+    <resourcesConfig>
+        <stars gold="1" count="4"
+            forOneEpaulelt="2" forThrowEpaulelt="2"
+            gardner="1" gardnerProbability="1"
+            janitor="1" janitorProbability="1"
+            friend="2" friendsProbability="1"
+            miniGameWin="4" miniGameWinProbability="1"
+            miniGameLoose="1" miniGameLoseProbability="1"
+            miniGameParticipate="1" miniGameParticipateProbability="1" />
+        <epaulettes gold="4" count="10"
+            gardner="1" gardnerProbability="0.1"
+            janitor="1" janitorProbability="0.1"
+            friend="1" friendsProbability="0.2"
+            miniGameWin="1" miniGameWinProbability="0.4"
+            miniGameLoose="1" miniGameLoseProbability="0.1"
+            miniGameParticipate="1" miniGameParticipateProbability="0.1"
+            maxHomeEpaulettesCount="10" />
+    </resourcesConfig>
+
+    <packs>
+        <pack id="starsPack300" icon="StarsPack2" starsCount="300" bonus="0" gold="100" />
+        <pack id="starsPack600" icon="StarsPack3" starsCount="600" bonus="100" gold="200" />
+        <pack id="starsPack1200" icon="StarsPack4" starsCount="1200" bonus="400" gold="400" />
+    </packs>
+
+    <shops title="#shopsTitle">
+        <item id="dzo20Shop" index="8" category="dialog" targetId="dzo20Shop">
+            <icon name="Dzo20ShopIcon@dzo2020" title="#dzo2020ShopDialogTitle" titleGlowColor="0x174700" />
+        </item>
+    </shops>
+
+    <shop>
+        <category id="dzo22" typeClass="Dzo20ShopItemType" priority="0">
+            <category id="dzo22Clothes" label="#clothesShopTitle" type="clothes" priority="1">
+                <category id="dzo22ClothesSets" label="#costumesLabel" type="clothesSet" priority="0">
+                    <item id="dzo22boyDZO21P2Set" itemId="boyDZO21P2Set" stars="1892" priority="1" />
+                    <item id="dzo22boyDZO21P1Set" itemId="boyDZO21P1Set" stars="2276" priority="2" />
+                    <item id="dzo22dzo14bcs" itemId="dzo14bcs" stars="2540" priority="3" />
+                    <item id="dzo22boy23Feb19Set" itemId="boy23Feb19Set" stars="780" priority="4" />
+                    <item id="dzo22boyPnk23Feb19Set" itemId="boyPnk23Feb19Set" stars="404" priority="5" />
+                    <item id="dzo22boyDZO20Set" itemId="boyDZO20Set" stars="2075" priority="6" />
+                    <item id="dzo22boyDZO22P1Set" itemId="boyDZO22P1Set" stars="2496" priority="7" isNew="1" />
+                    <item id="dzo22boyDZO22P2Set" itemId="boyDZO22P2Set" stars="2184" priority="8" isNew="1" />
+
+                    <item id="dzo22girlDZO21P2Set" itemId="girlDZO21P2Set" stars="1764" priority="1" />
+                    <item id="dzo22girlDZO21P1Set" itemId="girlDZO21P1Set" stars="2196" priority="2" />
+                    <item id="dzo22dzo14gcs" itemId="dzo14gcs" stars="2382" priority="5" />
+                    <item id="dzo22girl23Feb19Set" itemId="girl23Feb19Set" stars="764" priority="6" />
+                    <item id="dzo22girlPnk23Feb19Set" itemId="girlPnk23Feb19Set" stars="724" priority="7" />
+                    <item id="dzo22girlDZO20Set" itemId="girlDZO20Set" stars="2175" priority="8" />
+                    <item id="dzo22girlDZO22P1Set" itemId="girlDZO22P1Set" stars="2368" priority="15" isNew="1" />
+                    <item id="dzo22girlDZO22P2Set" itemId="girlDZO22P2Set" stars="2344" priority="16" isNew="1" />
+                </category>
+
+                <category id="dzo22TopClothes" label="#clothesCategoryTops" type="clothes" priority="1">
+                    <item id="dzo22boyPllvrDZO21P2" itemId="boyPllvrDZO21P2" stars="496" priority="1" />
+                    <item id="dzo22boyTShrtDZO21P1" itemId="boyTShrtDZO21P1" stars="424" priority="2" />
+                    <item id="dzo22boyFb23Jck" itemId="boyFb23Jck" stars="512" priority="3" />
+                    <item id="dzo22boyFb23Tsht" itemId="boyFb23Tsht" stars="396" priority="4" />
+                    <item id="dzo22boyShrt23Feb19" itemId="boyShrt23Feb19" stars="128" priority="5" />
+                    <item id="dzo22boyTShrtPnk23Feb19" itemId="boyTShrtPnk23Feb19" stars="88" priority="6" />
+                    <item id="dzo22boyJcktPnk23Feb19" itemId="boyJcktPnk23Feb19" stars="108" priority="7" />
+                    <item id="dzo22boyTShirtDZO20" itemId="boyTShirtDZO20" stars="350" priority="8" />
+                    <item id="dzo22boyJcktDZO20" itemId="boyJcktDZO20" stars="500" priority="9" />
+                    <item id="dzo22boyCoatDZO22P1" itemId="boyCoatDZO22P1" stars="560" priority="10" isNew="1" />
+                    <item id="dzo22boyJamperDZO22P1" itemId="boyJamperDZO22P1" stars="480" priority="11" isNew="1" />
+                    <item id="dzo22boyVestDZO22P2" itemId="boyVestDZO22P2" stars="496" priority="12" isNew="1" />
+                    <item id="dzo22boyJamperDZO22P2" itemId="boyJamperDZO22P2" stars="456" priority="13" isNew="1" />
+
+                    <item id="dzo22girlDressDZO21P1" itemId="girlDressDZO21P1" stars="744" priority="1" />
+                    <item id="dzo22girlTopDZO21P2" itemId="girlTopDZO21P2" stars="536" priority="2" />
+                    <item id="dzo22grlFb23Jck" itemId="grlFb23Jck" stars="522" priority="8" />
+                    <item id="dzo22grlFb23Tsht" itemId="grlFb23Tsht" stars="404" priority="9" />
+                    <item id="dzo22girlTShrt23Feb19" itemId="girlTShrt23Feb19" stars="128" priority="10" />
+                    <item id="dzo22girlTShrtPnk23Feb19" itemId="girlTShrtPnk23Feb19" stars="100" priority="11" />
+                    <item id="dzo22girlJcktPnk23Feb19" itemId="girlJcktPnk23Feb19" stars="132" priority="12" />
+                    <item id="dzo22girlTopDZO20" itemId="girlTopDZO20" stars="350" priority="13" />
+                    <item id="dzo22girlShrtDZO20" itemId="girlShrtDZO20" stars="400" priority="14" />
+                    <item id="dzo22girlTopDZO22P2" itemId="girlTopDZO22P2" stars="392" priority="23" isNew="1" />
+                    <item id="dzo22girlJacketDZO22P2" itemId="girlJacketDZO22P2" stars="576" priority="24" isNew="1" />
+                    <item id="dzo22girlCoatDZO22P1" itemId="girlCoatDZO22P1" stars="488" priority="25" isNew="1" />
+                    <item id="dzo22girlDressDZO22P1" itemId="girlDressDZO22P1" stars="640" priority="26" isNew="1" />
+                </category>
+
+                <category id="dzo22BottomClothes" label="#clothesCategoryBottoms" type="clothes" priority="2">
+                    <item id="dzo22boyPntsDZO21P1" itemId="boyPntsDZO21P1" stars="528" priority="1" />
+                    <item id="dzo22boyShortsDZO21P2" itemId="boyShortsDZO21P2" stars="284" priority="2" />
+                    <item id="dzo22boyFb23Pts" itemId="boyFb23Pts" stars="444" priority="3" />
+                    <item id="dzo22boyPnts23Feb19" itemId="boyPnts23Feb19" stars="108" priority="4" />
+                    <item id="dzo22boyPntsPnk23Feb19" itemId="boyPntsPnk23Feb19" stars="100" priority="5" />
+                    <item id="dzo22boyPntsDZO20" itemId="boyPntsDZO20" stars="450" priority="6" />
+                    <item id="dzo22boyPantsDZO22P1" itemId="boyPantsDZO22P1" stars="528" priority="7" isNew="1" />
+                    <item id="dzo22boyPantsDZO22P2" itemId="boyPantsDZO22P2" stars="472" priority="8" isNew="1" />
+
+                    <item id="dzo22girlPntsDZO21P2" itemId="girlPntsDZO21P2" stars="284" priority="4" />
+                    <item id="dzo22grlFb23Shrt" itemId="grlFb23Shrt" stars="452" priority="5" />
+                    <item id="dzo22girlPnts23Feb19" itemId="girlPnts23Feb19" stars="108" priority="6" />
+                    <item id="dzo22girlSktPnk23Feb19" itemId="girlSktPnk23Feb19" stars="84" priority="7" />
+                    <item id="dzo22girlPntsDZO20" itemId="girlPntsDZO20" stars="450" priority="8" />
+                    <item id="dzo22girlPansDZO22P2" itemId="girlPansDZO22P2" stars="552" priority="9" isNew="1" />
+                </category>
+
+                <category id="dzo22ClothesShoes" label="#clothesCategoryShoes" type="clothes" priority="3">
+                    <item id="dzo22boyBtsDZO21P1" itemId="boyBtsDZO21P1" stars="280" priority="1" />
+                    <item id="dzo22boyBtsDZO21P2" itemId="boyBtsDZO21P2" stars="488" priority="2" />
+                    <item id="dzo22boyFb23Shs" itemId="boyFb23Shs" stars="348" priority="3" />
+                    <item id="dzo22boyBts23Feb19" itemId="boyBts23Feb19" stars="96" priority="4" />
+                    <item id="dzo22boyBtsPnk23Feb19" itemId="boyBtsPnk23Feb19" stars="76" priority="6" />
+                    <item id="dzo22boyBtsDZO20" itemId="boyBtsDZO20" stars="400" priority="6" />
+                    <item id="dzo22boyShoesDZO22P1" itemId="boyShoesDZO22P1" stars="536" priority="7" isNew="1" />
+                    <item id="dzo22boyBootsDZO22P2" itemId="boyBootsDZO22P2" stars="424" priority="8" isNew="1" />
+
+                    <item id="dzo22girlBtsDZO21P2" itemId="girlBtsDZO21P2" stars="488" priority="7" />
+                    <item id="dzo22girlBtsDZO21P1" itemId="girlBtsDZO21P1" stars="280" priority="8" />
+                    <item id="dzo22grlFb23Shs" itemId="grlFb23Shs" stars="115" priority="9" />
+                    <item id="dzo22girlBts23Feb19" itemId="girlBts23Feb19" stars="96" priority="10" />
+                    <item id="dzo22girlBtsPnk23Feb19" itemId="girlBtsPnk23Feb19" stars="320" priority="11" />
+                    <item id="dzo22girlBtsDZO20" itemId="girlBtsDZO20" stars="400" priority="12" />
+                    <item id="dzo22girlShoesDZO22P2" itemId="girlShoesDZO22P2" stars="512" priority="14" isNew="1" />
+                    <item id="dzo22girlShoesDZO22P1" itemId="girlShoesDZO22P1" stars="520" priority="15" isNew="1" />
+                </category>
+
+                <category id="dzo22ClothesOther" label="#clothesCategoryOther" type="clothes" priority="4">
+                    <item id="dzo22boyMskDZO21P2" itemId="boyMskDZO21P2" stars="328" priority="1" />
+                    <item id="dzo22boyBgDZO21P2" itemId="boyBgDZO21P2" stars="296" priority="2" />
+                    <item id="dzo22boyGlssDZO21P1" itemId="boyGlssDZO21P1" stars="312" priority="3" />
+                    <item id="dzo22boyTattooDZO21P1" itemId="boyTattooDZO21P1" stars="104" priority="4" />
+                    <item id="dzo22boyBgDZO21P1" itemId="boyBgDZO21P1" stars="480" priority="5" />
+                    <item id="dzo22boyWatchDZO21P1" itemId="boyWatchDZO21P1" stars="148" priority="6" />
+                    <item id="dzo22boyFb23Clk" itemId="boyFb23Clk" stars="180" priority="7" />
+                    <item id="dzo22boyFb23Pdt" itemId="boyFb23Pdt" stars="216" priority="8" />
+                    <item id="dzo22boyFb23Hat" itemId="boyFb23Hat" stars="444" priority="9" />
+                    <item id="dzo22boyDzoMdl" itemId="boyDzoMdl" stars="396" priority="10" />
+                    <item id="dzo22boyGlvs23Feb19" itemId="boyGlvs23Feb19" stars="72" priority="11" />
+                    <item id="dzo22boyHat23Feb19" itemId="boyHat23Feb19" stars="360" priority="12" />
+                    <item id="dzo22boyGlvsPnk23Feb19" itemId="boyGlvsPnk23Feb19" stars="32" priority="13" />
+                    <item id="dzo22boyStrpDZO20" itemId="boyStrpDZO20" stars="175" priority="14" />
+                    <item id="dzo22boyTtDZO20" itemId="boyTtDZO20" stars="250" priority="15" />
+                    <item id="dzo22boyBagDZO22P1" itemId="boyBagDZO22P1" stars="392" priority="16" isNew="1" />
+                    <item id="dzo22boyCapDZO22P2" itemId="boyCapDZO22P2" stars="336" priority="17" isNew="1" />
+
+
+                    <item id="dzo22girlGlssDZO21P1" itemId="girlGlssDZO21P1" stars="312" priority="17" />
+                    <item id="dzo22girlErrDZO21P1" itemId="girlErrDZO21P1" stars="232" priority="18" />
+                    <item id="dzo22girlBgDZO21P1" itemId="girlBgDZO21P1" stars="480" priority="19" />
+                    <item id="dzo22girlWatchDZO21P1" itemId="girlWatchDZO21P1" stars="148" priority="20" />
+                    <item id="dzo22girlNeckDZO21P2" itemId="girlNeckDZO21P2" stars="128" priority="21" />
+                    <item id="dzo22girlMskDZO21P2" itemId="girlMskDZO21P2" stars="328" priority="22" />
+                    <item id="dzo22grlFb23Pdt" itemId="grlFb23Pdt" stars="220" priority="23" />
+                    <item id="dzo22grlFb23Hat" itemId="grlFb23Hat" stars="363" priority="24" />
+                    <item id="dzo22grlFb23Tght" itemId="grlFb23Tght" stars="306" priority="25" />
+                    <item id="dzo22girlDzoMdl" itemId="girlDzoMdl" stars="396" priority="26" />
+                    <item id="dzo22girlHat23Feb19" itemId="girlHat23Feb19" stars="360" priority="27" />
+                    <item id="dzo22girlGlvs23Feb19" itemId="girlGlvs23Feb19" stars="72" priority="28" />
+                    <item id="dzo22girlScksPnk23Feb19" itemId="girlScksPnk23Feb19" stars="56" priority="29" />
+                    <item id="dzo22girlGlvsPnk23Feb19" itemId="girlGlvsPnk23Feb19" stars="32" priority="30" />
+                    <item id="dzo22girlErrDZO20" itemId="girlErrDZO20" stars="250" priority="31" />
+                    <item id="dzo22girlScksDZO20" itemId="girlScksDZO20" stars="150" priority="32" />
+                    <item id="dzo22girlStrpDZO20" itemId="girlStrpDZO20" stars="175" priority="33" />
+                    <item id="dzo22girlEarringsDZO22P2" itemId="girlEarringsDZO22P2" stars="312" priority="35" isNew="1" />
+                    <item id="dzo22girlEarringsDZO22P1" itemId="girlEarringsDZO22P1" stars="328" priority="36" isNew="1" />
+                    <item id="dzo22girlBagDZO22P1" itemId="girlBagDZO22P1" stars="392" priority="37" isNew="1" />
+                </category>
+            </category>
+
+            <category id="dzo22Furniture" label="#furnitureCategory" type="furniture" priority="2">
+                <category id="dzo22Furniture2022" label="2022" type="furniture" priority="1">
+                    <item id="dzo22dzo2022Map" itemId="dzo2022Map" stars="620" priority="14" isNew="1" />
+                    <item id="dzo22dzo2022Helicopter" itemId="dzo2022Helicopter" stars="2276" priority="15" isNew="1" />
+                    <item id="dzo22avapacDzo2022" itemId="avapacDzo2022" stars="892" priority="16" isNew="1" />
+                </category>
+                <category id="dzo22Furniture2021" label="2021" type="furniture" priority="2">
+                    <item id="dzo22zilDzo2021" itemId="zilDzo2021" stars="2520" priority="13" />
+                </category>
+                <category id="dzo22Furniture2020" label="2020" type="furniture" priority="3">
+                    <item id="dzo22tankDzo20Pink" itemId="tankDzo20Pink" stars="2800" priority="11" />
+                    <item id="dzo22tankDzo20Green" itemId="tankDzo20Green" stars="2400" priority="12" />
+                </category>
+                <category id="dzo22Furniture2019" label="2019" type="furniture" priority="4">
+                    <item id="dzo22dzo19Pln" itemId="dzo19Pln" stars="2000" priority="10" />
+                </category>
+                <category id="dzo22Furniture2018" label="2018" type="furniture" priority="5">
+                    <item id="dzo22dzo18Pstr" itemId="dzo18Pstr" stars="925" priority="8" />
+                    <item id="dzo22dzo18Stt" itemId="dzo18Stt" stars="2546" priority="9" />
+                </category>
+                <category id="dzo22Furniture2014" label="2014" type="furniture" priority="6">
+                    <item id="dzo22clckFeb23" itemId="clckFeb23" stars="1248" priority="1" />
+                    <item id="dzo22lmpFeb23" itemId="lmpFeb23" stars="248" priority="2" />
+                    <item id="dzo22vntFeb23" itemId="vntFeb23" stars="611" priority="3" />
+                    <item id="dzo22drFeb23" itemId="drFeb23" stars="1888" priority="4" />
+                    <item id="dzo22wdwFeb23" itemId="wdwFeb23" stars="2399" priority="5" />
+                    <item id="dzo22flrFeb23" itemId="flrFeb23" stars="480" priority="6" />
+                    <item id="dzo22wllFeb23" itemId="wllFeb23" stars="180" priority="7" />
+                </category>
+            </category>
+        </category>
+    </shop>
+
+    <inventory>
+        <category id="craftLoot" typeClass="loot">
+            <item id="dzo20epltts" name="EpaulettesLoot@dzo2020" icon="EpaulettesLootIcon@dzo2020"
+                label="#epaulettesLootLabel"
+                description="#epaulettesLootDescrioption" probability="0.3"
+                gold="0" silver="0" canTrade="0" canSale="0" />
+            <item id="dzo20str" name="StarsLoot@dzo2020" icon="StarsLootIcon@dzo2020" label="#starLootLabel"
+                description="#starLootDescrioption" probability="0.15"
+                gold="0" silver="0" canTrade="0" canSale="0" />
+        </category>
+    </inventory>
+
+</module>

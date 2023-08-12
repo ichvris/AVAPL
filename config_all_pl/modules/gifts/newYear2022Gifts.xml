@@ -1,0 +1,619 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <group id="ny2022Gifts">
+        <category id="loot" typeIds="ny22Gift1">
+            <!--INGREDIENTS-->
+            <item typeId="generosity" minCount="8" maxCount="23"/>
+            <item typeId="love" minCount="8" maxCount="23"/>
+            <item typeId="hatred" minCount="8" maxCount="23"/>
+            <item typeId="happiness" minCount="8" maxCount="23"/>
+            <item typeId="water" minCount="5" maxCount="15"/>
+            <item typeId="phial" minCount="5" maxCount="15"/>
+            <item typeId="bigPhial" minCount="4" maxCount="8"/>
+            <item typeId="clay" minCount="8" maxCount="23"/>
+            <item typeId="likeCoin" minCount="2" maxCount="7"/>
+            <item typeId="feather" minCount="2" maxCount="6"/>
+            <item typeId="bow" minCount="4" maxCount="11"/>
+            <item typeId="flowerBud" minCount="4" maxCount="11"/>
+            <item typeId="wrappingPaper" minCount="4" maxCount="11"/>
+            <item typeId="peaceOfWood" minCount="8" maxCount="23"/>
+            <item typeId="photograph" minCount="2" maxCount="6"/>
+            <item typeId="peaceOfIron" minCount="5" maxCount="15"/>
+            <item typeId="swordHilt" minCount="2" maxCount="6"/>
+            <item typeId="wick" minCount="2" maxCount="6"/>
+            <item typeId="thread" minCount="2" maxCount="6"/>
+            <item typeId="coffeBean" minCount="5" maxCount="10"/>
+            <item typeId="mintLeaf" minCount="5" maxCount="10"/>
+            <item typeId="jarOfPaint" minCount="5" maxCount="10"/>
+            <item typeId="cloth" minCount="5" maxCount="10"/>
+            <item typeId="glass" minCount="5" maxCount="10"/>
+            <item typeId="grindstone" minCount="5" maxCount="10"/>
+            <item typeId="peaceOfWax" minCount="5" maxCount="10"/>
+            <item typeId="pollen" minCount="5" maxCount="10"/>
+            <item typeId="fasten" minCount="5" maxCount="10"/>
+            <!--OTHER-->
+            <item minCount="3" maxCount="5" typeId="applianceBat"/>
+            <item minCount="3" maxCount="5" typeId="jacuzziWorms"/>
+            <item minCount="3" maxCount="5" typeId="chairBomb"/>
+            <item minCount="3" maxCount="5" typeId="scrdvr"/>
+            <item maxCount="1" typeId="pearlNecklace"/>
+            <item minCount="2" maxCount="4" typeId="wllGrfNY2021Grinch"/>
+            <item minCount="2" maxCount="4" typeId="wllGrfCyberSanta2023"/>
+        </category>
+
+        <category id="loot" typeIds="ny22Gift2">
+            <!--INGREDIENTS-->
+            <item typeId="generosity" minCount="11" maxCount="34"/>
+            <item typeId="love" minCount="11" maxCount="34"/>
+            <item typeId="hatred" minCount="11" maxCount="34"/>
+            <item typeId="happiness" minCount="11" maxCount="34"/>
+            <item typeId="water" minCount="8" maxCount="23"/>
+            <item typeId="phial" minCount="8" maxCount="23"/>
+            <item typeId="bigPhial" minCount="5" maxCount="16"/>
+            <item typeId="clay" minCount="11" maxCount="34"/>
+            <item typeId="likeCoin" minCount="3" maxCount="9"/>
+            <item typeId="feather" minCount="3" maxCount="9"/>
+            <item typeId="bow" minCount="5" maxCount="16"/>
+            <item typeId="flowerBud" minCount="8" maxCount="23"/>
+            <item typeId="wrappingPaper" minCount="5" maxCount="16"/>
+            <item typeId="peaceOfWood" minCount="11" maxCount="34"/>
+            <item typeId="photograph" minCount="3" maxCount="9"/>
+            <item typeId="peaceOfIron" minCount="8" maxCount="23"/>
+            <item typeId="swordHilt" minCount="3" maxCount="9"/>
+            <item typeId="wick" minCount="3" maxCount="9"/>
+            <item typeId="thread" minCount="3" maxCount="9"/>
+            <item typeId="coffeBean" minCount="5" maxCount="16"/>
+            <item typeId="mintLeaf" minCount="5" maxCount="16"/>
+            <item typeId="jarOfPaint" minCount="5" maxCount="16"/>
+            <item typeId="cloth" minCount="5" maxCount="16"/>
+            <item typeId="glass" minCount="5" maxCount="16"/>
+            <item typeId="grindstone" minCount="5" maxCount="16"/>
+            <item typeId="peaceOfWax" minCount="5" maxCount="16"/>
+            <item typeId="pollen" minCount="5" maxCount="16"/>
+            <item typeId="fasten" minCount="5" maxCount="16"/>
+            <item typeId="diligence" minCount="5" maxCount="16"/>
+            <item typeId="skill" minCount="8" maxCount="23"/>
+            <item typeId="industry" minCount="8" maxCount="23"/>
+            <item typeId="luck" minCount="5" maxCount="16"/>
+            <item typeId="beauty" minCount="5" maxCount="16"/>
+            <item typeId="glamor" minCount="3" maxCount="9"/>
+            <item typeId="idea" minCount="5" maxCount="16"/>
+            <item typeId="muse" minCount="3" maxCount="9"/>
+            <item typeId="pearl" minCount="3" maxCount="9"/>
+            <item typeId="shell" minCount="3" maxCount="9"/>
+            <item typeId="screw" minCount="3" maxCount="9"/>
+            <item typeId="wrench" minCount="3" maxCount="9"/>
+            <!--OTHER-->
+            <item minCount="1" maxCount="3" typeId="shellNecklace"/>
+            <item minCount="1" maxCount="2" typeId="pearlNecklace"/>
+            <item minCount="3" maxCount="5" typeId="film"/>
+            <item minCount="3" maxCount="5" typeId="vsgstBrush"/>
+            <item minCount="4" maxCount="6" typeId="wllGrfNY2021Grinch"/>
+            <item minCount="4" maxCount="6" typeId="wllGrfCyberSanta2023"/>
+        </category>
+
+        <category id="loot" typeIds="ny22Gift3">
+            <!--INGREDIENTS-->
+            <item typeId="generosity" minCount="20" maxCount="50"/>
+            <item typeId="love" minCount="20" maxCount="50"/>
+            <item typeId="hatred" minCount="20" maxCount="50"/>
+            <item typeId="happiness" minCount="20" maxCount="50"/>
+            <item typeId="water" minCount="15" maxCount="35"/>
+            <item typeId="phial" minCount="15" maxCount="30"/>
+            <item typeId="bigPhial" minCount="10" maxCount="25"/>
+            <item typeId="clay" minCount="20" maxCount="50"/>
+            <item typeId="likeCoin" minCount="5" maxCount="15"/>
+            <item typeId="feather" minCount="5" maxCount="15"/>
+            <item typeId="bow" minCount="10" maxCount="25"/>
+            <item typeId="flowerBud" minCount="10" maxCount="35"/>
+            <item typeId="wrappingPaper" minCount="10" maxCount="25"/>
+            <item typeId="peaceOfWood" minCount="20" maxCount="50"/>
+            <item typeId="photograph" minCount="5" maxCount="14"/>
+            <item typeId="peaceOfIron" minCount="10" maxCount="35"/>
+            <item typeId="swordHilt" minCount="5" maxCount="15"/>
+            <item typeId="wick" minCount="5" maxCount="15"/>
+            <item typeId="thread" minCount="5" maxCount="15"/>
+            <item typeId="coffeBean" minCount="10" maxCount="25"/>
+            <item typeId="mintLeaf" minCount="10" maxCount="25"/>
+            <item typeId="jarOfPaint" minCount="10" maxCount="25"/>
+            <item typeId="cloth" minCount="10" maxCount="25"/>
+            <item typeId="glass" minCount="10" maxCount="25"/>
+            <item typeId="grindstone" minCount="10" maxCount="25"/>
+            <item typeId="peaceOfWax" minCount="10" maxCount="25"/>
+            <item typeId="pollen" minCount="10" maxCount="25"/>
+            <item typeId="fasten" minCount="10" maxCount="25"/>
+            <item typeId="diligence" minCount="10" maxCount="25"/>
+            <item typeId="skill" minCount="10" maxCount="35"/>
+            <item typeId="industry" minCount="10" maxCount="35"/>
+            <item typeId="luck" minCount="10" maxCount="25"/>
+            <item typeId="beauty" minCount="10" maxCount="25"/>
+            <item typeId="glamor" minCount="5" maxCount="15"/>
+            <item typeId="idea" minCount="10" maxCount="25"/>
+            <item typeId="muse" minCount="5" maxCount="15"/>
+            <item typeId="pearl" minCount="5" maxCount="15"/>
+            <item typeId="shell" minCount="5" maxCount="15"/>
+            <item typeId="screw" minCount="5" maxCount="15"/>
+            <item typeId="wrench" minCount="5" maxCount="15"/>
+            <!--OTHER-->
+            <item minCount="1" maxCount="5" typeId="shellNecklace"/>
+            <item minCount="1" maxCount="3" typeId="pearlNecklace"/>
+            <item maxCount="1" typeId="vipTicket5"/>
+            <item minCount="4" maxCount="10" typeId="film"/>
+            <item minCount="4" maxCount="10" typeId="vsgstBrush"/>
+            <item minCount="5" maxCount="10" typeId="wllGrfNY2021Grinch"/>
+            <item minCount="5" maxCount="10" typeId="wllGrfCyberSanta2023"/>
+        </category>
+
+
+
+
+        <rareCategory giftId="ny22Gift1">
+            <probabilities>
+                <probability id="common" value="0.70"/>
+                <probability id="uncommon" value="0.30"/>
+            </probabilities>
+            <intervals>
+                <interval id="1" value="6-11"/>
+                <interval id="2" value="14-21"/>
+                <interval id="3" value="25-34"/>
+                <interval id="4" value="40-55"/>
+            </intervals>
+            <items>
+                <!--ОБЫЧНЫЕ-->
+                <!--Мальчики-->
+                <item lootType="common" itemType="clothes" gender="boy" typeId="boyAcsNY20Gld" probability="0.22"/>
+                <item lootType="common" itemType="clothes" gender="boy" typeId="boyPntsNY20Emr" probability="0.21"/>
+                <item lootType="common" itemType="clothes" gender="boy" typeId="boyBtsNY20Slv" probability="0.24"/>
+                <item lootType="common" itemType="clothes" gender="boy" typeId="boyBtsNY20Nght" probability="0.25"/>
+                <item lootType="common" itemType="clothes" gender="boy" typeId="boyAcsNY20Nght" probability="0.21"/>
+                <item lootType="common" itemType="clothes" gender="boy" typeId="boyGlssSnbrdrNY18" probability="0.23"/>
+                <item lootType="common" itemType="clothes" gender="boy" typeId="boyGlvsSnbrdrNY18" probability="0.22"/>
+                <item lootType="common" itemType="clothes" gender="boy" typeId="bNY16Mttns" probability="0.21"/>
+                <item lootType="common" itemType="clothes" gender="boy" typeId="bNY16Shs" probability="0.25"/>
+                <item lootType="common" itemType="clothes" gender="boy" typeId="boyNY14Gss" probability="0.24"/>
+                <item lootType="common" itemType="clothes" gender="boy" typeId="boyNY14Mtns" probability="0.23"/>
+                <item lootType="common" itemType="clothes" gender="boy" typeId="boyNY14" probability="0.22"/>
+                <item lootType="common" itemType="clothes" gender="boy" typeId="boyNY2" probability="0.21"/>
+                <item lootType="common" itemType="clothes" gender="boy" typeId="boyNY16" probability="0.24"/>
+                <item lootType="common" itemType="clothes" gender="boy" typeId="boyNY4" probability="0.23"/>
+                <item lootType="common" itemType="clothes" gender="boy" typeId="boyNY9" probability="0.22"/>
+                <item lootType="common" itemType="clothes" gender="boy" typeId="boyNY5" probability="0.21"/>
+                <item lootType="common" itemType="clothes" gender="boy" typeId="boyNY15" probability="0.23"/>
+                <item lootType="common" itemType="clothes" gender="boy" typeId="boyNY8" probability="0.25"/>
+                <item lootType="common" itemType="clothes" gender="boy" typeId="boyNY13" probability="0.24"/>
+                <item lootType="common" itemType="clothes" gender="boy" typeId="boyNY18" probability="0.23"/>
+                <item lootType="common" itemType="clothes" gender="boy" typeId="boyNY17" probability="0.24"/>
+                <item lootType="common" itemType="clothes" gender="boy" typeId="boyNY11" probability="0.22"/>
+                <item lootType="common" itemType="clothes" gender="boy" typeId="boyNY7" probability="0.21"/>
+                <item lootType="common" itemType="clothes" gender="boy" typeId="boyJmpNY20Gld" probability="0.22"/>
+                <item lootType="common" itemType="clothes" gender="boy" typeId="boyShrtNY20Emr" probability="0.23"/>
+                <item lootType="common" itemType="clothes" gender="boy" typeId="boyGlssNY20Slv" probability="0.21"/>
+                <!--Девочки-->
+                <item lootType="common" itemType="clothes" gender="girl" typeId="girlAcsNY20Gld" probability="0.22"/>
+                <item lootType="common" itemType="clothes" gender="girl" typeId="girlPntsNY20Gld" probability="0.21"/>
+                <item lootType="common" itemType="clothes" gender="girl" typeId="girlBtsNY20Emr" probability="0.24"/>
+                <item lootType="common" itemType="clothes" gender="girl" typeId="girlBtsNY20Slv" probability="0.25"/>
+                <item lootType="common" itemType="clothes" gender="girl" typeId="girlBgNY20Slv" probability="0.23"/>
+                <item lootType="common" itemType="clothes" gender="girl" typeId="grlGlssSnbrdrNY18" probability="0.22"/>
+                <item lootType="common" itemType="clothes" gender="girl" typeId="grlGlvsSnbrdrNY18" probability="0.21"/>
+                <item lootType="common" itemType="clothes" gender="girl" typeId="gNY16Mttns" probability="0.22"/>
+                <item lootType="common" itemType="clothes" gender="girl" typeId="gNY16Shs" probability="0.21"/>
+                <item lootType="common" itemType="clothes" gender="girl" typeId="grlNY14Gss" probability="0.24"/>
+                <item lootType="common" itemType="clothes" gender="girl" typeId="grlNY14Mtns" probability="0.22"/>
+                <item lootType="common" itemType="clothes" gender="girl" typeId="girlNY16" probability="0.21"/>
+                <item lootType="common" itemType="clothes" gender="girl" typeId="girlNY6" probability="0.24"/>
+                <item lootType="common" itemType="clothes" gender="girl" typeId="girlNY14" probability="0.25"/>
+                <item lootType="common" itemType="clothes" gender="girl" typeId="girlNY13" probability="0.24"/>
+                <item lootType="common" itemType="clothes" gender="girl" typeId="girlNY3" probability="0.23"/>
+                <item lootType="common" itemType="clothes" gender="girl" typeId="girlNY9" probability="0.22"/>
+                <item lootType="common" itemType="clothes" gender="girl" typeId="girlNY11" probability="0.24"/>
+                <item lootType="common" itemType="clothes" gender="girl" typeId="girlNY4" probability="0.23"/>
+                <item lootType="common" itemType="clothes" gender="girl" typeId="girlNY12" probability="0.22"/>
+                <item lootType="common" itemType="clothes" gender="girl" typeId="girlNY8" probability="0.21"/>
+                <item lootType="common" itemType="clothes" gender="girl" typeId="girlNY10" probability="0.23"/>
+                <item lootType="common" itemType="clothes" gender="girl" typeId="girlNY15" probability="0.24"/>
+                <item lootType="common" itemType="clothes" gender="girl" typeId="girlNY5" probability="0.25"/>
+                <item lootType="common" itemType="clothes" gender="girl" typeId="girlGlvNY20Nght" probability="0.24"/>
+                <item lootType="common" itemType="clothes" gender="girl" typeId="girlSktNY20Slv" probability="0.22"/>
+                <item lootType="common" itemType="clothes" gender="girl" typeId="girlAcsNY20Emr" probability="0.24"/>
+                <item lootType="common" itemType="clothes" gender="girl" typeId="girlDcrNY20Nght" probability="0.23"/>
+                <item lootType="common" itemType="clothes" gender="girl" typeId="girlJcktNY20Gld" probability="0.21"/>
+                <item lootType="common" itemType="clothes" gender="girl" typeId="girlNY2" probability="0.22"/>
+                <!--Мебель-->
+                <item lootType="common" itemType="furniture" typeId="ny23Cup" probability="0.22"/>
+                <item lootType="common" itemType="furniture" typeId="ny23Plate" probability="0.23"/>
+                <item lootType="common" itemType="furniture" typeId="ny23YellowBox" probability="0.22"/>
+                <item lootType="common" itemType="furniture" typeId="skandi2021Flower4" probability="0.25"/>
+                <item lootType="common" itemType="furniture" typeId="skandi2021Vase1" probability="0.25"/>
+                <item lootType="common" itemType="furniture" typeId="skandi2021Plate" probability="0.24"/>
+                <item lootType="common" itemType="furniture" typeId="skandi2021Vase2" probability="0.23"/>
+                <item lootType="common" itemType="furniture" typeId="ny21Cofe" probability="0.28"/>
+                <item lootType="common" itemType="furniture" typeId="ny21SmallTree" probability="0.29"/>
+                <item lootType="common" itemType="furniture" typeId="ny21Menu" probability="0.29"/>
+                <item lootType="common" itemType="furniture" typeId="ny21LampDecor" probability="0.27"/>
+                <item lootType="common" itemType="furniture" typeId="ny21Deer" probability="0.29"/>
+                <item lootType="common" itemType="furniture" typeId="nyDcr3" probability="0.3"/>
+                <item lootType="common" itemType="furniture" typeId="nyCandle" probability="0.3"/>
+                <item lootType="common" itemType="furniture" typeId="NY20Flr" probability="0.28"/>
+                <item lootType="common" itemType="furniture" typeId="ny19Blls" probability="0.29"/>
+                <item lootType="common" itemType="furniture" typeId="ny19Grlnd" probability="0.27"/>
+                <item lootType="common" itemType="furniture" typeId="ny19TngTr" probability="0.28"/>
+                <item lootType="common" itemType="furniture" typeId="NY20Sprklr" probability="0.29"/>
+                <item lootType="common" itemType="furniture" typeId="nyDcr4" probability="0.3"/>
+                <item lootType="common" itemType="furniture" typeId="nyDcr5" probability="0.29"/>
+                <item lootType="common" itemType="furniture" typeId="nyDcr6" probability="0.28"/>
+                <item lootType="common" itemType="furniture" typeId="nyDcr7" probability="0.3"/>
+                <item lootType="common" itemType="furniture" typeId="nyDcr8" probability="0.31"/>
+                <item lootType="common" itemType="furniture" typeId="nyDcr9" probability="0.32"/>
+                <item lootType="common" itemType="furniture" typeId="nyDcr10" probability="0.3"/>
+                <item lootType="common" itemType="furniture" typeId="decorNYFir1" probability="0.31"/>
+                <item lootType="common" itemType="furniture" typeId="wreathNYGold" probability="0.29"/>
+                <item lootType="common" itemType="furniture" typeId="nyDcr1" probability="0.3"/>
+                <item lootType="common" itemType="furniture" typeId="nyDcr2" probability="0.3"/>
+                <item lootType="common" itemType="furniture" typeId="NY20Lmnd" probability="0.31"/>
+                <item lootType="common" itemType="furniture" typeId="armchair10" probability="0.32"/>
+                <item lootType="common" itemType="furniture" typeId="carpet5" probability="0.32"/>
+                <item lootType="common" itemType="furniture" typeId="catArt" probability="0.3"/>
+                <item lootType="common" itemType="furniture" typeId="roseBasket" probability="0.29"/>
+                <item lootType="common" itemType="furniture" typeId="sofaArtdeco1" probability="0.31"/>
+                <item lootType="common" itemType="furniture" typeId="blueFlower" probability="0.3"/>
+                <item lootType="common" itemType="furniture" typeId="redTopiary" probability="0.28"/>
+                <!--РЕДКИЕ-->
+                <!--Мальчики-->
+                <item lootType="uncommon" itemType="clothes" gender="boy" typeId="boyGlovesWinter23" probability="0.12"/>
+                <item lootType="uncommon" itemType="clothes" gender="boy" typeId="boyShoesWinter23" probability="0.13"/>
+                <item lootType="uncommon" itemType="clothes" gender="boy" typeId="boyPulloverCold23" probability="0.12"/>
+                <item lootType="uncommon" itemType="clothes" gender="boy" typeId="boyPantsCold23" probability="0.11"/>
+                <item lootType="uncommon" itemType="clothes" gender="boy" typeId="boyNY2022Gloves" probability="0.16"/>
+                <item lootType="uncommon" itemType="clothes" gender="boy" typeId="boyCapFreezing22" probability="0.15"/>
+                <item lootType="uncommon" itemType="clothes" gender="boy" typeId="boyShoesFreezing22" probability="0.16"/>
+                <item lootType="uncommon" itemType="clothes" gender="boy" typeId="boyPulloverWinter22" probability="0.15"/>
+                <!--Девочки-->
+                <item lootType="uncommon" itemType="clothes" gender="girl" typeId="girlTightsWinter23" probability="0.12"/>
+                <item lootType="uncommon" itemType="clothes" gender="girl" typeId="girlShoesWinter23" probability="0.13"/>
+                <item lootType="uncommon" itemType="clothes" gender="girl" typeId="girlPulloverCold23" probability="0.11"/>
+                <item lootType="uncommon" itemType="clothes" gender="girl" typeId="girlPantsCold23" probability="0.1"/>
+                <item lootType="uncommon" itemType="clothes" gender="girl" typeId="girlNY2022Gloves" probability="0.15"/>
+                <item lootType="uncommon" itemType="clothes" gender="girl" typeId="girlCapFreezing22" probability="0.14"/>
+                <item lootType="uncommon" itemType="clothes" gender="girl" typeId="girlShoesFreezing22" probability="0.15"/>
+                <item lootType="uncommon" itemType="clothes" gender="girl" typeId="girlDressWinter22" probability="0.15"/>
+                <!--Мебель-->
+                <item lootType="uncommon" itemType="furniture" typeId="ny23Box" probability="0.1"/>
+                <item lootType="uncommon" itemType="furniture" typeId="ny23Stars" probability="0.1"/>
+                <item lootType="uncommon" itemType="furniture" typeId="ny23Chess" probability="0.12"/>
+                <item lootType="uncommon" itemType="furniture" typeId="ny23Table" probability="0.11"/>
+                <item lootType="uncommon" itemType="furniture" typeId="floorSkandi2021" probability="0.12"/>
+                <item lootType="uncommon" itemType="furniture" typeId="skandi2021Flower2" probability="0.12"/>
+                <item lootType="uncommon" itemType="furniture" typeId="skandi2021Table2" probability="0.12"/>
+                <item lootType="uncommon" itemType="furniture" typeId="skandi2021Lamp" probability="0.12"/>
+                <item lootType="uncommon" itemType="furniture" typeId="skandi2021Paintings" probability="0.14"/>
+                <!--УНИКАЛЬНЫЕ-->
+                <item lootType="rare" itemType="clothes" gender="boy" typeId="boyJumperTinselNY22" intervalId="1"/>
+                <item lootType="rare" itemType="clothes" gender="girl" typeId="girlJumperTinselNY22" intervalId="1"/>
+                <item lootType="rare" itemType="clothes" gender="boy" typeId="boyBallNY23" intervalId="2"/>
+                <item lootType="rare" itemType="clothes" gender="girl" typeId="girlBouquetNY23" intervalId="2"/>
+                <item lootType="rare" itemType="clothes" gender="boy" typeId="boyHatNY23" intervalId="3"/>
+                <item lootType="rare" itemType="clothes" gender="girl" typeId="girlHornsNY23"  intervalId="3"/>
+                <item lootType="rare" itemType="furniture" typeId="ny23Rabbit" intervalId="4"/>
+            </items>
+        </rareCategory>
+
+        <rareCategory giftId="ny22Gift2">
+            <probabilities>
+                <probability id="common" value="0.75"/>
+                <probability id="uncommon" value="0.25"/>
+            </probabilities>
+            <intervals>
+                <interval id="1" value="6-10"/>
+                <interval id="2" value="12-18"/>
+                <interval id="3" value="22-29"/>
+                <interval id="4" value="33-43"/>
+                <interval id="5" value="45-60"/>
+            </intervals>
+            <items>
+                <!--ОБЫЧНЫЕ-->
+                <!--Мальчики-->
+                <item lootType="common" itemType="clothes" gender="boy" typeId="boyBtsNY20Gld" probability="0.22"/>
+                <item lootType="common" itemType="clothes" gender="boy" typeId="boyBtsNY20Emr" probability="0.23"/>
+                <item lootType="common" itemType="clothes" gender="boy" typeId="boyPntsNY20Gld" probability="0.21"/>
+                <item lootType="common" itemType="clothes" gender="boy" typeId="boyErrNY20Nght" probability="0.22"/>
+                <item lootType="common" itemType="clothes" gender="boy" typeId="boyJcktNY20Nght" probability="0.23"/>
+                <item lootType="common" itemType="clothes" gender="boy" typeId="boyShrtNY20Slv" probability="0.21"/>
+                <item lootType="common" itemType="clothes" gender="boy" typeId="boyTShrtSnbrdrNY18" probability="0.24"/>
+                <item lootType="common" itemType="clothes" gender="boy" typeId="boyHatSnbrdrNY18" probability="0.22"/>
+                <item lootType="common" itemType="clothes" gender="boy" typeId="boyHatNY17" probability="0.24"/>
+                <item lootType="common" itemType="clothes" gender="boy" typeId="bNY16Hdphn" probability="0.22"/>
+                <item lootType="common" itemType="clothes" gender="boy" typeId="boyNY15Hat" probability="0.21"/>
+                <item lootType="common" itemType="clothes" gender="boy" typeId="boyNY15Sks" probability="0.22"/>
+                <item lootType="common" itemType="clothes" gender="boy" typeId="boyNY15Shs" probability="0.23"/>
+                <item lootType="common" itemType="clothes" gender="boy" typeId="boyNY15Pts" probability="0.21"/>
+                <item lootType="common" itemType="clothes" gender="boy" typeId="boyNY14Msk" probability="0.21"/>
+                <item lootType="common" itemType="clothes" gender="boy" typeId="boyNY14Hat" probability="0.24"/>
+                <item lootType="common" itemType="clothes" gender="boy" typeId="boyNY3" probability="0.24"/>
+                <item lootType="common" itemType="clothes" gender="boy" typeId="boyBtsNY17" probability="0.22"/>
+                <!--Девочки-->
+                <item lootType="common" itemType="clothes" gender="girl" typeId="girlBtsNY20Gld" probability="0.22"/>
+                <item lootType="common" itemType="clothes" gender="girl" typeId="girlBtsNY20Nght" probability="0.23"/>
+                <item lootType="common" itemType="clothes" gender="girl" typeId="girlDcrNY20Gld" probability="0.21"/>
+                <item lootType="common" itemType="clothes" gender="girl" typeId="girlBrclNY20Gld" probability="0.22"/>
+                <item lootType="common" itemType="clothes" gender="girl" typeId="girlErrNY20Emr" probability="0.23"/>
+                <item lootType="common" itemType="clothes" gender="girl" typeId="girlTShrtNY20Slv" probability="0.21"/>
+                <item lootType="common" itemType="clothes" gender="girl" typeId="grlTShrtSnbrdrNY18" probability="0.2"/>
+                <item lootType="common" itemType="clothes" gender="girl" typeId="grlHatSnbrdrNY18" probability="0.24"/>
+                <item lootType="common" itemType="clothes" gender="girl" typeId="grlDcrNY17" probability="0.25"/>
+                <item lootType="common" itemType="clothes" gender="girl" typeId="gNY16Rim" probability="0.23"/>
+                <item lootType="common" itemType="clothes" gender="girl" typeId="grlNY15Hat" probability="0.26"/>
+                <item lootType="common" itemType="clothes" gender="girl" typeId="grlNY15Stc" probability="0.22"/>
+                <item lootType="common" itemType="clothes" gender="girl" typeId="girlNY15Shs" probability="0.24"/>
+                <item lootType="common" itemType="clothes" gender="girl" typeId="grlNY15Errngs" probability="0.21"/>
+                <item lootType="common" itemType="clothes" gender="girl" typeId="girlNY14Msk" probability="0.23"/>
+                <item lootType="common" itemType="clothes" gender="girl" typeId="grlNY14Rim" probability="0.22"/>
+                <item lootType="common" itemType="clothes" gender="girl" typeId="girlNY7" probability="0.21"/>
+                <item lootType="common" itemType="clothes" gender="girl" typeId="girlSktNY20Nght" probability="0.24"/>
+                <item lootType="common" itemType="clothes" gender="girl" typeId="girlErrNY20Slv" probability="0.22"/>
+                <!--Мебель-->
+                <item lootType="common" itemType="furniture" typeId="ny23Floor" probability="0.14"/>
+                <item lootType="common" itemType="furniture" typeId="ny23Luminaire" probability="0.15"/>
+                <item lootType="common" itemType="furniture" typeId="ny23Lamp" probability="0.14"/>
+                <item lootType="common" itemType="furniture" typeId="wallSkandi2021" probability="0.15"/>
+                <item lootType="common" itemType="furniture" typeId="skandi2021Flower3" probability="0.16"/>
+                <item lootType="common" itemType="furniture" typeId="skandi2021Mirror" probability="0.17"/>
+                <item lootType="common" itemType="furniture" typeId="skandi2021Decor" probability="0.17"/>
+                <item lootType="common" itemType="furniture" typeId="skandi2021Flower1" probability="0.16"/>
+                <item lootType="common" itemType="furniture" typeId="skandi2021Dishes" probability="0.17"/>
+                <item lootType="common" itemType="furniture" typeId="ny21Chair" probability="0.27"/>
+                <item lootType="common" itemType="furniture" typeId="ny21GarlandDecor" probability="0.28"/>
+                <item lootType="common" itemType="furniture" typeId="ny21Snowman" probability="0.25"/>
+                <item lootType="common" itemType="furniture" typeId="ny21Bench" probability="0.27"/>
+                <item lootType="common" itemType="furniture" typeId="flrNY21" probability="0.26"/>
+                <item lootType="common" itemType="furniture" typeId="NY20Bllns" probability="0.29"/>
+                <item lootType="common" itemType="furniture" typeId="ny20BlkTbl" probability="0.3"/>
+                <item lootType="common" itemType="furniture" typeId="NY20Chr" probability="0.29"/>
+                <item lootType="common" itemType="furniture" typeId="ny19Chair" probability="0.25"/>
+                <item lootType="common" itemType="furniture" typeId="presentNYGold" probability="0.29"/>
+                <item lootType="common" itemType="furniture" typeId="presentNYRed" probability="0.28"/>
+                <item lootType="common" itemType="furniture" typeId="decorNYFir2" probability="0.29"/>
+                <item lootType="common" itemType="furniture" typeId="garlandNYSphere" probability="0.3"/>
+                <item lootType="common" itemType="furniture" typeId="decorNYFir3" probability="0.27"/>
+                <item lootType="common" itemType="furniture" typeId="treeNYPresent" probability="0.28"/>
+                <item lootType="common" itemType="furniture" typeId="sockNYGold" probability="0.27"/>
+                <item lootType="common" itemType="furniture" typeId="sockNYRed" probability="0.29"/>
+                <item lootType="common" itemType="furniture" typeId="sockNYBlue" probability="0.3"/>
+                <item lootType="common" itemType="furniture" typeId="door3" probability="0.29"/>
+                <item lootType="common" itemType="furniture" typeId="sofa11" probability="0.28"/>
+                <item lootType="common" itemType="furniture" typeId="frnWll4" probability="0.29"/>
+                <item lootType="common" itemType="furniture" typeId="caseArtdecoLong" probability="0.3"/>
+                <item lootType="common" itemType="furniture" typeId="cllsSea" probability="0.31"/>
+                <item lootType="common" itemType="furniture" typeId="bdAln" probability="0.29"/>
+                <item lootType="common" itemType="furniture" typeId="chrNYRf" probability="0.28"/>
+                <item lootType="common" itemType="furniture" typeId="tblCtr1" probability="0.27"/>
+                <item lootType="common" itemType="furniture" typeId="nsPrns" probability="0.29"/>
+                <item lootType="common" itemType="furniture" typeId="miniFountain" probability="0.27"/>
+                <!--РЕДКИЕ-->
+                <!--Мальчики-->
+                <item lootType="uncommon" itemType="clothes" gender="boy" typeId="boyScarfCold23" probability="0.12"/>
+                <item lootType="uncommon" itemType="clothes" gender="boy" typeId="boyJacketCold23" probability="0.12"/>
+                <item lootType="uncommon" itemType="clothes" gender="boy" typeId="boyPulloverWinter23" probability="0.11"/>
+                <item lootType="uncommon" itemType="clothes" gender="boy" typeId="boyPantsWinter23" probability="0.1"/>
+                <item lootType="uncommon" itemType="clothes" gender="boy" typeId="boyNY2022Pants" probability="0.12"/>
+                <item lootType="uncommon" itemType="clothes" gender="boy" typeId="boyNY2022Boots" probability="0.13"/>
+                <item lootType="uncommon" itemType="clothes" gender="boy" typeId="boyPantsWinter22" probability="0.11"/>
+                <item lootType="uncommon" itemType="clothes" gender="boy" typeId="boyPulloverFreezing22" probability="0.14"/>
+                <item lootType="uncommon" itemType="clothes" gender="boy" typeId="boyShoesWinter22" probability="0.12"/>
+                <!--Девочки-->
+                <item lootType="uncommon" itemType="clothes" gender="girl" typeId="girlScarfCold23" probability="0.11"/>
+                <item lootType="uncommon" itemType="clothes" gender="girl" typeId="girlJacketCold23" probability="0.1"/>
+                <item lootType="uncommon" itemType="clothes" gender="girl" typeId="girlBagWinter23" probability="0.11"/>
+                <item lootType="uncommon" itemType="clothes" gender="girl" typeId="girlSkirtWinter23" probability="0.1"/>
+                <item lootType="uncommon" itemType="clothes" gender="girl" typeId="girlNY2022Necklace" probability="0.12"/>
+                <item lootType="uncommon" itemType="clothes" gender="girl" typeId="girlNY2022Shoes" probability="0.13"/>
+                <item lootType="uncommon" itemType="clothes" gender="girl" typeId="girlTightsWinter22" probability="0.11"/>
+                <item lootType="uncommon" itemType="clothes" gender="girl" typeId="girlShoesWinter22" probability="0.14"/>
+                <item lootType="uncommon" itemType="clothes" gender="girl" typeId="girlPulloverFreezing22" probability="0.12"/>
+                <!--Мебель-->
+                <item lootType="uncommon" itemType="furniture" typeId="ny23Armchair" probability="0.13"/>
+                <item lootType="uncommon" itemType="furniture" typeId="ny23Sleigh" probability="0.12"/>
+                <item lootType="uncommon" itemType="furniture" typeId="ny23RedCarpet" probability="0.11"/>
+                <item lootType="uncommon" itemType="furniture" typeId="ny23Wall" probability="0.09"/>
+                <item lootType="uncommon" itemType="furniture" typeId="skandi2021Carpet" probability="0.12"/>
+                <item lootType="uncommon" itemType="furniture" typeId="skandi2021Table1" probability="0.1"/>
+                <item lootType="uncommon" itemType="furniture" typeId="ny21Table" probability="0.13"/>
+                <item lootType="uncommon" itemType="furniture" typeId="wndNY21" probability="0.12"/>
+                <!--УНИКАЛЬНЫЕ-->
+                <item lootType="rare" itemType="clothes" gender="boy" typeId="boyJumperSnowNY22" intervalId="1"/>
+                <item lootType="rare" itemType="clothes" gender="girl" typeId="girlJumperSnowmanNY22"  intervalId="1"/>
+                <item lootType="rare" itemType="furniture" typeId="ny2022SnwCarpet" intervalId="2"/>
+                <item lootType="rare" itemType="clothes" gender="boy" typeId="boyStickNY22Accs" intervalId="3"/>
+                <item lootType="rare" itemType="clothes" gender="girl" typeId="girlStickNY22Accs"  intervalId="3"/>
+                <item lootType="rare" itemType="clothes" gender="boy" typeId="boyTshirtNY23" intervalId="4"/>
+                <item lootType="rare" itemType="clothes" gender="girl" typeId="girlTshirtNY23"  intervalId="4"/>
+                <item lootType="rare" itemType="furniture" typeId="ny23PresentWindow" intervalId="5"/>
+            </items>
+        </rareCategory>
+
+        <rareCategory giftId="ny22Gift3">
+            <probabilities>
+                <probability id="common" value="0.75"/>
+                <probability id="uncommon" value="0.25"/>
+            </probabilities>
+            <intervals>
+                <interval id="1" value="5-10"/>
+                <interval id="2" value="13-17"/>
+                <interval id="3" value="21-26"/>
+                <interval id="4" value="30-37"/>
+                <interval id="5" value="40-48"/>
+                <interval id="6" value="50-55"/>
+                <interval id="7" value="58-65"/>
+                <interval id="8" value="68-80"/>
+            </intervals>
+            <items>
+                <!--ОБЫЧНЫЕ-->
+                <!--Мальчики-->
+                <item lootType="common" itemType="clothes" gender="boy" typeId="boyMskNY20Emr" probability="0.25"/>
+                <item lootType="common" itemType="clothes" gender="boy" typeId="boyGlssNY20Gld" probability="0.24"/>
+                <item lootType="common" itemType="clothes" gender="boy" typeId="boyJcktNY20Emr" probability="0.25"/>
+                <item lootType="common" itemType="clothes" gender="boy" typeId="boyShrtNY20Nght" probability="0.24"/>
+                <item lootType="common" itemType="clothes" gender="boy" typeId="boyPntsNY20Nght" probability="0.23"/>
+                <item lootType="common" itemType="clothes" gender="boy" typeId="boyPntsNY20Slv" probability="0.25"/>
+                <item lootType="common" itemType="clothes" gender="boy" typeId="boyJcktNY20Slv" probability="0.24"/>
+                <item lootType="common" itemType="clothes" gender="boy" typeId="boyBtsSnbrdrNY18" probability="0.25"/>
+                <item lootType="common" itemType="clothes" gender="boy" typeId="boyPntsSnbrdrNY18" probability="0.23"/>
+                <item lootType="common" itemType="clothes" gender="boy" typeId="boyJcktSnbrdrNY18" probability="0.22"/>
+                <item lootType="common" itemType="clothes" gender="boy" typeId="boyTShtNY17" probability="0.25"/>
+                <item lootType="common" itemType="clothes" gender="boy" typeId="boyPntNY17" probability="0.24"/>
+                <item lootType="common" itemType="clothes" gender="boy" typeId="boyClkNY17" probability="0.24"/>
+                <item lootType="common" itemType="clothes" gender="boy" typeId="bNY16BArt" probability="0.23"/>
+                <item lootType="common" itemType="clothes" gender="boy" typeId="bNY16FCt" probability="0.24"/>
+                <item lootType="common" itemType="clothes" gender="boy" typeId="bNY16Ovrll" probability="0.25"/>
+                <item lootType="common" itemType="clothes" gender="boy" typeId="boyNY15Tsht" probability="0.26"/>
+                <item lootType="common" itemType="clothes" gender="boy" typeId="boyNY15Vst" probability="0.25"/>
+                <item lootType="common" itemType="clothes" gender="boy" typeId="boyNY14Coat" probability="0.18"/>
+                <item lootType="common" itemType="clothes" gender="boy" typeId="boyNY14Crown" probability="0.2"/>
+                <item lootType="common" itemType="clothes" gender="boy" typeId="boyNY14Cstm" probability="0.2"/>
+                <!--Девочки-->
+                <item lootType="common" itemType="clothes" gender="girl" typeId="girlTopNY20Gld" probability="0.25"/>
+                <item lootType="common" itemType="clothes" gender="girl" typeId="girlDrssNY20Emr" probability="0.24"/>
+                <item lootType="common" itemType="clothes" gender="girl" typeId="girlTShrtNY20Nght" probability="0.25"/>
+                <item lootType="common" itemType="clothes" gender="girl" typeId="girlStkNY20Slv" probability="0.26"/>
+                <item lootType="common" itemType="clothes" gender="girl" typeId="girlNcklNY20Gld" probability="0.24"/>
+                <item lootType="common" itemType="clothes" gender="girl" typeId="girlJcktNY20Emr" probability="0.23"/>
+                <item lootType="common" itemType="clothes" gender="girl" typeId="girlErrNY20Nght" probability="0.24"/>
+                <item lootType="common" itemType="clothes" gender="girl" typeId="grlBtsSnbrdrNY18" probability="0.26"/>
+                <item lootType="common" itemType="clothes" gender="girl" typeId="grlPntsSnbrdrNY18" probability="0.25"/>
+                <item lootType="common" itemType="clothes" gender="girl" typeId="grlJcktSnbrdrNY18" probability="0.24"/>
+                <item lootType="common" itemType="clothes" gender="girl" typeId="grlDrsNY17" probability="0.24"/>
+                <item lootType="common" itemType="clothes" gender="girl" typeId="grlShsNY17" probability="0.23"/>
+                <item lootType="common" itemType="clothes" gender="girl" typeId="gNY16BArt" probability="0.22"/>
+                <item lootType="common" itemType="clothes" gender="girl" typeId="gNY16Cllr" probability="0.26"/>
+                <item lootType="common" itemType="clothes" gender="girl" typeId="gNY16Ovrll" probability="0.25"/>
+                <item lootType="common" itemType="clothes" gender="girl" typeId="girlNY15Ovrll" probability="0.24"/>
+                <item lootType="common" itemType="clothes" gender="girl" typeId="girlNY15Pdt" probability="0.25"/>
+                <item lootType="common" itemType="clothes" gender="girl" typeId="grlNY14Drss" probability="0.18"/>
+                <item lootType="common" itemType="clothes" gender="girl" typeId="grlNY14Shs" probability="0.18"/>
+                <item lootType="common" itemType="clothes" gender="girl" typeId="grlNY14Errngs" probability="0.19"/>
+                <!--Мебель-->
+                <item lootType="common" itemType="furniture" typeId="ny23Poster" probability="0.21"/>
+                <item lootType="common" itemType="furniture" typeId="smallWindowSkandi2021" probability="0.3"/>
+                <item lootType="common" itemType="furniture" typeId="skandi2021Armchair" probability="0.29"/>
+                <item lootType="common" itemType="furniture" typeId="wllNY21" probability="0.31"/>
+                <item lootType="common" itemType="furniture" typeId="ny21Tree" probability="0.27"/>
+                <item lootType="common" itemType="furniture" typeId="NY20BlTbl" probability="0.28"/>
+                <item lootType="common" itemType="furniture" typeId="wllNY14" probability="0.28"/>
+                <item lootType="common" itemType="furniture" typeId="chrNY14" probability="0.29"/>
+                <item lootType="common" itemType="furniture" typeId="ny19Pn" probability="0.31"/>
+                <item lootType="common" itemType="furniture" typeId="ny19Fireplace" probability="0.29"/>
+                <item lootType="common" itemType="furniture" typeId="NY20Scn" probability="0.28"/>
+                <item lootType="common" itemType="furniture" typeId="floorNY14" probability="0.27"/>
+                <item lootType="common" itemType="furniture" typeId="wtrfll1" probability="0.28"/>
+                <item lootType="common" itemType="furniture" typeId="wtrfll2" probability="0.29"/>
+                <item lootType="common" itemType="furniture" typeId="wtrfll3" probability="0.3"/>
+                <item lootType="common" itemType="furniture" typeId="sofaVip1" probability="0.28"/>
+                <item lootType="common" itemType="furniture" typeId="sofaVip2" probability="0.29"/>
+                <item lootType="common" itemType="furniture" typeId="bedVip1" probability="0.28"/>
+                <item lootType="common" itemType="furniture" typeId="armPrncssBrwn" probability="0.27"/>
+                <item lootType="common" itemType="furniture" typeId="armPrncssGrn" probability="0.29"/>
+                <item lootType="common" itemType="furniture" typeId="wtrfll5" probability="0.28"/>
+                <item lootType="common" itemType="furniture" typeId="armchairVip3" probability="0.27"/>
+                <item lootType="common" itemType="furniture" typeId="bedVip3" probability="0.28"/>
+                <item lootType="common" itemType="furniture" typeId="fireplace4" probability="0.29"/>
+                <item lootType="common" itemType="furniture" typeId="frnWll2" probability="0.28"/>
+                <item lootType="common" itemType="furniture" typeId="ktnJpnRd" probability="0.27"/>
+                <item lootType="common" itemType="furniture" typeId="cndlStckCstl" probability="0.29"/>
+                <!--РЕДКИЕ-->
+                <!--Мальчики-->
+                <item lootType="uncommon" itemType="clothes" gender="boy" typeId="boyShoesCold23" probability="0.13"/>
+                <item lootType="uncommon" itemType="clothes" gender="boy" typeId="boyHatWinter23" probability="0.11"/>
+                <item lootType="uncommon" itemType="clothes" gender="boy" typeId="boyJacketWinter23" probability="0.1"/>
+                <item lootType="uncommon" itemType="clothes" gender="boy" typeId="boyNY2022Hat" probability="0.13"/>
+                <item lootType="uncommon" itemType="clothes" gender="boy" typeId="boyNY2022Top" probability="0.12"/>
+                <item lootType="uncommon" itemType="clothes" gender="boy" typeId="boyScarfWinter22" probability="0.14"/>
+                <item lootType="uncommon" itemType="clothes" gender="boy" typeId="boyJacketWinter22" probability="0.13"/>
+                <item lootType="uncommon" itemType="clothes" gender="boy" typeId="boyJacketFreezing22" probability="0.12"/>
+                <item lootType="uncommon" itemType="clothes" gender="boy" typeId="boyPantsFreezing22" probability="0.12"/>
+                <!--Девочки-->
+                <item lootType="uncommon" itemType="clothes" gender="girl" typeId="girlShoesCold23" probability="0.13"/>
+                <item lootType="uncommon" itemType="clothes" gender="girl" typeId="girlHatWinter23" probability="0.11"/>
+                <item lootType="uncommon" itemType="clothes" gender="girl" typeId="girlJacketWinter23" probability="0.1"/>
+                <item lootType="uncommon" itemType="clothes" gender="girl" typeId="girlPulloverWinter23" probability="0.13"/>
+                <item lootType="uncommon" itemType="clothes" gender="girl" typeId="girlNY2022Hat" probability="0.12"/>
+                <item lootType="uncommon" itemType="clothes" gender="girl" typeId="girlNY2022Dress" probability="0.12"/>
+                <item lootType="uncommon" itemType="clothes" gender="girl" typeId="girlScarfWinter22" probability="0.14"/>
+                <item lootType="uncommon" itemType="clothes" gender="girl" typeId="girlJacketWinter22" probability="0.13"/>
+                <item lootType="uncommon" itemType="clothes" gender="girl" typeId="girlJacketFreezing22" probability="0.12"/>
+                <item lootType="uncommon" itemType="clothes" gender="girl" typeId="girlPantsFreezing22" probability="0.11"/>
+                <item lootType="uncommon" itemType="clothes" gender="girl" typeId="girlBagFreezing22" probability="0.12"/>
+                <!--Мебель-->
+                <item lootType="uncommon" itemType="furniture" typeId="ny23Garland" probability="0.11"/>
+                <item lootType="uncommon" itemType="furniture" typeId="ny23RedArmchair" probability="0.09"/>
+                <item lootType="uncommon" itemType="furniture" typeId="ny23Cookie" probability="0.13"/>
+                <item lootType="uncommon" itemType="furniture" typeId="ny23Sofa" probability="0.1"/>
+                <item lootType="uncommon" itemType="furniture" typeId="ny23Carpet" probability="0.13"/>
+                <item lootType="uncommon" itemType="furniture" typeId="ny23Window" probability="0.11"/>
+                <item lootType="uncommon" itemType="furniture" typeId="ny23Fir" probability="0.12"/>
+                <item lootType="uncommon" itemType="furniture" typeId="ny2022TigerToy" probability="0.15"/>
+                <item lootType="uncommon" itemType="furniture" typeId="ny2022SnwLamp" probability="0.13"/>
+                <item lootType="uncommon" itemType="furniture" typeId="bigWindowSkandi2021" probability="0.14"/>
+                <item lootType="uncommon" itemType="furniture" typeId="doorSkandi2021" probability="0.14"/>
+                <item lootType="uncommon" itemType="furniture" typeId="skandi2021Sofa" probability="0.12"/>
+                <item lootType="uncommon" itemType="furniture" typeId="skandi2021BedsideTable" probability="0.15"/>
+                <item lootType="uncommon" itemType="furniture" typeId="drNY21" probability="0.1"/>
+                <item lootType="uncommon" itemType="furniture" typeId="ny21Snowball" probability="0.12"/>
+                <item lootType="uncommon" itemType="furniture" typeId="drNY14Sml" probability="0.12"/>
+                <!--УНИКАЛЬНЫЕ-->
+                <item lootType="rare" itemType="clothes" gender="boy" typeId="boyJumperSpruceNY22" intervalId="1"/>
+                <item lootType="rare" itemType="clothes" gender="girl" typeId="girlJumperDeerNY22" intervalId="1"/>
+                <item lootType="rare" itemType="furniture" typeId="ny23Door" intervalId="2"/>
+                <item lootType="rare" itemType="clothes" gender="boy" typeId="boyWigNY22Accs" intervalId="3"/>
+                <item lootType="rare" itemType="clothes" gender="girl" typeId="girlWigNY22Accs" intervalId="3"/>
+                <item lootType="rare" itemType="clothes" gender="boy" typeId="boyPulloverNY23" intervalId="4"/>
+                <item lootType="rare" itemType="clothes" gender="girl" typeId="girlPulloverNY23" intervalId="4"/>
+                <item lootType="rare" itemType="furniture" typeId="ny23RockingArmchair" intervalId="5"/>
+                <item lootType="rare" itemType="clothes" gender="boy" typeId="boyWinterHatNY23" intervalId="6"/>
+                <item lootType="rare" itemType="clothes" gender="girl" typeId="girlWinterHatNY23" intervalId="6"/>
+                <item lootType="rare" itemType="furniture" typeId="avapacCybersanta" intervalId="7"/>
+                <item lootType="rare" itemType="furniture" typeId="ny23Cyberbike" intervalId="8"/>
+            </items>
+        </rareCategory>
+    </group>
+
+    <gifts>
+        <gift typeId="ny22Gift1">
+            <content>
+                <block order="1" title="resourceCategory" image="Gift1Resources@newyear2023"/>
+                <block order="2" title="craftLoot" image="GiftCraftComponents@newyear2023"/>
+                <block order="3" title="clothesShopTitle" image="Gift1ClothesBoy@newyear2023" gender="1"/>
+                <block order="3" title="clothesShopTitle" image="Gift1ClothesGirl@newyear2023" gender="2"/>
+                <block order="4" title="furnitureShopTitle" image="Gift1Furniture@newyear2023"/>
+                <block order="5" title="uniqueItemTitle" image="GiftGraffity@newyear2023"/>
+                <block order="6" title="uniqueItemTitle" image="Gift1Rabbit@newyear2023"/>
+            </content>
+        </gift>
+        <gift typeId="ny22Gift2">
+            <content>
+                <block order="1" title="resourceCategory" image="Gift2Resources@newyear2023"/>
+                <block order="2" title="craftLoot" image="GiftCraftComponents@newyear2023"/>
+                <block order="3" title="clothesShopTitle" image="Gift2ClothesBoy@newyear2023" gender="1"/>
+                <block order="3" title="clothesShopTitle" image="Gift2ClothesGirl@newyear2023" gender="2"/>
+                <block order="4" title="furnitureShopTitle" image="Gift2Furniture@newyear2023"/>
+                <block order="5" title="uniqueItemTitle" image="GiftGraffity@newyear2023"/>
+                <block order="6" title="uniqueItemTitle" image="Gift2Window@newyear2023"/>
+            </content>
+        </gift>
+        <gift typeId="ny22Gift3">
+            <content>
+                <block order="1" title="resourceCategory" image="Gift3Resources@newyear2023"/>
+                <block order="2" title="craftLoot" image="GiftCraftComponents@newyear2023"/>
+                <block order="3" title="clothesShopTitle" image="Gift3ClothesBoy@newyear2023" gender="1"/>
+                <block order="3" title="clothesShopTitle" image="Gift3ClothesGirl@newyear2023" gender="2"/>
+                <block order="4" title="furnitureShopTitle" image="Gift3Furniture@newyear2023"/>
+                <block order="5" title="uniqueItemTitle" image="GiftGraffity@newyear2023"/>
+                <block order="6" title="uniqueItemTitle" image="Gift3Avapac@newyear2023"/>
+                <block order="7" title="uniqueItemTitle" image="Gift3Bike@newyear2023"/>
+                <block order="8" title="uniqueItemTitle" image="Gift3Armchair@newyear2023"/>
+                <block order="9" title="uniqueItemTitle" image="Gift3Cookie@newyear2023"/>
+                <block order="10" title="uniqueItemTitle" image="Gift3Garland@newyear2023"/>
+                <block order="11" title="uniqueItemTitle" image="Gift3Poster@newyear2023"/>
+            </content>
+        </gift>
+    </gifts>
+</config>

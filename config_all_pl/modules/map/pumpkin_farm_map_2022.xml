@@ -1,0 +1,75 @@
+<?xml version="1.0" ?>
+<map width="34" length="35">
+    <viewport x="415" y="-630" width="1195" height="845" />
+    <items>
+        <item class="backgroundItem" wx="26.19296875" wy="-13.30390625" skin="HalloweenFarmLocation22@hwFarm" />
+        <item class="walkingGridItem" cols="34" rows="35">
+            <grid>
+                <row values="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" />
+                <row values="0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0" />
+                <row values="0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,1,1,1,1,1,1,0,0,0,0,1,1,0,0,0,0,0,0,0" />
+                <row values="0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,1,1,0,0,0,0,0,0,0" />
+                <row values="0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0" />
+                <row values="0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0" />
+                <row values="0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0" />
+                <row values="0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0" />
+                <row values="0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0" />
+                <row values="0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0" />
+                <row values="0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0" />
+                <row values="0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0" />
+                <row values="0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0" />
+                <row values="0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0" />
+                <row values="0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0" />
+                <row values="0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0" />
+                <row values="0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0" />
+                <row values="0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0" />
+                <row values="0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0" />
+                <row values="0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0" />
+                <row values="0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0" />
+                <row values="0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0" />
+                <row values="0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0" />
+                <row values="0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0" />
+                <row values="0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0" />
+                <row values="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0" />
+                <row values="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" />
+                <row values="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" />
+                <row values="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" />
+                <row values="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" />
+                <row values="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" />
+                <row values="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" />
+                <row values="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" />
+                <row values="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" />
+                <row values="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" />
+            </grid>
+        </item>
+        <item class="landscapeItem" wx="24.45" kind="hwFarmLamp" wy="6.7" wz="0" id="hwFarmLamp" />
+        <item class="landscapeItem" wx="24.39" kind="hwFarmLamp2" wy="14.2" wz="0" id="hwFarmLamp2" />
+        <item class="landscapeItem" wx="31.7" kind="hwFarmHead" wy="16.14" wz="0" id="hwFarmHead" />
+        <item class="landscapeItem" wx="-0.1" kind="hwFarmClowworms" wy="12.97" wz="0" id="hwFarmClowworms" />
+        <item class="landscapeItem" wx="19.5875" kind="hwFarmSwampBubbles" wy="11.6575" wz="0" id="hwFarmSwampBubbles" />
+
+        <item class="gardenBedInteractiveItem" itemIndex="0" id="gardenBed0" wx="13" wy="1" wz="0"
+            kind="hwFarmInteractiveGardenBed" alternativeSkins="Triffid@hwFarm,WitchFlower@hwFarm" />
+        <item class="gardenBedInteractiveItem" itemIndex="1" id="gardenBed1" wx="6" wy="8" wz="0"
+            kind="hwFarmInteractiveGardenBed" alternativeSkins="Triffid@hwFarm,WitchFlower@hwFarm" />
+        <item class="gardenBedInteractiveItem" itemIndex="2" id="gardenBed2" wx="12" wy="8" wz="0"
+            kind="hwFarmInteractiveGardenBed" alternativeSkins="Triffid@hwFarm,WitchFlower@hwFarm" />
+        <item class="gardenBedInteractiveItem" itemIndex="3" id="gardenBed3" wx="6" wy="14" wz="0"
+            kind="hwFarmInteractiveGardenBed" alternativeSkins="Triffid@hwFarm,WitchFlower@hwFarm" />
+        <item class="gardenBedInteractiveItem" itemIndex="4" id="gardenBed4" wx="19" wy="5" wz="0"
+            kind="hwFarmInteractiveGardenBed" alternativeSkins="Triffid@hwFarm,WitchFlower@hwFarm" />
+        <item class="gardenBedInteractiveItem" itemIndex="5" id="gardenBed5" wx="15" wy="13" wz="0"
+            kind="hwFarmInteractiveGardenBed" alternativeSkins="Triffid@hwFarm,WitchFlower@hwFarm" />
+        <item class="gardenBedInteractiveItem" itemIndex="6" id="gardenBed6" wx="10" wy="16" wz="0"
+            kind="hwFarmInteractiveGardenBed" alternativeSkins="Triffid@hwFarm,WitchFlower@hwFarm" />
+        <item class="gardenBedInteractiveItem" itemIndex="7" id="gardenBed7" wx="20" wy="15" wz="0"
+            kind="hwFarmInteractiveGardenBed" alternativeSkins="Triffid@hwFarm,WitchFlower@hwFarm" />
+        <item class="gardenBedInteractiveItem" itemIndex="8" id="gardenBed8" wx="15" wy="19" wz="0"
+            kind="hwFarmInteractiveGardenBed" alternativeSkins="Triffid@hwFarm,WitchFlower@hwFarm" />
+        <item class="gardenBedInteractiveItem" itemIndex="9" id="gardenBed9" wx="19" wy="21" wz="0"
+            kind="hwFarmInteractiveGardenBed" alternativeSkins="Triffid@hwFarm,WitchFlower@hwFarm" />
+
+        <item class="witchInteractiveItem" wx="21" kind="witchInteractive" wy="10" wz="0" id="witch" />
+        <item class="scarecrowItem" wx="14" kind="scarecrow" wy="4" wz="0" id="scarecrow" />
+    </items>
+</map>

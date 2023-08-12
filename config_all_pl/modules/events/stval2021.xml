@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<module id="stval2020" heartsProgress="2500" heartsForFriend="2"
+    activeProductionTime="86400" inactiveProductionTime="172800"
+    friendsLimit="40" trophy="stVal2021" trophyIcon="SV21TrophyIcon">
+    <inventory>
+        <category id="craftLoot">
+            <item id="heart" name="HeartLoot@stval2020" icon="HeartIcon@stval2020" label="#heartLootLabel"
+                description="#heartLootDescrioption" probability="1" gold="5" silver="0" canTrade="0" canSale="0" />
+        </category>
+    </inventory>
+
+    <packs>
+        <pack id="heartsPack1" icon="heartsPack1" heartsCount="1" gold="1"/>
+        <pack id="heartsPack150" icon="heartsPack2" heartsCount="150" gold="100" bonus="10"/>
+        <pack id="heartsPack300" icon="heartsPack3" heartsCount="450" gold="300" bonus="50"/>
+        <pack id="heartsPack900" icon="heartsPack4" heartsCount="900" gold="600" bonus="150"/>
+    </packs>
+
+    <shops title="#shopsTitle">
+        <item id="sv20Shop" index="8" category="dialog" targetId="sv20Shop">
+            <icon name="SV20ShopIcon@stval2020" title="#sv2020ShopDialogTitle" titleGlowColor="0x9a162b"/>
+        </item>
+    </shops>
+
+    <shop>
+        <category id="sv20" typeClass="SV20ShopItemType" priority="0">
+            <category id="sv20Clothes" label="#clothesShopTitle" type="clothes" priority="1">
+                <category id="sv20ClothesSets" label="#costumesCollections" type="clothesSet" priority="0">
+                    <item id="sv21sv14bv" itemId="sv14bv" hearts="750" priority="1"/>
+                    <item id="sv21stval15bs" itemId="stval15bs" hearts="650" priority="2"/>
+                    <item id="sv21boySV18Set" itemId="boySV18Set" hearts="670" priority="3"/>
+                    <item id="sv21boySV19Set" itemId="boySV19Set" hearts="1040" priority="4"/>
+                    <item id="sv21boySV20PrncSet" itemId="boySV20PrncSet" hearts="730" priority="5"/>
+                    <item id="sv21boySV20AldnSet" itemId="boySV20AldnSet" hearts="970" priority="6"/>
+                    <item id="sv21boySV21L1Set" itemId="boySV21L1Set" hearts="990" priority="7"  isNew="1"/>
+                    <item id="sv21boySV21L2Set" itemId="boySV21L2Set" hearts="770" priority="8"  isNew="1"/>
+
+                    <item id="sv21sv14gv" itemId="sv14gv" hearts="1000" priority="7"/>
+                    <item id="sv21stval15gs" itemId="stval15gs" hearts="712" priority="8"/>
+                    <item id="sv21girlSV18Set" itemId="girlSV18Set" hearts="680" priority="9"/>
+                    <item id="sv21girlSV19Set" itemId="girlSV19Set" hearts="1040" priority="10"/>
+                    <item id="sv21girlSV20CndrlSet" itemId="girlSV20CndrlSet" hearts="790" priority="11"/>
+                    <item id="sv21girlSV20JsmnSet" itemId="girlSV20JsmnSet" hearts="970" priority="12"/>
+                    <item id="sv21girlSV21L2Set" itemId="girlSV21L2Set" hearts="890" priority="13" isNew="1"/>
+                    <item id="sv21girlSV21L1Set" itemId="girlSV21L1Set" hearts="940" priority="14" isNew="1"/>
+                </category>
+
+                <category id="sv20TopClothes" label="#clothesCategoryTops" type="clothes" priority="1">
+                    <item id="sv21boySV14Armor" itemId="boySV14Armor" hearts="400" priority="1"/>
+                    <item id="sv21boyJcktRcc" itemId="boyJcktRcc" hearts="200" priority="2"/>
+                    <item id="sv21boyTShtRcc" itemId="boyTShtRcc" hearts="140" priority="3"/>
+                    <item id="sv21boySV18Jckt" itemId="boySV18Jckt" hearts="300" priority="4"/>
+                    <item id="sv21boySV18Shrt" itemId="boySV18Shrt" hearts="150" priority="5"/>
+                    <item id="sv21boyTShrtSV19" itemId="boyTShrtSV19" hearts="210" priority="6"/>
+                    <item id="sv21boyJcktSV19" itemId="boyJcktSV19" hearts="320" priority="7"/>
+
+                    <item id="sv21boySV21JcktL1" itemId="boySV21JcktL1" hearts="190" priority="8" isNew="1"/>
+                    <item id="sv21boySV21PllvrL1" itemId="boySV21PllvrL1" hearts="160" priority="9" isNew="1"/>
+                    <item id="sv21boySV21PllvrL2" itemId="boySV21PllvrL2" hearts="130" priority="10" isNew="1"/>
+                    <item id="sv21bboySV21JcktL2 " itemId="boySV21JcktL2 " hearts="230" priority="11" isNew="1"/>
+
+                    <item id="sv21grlSV14Drss" itemId="grlSV14Drss" hearts="400" priority="8"/>
+                    <item id="sv21grlDrssRcc" itemId="grlDrssRcc" hearts="300" priority="9"/>
+                    <item id="sv21girlSV18Drs" itemId="girlSV18Drs" hearts="320" priority="10"/>
+                    <item id="sv21girlDrssSV19" itemId="girlDrssSV19" hearts="480" priority="11"/>
+
+                    <item id="sv21boyJcktSV20Prnc" itemId="boyJcktSV20Prnc" hearts="200" priority="12"/>
+                    <item id="sv21boyJcktSV20Aldn" itemId="boyJcktSV20Aldn" hearts="150" priority="13"/>
+
+                    <item id="sv21girlDrssSV20Cndrl" itemId="girlDrssSV20Cndrl" hearts="300" priority="14"/>
+                    <item id="sv21girlTopSV20Jsmn" itemId="girlTopSV20Jsmn" hearts="250" priority="15"/>
+
+                    <item id="sv21girlSV21JcktL2" itemId="girlSV21JcktL2" hearts="230" priority="16" isNew="1"/>
+                    <item id="sv21girlSV21PllvrL2" itemId="girlSV21PllvrL2" hearts="130" priority="17" isNew="1"/>
+                    <item id="sv21girlSV21JcktL1" itemId="girlSV21JcktL1" hearts="170" priority="18" isNew="1"/>
+                    <item id="sv21girlSV21PllvrL1" itemId="girlSV21PllvrL1" hearts="190" priority="19" isNew="1"/>
+                </category>
+
+                <category id="sv20BottomClothes" label="#clothesCategoryBottoms" type="clothes" priority="2">
+                    <item id="sv21boySV14Pnts" itemId="boySV14Pnts" hearts="100" priority="1"/>
+                    <item id="sv21boyPtsRcc" itemId="boyPtsRcc" hearts="100" priority="2"/>
+                    <item id="sv21boySV18Pnts" itemId="boySV18Pnts" hearts="120" priority="3"/>
+                    <item id="sv21boyPntsSV19" itemId="boyPntsSV19" hearts="240" priority="4"/>
+
+                    <item id="sv21boyPntsSV20Prnc" itemId="boyPntsSV20Prnc" hearts="130" priority="5"/>
+                    <item id="sv21boyPntsSV20Aldn" itemId="boyPntsSV20Aldn" hearts="100" priority="6"/>
+
+                    <item id="sv21boySV21ShortsL1" itemId="boySV21ShortsL1" hearts="120" priority="7" isNew="1"/>
+                    <item id="sv21boySV21PantsL2" itemId="boySV21PantsL2" hearts="120" priority="8" isNew="1"/>
+
+
+                    <item id="sv21girlPntsSV20Jsmn" itemId="girlPntsSV20Jsmn" hearts="200" priority="4"/>
+
+                    <item id="sv21girlSV21PntsL2" itemId="girlSV21PntsL2" hearts="120" priority="5" isNew="1"/>
+                    <item id="sv21girlSV21PantsL1" itemId="girlSV21PantsL1" hearts="160" priority="6" isNew="1"/>
+                </category>
+
+                <category id="sv20ClothesShoes" label="#clothesCategoryShoes" type="clothes" priority="3">
+                    <item id="sv21boySV14Shs" itemId="boySV14Shs" hearts="100" priority="1"/>
+                    <item id="sv21boyShsRcc" itemId="boyShsRcc" hearts="80" priority="2"/>
+                    <item id="sv21boySV18Bts" itemId="boySV18Bts" hearts="100" priority="3"/>
+                    <item id="sv21boyBtsSV19" itemId="boyBtsSV19" hearts="120" priority="4"/>
+
+                    <item id="sv21grlSV14Shs" itemId="grlSV14Shs" hearts="70" priority="5"/>
+                    <item id="sv21grlShsRcc" itemId="grlShsRcc" hearts="62" priority="6"/>
+                    <item id="sv21girlSV18Shs" itemId="girlSV18Shs" hearts="120" priority="7"/>
+                    <item id="sv21girlBtsSV19" itemId="girlBtsSV19" hearts="200" priority="8"/>
+
+                    <item id="sv21boyBtsSV20Prnc" itemId="boyBtsSV20Prnc" hearts="80" priority="9"/>
+                    <item id="sv21boyBtsSV20Aldn" itemId="boyBtsSV20Aldn" hearts="130" priority="10"/>
+
+                    <item id="sv21boySV21ShoesL1" itemId="boySV21ShoesL1" hearts="140" priority="11" isNew="1"/>
+                    <item id="sv21boySV21ShoesL2" itemId="boySV21ShoesL2" hearts="110" priority="12" isNew="1"/>
+
+
+                    <item id="sv21girlBtsSV20Cndrl" itemId="girlBtsSV20Cndrl" hearts="130" priority="11"/>
+                    <item id="sv21girlBtsSV20Jsmn" itemId="girlBtsSV20Jsmn" hearts="120" priority="12"/>
+
+                    <item id="sv21girlSV21ShoesL2" itemId="girlSV21ShoesL2" hearts="110" priority="13" isNew="1"/>
+                    <item id="sv21girlSV21ShoesL1" itemId="girlSV21ShoesL1" hearts="140" priority="14" isNew="1"/>
+                </category>
+
+                <category id="sv20ClothesOther" label="#clothesCategoryOther" type="clothes" priority="4">
+                    <item id="sv21boySV14Qvr" itemId="boySV14Qvr" hearts="400" priority="1"/>
+                    <item id="sv21boySV14Bow" itemId="boySV14Bow" hearts="600" priority="2"/>
+                    <item id="sv21boySV14Neck" itemId="boySV14Neck" hearts="150" priority="3"/>
+                    <item id="sv21boyHrRcc" itemId="boyHrRcc" hearts="80" priority="4"/>
+                    <item id="sv21boyScksRcc" itemId="boyScksRcc" hearts="50" priority="5"/>
+                    <item id="sv21boySV18Rose" itemId="boySV18Rose" hearts="90" priority="6"/>
+                    <item id="sv21boyHatSV19Vlntn" itemId="boyHatSV19Vlntn" hearts="140" priority="7"/>
+                    <item id="sv21boySV19VlntnWngs" itemId="boySV19VlntnWngs" hearts="400" priority="8"/>
+                    <item id="sv21boyGlssSV19" itemId="boyGlssSV19" hearts="150" priority="9"/>
+
+                    <item id="sv21grlSV14Nimb" itemId="grlSV14Nimb" hearts="500" priority="10"/>
+                    <item id="sv21girlSV14Wngs" itemId="girlSV14Wngs" hearts="700" priority="11"/>
+                    <item id="sv21grlSV14Errngs" itemId="grlSV14Errngs" hearts="120" priority="12"/>
+                    <item id="sv21grlSV14Nck" itemId="grlSV14Nck" hearts="170" priority="13"/>
+                    <item id="sv21grlSV14rim" itemId="grlSV14rim" hearts="150" priority="14"/>
+                    <item id="sv21grlSV14Stck" itemId="grlSV14Stck" hearts="90" priority="15"/>
+                    <item id="sv21grlAcsFnRcc" itemId="grlAcsFnRcc" hearts="150" priority="16"/>
+                    <item id="sv21grlHrRcc" itemId="grlHrRcc" hearts="120" priority="17"/>
+                    <item id="sv21grlLcsRcc" itemId="grlLcsRcc" hearts="80" priority="18"/>
+                    <item id="sv21grlUnwrRcc" itemId="grlUnwrRcc" hearts="120" priority="19"/>
+                    <item id="sv21girlSV18Rose" itemId="girlSV18Rose" hearts="90" priority="20"/>
+                    <item id="sv21girlSV18Dcr" itemId="girlSV18Dcr" hearts="160" priority="21"/>
+                    <item id="sv21girlSV18Glvs" itemId="girlSV18Glvs" hearts="80" priority="22"/>
+                    <item id="sv21girlHatSV19Vlntn" itemId="girlHatSV19Vlntn" hearts="140" priority="23"/>
+                    <item id="sv21girlSV19VlntnWngs" itemId="girlSV19VlntnWngs" hearts="400" priority="24"/>
+                    <item id="sv21girlBrclSV19" itemId="girlBrclSV19" hearts="80" priority="25"/>
+                    <item id="sv21girlNcklSV19" itemId="girlNcklSV19" hearts="150" priority="26"/>
+                    <item id="sv21girlErrSV19" itemId="girlErrSV19" hearts="130" priority="27"/>
+
+                    <item id="sv21boyGlvsSV20Prnc" itemId="boyGlvsSV20Prnc" hearts="140" priority="28"/>
+                    <item id="sv21boyAcsSV20Prnc" itemId="boyAcsSV20Prnc" hearts="180" priority="29"/>
+                    <item id="sv21boyHatSV20Aldn" itemId="boyHatSV20Aldn" hearts="150" priority="30"/>
+                    <item id="sv21boyErrSV20Aldn" itemId="boyErrSV20Aldn" hearts="170" priority="31"/>
+                    <item id="sv21boyAcsSV20Aldn" itemId="boyAcsSV20Aldn" hearts="270" priority="32"/>
+
+                    <item id="sv21boySV21CapL1" itemId="boySV21CapL1" hearts="100" priority="33" isNew="1"/>
+                    <item id="sv21boySV21ErrL1" itemId="boySV21ErrL1" hearts="80" priority="34" isNew="1"/>
+                    <item id="sv21boySV21GlassL1" itemId="boySV21GlassL1" hearts="130" priority="35" isNew="1"/>
+                    <item id="sv21boySV21BagL1" itemId="boySV21BagL1" hearts="70" priority="36" isNew="1"/>
+                    <item id="sv21boySV21GlassL2" itemId="boySV21GlassL2" hearts="80" priority="37" isNew="1"/>
+                    <item id="sv21boySV21NeckL2" itemId="boySV21NeckL2" hearts="100" priority="38" isNew="1"/>
+
+                    <item id="sv21girlGlvsSV20Cndrl" itemId="girlGlvsSV20Cndrl" hearts="100" priority="33"/>
+                    <item id="sv21girlNcklSV20Cndrl" itemId="girlNcklSV20Cndrl" hearts="80" priority="34"/>
+                    <item id="sv21girlErrSV20Cndrl" itemId="girlErrSV20Cndrl" hearts="120" priority="35"/>
+                    <item id="sv21girlDcrSV20Cndrl" itemId="girlDcrSV20Cndrl" hearts="60" priority="36"/>
+
+                    <item id="sv21girlNcklSV20Jsmn" itemId="girlNcklSV20Jsmn" hearts="90" priority="37"/>
+                    <item id="sv21girlErrSV20Jsmn" itemId="girlErrSV20Jsmn" hearts="200" priority="38"/>
+                    <item id="sv21girlDcrSV20Jsmn" itemId="girlDcrSV20Jsmn" hearts="110" priority="39"/>
+
+                    <item id="sv21girlSV21HatL2" itemId="girlSV21HatL2" hearts="120" priority="40" isNew="1"/>
+                    <item id="sv21girlSV21GlssL2" itemId="girlSV21GlssL2" hearts="80" priority="41" isNew="1"/>
+                    <item id="sv21girlSV21NeckL2" itemId="girlSV21NeckL2" hearts="100" priority="42" isNew="1"/>
+                    <item id="sv21girlSV21GlssL1" itemId="girlSV21GlssL1" hearts="130" priority="43" isNew="1"/>
+                    <item id="sv21girlSV21ErrL1" itemId="girlSV21ErrL1" hearts="80" priority="44" isNew="1"/>
+                    <item id="sv21girlSV21BagL1" itemId="girlSV21BagL1" hearts="70" priority="45" isNew="1"/>
+                </category>
+            </category>
+
+            <category id="sv20Furniture" label="#furnitureCategory" type="furniture" priority="2">
+                <category id="sv20Furniture2014" label="2014" type="furniture" priority="1">
+                    <item id="sv21lmpSV14" itemId="lmpSV14" hearts="120" priority="1"/>
+                    <item id="sv21cstlSV14" itemId="cstlSV14" hearts="1200" priority="2"/>
+                    <item id="sv21lvmtrSV14" itemId="lvmtrSV14" hearts="400" priority="3"/>
+                    <item id="sv21drSV14" itemId="drSV14" hearts="650" priority="4"/>
+                    <item id="sv21wllSV14" itemId="wllSV14" hearts="500" priority="5"/>
+                    <item id="sv21flrSV14" itemId="flrSV14" hearts="450" priority="6"/>
+                    <item id="sv21chrSV14" itemId="chrSV14" hearts="50" priority="7"/>
+                    <item id="sv21tblSV14" itemId="tblSV14" hearts="110" priority="8"/>
+                </category>
+
+                <category id="sv20Furniture2015" label="2015" type="furniture" priority="2">
+                    <item id="sv21drSV15" itemId="drSV15" hearts="350" priority="1"/>
+                    <item id="sv21wallSV15" itemId="wallSV15" hearts="500" priority="2"/>
+                    <item id="sv21floorSV15" itemId="floorSV15" hearts="300" priority="3"/>
+                    <item id="sv21vaseSV15" itemId="vaseSV15" hearts="70" priority="4"/>
+                    <item id="sv21sfSV15" itemId="sfSV15" hearts="350" priority="5"/>
+                    <item id="sv21lvprpvnSV15" itemId="lvprpvnSV15" hearts="200" priority="6"/>
+                </category>
+
+
+                <category id="sv20Furniture2018" label="2018" type="furniture" priority="3">
+                    <item id="sv21armchairSV18" itemId="armchairSV18" hearts="190" priority="1"/>
+                </category>
+
+                <category id="sv20Furniture2019" label="2019" type="furniture" priority="4">
+                    <item id="sv21wddnCar" itemId="wddnCar" hearts="400" priority="1"/>
+                </category>
+
+                <category id="sv20Furniture2020" label="2020" type="furniture" priority="5">
+                    <item id="sv21sv20Bllns" itemId="sv20Bllns" hearts="200" priority="1"/>
+                    <item id="sv21sv20Vase" itemId="sv20Vase" hearts="90" priority="2"/>
+                    <item id="sv21sv20TCndl" itemId="sv20TCndl" hearts="30" priority="3"/>
+                    <item id="sv21sv20Wnglls" itemId="sv20Wnglls" hearts="20" priority="4"/>
+                    <item id="sv21sv20Heart" itemId="sv20Heart" hearts="110" priority="5"/>
+                    <item id="sv21sv20Poof" itemId="sv20Poof" hearts="180" priority="6"/>
+                    <item id="sv21sv20Table" itemId="sv20Table" hearts="250" priority="7"/>
+                    <item id="sv21sv20Tblwr" itemId="sv20Tblwr" hearts="40" priority="8"/>
+                </category>
+
+                <category id="sv21Furniture2021" label="2021" type="furniture" priority="6">
+                    <item id="sv21drSV21" itemId="drSV21" hearts="110" priority="1"  isNew="1"/>
+                    <item id="sv21flrSV21" itemId="flrSV21" hearts="170" priority="2"  isNew="1"/>
+                    <item id="sv21wllSV21" itemId="wllSV21" hearts="430" priority="3"  isNew="1"/>
+                    <item id="sv21sv21Bed" itemId="sv21Bed" hearts="230" priority="4"  isNew="1"/>
+                    <item id="sv21sv21Table1" itemId="sv21Table1" hearts="150" priority="5"  isNew="1"/>
+                    <item id="sv21sv21Chair" itemId="sv21Chair" hearts="100" priority="6"  isNew="1"/>
+                    <item id="sv21sv21Ottoman" itemId="sv21Ottoman" hearts="90" priority="7"  isNew="1"/>
+                    <item id="sv21sv21Table2" itemId="sv21Table2" hearts="130" priority="8"  isNew="1"/>
+                    <item id="sv21sv21Carpet" itemId="sv21Carpet" hearts="140" priority="9"  isNew="1"/>
+                    <item id="sv21sv21Garland" itemId="sv21Garland" hearts="130" priority="10"  isNew="1"/>
+                    <item id="sv21sv21WllPanel" itemId="sv21WllPanel" hearts="110" priority="11"  isNew="1"/>
+                    <item id="sv21sv21FlrLmp1" itemId="sv21FlrLmp1" hearts="120" priority="12"  isNew="1"/>
+                    <item id="sv21sv21FlrLmp2" itemId="sv21FlrLmp2" hearts="100" priority="13"  isNew="1"/>
+                    <item id="sv21sv21WllFlwr" itemId="sv21WllFlwr" hearts="120" priority="14"  isNew="1"/>
+                    <item id="sv21sv21FlrPlan1" itemId="sv21FlrPlan1" hearts="80" priority="15"  isNew="1"/>
+                    <item id="sv21sv21FlrPlan3" itemId="sv21FlrPlan3" hearts="60" priority="16"  isNew="1"/>
+                    <item id="sv21sv21FlrPlan2" itemId="sv21FlrPlan2" hearts="70" priority="17"  isNew="1"/>
+                    <item id="sv21sv21Candles" itemId="sv21Candles" hearts="50" priority="18"  isNew="1"/>
+                    <item id="sv21sv21Bottle" itemId="sv21Bottle" hearts="50" priority="19"  isNew="1"/>
+                    <item id="sv21sv21Glass" itemId="sv21Glass" hearts="20" priority="20"  isNew="1"/>
+                    <item id="sv21sv21TablePlant" itemId="sv21TablePlant" hearts="30" priority="21"  isNew="1"/>
+                    <item id="sv21sv21Strawberry" itemId="sv21Strawberry" hearts="30" priority="22"  isNew="1"/>
+                </category>
+            </category>
+        </category>
+    </shop>
+
+</module>
+

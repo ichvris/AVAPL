@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module id="shrovetide2022">
+
+    <pancake craftEnergy="20" pancakeCraftCount="3" price="1"/>
+
+    <awards>
+        <award id="1" itemType="furniture" itemId="st22Samovar" label="st22SamovarAwardLabel"
+            icon="ST22SamovarProgressIcon" receiveIcon="ST22SamovarAwardIcon"
+            progress="600"/>
+        <award id="2" itemType="furniture" itemId="avapacST22" label="st22AvapacAwardLabel"
+            icon="ST22AvapacProgressIcon" receiveIcon="ST22AvapacAwardIcon"
+            progress="1500"/>
+        <award id="3" itemType="clothesSet" itemId="boyST2022Set" gender="1" label="st22BoySetAwardLabel"
+            icon="ST22BoySetProgressIcon" receiveIcon="ST22BoySetAwardIcon"
+            progress="2100"/>
+        <award id="4" itemType="clothesSet" itemId="girlST2022Set" gender="2" label="st22GirlSetAwardLabel"
+            icon="ST22GirlSetProgressIcon" receiveIcon="ST22GirlSetAwardIcon"
+            progress="2100"/>
+        <award id="5" itemType="trophy" itemId="st2022" label="st22TrophyAwardLabel"
+            icon="ST22TrophyProgressIcon" receiveIcon="ST22TrophyAwardIcon"
+            progress="2600" count="0"/>
+    </awards>
+
+    <craft>
+        <craftedItem  itemId="st22pan" holiday="">
+            <component itemId="peaceOfWood" count="8"/>
+            <component itemId="peaceOfIron" count="5"/>
+            <component itemId="love" count="8"/>
+            <component itemId="screw" count="1"/>
+        </craftedItem>
+    </craft>
+
+    <inventory>
+        <category id="game" typeClass="game">
+            <item id="st22pan" label="#st17PanLabel" description="#st17PanDescription"
+                name="Pan@shrovetide2022" icon="PanIcon@shrovetide2022" canBuy="0"/>
+        </category>
+    </inventory>
+
+    <pancakeDays>
+        <day day="1" count="10"/>
+        <day day="2" count="20"/>
+        <day day="3" count="25"/>
+        <day day="4" count="30"/>
+        <day day="5" count="35"/>
+        <day day="6" count="40"/>
+        <day day="7" count="45"/>
+        <day day="8" count="70"/>
+    </pancakeDays>>
+</module>

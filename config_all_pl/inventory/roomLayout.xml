@@ -1,0 +1,1304 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<config id="furniture">
+    <category id="28" label="#roomCategory" library="house" logCategory1="furniture" logCategory2="room" typeClass="furniture" visible="true">
+        <item gold="5" icon="RoomBaseIcon@house" id="room1" label="#room1Title" name="RoomBase" saleSilver="100" silver="1000">
+            <countLimit count="4" playerLevel="7"/>
+            <countLimit count="5" playerLevel="9"/>
+            <countLimit count="2" playerLevel="3"/>
+            <countLimit count="3" playerLevel="5"/>
+        </item>
+    </category>
+    <category id="0" label="#interiorCategory" library="house" logCategory1="furniture" priority="1" typeClass="furniture" visible="true">
+        <category id="1" label="#wallCategory" logCategory2="wall" priority="1" visible="true">
+            <item buyCount="0" gold="0" icon="WallBaseIcon@house" id="wall1" label="#wall1Title" loadType="file" name="WallBase" priority="1" rating="1" silver="0"/>
+            <item gold="6" icon="WallBlotIcon@house" id="wall2" label="#wall2Title" loadType="file" name="WallBlot" priority="2" rating="10"/>
+            <item icon="WallBlueIcon@house" id="wall3" label="#wall3Title" loadType="file" name="WallBlue" priority="3" rating="1" silver="150"/>
+            <item icon="WallDarkBlueIcon@house" id="wall4" label="#wall4Title" loadType="file" name="WallDarkBlue" priority="4" rating="1" silver="150"/>
+            <item gold="7" icon="WallForgetLightIcon@house" id="wall5" label="#wall5Title" loadType="file" name="WallForgetLight" priority="5" rating="11"/>
+            <item icon="WallGrayIcon@house" id="wall7" label="#wall7Title" loadType="file" name="WallGray" priority="6" rating="1" silver="150"/>
+            <item icon="WallGreenIcon@house" id="wall8" label="#wall8Title" loadType="file" name="WallGreen" priority="7" rating="3" silver="340"/>
+            <item gold="9" icon="WallHeartIcon@house" id="wall9" label="#wall9Title" loadType="file" name="WallHeart" priority="8" rating="15"/>
+            <item icon="WallLineBlueIcon@house" id="wall10" label="#wall10Title" loadType="file" name="WallLineBlue" priority="9" rating="5" silver="500"/>
+            <item icon="WallLineGrayIcon@house" id="wall11" label="#wall11Title" loadType="file" name="WallLineGray" priority="10" rating="5" silver="500"/>
+            <item icon="WallLineIcon@house" id="wall12" label="#wall12Title" loadType="file" name="WallLine" priority="11" rating="5" silver="500"/>
+            <item gold="9" icon="WallMarbleWhiteIcon@house" id="wall13" label="#wall13Title" loadType="file" name="WallMarbleWhite" priority="12" rating="15"/>
+            <item gold="11" icon="WallPirateIcon@house" id="wall14" label="#wall14Title" loadType="file" name="WallPirate" priority="13" rating="22"/>
+            <item gold="5" icon="WallPoppyIcon@house" id="wall15" label="#wall15Title" loadType="file" name="WallPoppy" priority="14" rating="8"/>
+            <item gold="10" icon="WallRoseGrayIcon@house" id="wall16" label="#wall16Title" loadType="file" name="WallRoseGray" priority="15" rating="20"/>
+            <item gold="8" icon="WallViolettIcon@house" id="wall17" label="#wall17Title" loadType="file" name="WallViolett" priority="16" rating="13"/>
+            <item gold="15" icon="WallGrassIcon@house" id="wall18" label="#wall18Title" loadType="file" name="WallGrass" priority="17" rating="30"/>
+            <item gold="11" icon="WallBrickIcon@house" id="wall19" label="#wall19Title" loadType="file" name="WallBrick" priority="18" rating="22"/>
+            <item gold="13" icon="WallVioletFrogIcon@house" id="wall20" label="#wall20Title" loadType="file" name="WallVioletFrog" priority="19" rating="26"/>
+            <item icon="WallNoiseIcon@house" id="wall21" label="#wall21Title" loadType="file" name="WallNoise" priority="20" rating="8" silver="840"/>
+            <item gold="14" icon="WallBrickRedIcon@house" id="wall22" label="#wall22Title" loadType="file" name="WallBrickRed" priority="21" rating="28"/>
+            <item gold="12" icon="WallArtDecoIcon@house" id="wall23" label="#wall23Title" loadType="file" name="WallArtDeco" priority="22" rating="24"/>
+            <item gold="14" holiday="halloween" icon="WallHalloweenIcon@house" id="wall24" label="#wall24Title" loadType="file" name="WallHalloween" priority="23" rating="28"/>
+            <item gold="12" holiday="halloween" icon="WallBrickHalloweenIcon@house" id="wall25" label="#wall25Title" loadType="file" name="WallBrickHalloween" priority="24" rating="24"/>
+            <item gold="15" icon="WallWeddingIcon@house" id="wallWdn1" label="#wallWedding1Title" loadType="file" name="WallWedding" priority="25" rating="30" wedding="1"/>
+            <item holiday="NY" icon="WallCastleIcon@house" id="wallNY1" label="#wallNY1Title" loadType="file" name="WallCastle" priority="26" rating="15" silver="1500"/>
+            <item gold="8" holiday="NY" icon="WallSnowIcon@house" id="wallNY2" label="#wallNY2Title" loadType="file" name="WallSnow" priority="27" rating="14"/>
+            <item icon="WallSchoolIcon@house" id="wallSh1" label="#wallSchool1Title" loadType="file" name="WallSchool" priority="28" rating="7" silver="750"/>
+            <item gold="35" icon="WallJapanIcon@house" id="wallJpn1" label="#wallJapan1Title" loadType="file" name="WallJapan" priority="29" rating="90" vipOnly="1"/>
+            <item icon="WallAlienIcon@house" id="wallAln1" label="#wallAlien1Title" level="12" loadType="file" name="WallAlien" priority="30" rating="50" silver="12500"/>
+            <item gold="33" icon="WallBeachIcon@house" id="wallBch1" label="#wallBeach1Title" loadType="file" name="WallBeach" priority="31" rating="85" vipOnly="1"/>
+            <item gold="45" icon="WallArtNouveauIcon@house" id="wallArtNv1" label="#wallArtNouveau1Title" loadType="file" name="WallArtNouveau" priority="32" rating="115" vipOnly="1"/>
+            <item gold="12" icon="WallPrincessIcon@house" id="wallPrns1" label="#wallPrincess1Title" loadType="file" name="WallPrincess" priority="33" rating="25"/>
+            <item gold="30" icon="WallCountryIcon@house" id="wallCtr1" label="#wallCountry1Title" loadType="file" name="WallCountry" priority="34" rating="75" vipOnly="1"/>
+            <item gold="140" holiday="newyear14" icon="WallIceIcon@house" id="wllNY14" label="#wallNY14Title" loadType="file" name="WallIce" priority="35" rating="350"/>
+            <item canBuy="1" gold="350" icon="WallValentineIcon@house" id="wllSV14" label="#wallSV14Title" loadType="file" name="WallValentine" priority="36" rating="699"/>
+            <item gold="45" icon="WallFebruary23Icon@house" id="wllFeb23" label="#wallFebruary23Label" loadType="file" name="WallFebruary23" priority="37" rating="120"/>
+            <item gold="60" icon="WallMayaIcon@house" id="wllMya" label="#wallMayaLabel" loadType="file" name="WallMaya" priority="38" rating="150" vipOnly="1"/>
+            <item canBuy="0" fileVersion="2" gold="9999" icon="WallSD14Icon@house" id="wllSD14" label="#wallSD14Label" loadType="file" name="WallSD14" priority="39" rating="150" tags="cantEdit"/>
+            <item canBuy="0" gold="9999" icon="WallSD15Icon@house" id="wllSD15" label="#wallSD15Label" loadType="file" name="WallSD15" priority="40" rating="150" tags="cantEdit"/>
+            <item fileVersion="2" gold="80" icon="WallNYRoofIcon@house" id="wllNYRf" label="#wallNYRoofLabel" loadType="file" name="WallNYRoof" priority="41" rating="250" vipOnly="1"/>
+            <item fileVersion="2" gold="47" icon="WallSeaIcon@house" id="wllSea" label="#wallSeaLabel" loadType="file" name="WallSea" priority="42" rating="120"/>
+            <item gold="77" icon="WallGarageRetroIcon@house" id="wllGRtr" label="#garageRetroWall" loadType="file" name="WallGarageRetro" priority="43" rating="200" vipOnly="1"/>
+            <item gold="110" icon="WallGarageTechnoIcon@house" id="wllGTch" label="#garageTechnoWall" loadType="file" name="WallGarageTechno" priority="44" rating="275" vipOnly="1"/>
+            <item canBuy="1" gold="300" icon="WallSantaHouseIcon@house" id="wallSantaHouse" label="#wallSantaHouseLabel" loadType="file" name="WallSantaHouse" priority="45" rating="350"/>
+            <item gold="350" icon="WallSV15Icon@house" id="wallSV15" label="#wallSV15Label" loadType="file" name="WallSV15" priority="46" rating="350"/>
+            <item gold="55" icon="WallConanIcon@house" id="wllCnn" label="#wallConanLabel" loadType="file" name="WallConan" priority="47" rating="140"/>
+            <item canBuy="0" gold="9999" icon="WallGardenerGiftIcon@house" id="wllGrdGft" label="#wllGrdGft" loadType="file" name="WallGardenerGift" priority="48" rating="350"/>
+            <item gold="35" icon="WallTropicalBedroomIcon@house" id="wllTrBth" label="#wllTrBthLabel" loadType="file" name="WallTropicalBedroom" priority="49" rating="90"/>
+            <item gold="191" holiday="halloween2015" icon="BlackRoseWallIcon@house" id="wllBlkRs" label="#wllBlkRsLabel" loadType="file" name="BlackRoseWall" priority="50" rating="573"/>
+            <item gold="30" icon="WallPhotostudioIcon@house" id="proPhtWll" label="#proPhtWllLabel" loadType="file" name="WallPhotostudio" priority="51" professionId="phtghr" professionLevel="4" rating="90"/>
+            <item canBuy="0" gold="99999" icon="WallPolarIcon@house" id="ny2016wll" label="#ny2016wll" loadType="file" name="WallDarkPolar" priority="52" rating="299" tags="cantEdit"/>
+            <item canBuy="0" gold="99999" icon="WallSD16Icon@house" id="sd16Wll" label="#sd16WllLabel" loadType="file" name="WallSD16" priority="53" rating="149" tags="cantEdit"/>
+            <item fileVersion="2" gold="42" icon="WallSuperHeroIcon@house" id="shWll" label="#shWllLabel" loadType="file" name="WallSuperHero" priority="54" rating="105"/>
+            <item gold="50" icon="WallPirateRoomIcon@house" id="prtrWll" label="#prtrWllLabel" loadType="file" name="WallPirateRoom" priority="55" rating="125"/>
+            <item icon="WallGymIcon@house" id="gymWll" label="#gymWllLabel" loadType="file" name="WallGym" priority="56" rating="28" silver="2800"/>
+            <item icon="WallPianoRoomIcon@house" id="pnRmWll" label="#pnRmWllLabel" loadType="file" name="WallPianoRoom" priority="57" rating="65" silver="6500" vipOnly="1"/>
+            <item gold="12" icon="WallRetroCafe2019Icon@house" id="rtrCfWll" label="#rtrCfWllLabel" loadType="file" name="WallRetroCafe2019" priority="58" rating="30"/>
+            <item canBuy="0" icon="WallHW2019Icon@house" id="hw2019Wll" label="#hw2019WllLabel" loadType="file" name="WallHW2019" priority="59" rating="107" silver="3500"/>
+            <item canBuy="0" gold="35" icon="WallDragon2019Icon@house" id="drgn2019Wll" label="#drgCvWllLabel" loadType="file" name="WallDragon2019" priority="60" rating="105"/>
+            <item canBuy="0" gold="55" icon="NY20WallpaperIcon@house" id="NY20Wllppr" label="#NY20WllpprLabel" loadType="file" name="NY20Wallpaper" priority="61" rating="165"/>
+            <item gold="45" icon="WallPodium2020Icon@house" id="pdmNY20Wll" label="#pdmNY20WllLabel" loadType="file" name="WallPodium2020" priority="62" rating="180"/>
+            <item gold="60" icon="WonderlandWallIcon@house" id="wndrlndWll" label="#wndrlndWllLabel" library="wonderland" loadType="file" name="WonderlandWall" priority="63" rating="150"/>
+            <item icon="Restaurant2019WallIcon@house" id="rstrnt2019Wll" label="#rstrnt2019WllLabel" library="restaurant2019" loadType="file" name="Restaurant2019Wall" priority="64" rating="45" silver="4500"/>
+            <item gold="80" icon="ArtistWorkshopWallIcon@house" id="rtstWrkshpWll" label="#rtstWrkshpWllLabel" library="artistWorkshop" loadType="file" name="ArtistWorkshopWall" priority="65" rating="200"/>
+            <item gold="25" icon="WallEaster20Icon@house" id="estr20Wll" label="#estr20WllLabel" library="easter2020" loadType="file" name="WallEaster20" priority="66" rating="63"/>
+            <item gold="63" icon="WallBath20Icon@house" id="bath20Wll" label="#bath20WllLabel" library="bathroom/bathroom2020" loadType="file" name="WallBath20" priority="67" rating="158"/>
+            <item icon="Wall9May20Icon@house" id="9may20Wll" label="#9may20WllLabel" library="event/9may2020" loadType="file" name="Wall9May20" priority="68" rating="65" silver="6500"/>
+            <item gold="45" icon="WallModernBedroomIcon@house" id="wllMdrnBdrm" label="#wllMdrnBdrmLabel" library="modernbedroom" loadType="file" name="WallModernBedroom" priority="69" rating="113"/>
+            <item allowAnimation="1" gold="199" icon="WallGreenhouseIcon@house" id="wllGrnHs" label="#wllGrnHsLabel" library="greenhouse2020" loadType="file" name="WallGreenhouse" priority="71" rating="697" vipOnly="1"/>
+            <item allowAnimation="1" canBuy="0" gold="94" icon="WallNewYear2021Icon@house" id="wllNY21" label="#wllNY21Label" library="newyear2021" loadType="file" name="WallNewYear2021" priority="72" rating="329"/>
+            <item allowAnimation="1" canBuy="0" gold="170" icon="WallStValentine2021Icon@house" id="wllSV21" label="#wllSV21Label" library="stValentine2021" loadType="file" name="WallStValentine2021" priority="73" rating="595" vipOnly="1">
+                <placement floor="1" wall="1"/>
+            </item>
+            <item gold="29" icon="WallStPatrick21Icon@house" id="wallStPtr21" label="#wallStPtr21Label" library="stpatrick2021" loadType="file" name="WallStPatrick21" priority="74" rating="73">
+                <placement floor="1" wall="1"/>
+            </item>
+            <item icon="WallAnimeRoomIcon@house" id="wallAnimeRoom" label="#wallAnimeRoomLabel" library="animeroom2021" loadType="file" name="WallAnimeRoom" priority="75" rating="61" silver="6100"/>
+            <item icon="WallKidsRoom21Icon@house" id="wallKdRm21" label="#wallKdRm21Label" library="kidsroom2021" loadType="file" name="WallKidsRoom21" priority="76" rating="37" silver="3700"/>
+            <item icon="WallCyberpunk2021Icon@house" id="wallCbr21" label="#wallCbr21Label" library="cyberpunk2021" loadType="file" name="WallCyberpunk2021" priority="44" rating="57" silver="5700"/>
+            <item allowAnimation="1" canBuy="0" gold="640" icon="WallBirthday2021Icon@house" id="wallAB21" label="#wallAB21Label" library="birthday2021" loadType="file" name="WallBirthday2021" priority="77" rating="2240" vipOnly="1"/>
+            <item gold="19" icon="WallBlack2021Icon@house" id="wallBlk21" label="#wallBlk21Label" library="black2021" loadType="file" name="WallBlack2021" priority="78" rating="48"/>
+            <item icon="WallWaterpool2021Icon@house" id="wallWtrpl21" label="#wallWtrpl21Label" library="waterpool2021" loadType="file" name="WallWaterpool2021" priority="79" rating="41" silver="4100"/>
+            <item gold="23" icon="WallSaloon2021Icon@house" id="wallSln21" label="#wallSln21Label" library="saloon2021" loadType="file" name="WallSaloon2021" priority="80" rating="58" tags="ground"/>
+            <item canBuy="0" gold="23" icon="WallSciFi2021Icon@house" id="wallSciFi21" label="#wallSciFi21Label" library="scifi2021" loadType="file" name="WallSciFi2021" priority="81" rating="58"/>
+            <item canBuy="0" gold="61" icon="WallHL21Icon@house" id="wallHL21" label="#wallHL21Label" library="halloweenLaboratory2021" loadType="file" name="WallHL21" priority="82" rating="153"/>
+            <item icon="WallHiTechKitchen2021Icon@kitchen" id="wallHiTechKitchen2021" label="#wallHiTechKitchen2021Label" library="kitchen/hiTech2021" loadType="file" name="WallHiTechKitchen2021" priority="83" rating="57" silver="5700">
+                <direction names="SW,SE"/>
+            </item>
+            <item canBuy="0" gold="36" icon="WallSkandi2021Icon@house" id="wallSkandi2021" label="#wallSkandi2021Label" library="skandi2021" loadType="file" name="WallSkandi2021" priority="84" rating="108">
+                <direction names="SW,SE"/>
+            </item>
+            <item canBuy="0" gold="34" icon="NY2022WallIcon@decor" id="ny2022Wall" label="#ny2022WallLabel" library="newyear2022" loadType="file" name="NY2022Wall" priority="85" rating="102" tags="cantEdit"/>
+            <item gold="47" icon="WallEgypt2022Icon@house" id="wallEgypt2022" label="#wallEgypt2022Label" library="egypt2022" loadType="file" name="WallEgypt2022" priority="86" rating="141"/>
+            <item gold="29" icon="WallMuseum2022Icon@house" id="wallMuseum2022" label="#wallMuseum2022Label" library="museum2022" loadType="file" name="WallMuseum2022" priority="87" rating="87"/>
+            <item canBuy="0" gold="90" icon="PoliceOffice2022WallIcon@house" id="policeOffice2022Wall" label="#policeOffice2022WallLabel" library="policeoffice2022" loadType="file" name="PoliceOffice2022Wall" priority="88" rating="315" vipOnly="1"/>
+            <item canBuy="0" icon="ModernKitchen22WallIcon@kitchen" id="modernKitchen22Wall" label="#modernKitchen22WallLabel" library="kitchen/modernkitchen22" loadType="file" name="ModernKitchen22Wall" priority="89" rating="50" silver="5000"/>
+            <item allowAnimation="1" gold="63" icon="Planetarium2022WallIcon@house" id="planetarium2022Wall" label="#planetarium2022WallLabel" library="planetarium2022" loadType="file" name="Planetarium2022Wall" priority="91" rating="158"/>
+            <item canBuy="0" gold="25" icon="FA22WallIcon@house" id="fa22Wall" label="#fa22WallLabel" library="firstapril2022" loadType="file" name="FA22Wall" rating="75"/>
+            <item gold="59" icon="WallWedding2022Icon@house" id="wallWedding2022" label="#wallWedding2022Label" library="wedding2022" loadType="file" name="WallWedding2022" priority="90" rating="148" wedding="1"/>
+            <item gold="52" icon="Steampunk22WallIcon@house" id="steampunk22Wall" label="#steampunk22WallLabel" library="steampunk22" loadType="file" name="Steampunk22Wall" priority="95" rating="156"/>
+            <item canBuy="0" gold="44" icon="FashionRoom22WallIcon@house" id="fashionRoom22Wall" label="#fashionRoom22WallLabel" library="fashionroom22" loadType="file" name="FashionRoom22Wall" priority="93" rating="110"/>
+            <item canBuy="0" gold="40" icon="NightClub2022WallIcon@house" id="nightClub2022Wall" label="#nightClub2022WallLabel" library="nightclub2022" loadType="file" name="NightClub2022Wall" priority="94" rating="100" tags="cell"/>
+            <item canBuy="0" gold="35" icon="BathroomHiTech2022WallIcon@house" id="bathroomHiTech2022Wall" label="#bathroomHiTech2022WallLabel" library="bathroom/hitech2022" loadType="file" name="BathroomHiTech2022Wall" priority="99" rating="88">
+                <placement wall="1"/>
+            </item>
+            <item canBuy="0" gold="61" icon="Palace22WallIcon@house" id="palace22Wall" label="#palace22WallLabel" library="palace22" loadType="file" name="Palace22Wall" priority="97" rating="153"/>
+            <item canBuy="0" gold="149" icon="Veranda22WallIcon@house" id="veranda22Wall" label="#veranda22WallLabel" library="veranda22" loadType="file" name="Veranda22Wall" priority="98" rating="522" vipOnly="1"/>
+            <item gold="38" icon="KidsRoom22WallIcon@house" id="kidsRoom22Wall" label="#kidsRoom22WallLabel" library="kidsroom22" loadType="file" name="KidsRoom22Wall" priority="100" rating="95"/>
+            <item canBuy="0" gold="62" icon="ElvenHarbor22WallIcon@house" id="elvenHarbor22Wall" label="#elvenHarbor22WallLabel" library="elvenharbor22" loadType="file" name="ElvenHarbor22Wall" priority="101" rating="155"/>
+            <item canBuy="0" gold="37" icon="BedroomModest2022WallIcon@house" id="bedroomModest2022Wall" label="#bedroomModest2022WallLabel" library="bedroommodest2022" loadType="file" name="BedroomModest2022Wall" priority="102" rating="93">
+                <placement wall="1"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item canBuy="0" gold="140" icon="Aliens2022WallIcon@decor" id="aliens2022Wall" label="#aliens2022WallLabel" library="aliens2022" loadType="file" name="Aliens2022Wall" priority="103" rating="350" tags="cantEdit"/>
+            <item gold="187" icon="Jungle22WallIcon@house" id="jungle22Wall" label="#jungle22WallLabel" library="jungle22" loadType="file" name="Jungle22Wall" priority="104" rating="655" vipOnly="1"/>
+            <item canBuy="0" gold="52" icon="WallHalloween22Icon@house" id="wallHalloween22" label="#wallHalloween22Label" library="halloween2022" loadType="file" name="WallHalloween22" priority="105" rating="130">
+                <direction names="SW,SE"/>
+            </item>
+            <item canBuy="0" gold="43" icon="Dracula22WallIcon@house" id="dracula22Wall" label="#dracula22WallLabel" library="halloween2022/dracula22" loadType="file" name="Dracula22Wall" priority="106" rating="108"/>
+            <item canBuy="0" gold="38" icon="Prison22WallIcon@house" id="prison22Wall" label="#prison22WallLabel" library="halloween2022/prison22" loadType="file" name="Prison22Wall" priority="107" rating="95"/>
+            <item allowAnimation="1" canBuy="0" gold="205" icon="Halloween2022WallpaperIcon@house" id="halloween2022Wallpaper" label="#halloween2022WallpaperLabel" library="halloween2022" loadType="file" name="Halloween2022Wallpaper" priority="108" rating="718"/>
+            <item gold="83" icon="Square22WallIcon@house" id="square22Wall" label="#square22WallLabel" library="square22" loadType="file" name="Square22Wall" priority="109" rating="208"/>
+            <item canBuy="0" gold="33" icon="NY23WallIcon@house" id="ny23Wall" label="#ny23WallLabel" library="newyear2023" loadType="file" name="NY23Wall" priority="110" rating="83"/>
+            <item allowAnimation="1" gold="79" icon="Underwater2022WallIcon@house" id="underwater2022Wall" label="#underwater2022WallLabel" library="underwater2022" loadType="file" name="Underwater2022Wall" priority="111" rating="198"/>
+            <item gold="45" icon="MageRoom23WallIcon@house" id="mageRoom23Wall" label="#mageRoom23WallLabel" library="mageRoom2023" loadType="file" name="MageRoom23Wall" priority="112" rating="113"/>
+            <item canBuy="0" gold="69" icon="Avapark23WallIcon@house" id="avapark23Wall" label="#avapark23WallLabel" library="firstapril2023" loadType="file" name="Avapark23Wall" priority="113" rating="173"/>
+            <item icon="Atomic2023WallIcon@house" id="atomic2023Wall" label="#atomic2023WallLabel" library="atomic2023" loadType="file" name="Atomic2023Wall" priority="114" rating="60" silver="6000"/>
+            <item canBuy="0" gold="41" icon="Ussr23WallIcon@house" id="ussr23Wall" label="#ussr23WallLabel" library="ussr23" loadType="file" name="Ussr23Wall" priority="116" rating="103"/>
+            <item canBuy="0" gold="89" icon="Game23WallIcon@house" id="game23Wall" label="#game23WallLabel" library="game2023" loadType="file" name="Game23Wall" priority="115" rating="312" vipOnly="1"/>
+            <item canBuy="0" gold="55" icon="Fair2023WallIcon@house" id="fair2023Wall" label="#fair2023WallLabel" library="fair2023" loadType="file" name="Fair2023Wall" priority="117" rating="138"/>
+            <item canBuy="0" gold="65" icon="LifeSpace2023WallIcon@house" id="lifeSpace2023Wall" label="#lifeSpace2023WallLabel" library="lifespace2023" loadType="file" name="LifeSpace2023Wall" priority="118" rating="163"/>
+            <item canBuy="0" gold="70" icon="DarkFantasy23WallIcon@house" id="darkFantasy23Wall" label="#darkFantasy23WallLabel" library="darkFantasy23" loadType="file" name="DarkFantasy23Wall" priority="119" rating="175"/>
+            <item gold="44" icon="GameBar23WallIcon@house" id="gameBar23Wall" label="#gameBar23WallLabel" library="gameBar23" loadType="file" name="GameBar23Wall" priority="120" rating="110"/>
+            <item canBuy="0" gold="54" icon="Pixels23WallIcon@house" id="pixels23Wall" label="#pixels23WallLabel" library="pixels23" loadType="file" name="Pixels23Wall" priority="121" rating="135"/>
+            <item canBuy="0" gold="58" icon="Hut23WallIcon@house" id="hut23Wall" label="#hut23WallLabel" library="hut23" loadType="file" name="Hut23Wall" priority="122" rating="145"/>
+            <category id="wllSPCategory" label="#wllSPCategory" visible="true">
+                <item canBuy="0" gold="9999" icon="WallSteampunkIcon@house" id="wllSP" label="#wallSteampunkLabel" loadType="file" name="WallSteampunk" priority="38" rating="150" tags="cantEdit"/>
+            </category>
+            <category id="wallRandomAnimCategory" label="#wllRndAnimCategory" visible="false">
+                <item allowAnimation="1" canBuy="0" gold="135" icon="WallHalloween20Icon@house" id="wlHW20" label="#wlHW20Label" library="halloween2020" loadType="file" name="WallHalloween20" priority="70" rating="405" vipOnly="1"/>
+            </category>
+        </category>
+        <category id="2" label="#doorCategory" logCategory2="door" priority="2" visible="true">
+            <item buyCount="0" gold="0" icon="DoorBaseIcon@house" id="door1" label="#door1Title" loadType="file" name="DoorBase" priority="1" rating="1" silver="0" tags="ground">
+                <placement door="1" floor="1" wall="1"/>
+                <dimension height="4" length="2" width="0"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item gold="17" icon="DoorRoseIcon@house" id="door2" label="#door2Title" loadType="file" name="DoorRose" priority="2" rating="34" tags="ground">
+                <placement floor="1" wall="1"/>
+                <dimension height="4" length="2" width="0"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item gold="25" icon="DoorFlowerIcon@house" id="door3" label="#door3Title" loadType="file" name="DoorFlower" priority="3" rating="55" tags="ground">
+                <placement floor="1" wall="1"/>
+                <dimension height="4" length="2.1" width="0"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item icon="DoorWoodIcon@house" id="door4" label="#door4Title" loadType="file" name="DoorWood" priority="4" rating="8" silver="850" tags="ground">
+                <placement floor="1" wall="1"/>
+                <dimension height="4" length="2.1" width="0"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item gold="7" icon="DoorWindowIcon@house" id="door5" label="#door5Title" loadType="file" name="DoorWindow" priority="5" rating="11" tags="ground">
+                <placement floor="1" wall="1"/>
+                <dimension height="4" length="2" width="0"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item icon="DoorLightIcon@house" id="door6" label="#door6Title" loadType="file" name="DoorLight" priority="6" rating="3" silver="385" tags="ground">
+                <placement floor="1" wall="1"/>
+                <dimension height="4" length="1.5" width="0"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item icon="DoorBordoIcon@house" id="door7" label="#door7Title" loadType="file" name="DoorBordo" priority="7" rating="8" silver="850" tags="ground">
+                <placement floor="1" wall="1"/>
+                <dimension height="4" length="2" width="0"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item icon="DoorBachelorIcon@house" id="door10" label="#door10Title" level="8" loadType="file" name="DoorBachelor" priority="10" rating="15" silver="1500" tags="ground">
+                <placement floor="1" wall="1"/>
+                <dimension height="5" length="2" width="0"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item holiday="halloween" icon="DoorHalloweenIcon@house" id="door8" label="#door8Title" loadType="file" name="DoorHalloween" priority="8" rating="6" silver="585" tags="ground">
+                <placement floor="1" wall="1"/>
+                <dimension height="5" length="1.8" width="0"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item gold="29" holiday="halloween" icon="DoorHalloweenBigIcon@house" id="door9" label="#door9Title" loadType="file" name="DoorHalloweenBig" priority="9" rating="50" tags="ground">
+                <placement floor="1" wall="1"/>
+                <dimension height="6.2" length="3.5" width="0"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item gold="33" icon="DoorWeddingIcon@house" id="doorWdn1" label="#doorWedding1Title" loadType="file" name="DoorWedding" priority="11" rating="83" tags="ground" wedding="1">
+                <placement floor="1" wall="1"/>
+                <dimension height="6.2" length="3.5" width="0"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item gold="21" icon="DoorWoodVipIcon@house" id="doorVip1" label="#doorVip1Title" loadType="file" name="DoorWoodVip" priority="12" rating="46" tags="ground" vipOnly="1">
+                <placement floor="1" wall="1"/>
+                <dimension height="6.5" length="4" width="0"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item gold="35" icon="DoorCastleIcon@house" id="doorVip2" label="#doorVip2Title" loadType="file" name="DoorCastle" priority="13" rating="90" tags="ground" vipOnly="1">
+                <placement floor="1" wall="1"/>
+                <dimension height="6" length="3" width="0"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item icon="DoorSchoolIcon@house" id="door11" label="#doorSchoolTitle" loadType="file" name="DoorSchool" priority="14" rating="15" silver="1500" tags="ground">
+                <placement floor="1" wall="1"/>
+                <dimension height="5" length="2" width="0"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item gold="800" icon="DoorPortalElfIcon@house" id="dram1" label="#doorPortalElfTitle" loadType="file" name="DoorPortalElf" priority="16" rating="4000" tags="ground" vipOnly="1">
+                <placement floor="1" wall="1"/>
+                <dimension height="6" length="8" width="0"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item gold="850" icon="DoorPortalDemonIcon@house" id="dram2" label="#doorPortalDemonTitle" loadType="file" name="DoorPortalDemon" priority="17" rating="4500" tags="ground" vipOnly="1">
+                <placement floor="1" wall="1"/>
+                <dimension height="6" length="6" width="0"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item gold="45" icon="DoorJapanIcon@house" id="drJpn1" label="#doorJapanTitle" loadType="file" name="DoorJapan" priority="18" rating="115" tags="ground" vipOnly="1">
+                <placement floor="1" wall="1"/>
+                <dimension height="4.5" length="3" width="0"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item gold="29" icon="DoorAlienIcon@house" id="drAln1" label="#doorAlienTitle" loadType="file" name="DoorAlien" priority="19" rating="65" tags="ground" vipOnly="1">
+                <placement floor="1" wall="1"/>
+                <dimension height="5" length="2" width="0"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item gold="125" icon="DoorArtNouveauIcon@house" id="drArtNv1" label="#doorArtNouveauTitle" loadType="file" name="DoorArtNouveau" priority="20" rating="315" tags="ground" vipOnly="1">
+                <placement floor="1" wall="1"/>
+                <dimension height="5" length="6" width="0"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item gold="35" icon="DoorPrincessIcon@house" id="drPrns1" label="#doorPrincessTitle" loadType="file" name="DoorPrincess" priority="21" rating="90" tags="ground" vipOnly="1">
+                <placement floor="1" wall="1"/>
+                <dimension height="5" length="2" width="0"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item gold="30" icon="DoorCountryIcon@house" id="drCntr1" label="#doorCountryTitle" loadType="file" name="DoorCountry" priority="22" rating="75" tags="ground" vipOnly="1">
+                <placement floor="1" wall="1"/>
+                <dimension height="5.5" length="2" width="0"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item gold="140" holiday="newyear14" icon="DoorSmallIceIcon@house" id="drNY14Sml" label="#doorNY14SmallTitle" loadType="file" name="DoorSmallIce" priority="24" rating="350" tags="ground">
+                <placement floor="1" wall="1"/>
+                <dimension height="5.5" length="2" width="0"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item gold="200" holiday="newyear14" icon="DoorBigIceIcon@house" id="drNY14Bg" label="#doorNY14BigTitle" loadType="file" name="DoorBigIce" priority="25" rating="500" tags="ground">
+                <placement floor="1" wall="1"/>
+                <dimension height="5.5" length="3" width="0"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item canBuy="1" gold="425" icon="DoorValentineIcon@house" id="drSV14" label="#doorSV14SmallTitle" loadType="file" name="DoorValentine" priority="26" rating="850" tags="ground">
+                <placement floor="1" wall="1"/>
+                <dimension height="5.5" length="4" width="0"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item gold="899" icon="DoorFebruary23Icon@house" id="drFeb23" label="#doorFebruary23Label" loadType="file" name="DoorFebruary23" priority="27" rating="5000" tags="ground">
+                <placement floor="1" wall="1"/>
+                <dimension height="5" length="5" width="0"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item gold="85" icon="DoorMayaIcon@house" id="drMya" label="#doorMayaLabel" loadType="file" name="DoorMaya" priority="28" rating="220" tags="ground" vipOnly="1">
+                <placement floor="1" wall="1"/>
+                <dimension height="5.5" length="3" width="0"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item canBuy="0" gold="9999" icon="DoorSD14Icon@house" id="drSD14" label="#doorSD14Label" loadType="file" name="DoorSD14" priority="29" rating="5000" tags="ground,cantEdit">
+                <placement floor="1" wall="1"/>
+                <dimension height="5" length="5" width="0"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item canBuy="0" gold="9999" icon="DoorSD15Icon@house" id="drSD15" label="#doorSD15Label" loadType="file" name="DoorSD15" priority="29" rating="5000" tags="ground,cantEdit">
+                <placement floor="1" wall="1"/>
+                <dimension height="3" length="2" width="0"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item canBuy="0" gold="9999" icon="DoorSteampunkIcon@house" id="drSP" label="#doorSteampunkLabel" loadType="file" name="DoorSteampunk" priority="29" rating="5000" tags="ground,cantEdit">
+                <placement floor="1" wall="1"/>
+                <dimension height="5" length="5" width="0"/>
+                <direction names="SW"/>
+            </item>
+            <item gold="50" icon="DoorNYRoofIcon@house" id="drNYRf" label="#doorNYRoofLabel" loadType="file" name="DoorNYRoof" priority="30" rating="125" tags="ground">
+                <placement floor="1" wall="1"/>
+                <dimension height="5" length="3" width="0"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item gold="35" icon="DoorSeaIcon@house" id="drSea" label="#doorSeaLabel" loadType="file" name="DoorSea" priority="31" rating="90" tags="ground">
+                <placement floor="1" wall="1"/>
+                <dimension height="6" length="5" width="0"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item gold="45" icon="DoorGarageRetroIcon@house" id="drGRtr" label="#garageRetroDoor" loadType="file" name="DoorGarageRetro" priority="32" rating="115" tags="ground" vipOnly="1">
+                <placement floor="1" wall="1"/>
+                <dimension height="5" length="6.7" width="0"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item gold="245" icon="DoorGarageTechnoIcon@house" id="drGTch" label="#garageTechnoDoor" loadType="file" name="DoorGarageTechno" priority="33" rating="615" tags="ground" vipOnly="1">
+                <placement floor="1" wall="1"/>
+                <dimension height="5.6" length="8.8" width="0"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item canBuy="1" gold="400" icon="DoorSantaHouseIcon@house" id="drSantaHouse" label="#doorSantaHouseLabel" loadType="file" name="DoorSantaHouse" priority="34" rating="500" tags="ground">
+                <placement floor="1" wall="1"/>
+                <dimension height="5.6" length="4.6" width="0"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item gold="227" icon="DoorSV15Icon@house" id="drSV15" label="#doorSV15Label" loadType="file" name="DoorSV15" priority="35" rating="500" tags="ground">
+                <placement floor="1" wall="1"/>
+                <dimension height="5" length="4" width="0"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item gold="65" icon="DoorConanIcon@house" id="drCnn" label="#doorConanLabel" loadType="file" name="DoorConan" priority="36" rating="170" tags="ground">
+                <placement floor="1" wall="1"/>
+                <dimension height="5" length="5.5" width="0"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item canBuy="0" gold="9999" icon="DoorGardenerGiftIcon@house" id="drGrdGft" label="#drGrdGft" loadType="file" name="DoorGardenerGift" priority="37" rating="1" tags="ground">
+                <placement floor="1" wall="1"/>
+                <dimension height="5.2" length="3.4" width="0"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item gold="70" icon="DoorTropicalBedroomIcon@house" id="drTrBth" label="#drTrBthLabel" loadType="file" name="DoorTropicalBedroom" priority="38" rating="175" tags="ground">
+                <placement floor="1" wall="1"/>
+                <dimension height="6" length="2.5" width="0"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item allowAnimation="1" gold="324" holiday="halloween2015" icon="BlackRoseDoorIcon@house" id="drBlkRs" label="#drBlkRsLabel" loadType="file" name="BlackRoseDoor" priority="39" rating="972" tags="ground">
+                <placement floor="1" wall="1"/>
+                <dimension height="6" length="3" width="0"/>
+                <components>
+                    <soundMovieClip/>
+                </components>
+                <direction names="SW,SE"/>
+            </item>
+            <item gold="70" icon="DoorPhotostudioIcon@house" id="proPhtDr" label="#proPhtDrLabel" loadType="file" name="DoorPhotostudio" priority="40" professionId="phtghr" professionLevel="4" rating="210" tags="ground">
+                <placement floor="1" wall="1"/>
+                <dimension height="6" length="2.5" width="0"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item canBuy="0" gold="99999" icon="DoorPolarIcon@house" id="ny2016Sdr" label="#ny2016dr" loadType="file" name="DoorSnowboundPolar" priority="41" rating="1" tags="ground,cantEdit">
+                <placement floor="1" wall="1"/>
+                <dimension height="6" length="2.5" width="0.3"/>
+                <direction names="SW"/>
+            </item>
+            <item canBuy="0" gold="99999" icon="DoorPolarIcon@house" id="ny2016Ddr" label="#ny2016dr" loadType="file" name="DoorDarkPolar" priority="41" rating="1" tags="ground,cantEdit">
+                <placement floor="1" wall="1"/>
+                <dimension height="6" length="2.5" width="0.3"/>
+                <direction names="SW"/>
+            </item>
+            <item canBuy="0" gold="99999" icon="DoorPolarIcon@house" id="ny2016Ldr" label="#ny2016dr" loadType="file" name="DoorLightPolar" priority="41" rating="499" tags="ground,cantEdit">
+                <placement floor="1" wall="1"/>
+                <dimension height="6" length="2.5" width="0.3"/>
+                <direction names="SW"/>
+            </item>
+            <item allowAnimation="1" gold="59" icon="DoorSuperHeroIcon@house" id="shDr" label="#shDrLabel" loadType="file" name="DoorSuperHero" priority="42" rating="148" tags="ground">
+                <placement floor="1" wall="1"/>
+                <dimension height="5" length="3" width="0"/>
+                <direction names="SE,SW"/>
+            </item>
+            <item gold="45" icon="DoorPirateRoomIcon@house" id="prtrDr" label="#prtrDrLabel" loadType="file" name="DoorPirateRoom" priority="43" rating="112" tags="ground">
+                <placement floor="1" wall="1"/>
+                <dimension height="5.7" length="3.1" width="0"/>
+                <direction names="SE,SW"/>
+            </item>
+            <item icon="DoorGymIcon@house" id="gymDr" label="#gymDrLabel" loadType="file" name="DoorGym" priority="44" rating="15" silver="1500" tags="ground">
+                <placement floor="1" wall="1"/>
+                <dimension height="5.1" length="2" width="0"/>
+                <direction names="SE,SW"/>
+            </item>
+            <item gold="23" icon="DoorPianoRoomIcon@house" id="pnRmDr" label="#pnRmDrLabel" loadType="file" name="DoorPianoRoom" priority="45" rating="58" tags="ground" vipOnly="1">
+                <placement floor="1" wall="1"/>
+                <dimension height="5.1" length="3.3" width="0"/>
+                <direction names="SE,SW"/>
+            </item>
+            <item gold="23" icon="DoorRetroCafe2019Icon@house" id="rtrCfDr" label="#rtrCfDrLabel" loadType="file" name="DoorRetroCafe2019" priority="45" rating="58" tags="ground">
+                <placement floor="1" wall="1"/>
+                <dimension height="5.8" length="2.8" width="0"/>
+                <direction names="SE,SW"/>
+            </item>
+            <item canBuy="0" icon="DoorHW2019Icon@house" id="hw2019Dr" label="#hw2019DrLabel" loadType="file" name="DoorHW2019" priority="46" rating="116" silver="3800" tags="ground">
+                <placement floor="1" wall="1"/>
+                <dimension height="5.8" length="3" width="0"/>
+                <direction names="SE,SW"/>
+            </item>
+            <item canBuy="0" gold="43" icon="DoorDragon2019Icon@house" id="drgn2019Dr" label="#drgCvDrLabel" loadType="file" name="DoorDragon2019" priority="47" rating="129" tags="ground">
+                <placement floor="1" wall="1"/>
+                <dimension height="5.8" length="3" width="0"/>
+                <direction names="SE,SW"/>
+            </item>
+            <item canBuy="0" gold="35" icon="NY20DoorIcon@house" id="NY20Dr" label="#NY20DrLabel" loadType="file" name="NY20Door" priority="48" rating="105">
+                <placement door="1" floor="1" wall="1"/>
+                <dimension height="6" length="3.2" width="0"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item gold="50" icon="DoorPodium2020Icon@house" id="pdmNY20Dr" label="#pdmNY20DrLabel" loadType="file" name="DoorPodium2020" priority="49" rating="200" tags="ground">
+                <placement floor="1" wall="1"/>
+                <dimension height="5.4" length="3.6" width="0"/>
+                <direction names="SE,SW"/>
+            </item>
+            <item gold="45" icon="WonderlandDoorIcon@house" id="wndrlndDr" label="#wndrlndDrLabel" library="wonderland" loadType="file" name="WonderlandDoor" priority="50" rating="113">
+                <placement door="1" floor="1" wall="1"/>
+                <dimension height="6" length="3.9" width="0"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item icon="Restaurant2019DoorIcon@house" id="rstrnt2019Dr" label="#rstrnt2019DrLabel" library="restaurant2019" loadType="file" name="Restaurant2019Door" priority="51" rating="60" silver="6000">
+                <placement floor="1" wall="1"/>
+                <dimension height="4.6" length="2.3" width="0"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item gold="70" icon="ArtistWorkshopLiftIcon@house" id="rtstWrkshpLft" label="#rtstWrkshpLftLabel" library="artistWorkshop" loadType="file" name="ArtistWorkshopLift" priority="52" rating="175">
+                <placement door="1" floor="1" wall="1"/>
+                <dimension height="6" length="3.6" width="0"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item gold="8" icon="DoorEaster20Icon@house" id="estr20Dr" label="#estr20DrLabel" library="easter2020" loadType="file" name="DoorEaster20" priority="53" rating="20">
+                <placement door="1" floor="1" wall="1"/>
+                <dimension height="5" length="2.5" width="0"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item gold="34" icon="DoorBath20Icon@house" id="bath20Dr" label="#bath20DrLabel" library="bathroom/bathroom2020" loadType="file" name="DoorBath20" priority="54" rating="85">
+                <placement door="1" floor="1" wall="1"/>
+                <dimension height="4.9" length="2.1" width="0"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item gold="25" icon="Door9May20Icon@house" id="9may20Dr" label="#9may20DrLabel" library="event/9may2020" loadType="file" name="Door9May20" priority="55" rating="63">
+                <placement door="1" floor="1" wall="1"/>
+                <dimension height="4.9" length="3.7" width="0"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item icon="DoorModernBedroomIcon@house" id="drMdrnBdrm" label="#drMdrnBdrmLabel" library="modernbedroom" loadType="file" name="DoorModernBedroom" priority="56" rating="80" silver="8000">
+                <placement door="1" floor="1" wall="1"/>
+                <dimension height="5" length="2.1" width="0"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item allowAnimation="1" canBuy="0" gold="105" icon="DoorHalloween20Icon@house" id="drHW20" label="#drHW20Label" library="halloween2020" loadType="file" name="DoorHalloween20" priority="57" rating="315">
+                <placement door="1" floor="1" wall="1"/>
+                <dimension height="6" length="4" width="0"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item gold="37" icon="DoorGreenhouseIcon@house" id="drGrnHs" label="#drGrnHsLabel" library="greenhouse2020" loadType="file" name="DoorGreenhouse" priority="58" rating="93">
+                <placement door="1" floor="1" wall="1"/>
+                <dimension height="6" length="3.1" width="0"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item allowAnimation="1" canBuy="0" gold="106" icon="DoorNewYear2021Icon@house" id="drNY21" label="#drNY21Label" library="newyear2021" loadType="file" name="DoorNewYear2021" priority="59" rating="371" vipOnly="1">
+                <placement door="1" floor="1" wall="1"/>
+                <dimension height="4.5" length="2.5" width="0"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item canBuy="0" gold="45" icon="DoorStValentine2021Icon@house" id="drSV21" label="#drSV21Label" library="stValentine2021" loadType="file" name="DoorStValentine2021" priority="60" rating="135">
+                <placement door="1" floor="1" wall="1"/>
+                <dimension height="4.8" length="2.2" width="0"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item gold="43" icon="DoorStPatrick21Icon@house" id="doorStPtr21" label="#doorStPtr21Label" library="stpatrick2021" loadType="file" name="DoorStPatrick21" priority="61" rating="151" vipOnly="1">
+                <placement floor="1" wall="1"/>
+                <dimension height="4.9" length="3" width="0"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item gold="51" icon="DoorAnimeRoomIcon@house" id="doorAnimeRoom" label="#doorAnimeRoomLabel" library="animeroom2021" loadType="file" name="DoorAnimeRoom" priority="62" rating="128">
+                <placement door="1" floor="1" wall="1"/>
+                <dimension height="5.2" length="2.3" width="0"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item icon="DoorKidsRoom21Icon@house" id="doorKdRm21" label="#doorKdRm21Label" library="kidsroom2021" loadType="file" name="DoorKidsRoom21" priority="63" rating="24" silver="2400">
+                <placement door="1" floor="1" wall="1"/>
+                <dimension height="4.9" length="2.1" width="0"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item gold="58" icon="DoorCyberpunk2021Icon@house" id="doorCbr21" label="#doorCbr21Label" library="cyberpunk2021" loadType="file" name="DoorCyberpunk2021" priority="64" rating="203" vipOnly="1">
+                <placement floor="1" wall="1"/>
+                <dimension height="5" length="2.5" width="0"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item canBuy="0" gold="50" icon="DoorBirthday2021Icon@house" id="doorAB21" label="#doorAB21Label" library="birthday2021" loadType="file" name="DoorBirthday2021" priority="65" rating="125">
+                <placement door="1" floor="1" wall="1"/>
+                <dimension height="5.5" length="2.3" width="0"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item gold="37" icon="DoorBlack2021Icon@house" id="doorBlk21" label="#doorBlk21Label" library="black2021" loadType="file" name="DoorBlack2021" priority="66" rating="93">
+                <placement door="1" floor="1" wall="1"/>
+                <dimension height="5.1" length="2.8" width="0"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item gold="36" icon="DoorWaterpool2021Icon@house" id="doorWtrpl21" label="#doorWtrpl21Label" library="waterpool2021" loadType="file" name="DoorWaterpool2021" priority="67" rating="90">
+                <placement door="1" floor="1" wall="1"/>
+                <dimension height="6.8" length="3.7" width="0"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item allowAnimation="1" gold="60" icon="DoorSaloon2021Icon@house" id="doorSln21" label="#doorSln21Label" library="saloon2021" loadType="file" name="DoorSaloon2021" priority="83" rating="210" vipOnly="1">
+                <placement door="1" floor="1" wall="1"/>
+                <dimension height="5.7" length="3.1" width="0"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item allowAnimation="1" canBuy="0" gold="80" icon="DoorSciFi2021Icon@house" id="doorSciFi21" label="#doorSciFi21Label" library="scifi2021" loadType="file" name="DoorSciFi2021" priority="84" rating="280" vipOnly="1">
+                <placement door="1" floor="1" wall="1"/>
+                <dimension height="6" length="5" width="0"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item canBuy="0" gold="70" icon="DoorHL21Icon@house" id="doorHL21" label="#doorHL21Label" library="halloweenLaboratory2021" loadType="file" name="DoorHL21" priority="85" rating="175">
+                <placement door="1" floor="1" wall="1"/>
+                <dimension height="5" length="2.4" width="0"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item gold="43" icon="DoorHiTechKitchen2021Icon@kitchen" id="doorHiTechKitchen2021" label="#doorHiTechKitchen2021Label" library="kitchen/hiTech2021" loadType="file" name="DoorHiTechKitchen2021" priority="86" rating="108">
+                <placement door="1" floor="1" wall="1"/>
+                <dimension height="5.7" length="2" width="0"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item canBuy="0" gold="96" icon="DoorSkandi2021Icon@house" id="doorSkandi2021" label="#doorSkandi2021Label" library="skandi2021" loadType="file" name="DoorSkandi2021" priority="87" rating="288">
+                <placement door="1" floor="1" wall="1"/>
+                <dimension height="1.9" length="1.6" width="4.3"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item canBuy="0" gold="46" icon="NY2022DoorIcon@decor" id="ny2022Door" label="#ny2022DoorLabel" library="newyear2022" loadType="file" name="NY2022Door" priority="88" rating="138" tags="cantEdit">
+                <placement floor="1" wall="1"/>
+                <dimension height="4.6" length="2.8" width="0"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item gold="66" icon="DoorEgypt2022Icon@house" id="doorEgypt2022" label="#doorEgypt2022Label" library="egypt2022" loadType="file" name="DoorEgypt2022" priority="89" rating="231" vipOnly="1">
+                <placement door="1" floor="1" wall="1"/>
+                <dimension height="5.8" length="5.3" width="0"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item icon="DoorMuseum2022Icon@house" id="doorMuseum2022" label="#doorMuseum2022Label" library="museum2022" loadType="file" name="DoorMuseum2022" priority="90" rating="147" silver="9800" vipOnly="1">
+                <placement door="1" floor="1" wall="1"/>
+                <dimension height="6" length="3.9" width="0"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item canBuy="0" gold="77" icon="PoliceOffice2022DoorIcon@house" id="policeOffice2022Door" label="#policeOffice2022DoorLabel" library="policeoffice2022" loadType="file" name="PoliceOffice2022Door" priority="91" rating="270">
+                <placement door="1" floor="1" wall="1"/>
+                <dimension height="4.8" length="2.1" width="0"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item canBuy="0" icon="ModernKitchen22DoorIcon@kitchen" id="modernKitchen22Door" label="#modernKitchen22DoorLabel" library="kitchen/modernkitchen22" loadType="file" name="ModernKitchen22Door" priority="92" rating="78" silver="7800">
+                <placement door="1" floor="1" wall="1"/>
+                <dimension height="4.5" length="1.9" width="0"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item icon="Planetarium2022DoorIcon@house" id="planetarium2022Door" label="#planetarium2022DoorLabel" library="planetarium2022" loadType="file" name="Planetarium2022Door" priority="93" rating="270" silver="18000" vipOnly="1">
+                <placement door="1" floor="1" wall="1"/>
+                <dimension height="5" length="4.8" width="0"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item allowAnimation="1" canBuy="0" gold="47" icon="FA22DoorIcon@house" id="fa22Door" label="#fa22DoorLabel" library="firstapril2022" loadType="file" name="FA22Door" rating="165" vipOnly="1">
+                <placement door="1" floor="1" wall="1"/>
+                <dimension height="5.5" length="4" width="0"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item icon="Steampunk22DoorIcon@house" id="steampunk22Door" label="#steampunk22DoorLabel" library="steampunk22" loadType="file" name="Steampunk22Door" priority="97" rating="91" silver="9100">
+                <placement door="1" floor="1" wall="1"/>
+                <dimension height="4.5" length="2.3" width="0"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item canBuy="0" gold="66" icon="FashionRoom22DoorIcon@house" id="fashionRoom22Door" label="#fashionRoom22DoorLabel" library="fashionroom22" loadType="file" name="FashionRoom22Door" priority="95" rating="165">
+                <placement door="1" floor="1" wall="1"/>
+                <dimension height="5" length="3.3" width="0"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item canBuy="0" gold="72" icon="NightClub2022DoorIcon@house" id="nightClub2022Door" label="#nightClub2022DoorLabel" library="nightclub2022" loadType="file" name="NightClub2022Door" priority="96" rating="180">
+                <placement door="1" floor="1" wall="1"/>
+                <dimension height="5" length="2.1" width="0"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item allowAnimation="1" canBuy="0" gold="54" icon="BathroomHiTech2022DoorIcon@house" id="bathroomHiTech2022Door" label="#bathroomHiTech2022DoorLabel" library="bathroom/hitech2022" loadType="file" name="BathroomHiTech2022Door" priority="101" rating="189" tags="ground" vipOnly="1">
+                <placement door="1" floor="1" wall="1"/>
+                <dimension height="6" length="2.3" width="0"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item canBuy="0" gold="87" icon="Palace22DoorIcon@house" id="palace22Door" label="#palace22DoorLabel" library="palace22" loadType="file" name="Palace22Door" priority="99" rating="305" vipOnly="1">
+                <placement door="1" floor="1" wall="1"/>
+                <dimension height="5.5" length="3.7" width="0"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item canBuy="0" gold="46" icon="Veranda22DoorIcon@house" id="veranda22Door" label="#veranda22DoorLabel" library="veranda22" loadType="file" name="Veranda22Door" priority="100" rating="115">
+                <placement door="1" floor="1" wall="1"/>
+                <dimension height="5" length="2" width="0"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item icon="KidsRoom22DoorIcon@house" id="kidsRoom22Door" label="#kidsRoom22DoorLabel" library="kidsroom22" loadType="file" name="KidsRoom22Door" priority="102" rating="140" silver="14000">
+                <placement door="1" floor="1" wall="1"/>
+                <dimension height="5" length="2.8" width="0"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item canBuy="0" gold="70" icon="ElvenHarbor22DoorIcon@house" id="elvenHarbor22Door" label="#elvenHarbor22DoorLabel" library="elvenharbor22" loadType="file" name="ElvenHarbor22Door" priority="103" rating="245" vipOnly="1">
+                <placement door="1" floor="1" wall="1"/>
+                <dimension height="5" length="5.5" width="0"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item canBuy="0" gold="30" icon="BedroomModest2022DoorIcon@house" id="bedroomModest2022Door" label="#bedroomModest2022DoorLabel" library="bedroommodest2022" loadType="file" name="BedroomModest2022Door" priority="104" rating="75">
+                <placement door="1" floor="1" wall="1"/>
+                <dimension height="5" length="2.1"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item allowAnimation="1" canBuy="0" gold="82" icon="Aliens2022PortalIcon@decor" id="aliens2022Portal" label="#aliens2022PortalLabel" library="aliens2022" loadType="file" name="Aliens2022Portal" priority="105" rating="205" tags="cantEdit">
+                <placement floor="1" wall="1"/>
+                <dimension height="5.5" length="2.5" width="0"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item icon="Jungle22DoorIcon@house" id="jungle22Door" label="#jungle22DoorLabel" library="jungle22" loadType="file" name="Jungle22Door" priority="106" rating="138" silver="9200" vipOnly="1">
+                <placement door="1" floor="1" wall="1"/>
+                <dimension height="4.6" length="5.2"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item canBuy="0" gold="88" icon="DoorHalloween22Icon@house" id="doorHalloween22" label="#doorHalloween22Label" library="halloween2022" loadType="file" name="DoorHalloween22" priority="107" rating="220">
+                <placement door="1" floor="1" wall="1"/>
+                <dimension height="4.9" length="2.6"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item canBuy="0" gold="81" icon="Dracula22DoorIcon@house" id="dracula22Door" label="#dracula22DoorLabel" library="halloween2022/dracula22" loadType="file" name="Dracula22Door" priority="108" rating="284" vipOnly="1">
+                <placement floor="1" wall="1"/>
+                <dimension height="6" length="3" width="0"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item canBuy="0" gold="90" icon="Prison22DoorIcon@house" id="prison22Door" label="#prison22DoorLabel" library="halloween2022/prison22" loadType="file" name="Prison22Door" priority="109" rating="315" vipOnly="1">
+                <placement floor="1" wall="1"/>
+                <dimension height="6" length="5.2" width="0"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item gold="63" icon="Square22DoorIcon@house" id="square22Door" label="#square22DoorLabel" library="square22" loadType="file" name="Square22Door" priority="110" rating="221" vipOnly="1">
+                <placement door="1" floor="1" wall="1"/>
+                <dimension height="4.2" length="5" width="1"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item canBuy="0" gold="70" icon="NY23DoorIcon@house" id="ny23Door" label="#ny23DoorLabel" library="newyear2023" loadType="file" name="NY23Door" priority="111" rating="245" vipOnly="1">
+                <placement floor="1" wall="1"/>
+                <dimension height="6" length="4.3" width="0"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item gold="70" icon="Underwater2022DoorIcon@house" id="underwater2022Door" label="#underwater2022DoorLabel" library="underwater2022" loadType="file" name="Underwater2022Door" priority="112" rating="245" vipOnly="1">
+                <placement floor="1" wall="1"/>
+                <dimension height="4.2" length="4.6" width="0.2"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item gold="40" icon="MageRoom23DoorIcon@house" id="mageRoom23Door" label="#mageRoom23DoorLabel" library="mageRoom2023" loadType="file" name="MageRoom23Door" priority="113" rating="100">
+                <placement floor="1" wall="1"/>
+                <dimension height="5.6" length="3" width="0.2"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item canBuy="0" gold="88" icon="Avapark23DoorIcon@house" id="avapark23Door" label="#avapark23DoorLabel" library="firstapril2023" loadType="file" name="Avapark23Door" priority="114" rating="308" vipOnly="1">
+                <placement floor="1" wall="1"/>
+                <dimension height="6" length="8" width="1"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item icon="Atomic2023Door1Icon@house" id="atomic2023Door1" label="#atomic2023Door1Label" library="atomic2023" loadType="file" name="Atomic2023Door1" priority="115" rating="132" silver="8800" vipOnly="1">
+                <placement floor="1" wall="1"/>
+                <dimension height="5.5" length="3.5"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item gold="41" icon="Atomic2023Door2Icon@house" id="atomic2023Door2" label="#atomic2023Door2Label" library="atomic2023" loadType="file" name="Atomic2023Door2" priority="116" rating="103">
+                <placement door="1" floor="1" wall="1"/>
+                <dimension height="5.5" length="3.5" width="1.6"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item canBuy="0" gold="68" icon="Game23DoorIcon@house" id="game23Door" label="#game23DoorLabel" library="game2023" loadType="file" name="Game23Door" priority="117" rating="170">
+                <placement floor="1" wall="1"/>
+                <dimension height="4.8" length="2.3" width="0.2"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item canBuy="0" gold="82" icon="Ussr23DoorIcon@house" id="ussr23Door" label="#ussr23DoorLabel" library="ussr23" loadType="file" name="Ussr23Door" priority="118" rating="205">
+                <placement floor="1" wall="1"/>
+                <dimension height="4.9" length="2.4"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item canBuy="0" gold="60" icon="Fair2023DoorIcon@house" id="fair2023Door" label="#fair2023DoorLabel" library="fair2023" loadType="file" name="Fair2023Door" priority="119" rating="150">
+                <placement floor="1" wall="1"/>
+                <dimension height="5.2" length="2.5" width="0"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item canBuy="0" gold="72" icon="LifeSpace2023DoorIcon@house" id="lifeSpace2023Door" label="#lifeSpace2023DoorLabel" library="lifespace2023" loadType="file" name="LifeSpace2023Door" priority="120" rating="180">
+                <placement floor="1" wall="1"/>
+                <dimension height="6" length="2.6"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item canBuy="0" gold="70" icon="DarkFantasy23DoorIcon@house" id="darkFantasy23Door" label="#darkFantasy23DoorLabel" library="darkFantasy23" loadType="file" name="DarkFantasy23Door" priority="121" rating="175">
+                <placement floor="1" wall="1"/>
+                <dimension height="5" length="3.4" width="0.5"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item gold="30" icon="GameBar23DoorIcon@house" id="gameBar23Door" label="#gameBar23DoorLabel" library="gameBar23" loadType="file" name="GameBar23Door" priority="122" rating="75">
+                <placement floor="1" wall="1"/>
+                <dimension height="6" length="2.5"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item canBuy="0" gold="33" icon="Pixels23DoorIcon@house" id="pixels23Door" label="#pixels23DoorLabel" library="pixels23" loadType="file" name="Pixels23Door" priority="123" rating="116" vipOnly="1">
+                <placement floor="1" wall="1"/>
+                <dimension height="5" length="2"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item canBuy="0" gold="80" icon="Hut23DoorIcon@house" id="hut23Door" label="#hut23DoorLabel" library="hut23" loadType="file" name="Hut23Door" priority="124" rating="200">
+                <placement floor="1" wall="1"/>
+                <dimension height="4.8" length="2.8"/>
+                <direction names="SW,SE"/>
+            </item>
+        </category>
+        <category id="3" label="#windowCategory" logCategory2="window" priority="3" visible="true">
+            <item icon="WindowCurtainIcon@house" id="window1" label="#window1Title" loadType="file" name="WindowCurtain" priority="1" rating="12" silver="1200" tags="ground">
+                <placement floor="1" wall="1"/>
+                <dimension defaultZ="1" height="3.5" length="2" width="0"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item icon="WindowSemicircleIcon@house" id="window2" label="#window2Title" loadType="file" name="WindowSemicircle" priority="2" rating="5" silver="500" tags="ground">
+                <placement floor="1" wall="1"/>
+                <dimension defaultZ="1" height="3.1" length="2" width="0"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item icon="WindowDarkIcon@house" id="window3" label="#window3Title" loadType="file" name="WindowDark" priority="3" rating="4" silver="450" tags="ground">
+                <placement floor="1" wall="1"/>
+                <dimension defaultZ="1" height="3.4" length="1.5" width="0"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item gold="11" icon="WindowGlassIcon@house" id="window4" label="#window4Title" loadType="file" name="WindowGlass" priority="4" rating="22" tags="ground">
+                <placement floor="1" wall="1"/>
+                <dimension defaultZ="0.5" height="5" length="2.2" width="0"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item gold="15" icon="WindowGotIcon@house" id="window5" label="#window5Title" loadType="file" name="WindowGot" priority="5" rating="30" tags="ground">
+                <placement floor="1" wall="1"/>
+                <dimension defaultZ="1" height="3.5" length="1.8" width="0"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item icon="WindowJalousieIcon@house" id="window6" label="#window6Title" loadType="file" name="WindowJalousie" priority="6" rating="3" silver="350" tags="ground">
+                <placement floor="1" wall="1"/>
+                <dimension defaultZ="1" height="3.5" length="2.3" width="0"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item gold="13" icon="WindowRedIcon@house" id="window7" label="#window7Title" loadType="file" name="WindowRed" priority="7" rating="26" tags="ground">
+                <placement floor="1" wall="1"/>
+                <dimension defaultZ="1" height="5" length="3.5" width="0"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item icon="WindowRoseIcon@house" id="window8" label="#window8Title" loadType="file" name="WindowRose" priority="8" rating="11" silver="1100" tags="ground">
+                <placement floor="1" wall="1"/>
+                <dimension defaultZ="1" height="3.5" length="2" width="0"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item gold="12" icon="WindowRoseCurtainIcon@house" id="window9" label="#window9Title" loadType="file" name="WindowRoseCurtain" priority="9" rating="24" tags="ground">
+                <placement floor="1" wall="1"/>
+                <dimension defaultZ="1" height="4" length="2" width="0"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item gold="8" icon="WindowRoundIcon@house" id="window10" label="#window10Title" loadType="file" name="WindowRound" priority="10" rating="13" tags="ground">
+                <placement floor="1" wall="1"/>
+                <dimension defaultZ="3" height="2" length="2" width="0"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item gold="7" icon="WindowVintageIcon@house" id="window11" label="#window11Title" loadType="file" name="WindowVintage" priority="11" rating="11" tags="ground">
+                <placement floor="1" wall="1"/>
+                <dimension defaultZ="1" height="4.5" length="2" width="0"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item icon="WindowWhiteIcon@house" id="window12" label="#window12Title" loadType="file" name="WindowWhite" priority="12" rating="9" silver="950" tags="ground">
+                <placement floor="1" wall="1"/>
+                <dimension defaultZ="1" height="5" length="3" width="0"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item gold="19" icon="WindowArtIcon@house" id="window13" label="#window13Title" loadType="file" name="WindowArt" priority="13" rating="25" tags="ground">
+                <placement floor="1" wall="1"/>
+                <dimension defaultZ="0.2" height="5.5" length="2.5" width="0"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item icon="WindowSchoolIcon@house" id="window14" label="#window14Title" loadType="file" name="WindowSchool" priority="14" rating="20" silver="2000" tags="ground">
+                <placement floor="1" wall="1"/>
+                <dimension defaultZ="0.5" height="5" length="4" width="0"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item gold="29" icon="WindowAlienBlackIcon@house" id="wdwAln1" label="#windowAlien1Title" loadType="file" name="WindowAlienBlack" priority="15" rating="65" tags="ground" vipOnly="1">
+                <placement floor="1" wall="1"/>
+                <dimension defaultZ="2.5" height="2.5" length="5" width="0"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item gold="29" icon="WindowAlienWhiteIcon@house" id="wdwAln2" label="#windowAlien2Title" loadType="file" name="WindowAlienWhite" priority="16" rating="65" tags="ground" vipOnly="1">
+                <placement floor="1" wall="1"/>
+                <dimension defaultZ="2.5" height="2.5" length="5" width="0"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item gold="55" icon="WindowArtNouveauIcon@house" id="wdwArtNv1" label="#windowArtNouveauTitle" loadType="file" name="WindowArtNouveau" priority="17" rating="140" tags="ground" vipOnly="1">
+                <placement floor="1" wall="1"/>
+                <dimension defaultZ="1" height="3" length="2" width="0"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item gold="95" icon="WindowPrincessIcon@house" id="wdwPrns1" label="#windowPrincess1Title" loadType="file" name="WindowPrincess" priority="18" rating="245" tags="ground" vipOnly="1">
+                <placement floor="1" wall="1"/>
+                <dimension defaultZ="0.5" height="5" length="4" width="0"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item gold="38" icon="WindowVitragePrincessIcon@house" id="wdwPrns2" label="#windowPrincess2Title" loadType="file" name="WindowVitragePrincess" priority="19" rating="95" tags="ground">
+                <placement floor="1" wall="1"/>
+                <dimension defaultZ="1" height="4" length="2.5" width="0"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item gold="42" icon="WindowCountryIcon@house" id="wdwCtr1" label="#windowCountryTitle" loadType="file" name="WindowCountry" priority="20" rating="105" tags="ground" vipOnly="1">
+                <placement floor="1" wall="1"/>
+                <dimension defaultZ="0" height="5.5" length="1.2" width="0"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item gold="180" holiday="newyear14" icon="WindowIceIcon@house" id="wdwIceNY14" label="#windowNY14IceTitle" loadType="file" name="WindowIce" priority="21" rating="450" tags="ground">
+                <placement floor="1" wall="1"/>
+                <dimension defaultZ="0" height="5.5" length="2.2" width="0"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item allowAnimation="1" fileVersion="2" gold="1499" icon="WindowFebruary23Icon@house" id="wdwFeb23" label="#windowFebruary23Label" loadType="file" name="WindowFebruary23" priority="22" rating="7500" tags="ground">
+                <placement floor="1" wall="1"/>
+                <dimension defaultZ="0.5" height="5" length="6.8" width="0"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item gold="120" icon="WindowMayaIcon@house" id="wdwMya" label="#windowMayaLabel" loadType="file" name="WindowMaya" priority="23" rating="300" tags="ground" vipOnly="1">
+                <placement floor="1" wall="1"/>
+                <dimension defaultZ="1" height="3" length="2" width="0"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item icon="WindowGarageRetroIcon@house" id="wdwGRtr" label="#garageRetroWindow" loadType="file" name="WindowGarageRetro" priority="24" rating="55" silver="8500" tags="ground">
+                <placement floor="1" wall="1"/>
+                <dimension defaultZ="3.6" height="1.6" length="3" width="0"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item gold="75" icon="WindowGarageTechnoIcon@house" id="wdwGTch" label="#garageTechnoWindows" loadType="file" name="WindowGarageTechno" priority="25" rating="200" tags="ground" vipOnly="1">
+                <placement floor="1" wall="1"/>
+                <dimension defaultZ="0" height="6" length="1.6" width="0"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item allowAnimation="1" canBuy="1" gold="400" icon="WindowSantaHouseIcon@house" id="wdwSantaHouse" label="#wdwSantaLabel" loadType="file" name="WindowSantaHouse" priority="21" rating="450" tags="ground">
+                <placement floor="1" wall="1"/>
+                <dimension defaultZ="2" height="2.6" length="1.8" width="0"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item canBuy="0" gold="9999" icon="WindowGardenerGiftIcon@house" id="wdwGrdGft" label="#wdwGrdGft" loadType="file" name="WindowGardenerGift" priority="22" rating="450" tags="ground">
+                <placement floor="1" wall="1"/>
+                <dimension defaultZ="0" height="6" length="9" width="0"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item gold="75" icon="WindowTropicalBedroomIcon@house" id="wdwTrBth" label="#wdwTrBth" loadType="file" name="WindowTropicalBedroom" priority="23" rating="190" tags="ground">
+                <placement floor="1" wall="1"/>
+                <dimension defaultZ="0" height="6" length="7" width="0"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item allowAnimation="1" gold="443" holiday="halloween2015" icon="BlackRoseWindowIcon@house" id="wdwBlkRs" label="#wdwBlkRsLabel" loadType="file" name="BlackRoseWindow" priority="24" rating="1329" tags="ground">
+                <placement floor="1" wall="1"/>
+                <dimension defaultZ="0" height="6" length="7" width="0"/>
+                <components>
+                    <soundMovieClip/>
+                </components>
+                <direction names="SW,SE"/>
+            </item>
+            <item canBuy="0" gold="99999" icon="WindowPolarIcon@house" id="ny2016Swdw" label="#ny2016wdw" loadType="file" name="WindowSnowboundPolar" priority="25" rating="1" tags="sit,ground,cantEdit">
+                <placement floor="1" wall="1"/>
+                <dimension height="7" length="7" width="0"/>
+                <direction names="SW"/>
+            </item>
+            <item allowAnimation="1" gold="730" icon="WindowSuperHeroIcon@house" id="shWdw" label="#shWdwLabel" loadType="file" name="WindowSuperHero" priority="28" rating="2555" tags="ground" vipOnly="1">
+                <placement floor="1" wall="1"/>
+                <dimension height="7" length="13" width="0"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item gold="70" icon="WindowPirateRoomIcon@house" id="prtrWdw" label="#prtrWdwLabel" loadType="file" name="WindowPirateRoom" priority="29" rating="175" tags="ground">
+                <placement floor="1" wall="1"/>
+                <dimension defaultZ="0" height="5.5" length="6.5" width="0"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item gold="13" icon="WindowGymIcon@house" id="gymWdw" label="#gymWdwLabel" loadType="file" name="WindowGym" priority="30" rating="32" tags="ground">
+                <placement floor="1" wall="1"/>
+                <dimension defaultZ="3.5" height="1.4" length="3" width="0"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item gold="22" icon="WindowPianoRoomIcon@house" id="pnRmWdw" label="#pnRmWdwLabel" loadType="file" name="WindowPianoRoom" priority="31" rating="55" tags="ground">
+                <placement floor="1" wall="1"/>
+                <dimension defaultZ="0" height="6" length="3" width="0"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item allowAnimation="1" canBuy="0" gold="49" icon="WindowMoonViewIcon@house" id="hlwn18Wnd" label="#hlwn18WndLabel" loadType="file" name="WindowMoonView" priority="32" rating="147" tags="ground" vipOnly="1">
+                <placement floor="1" wall="1"/>
+                <dimension defaultZ="1" height="5" length="2.5" width="0.05"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item icon="WindowRetroCafe2019Icon@house" id="rtrCfWnd" label="#rtrCfWndLabel" loadType="file" name="WindowRetroCafe2019" priority="33" rating="23" silver="2300" tags="ground">
+                <placement floor="1" wall="1"/>
+                <dimension defaultZ="1.5" height="3.8" length="3.3" width="0.05"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item canBuy="0" gold="39" icon="WindowHW2019Icon@house" id="hw2019Wnd" label="#hw2019WndLabel" loadType="file" name="WindowHW2019" priority="34" rating="117" tags="ground">
+                <placement floor="1" wall="1"/>
+                <dimension defaultZ="2.3" height="3.7" length="2.8" width="0.05"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item gold="50" icon="WonderlandWindowIcon@house" id="wndrlndWndw" label="#wndrlndWndwLabel" library="wonderland" loadType="file" name="WonderlandWindow" priority="35" rating="125">
+                <placement floor="1" wall="1"/>
+                <dimension height="6" length="3.3" width="0"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item gold="45" icon="Restaurant2019WindowIcon@house" id="rstrnt2019Wndw" label="#rstrnt2019WndwLabel" library="restaurant2019" loadType="file" name="Restaurant2019Window" priority="36" rating="113">
+                <placement floor="1" wall="1"/>
+                <dimension height="6" length="3.6" width="0"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item gold="65" icon="ArtistWorkshopWindowIcon@house" id="rtstWrkshpWndw" label="#rtstWrkshpWndwLabel" library="artistWorkshop" loadType="file" name="ArtistWorkshopWindow" priority="37" rating="163">
+                <placement floor="1" wall="1"/>
+                <dimension height="6" length="3.6" width="0"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item gold="15" icon="WindowEaster20Icon@house" id="estr20Wnd" label="#estr20WndLabel" library="easter2020" loadType="file" name="WindowEaster20" priority="38" rating="38">
+                <placement floor="1" wall="1"/>
+                <dimension defaultZ="1" height="4" length="2" width="0"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item gold="60" icon="WidowModernBedroomIcon@house" id="wdwMdrnBdrm" label="#wdwMdrnBdrmLabel" library="modernbedroom" loadType="file" name="WidowModernBedroom" priority="39" rating="150">
+                <placement floor="1" wall="1"/>
+                <dimension height="5.2" length="2.9" width="0"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item allowAnimation="1" canBuy="0" gold="64" icon="WindowNewYear2021Icon@house" id="wndNY21" label="#wndNY21Label" library="newyear2021" loadType="file" name="WindowNewYear2021" priority="40" rating="192">
+                <placement floor="1" wall="1"/>
+                <dimension defaultZ="1.1" height="3.3" length="1.3" width="0"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item gold="35" icon="WindowStPatrick21Icon@house" id="windowStPtr21" label="#windowStPtr21Label" library="stpatrick2021" loadType="file" name="WindowStPatrick21" priority="41" rating="88">
+                <placement floor="1" wall="1"/>
+                <dimension defaultZ="2.8" height="2.3" length="3.2" width="0"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item allowAnimation="1" gold="41" icon="WindowKidsRoom21Icon@house" id="windowKdRm21" label="#windowKdRm21Label" library="kidsroom2021" loadType="file" name="WindowKidsRoom21" priority="42" rating="103" tags="ground">
+                <placement floor="1" wall="1"/>
+                <dimension defaultZ="1" height="4.7" length="3.7" width="0"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item allowAnimation="1" gold="185" icon="Window9May2021Icon@house" id="window9May2021" label="#window9May2021Label" loadType="file" name="Window9May2021" priority="43" rating="648" tags="ground" vipOnly="1">
+                <placement floor="1" wall="1"/>
+                <dimension defaultZ="0.4" height="4.5" length="5.5" width="0"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item allowAnimation="1" gold="71" icon="WindowCyberpunk2021Icon@house" id="windowCbr21" label="#windowCbr21Label" library="cyberpunk2021" loadType="file" name="WindowCyberpunk2021" priority="77" rating="249" tags="ground" vipOnly="1">
+                <placement floor="1" wall="1"/>
+                <dimension height="6" length="7.6" width="0"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item allowAnimation="1" gold="39" icon="WindowBlack2021Icon@house" id="windowBlk21" label="#windowBlk21Label" library="black2021" loadType="file" name="WindowBlack2021" priority="78" rating="98" tags="ground">
+                <placement floor="1" wall="1"/>
+                <dimension defaultZ="1.8" height="3.3" length="4.6" width="0"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item gold="69" icon="Window1Waterpool2021Icon@house" id="window1Wtrpl21" label="#window1Wtrpl21Label" library="waterpool2021" loadType="file" name="Window1Waterpool2021" priority="79" rating="242" vipOnly="1">
+                <placement floor="1" wall="1"/>
+                <dimension defaultZ="0.3" height="5.2" length="11.1" width="0"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item gold="41" icon="Window2Waterpool2021Icon@house" id="window2Wtrpl21" label="#window2Wtrpl21Label" library="waterpool2021" loadType="file" name="Window2Waterpool2021" priority="80" rating="103">
+                <placement floor="1" wall="1"/>
+                <dimension defaultZ="0.3" height="5.2" length="3.8" width="0"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item allowAnimation="1" canBuy="0" gold="146" icon="WindowSciFi2021Icon@house" id="windowSciFi21" label="#windowSciFi21Label" library="scifi2021" loadType="file" name="WindowSciFi2021" priority="81" rating="511" tags="ground" vipOnly="1">
+                <placement floor="1" wall="1"/>
+                <dimension height="6" length="13" width="0"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item allowAnimation="1" canBuy="0" gold="109" icon="WindowHalloween21Icon@house" id="windowHW21" label="#windowHW21Label" library="halloween2021" loadType="file" name="WindowHalloween21" rating="382" vipOnly="1">
+                <placement floor="1" wall="1"/>
+                <dimension height="6" length="13" width="0"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item icon="WindowHiTechKitchen2021Icon@kitchen" id="windowHiTechKitchen2021" label="#windowHiTechKitchen2021Label" library="kitchen/hiTech2021" loadType="file" name="WindowHiTechKitchen2021" priority="82" rating="49" silver="4900" tags="ground">
+                <placement floor="1" wall="1"/>
+                <dimension height="3.6" length="3" width="0"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item allowAnimation="1" canBuy="0" gold="70" icon="SmallWindowSkandi2021Icon@house" id="smallWindowSkandi2021" label="#smallWindowSkandi2021Label" library="skandi2021" loadType="file" name="SmallWindowSkandi2021" priority="83" rating="210" tags="ground">
+                <placement floor="1" wall="1"/>
+                <dimension defaultZ="0.4" height="5.2" length="1.7" width="0"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item allowAnimation="1" canBuy="0" gold="88" icon="BigWindowSkandi2021Icon@house" id="bigWindowSkandi2021" label="#bigWindowSkandi2021Label" library="skandi2021" loadType="file" name="BigWindowSkandi2021" priority="84" rating="308" tags="ground" vipOnly="1">
+                <placement floor="1" wall="1"/>
+                <dimension defaultZ="0.6" height="4.9" length="3.5" width="0"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item canBuy="0" gold="36" icon="NY2022WindowIcon@decor" id="ny2022Window" label="#ny2022WindowLabel" library="newyear2022" loadType="file" name="NY2022Window" priority="85" rating="108" tags="cantEdit">
+                <placement floor="1" wall="1"/>
+                <dimension defaultZ="1" height="2.8" length="2.6" width="0"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item icon="Window1Egypt2022Icon@house" id="window1Egypt2022" label="#window1Egypt2022Label" library="egypt2022" loadType="file" name="Window1Egypt2022" priority="86" rating="100" silver="10000" tags="ground">
+                <placement floor="1" wall="1"/>
+                <dimension height="5.3" length="1.6" width="0"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item icon="Window2Egypt2022Icon@house" id="window2Egypt2022" label="#window2Egypt2022Label" library="egypt2022" loadType="file" name="Window2Egypt2022" priority="87" rating="120" silver="12000" tags="ground">
+                <placement floor="1" wall="1"/>
+                <dimension height="5.3" length="2.4" width="0"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item canBuy="0" gold="192" icon="StValentine2022WindowIcon@house" id="stValentine2022Window" label="#stValentine2022WindowLabel" library="stvalentine2022" loadType="file" name="StValentine2022Window" priority="88" rating="672" tags="ground" vipOnly="1">
+                <placement floor="1" wall="1"/>
+                <dimension height="6" length="6" width="0"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item canBuy="0" gold="63" icon="ModernKitchen22WindowIcon@kitchen" id="modernKitchen22Window" label="#modernKitchen22WindowLabel" library="kitchen/modernkitchen22" loadType="file" name="ModernKitchen22Window" priority="89" rating="221" vipOnly="1">
+                <placement floor="1" wall="1"/>
+                <dimension defaultZ="2.6" height="3" length="1.8" width="0"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item allowAnimation="1" gold="63" icon="Steampunk22WindowIcon@house" id="steampunk22Window" label="#steampunk22WindowLabel" library="steampunk22" loadType="file" name="Steampunk22Window" priority="90" rating="221" vipOnly="1">
+                <placement floor="1" wall="1"/>
+                <dimension defaultZ="0.4" height="4.7" length="4.5" width="0"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item canBuy="0" gold="73" icon="Palace22WindowIcon@house" id="palace22Window" label="#palace22WindowLabel" library="palace22" loadType="file" name="Palace22Window" priority="91" rating="256" vipOnly="1">
+                <placement floor="1" wall="1"/>
+                <dimension defaultZ="0.4" height="5" length="2" width="0.1"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item canBuy="0" gold="53" icon="Veranda22WindowIcon@house" id="veranda22Window" label="#veranda22WindowLabel" library="veranda22" loadType="file" name="Veranda22Window" priority="92" rating="133" tags="ground">
+                <placement floor="1" wall="1"/>
+                <dimension defaultZ="1" height="4" length="4" width="0"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item allowAnimation="1" gold="75" icon="KidsRoom22WindowIcon@house" id="kidsRoom22Window" label="#kidsRoom22WindowLabel" library="kidsroom22" loadType="file" name="KidsRoom22Window" priority="93" rating="263" tags="ground" vipOnly="1">
+                <placement floor="1" wall="1"/>
+                <dimension height="6" length="7.4" width="0.8"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item canBuy="0" gold="138" icon="ElvenHarbor22WindowIcon@house" id="elvenHarbor22Window" label="#elvenHarbor22WindowLabel" library="elvenharbor22" loadType="file" name="ElvenHarbor22Window" priority="94" rating="483" tags="ground" vipOnly="1">
+                <placement floor="1" wall="1"/>
+                <dimension defaultZ="0" height="6" length="13" width="0"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item canBuy="0" gold="76" icon="BedroomModest2022WindowIcon@house" id="bedroomModest2022Window" label="#bedroomModest2022WindowLabel" library="bedroommodest2022" loadType="file" name="BedroomModest2022Window" priority="95" rating="266" tags="ground" vipOnly="1">
+                <placement floor="1" wall="1"/>
+                <dimension height="6" length="2.8"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item allowAnimation="1" canBuy="0" gold="150" icon="WindowAlien22Icon@house" id="alien22Window" label="#alien22WindowLabel" loadType="file" name="WindowAlien22" priority="96" rating="375" tags="ground">
+                <placement floor="1" wall="1"/>
+                <dimension height="6" length="8.6" width="0"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item allowAnimation="1" canBuy="0" gold="106" icon="Halloween22WindowIcon@house" id="halloween22Window" label="#halloween22WindowLabel" library="halloween2022" loadType="file" name="Halloween22Window" priority="97" rating="371" tags="ground" vipOnly="1">
+                <placement floor="1" wall="1"/>
+                <dimension height="5.5" length="2.8"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item canBuy="0" gold="66" icon="Dracula22WoodpileIcon@house" id="dracula22Woodpile" label="#dracula22WoodpileLabel" library="halloween2022/dracula22" loadType="file" name="Dracula22Woodpile" priority="98" rating="165" tags="ground">
+                <placement floor="1" wall="1"/>
+                <dimension defaultZ="0.1" height="5" length="1.7" width="0.1"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item canBuy="0" gold="109" icon="Dracula22WindowIcon@house" id="dracula22Window" label="#dracula22WindowLabel" library="halloween2022/dracula22" loadType="file" name="Dracula22Window" priority="99" rating="382" tags="ground" vipOnly="1">
+                <placement floor="1" wall="1"/>
+                <dimension defaultZ="1" height="5" length="9.5" width="0.1"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item canBuy="0" gold="19" icon="Prison22WindowIcon@house" id="prison22Window" label="#prison22WindowLabel" library="halloween2022/prison22" loadType="file" name="Prison22Window" priority="100" rating="48" tags="ground">
+                <placement floor="1" wall="1"/>
+                <dimension defaultZ="5" height="0.7" length="1.8" width="0.1"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item allowAnimation="1" canBuy="0" gold="79" icon="NY23WindowIcon@house" id="ny23Window" label="#ny23WindowLabel" library="newyear2023" loadType="file" name="NY23Window" priority="101" rating="198" tags="ground">
+                <placement floor="1" wall="1"/>
+                <dimension defaultZ="0.2" height="5.8" length="6" width="0.1"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item icon="MageRoom23WindowIcon@house" id="mageRoom23Window" label="#mageRoom23WindowLabel" library="mageRoom2023" loadType="file" name="MageRoom23Window" priority="103" rating="114" silver="7600" tags="ground" vipOnly="1">
+                <placement floor="1" wall="1"/>
+                <dimension defaultZ="2" height="3.4" length="3.5" width="0.3"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item gold="44" icon="Atomic2023WindowIcon@house" id="atomic2023Window" label="#atomic2023WindowLabel" library="atomic2023" loadType="file" name="Atomic2023Window" priority="104" rating="154" tags="ground" vipOnly="1">
+                <placement floor="1" wall="1"/>
+                <dimension defaultZ="1.4" height="4.2" length="3.6" width="0.1"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item canBuy="0" gold="101" icon="Ussr23WindowIcon@house" id="ussr23Window" label="#ussr23WindowLabel" library="ussr23" loadType="file" name="Ussr23Window" priority="105" rating="354" vipOnly="1">
+                <placement floor="1" wall="1"/>
+                <dimension height="6" length="6.8" width="1"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item canBuy="0" gold="49" icon="Fair2023WindowIcon@house" id="fair2023Window" label="#fair2023WindowLabel" library="fair2023" loadType="file" name="Fair2023Window" priority="106" rating="172" vipOnly="1">
+                <placement floor="1" wall="1"/>
+                <dimension defaultZ="2.4" height="2.9" length="4.5" width="0.1"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item allowAnimation="1" canBuy="0" gold="105" icon="LifeSpace2023WindowIcon@house" id="lifeSpace2023Window" label="#lifeSpace2023WindowLabel" library="lifespace2023" loadType="file" name="LifeSpace2023Window" priority="107" rating="368" tags="ground" vipOnly="1">
+                <placement floor="1" wall="1"/>
+                <dimension height="6" length="13"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item canBuy="0" gold="80" icon="DarkFantasy23WindowIcon@house" id="darkFantasy23Window" label="#darkFantasy23WindowLabel" library="darkFantasy23" loadType="file" name="DarkFantasy23Window" priority="108" rating="200">
+                <placement floor="1" wall="1"/>
+                <dimension height="5.8" length="3.4"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item gold="60" icon="GameBar23WindowIcon@house" id="gameBar23Window" label="#gameBar23WindowLabel" library="gameBar23" loadType="file" name="GameBar23Window" priority="109" rating="150">
+                <placement floor="1" wall="1"/>
+                <dimension height="6" length="4"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item canBuy="0" gold="62" icon="Pixels23WindowIcon@house" id="pixels23Window" label="#pixels23WindowLabel" library="pixels23" loadType="file" name="Pixels23Window" priority="110" rating="155">
+                <placement floor="1" wall="1"/>
+                <dimension defaultZ="1" height="4.5" length="3"/>
+                <direction names="SW,SE"/>
+            </item>
+            <category id="ny16BrknWdw" visible="false">
+                <item allowAnimation="1" canBuy="0" gold="99999" icon="WindowPolarIcon@house" id="ny2016Dwdw" label="#ny2016wdw" loadType="file" name="WindowDarkPolar" priority="26" rating="1" tags="sit,ground,cantEdit">
+                    <placement floor="1" wall="1"/>
+                    <dimension height="7" length="7" width="0"/>
+                    <direction names="SW"/>
+                </item>
+            </category>
+            <category id="ny16ActvWdw" visible="false">
+                <item allowAnimation="1" canBuy="0" gold="99999" icon="WindowPolarIcon@house" id="ny2016Lwdw" label="#ny2016wdw" loadType="file" name="WindowLightPolar" priority="27" rating="3999" tags="sit,ground,cantEdit">
+                    <placement floor="1" wall="1"/>
+                    <dimension height="7" length="7" width="0"/>
+                    <direction names="SW"/>
+                </item>
+            </category>
+            <category id="sitWindowCategory" label="#sitWindowCategory" logCategory2="sitWindowCategory" visible="false">
+                <item allowAnimation="1" canBuy="0" gold="111" icon="NY23PresentWindowIcon@house" id="ny23PresentWindow" label="#ny23PresentWindowLabel" library="newyear2023" loadType="file" name="NY23PresentWindow" priority="102" rating="278" tags="sit,ground">
+                    <placement floor="1" wall="1"/>
+                    <dimension height="6" length="7" sitZ="1" width="1"/>
+                    <direction names="SW,SE"/>
+                </item>
+                <item canBuy="0" gold="144" icon="Hut23WindowIcon@house" id="hut23Window" label="#hut23WindowLabel" library="hut23" loadType="file" name="Hut23Window" priority="111" rating="360" tags="sit,ground" vipOnly="1">
+                    <placement floor="1" wall="1"/>
+                    <dimension height="5.2" length="7" sitZ="1"/>
+                    <direction names="SW,SE"/>
+                </item>
+            </category>
+        </category>
+        <category id="4" label="#floorCategory" logCategory2="floor" priority="4" visible="true">
+            <item buyCount="0" gold="0" icon="FloorBaseIcon@house" id="floor1" label="#floor1Title" loadType="file" name="FloorBase" priority="1" rating="1" silver="0"/>
+            <item icon="FloorCarpetIcon@house" id="floor2" label="#floor2Title" loadType="file" name="FloorCarpet" priority="2" rating="3" silver="300"/>
+            <item icon="FloorCarpetDarkIcon@house" id="floor3" label="#floor3Title" loadType="file" name="FloorCarpetDark" priority="3" rating="3" silver="350"/>
+            <item icon="FloorCarpetGrassIcon@house" id="floor4" label="#floor4Title" loadType="file" name="FloorCarpetGrass" priority="4" rating="5" silver="500"/>
+            <item icon="FloorColorDarkIcon@house" id="floor5" label="#floor5Title" loadType="file" name="FloorColorDark" priority="5" rating="2" silver="220"/>
+            <item gold="8" icon="FloorEmbellishmentIcon@house" id="floor6" label="#floor6Title" loadType="file" name="FloorEmbellishment" priority="6" rating="13"/>
+            <item icon="FloorForgetIcon@house" id="floor7" label="#floor7Title" loadType="file" name="FloorForget" priority="7" rating="3" silver="300"/>
+            <item gold="11" icon="FloorParketBambukIcon@house" id="floor8" label="#floor8Title" loadType="file" name="FloorParketBambuk" priority="8" rating="22"/>
+            <item gold="11" icon="FloorParketGonkaloIcon@house" id="floor9" label="#floor9Title" loadType="file" name="FloorParketGonkalo" priority="9" rating="22"/>
+            <item gold="11" icon="FloorParketKempasIcon@house" id="floor10" label="#floor10Title" loadType="file" name="FloorParketKempas" priority="10" rating="22"/>
+            <item gold="11" icon="FloorParketMahaonIcon@house" id="floor11" label="#floor11Title" loadType="file" name="FloorParketMahaon" priority="11" rating="22"/>
+            <item gold="11" icon="FloorParketPalisandrIcon@house" id="floor12" label="#floor12Title" loadType="file" name="FloorParketPalisandr" priority="12" rating="22"/>
+            <item gold="11" icon="FloorParketZebranoIcon@house" id="floor13" label="#floor13Title" loadType="file" name="FloorParketZebrano" priority="13" rating="22"/>
+            <item icon="FloorRoseIcon@house" id="floor14" label="#floor14Title" loadType="file" name="FloorRose" priority="13" rating="3" silver="350"/>
+            <item gold="7" icon="FloorTileIcon@house" id="floor15" label="#floor15Title" loadType="file" name="FloorTile" priority="15" rating="11"/>
+            <item gold="7" icon="FloorTileBeigeIcon@house" id="floor16" label="#floor16Title" loadType="file" name="FloorTileBeige" priority="16" rating="11"/>
+            <item gold="6" icon="FloorTileSmallDarkIcon@house" id="floor17" label="#floor17Title" loadType="file" name="FloorTileSmallDark" priority="17" rating="10"/>
+            <item gold="7" icon="FloorTileSmallLightIcon@house" id="floor18" label="#floor18Title" loadType="file" name="FloorTileSmallLight" priority="18" rating="11"/>
+            <item gold="6" icon="FloorTileSmallGreyIcon@house" id="floor19" label="#floor19Title" loadType="file" name="FloorTileSmallGrey" priority="19" rating="10"/>
+            <item gold="16" icon="FloorMarbleVioletFrogIcon@house" id="floor20" label="#floor20Title" loadType="file" name="FloorMarbleVioletFrog" priority="20" rating="32"/>
+            <item gold="13" icon="FloorMarbleArtDecoIcon@house" id="floor21" label="#floor21Title" loadType="file" name="FloorMarbleArtDeco" priority="21" rating="26"/>
+            <item gold="10" icon="FloorParketDarkWoodIcon@house" id="floor22" label="#floor22Title" loadType="file" name="FloorParketDarkWood" priority="22" rating="20"/>
+            <item icon="FloorParketLineIcon@house" id="floor23" label="#floor23Title" loadType="file" name="FloorParketLine" priority="23" rating="7" silver="725"/>
+            <item gold="10" holiday="halloween" icon="FloorBrickLightIcon@house" id="floor24" label="#floor24Title" loadType="file" name="FloorBrickLight" priority="24" rating="17"/>
+            <item gold="10" holiday="halloween" icon="FloorBrickDarkIcon@house" id="floor25" label="#floor25Title" loadType="file" name="FloorBrickDark" priority="25" rating="17"/>
+            <item gold="17" icon="FloorHeartGrassIcon@house" id="floorWdn1" label="#floorWedding1Title" loadType="file" name="FloorHeartGrass" priority="26" rating="34" wedding="1"/>
+            <item gold="12" holiday="NY" icon="FloorSnowIcon@house" id="floorNY1" label="#floorNY1Title" loadType="file" name="FloorSnow" priority="27" rating="30"/>
+            <item gold="21" icon="FloorJapanIcon@house" id="floorJpn1" label="#floorJapan1Title" loadType="file" name="FloorJapan" priority="28" rating="48"/>
+            <item icon="FloorAlienIcon@house" id="floorAlien1" label="#floorAlien1Title" level="12" loadType="file" name="FloorAlien" priority="29" rating="35" silver="5700"/>
+            <item gold="75" icon="FloorArtNouveauIcon@house" id="floorArtNv1" label="#floorArtNouveau1Title" loadType="file" name="FloorArtNouveau" priority="30" rating="200" vipOnly="1"/>
+            <item gold="16" icon="FloorPrincessIcon@house" id="floorPrns1" label="#floorPrincessTitle" loadType="file" name="FloorPrincess" priority="31" rating="33"/>
+            <item gold="35" icon="FloorCountryIcon@house" id="floorCtr1" label="#floorCountryTitle" loadType="file" name="FloorCountry" priority="32" rating="90" vipOnly="1"/>
+            <item gold="24" icon="FloorBeachIcon@house" id="floorBch1" label="#floorBeachTitle" loadType="file" name="FloorBeach" priority="33" rating="55" vipOnly="1"/>
+            <item gold="120" holiday="newyear14" icon="FloorIceIcon@house" id="floorNY14" label="#floorNY14Title" loadType="file" name="FloorIceGrass" priority="36" rating="300"/>
+            <item canBuy="1" gold="225" icon="FloorValentineIcon@house" id="flrSV14" label="#floorSV14Title" loadType="file" name="FloorValentine" priority="37" rating="450"/>
+            <item gold="120" icon="FloorFebruary23Icon@house" id="flrFeb23" label="#floorFebruary23Label" loadType="file" name="FloorFebruary23" priority="38" rating="300"/>
+            <item gold="49" icon="FloorMayaIcon@house" id="floorMya" label="#floorMayaLabel" loadType="file" name="FloorMaya" priority="39" rating="125"/>
+            <item canBuy="0" gold="9999" icon="FloorSD14Icon@house" id="flrSD14" label="#floorSD14Label" loadType="file" name="FloorSD14" priority="40" rating="300" tags="cantEdit"/>
+            <item canBuy="0" gold="9999" icon="FloorSD15Icon@house" id="flrSD15" label="#floorSD15Label" loadType="file" name="FloorSD15" priority="40" rating="300" tags="cantEdit"/>
+            <item gold="18" icon="FloorNYRoofIcon@house" id="flrNYRf" label="#floorNYRoofLabel" loadType="file" name="FloorNYRoof" priority="41" rating="40"/>
+            <item gold="95" icon="FloorSeaIcon@house" id="flrSea" label="#floorSeaLabel" loadType="file" name="FloorSea" priority="42" rating="250"/>
+            <item gold="19" icon="FloorGarageRetroIcon@house" id="flrGRtr" label="#garageRetroFloor" loadType="file" name="FloorGarageRetro" priority="43" rating="40"/>
+            <item gold="95" icon="FloorGarageTechnoIcon@house" id="flrGTch" label="#garageTechnoFloor" loadType="file" name="FloorGarageTechno" priority="44" rating="245" vipOnly="1"/>
+            <item canBuy="1" gold="250" icon="FloorSantaHouseIcon@house" id="floorSantaHouse" label="#floorSantaHouseLabel" loadType="file" name="FloorSantaHouse" priority="45" rating="300"/>
+            <item gold="150" icon="FloorSV15Icon@house" id="floorSV15" label="#floorSV15Label" loadType="file" name="FloorSV15" priority="46" rating="300"/>
+            <item gold="40" icon="FloorConanIcon@house" id="flrCnn" label="#floorConanLabel" loadType="file" name="FloorConan" priority="47" rating="100"/>
+            <item canBuy="0" gold="9999" icon="FloorGardenerGiftIcon@house" id="flrGrdGft" label="#flrGrdGft" loadType="file" name="FloorGardenerGift" priority="48" rating="160"/>
+            <item gold="95" icon="FloorTropicalBedroomIcon@house" id="flrTrBth" label="#flrTrBthLabel" loadType="file" name="FloorTropicalBedroom" priority="49" rating="240"/>
+            <item allowAnimation="1" gold="383" holiday="halloween2015" icon="BlackRoseFloorIcon@house" id="flrBlkRs" label="#flrBlkRsLabel" loadType="file" name="BlackRoseFloor" priority="50" rating="1149">
+                <components>
+                    <soundMovieClip/>
+                </components>
+            </item>
+            <item gold="100" icon="FloorPhotostudioIcon@house" id="proPhtFlr" label="#proPhtFlrLabel" loadType="file" name="FloorPhotostudio" priority="51" professionId="phtghr" professionLevel="4" rating="300"/>
+            <item canBuy="0" gold="99999" icon="FloorPolarIcon@house" id="ny2016Sflr" label="#ny2016flr" loadType="file" name="FloorSnowboundPolar" priority="52" rating="1" tags="cantEdit"/>
+            <item canBuy="0" gold="99999" icon="FloorPolarIcon@house" id="ny2016Dflr" label="#ny2016flr" loadType="file" name="FloorDarkPolar" priority="53" rating="1" tags="cantEdit"/>
+            <item allowAnimation="1" canBuy="0" gold="99999" icon="FloorPolarIcon@house" id="ny2016Lflr" label="#ny2016flr" loadType="file" name="FloorLightPolar" priority="54" rating="499" tags="cantEdit"/>
+            <item canBuy="0" gold="9999" icon="FloorSD16Icon@house" id="sd16Flr" label="#sd16FlrLabel" loadType="file" name="FloorSD16" priority="55" rating="149" tags="cantEdit"/>
+            <item gold="70" icon="FloorSuperHeroIcon@house" id="shFlr" label="#shFlrLabel" loadType="file" name="FloorSuperHero" priority="56" rating="175"/>
+            <item gold="42" icon="FloorPirateRoomIcon@house" id="prtrFlr" label="#prtrFlrLabel" loadType="file" name="FloorPirateRoom" priority="57" rating="105"/>
+            <item icon="FloorGymIcon@house" id="gymFlr" label="#gymFlrLabel" loadType="file" name="FloorGym" priority="58" rating="15" silver="1500"/>
+            <item gold="20" icon="FloorPianoRoomIcon@house" id="pnRmFlr" label="#pnRmFlrLabel" loadType="file" name="FloorPianoRoom" priority="59" rating="50"/>
+            <item icon="FloorRetroCafe2019Icon@house" id="rtrCfFlr" label="#rtrCfFlrLabel" loadType="file" name="FloorRetroCafe2019" priority="60" rating="36" silver="3600"/>
+            <item canBuy="0" gold="20" icon="FloorHW2019Icon@house" id="hw2019Flr" label="#hw2019FlrLabel" loadType="file" name="FloorHW2019" priority="61" rating="60"/>
+            <item allowAnimation="1" canBuy="0" gold="120" icon="FloorDragon2019Icon@house" id="drgn2019Flr" label="#drgCvFlrLabel" loadType="file" name="FloorDragon2019" priority="62" rating="360"/>
+            <item canBuy="0" icon="NY20FloorIcon@house" id="NY20Flr" label="#NY20FlrLabel" loadType="file" name="NY20Floor" priority="63" rating="136" silver="4500"/>
+            <item gold="60" icon="FloorPodium2020Icon@house" id="pdmNY20Flr" label="#pdmNY20FlrLabel" loadType="file" name="FloorPodium2020" priority="64" rating="240"/>
+            <item icon="WonderlandFloorIcon@house" id="wndrlndFlr" label="#wndrlndFlrLabel" library="wonderland" loadType="file" name="WonderlandFloor" priority="65" rating="50" silver="5000"/>
+            <item gold="80" icon="Restaurant2019FloorIcon@house" id="rstrnt2019Flr" label="#rstrnt2019FlrLabel" library="restaurant2019" loadType="file" name="Restaurant2019Floor" priority="66" rating="200"/>
+            <item icon="ArtistWorkshopFloorIcon@house" id="rtstWrkshpFlr" label="#rtstWrkshpFlrLabel" library="artistWorkshop" loadType="file" name="ArtistWorkshopFloor" priority="67" rating="78" silver="7800"/>
+            <item icon="FloorEaster20Icon@house" id="estr20Flr" label="#estr20FlrLabel" library="easter2020" loadType="file" name="FloorEaster20" priority="68" rating="27" silver="2700"/>
+            <item gold="12" icon="FloorBath20Icon@house" id="bath20Flr" label="#bath20FlrLabel" library="bathroom/bathroom2020" loadType="file" name="FloorBath20" priority="69" rating="30"/>
+            <item gold="20" icon="Floor9May20Icon@house" id="9may20Flr" label="#9may20FlrLabel" library="event/9may2020" loadType="file" name="Floor9May20" priority="70" rating="50"/>
+            <item gold="23" icon="FloorModernBedroomIcon@house" id="flrMdrnBdrm" label="#flrMdrnBdrmLabel" library="modernbedroom" loadType="file" name="FloorModernBedroom" priority="71" rating="58"/>
+            <item canBuy="0" gold="28" icon="FloorHalloween20Icon@house" id="flrHW20" label="#flrHW20Label" library="halloween2020" loadType="file" name="FloorHalloween20" priority="72" rating="84"/>
+            <item gold="29" icon="FloorGreenhouseIcon@house" id="flrGrnHs" label="#flrGrnHsLabel" library="greenhouse2020" loadType="file" name="FloorGreenhouse" priority="73" rating="73"/>
+            <item canBuy="0" gold="55" icon="FloorNewYear2021Icon@house" id="flrNY21" label="#flrNY21Label" library="newyear2021" loadType="file" name="FloorNewYear2021" priority="74" rating="165"/>
+            <item canBuy="0" gold="68" icon="FloorStValentine2021Icon@house" id="flrSV21" label="#flrSV21Label" library="stValentine2021" loadType="file" name="FloorStValentine2021" priority="75" rating="204"/>
+            <item icon="FloorStPatrick21Icon@house" id="floorStPtr21" label="#floorStPtr21Label" library="stpatrick2021" loadType="file" name="FloorStPatrick21" priority="76" rating="68" silver="6800">
+                <placement floor="1"/>
+            </item>
+            <item gold="22" icon="FloorAnimeRoomIcon@house" id="floorAnimeRoom" label="#floorAnimeRoomLabel" library="animeroom2021" loadType="file" name="FloorAnimeRoom" priority="78" rating="55"/>
+            <item gold="19" icon="FloorKidsRoom21Icon@house" id="floorKdRm21" label="#floorKdRm21Label" library="kidsroom2021" loadType="file" name="FloorKidsRoom21" priority="79" rating="48"/>
+            <item canBuy="0" gold="280" icon="FloorBingo2021Icon@house" id="floorBingo2021" label="#floorBingo2021Label" library="bingo2021" loadType="file" name="FloorBingo2021" priority="77" rating="700">
+                <placement floor="1"/>
+            </item>
+            <item gold="36" icon="FloorCyberpunk2021Icon@house" id="floorCbr21" label="#floorCbr21Label" library="cyberpunk2021" loadType="file" name="FloorCyberpunk2021" priority="80" rating="90"/>
+            <item gold="32" icon="FloorBlack2021Icon@house" id="floorBlk21" label="#floorBlk21Label" library="black2021" loadType="file" name="FloorBlack2021" priority="81" rating="80"/>
+            <item gold="22" icon="FloorWaterpool2021Icon@house" id="floorWtrpl21" label="#floorWtrpl21Label" library="waterpool2021" loadType="file" name="FloorWaterpool2021" priority="82" rating="55"/>
+            <item gold="25" icon="FloorSaloon2021Icon@house" id="flrSln21" label="#flrSln21Label" library="saloon2021" loadType="file" name="FloorSaloon2021" priority="80" rating="63"/>
+            <item canBuy="0" gold="18" icon="FloorSciFi2021Icon@house" id="floorSciFi21" label="#floorSciFi21Label" library="scifi2021" loadType="file" name="FloorSciFi2021" priority="83" rating="45"/>
+            <item canBuy="0" gold="52" icon="FloorHL21Icon@house" id="floorHL21" label="#floorHL21Label" library="halloweenLaboratory2021" loadType="file" name="FloorHL21" priority="84" rating="130"/>
+            <item gold="22" icon="FloorHiTechKitchen2021Icon@kitchen" id="floorHiTechKitchen2021" label="#floorHiTechKitchen2021Label" library="kitchen/hiTech2021" loadType="file" name="FloorHiTechKitchen2021" priority="85" rating="55">
+                <direction names="SW,SE"/>
+            </item>
+            <item canBuy="0" gold="29" icon="FloorSkandi2021Icon@house" id="floorSkandi2021" label="#floorSkandi2021Label" library="skandi2021" loadType="file" name="FloorSkandi2021" priority="86" rating="87">
+                <direction names="SW,SE"/>
+            </item>
+            <item canBuy="0" gold="25" icon="NY2022FloorIcon@decor" id="ny2022Floor" label="#ny2022FloorLabel" library="newyear2022" loadType="file" name="NY2022Floor" priority="87" rating="75" tags="cantEdit"/>
+            <item icon="FloorEgypt2022Icon@house" id="floorEgypt2022" label="#floorEgypt2022Label" library="egypt2022" loadType="file" name="FloorEgypt2022" priority="88" rating="113" silver="7500" vipOnly="1"/>
+            <item icon="FloorMuseum2022Icon@house" id="floorMuseum2022" label="#floorMuseum2022Label" library="museum2022" loadType="file" name="FloorMuseum2022" priority="89" rating="69" silver="6900"/>
+            <item canBuy="0" icon="PoliceOffice2022FloorIcon@house" id="policeOffice2022Floor" label="#policeOffice2022FloorLabel" library="policeoffice2022" loadType="file" name="PoliceOffice2022Floor" priority="90" rating="79" silver="7900"/>
+            <item canBuy="0" gold="30" icon="ModernKitchen22FloorIcon@kitchen" id="modernKitchen22Floor" label="#modernKitchen22FloorLabel" library="kitchen/modernkitchen22" loadType="file" name="ModernKitchen22Floor" priority="91" rating="75"/>
+            <item allowAnimation="1" icon="Planetarium2022Floor2Icon@house" id="planetarium2022Floor2" label="#planetarium2022Floor2Label" library="planetarium2022" loadType="file" name="Planetarium2022Floor2" priority="92" rating="130" silver="13000"/>
+            <item canBuy="0" gold="37" icon="FA22FloorIcon@house" id="fa22Floor" label="#fa22FloorLabel" library="firstapril2022" loadType="file" name="FA22Floor" rating="111"/>
+            <item icon="FloorWedding2022Icon@house" id="floorWedding2022" label="#floorWedding2022Label" library="wedding2022" loadType="file" name="FloorWedding2022" priority="93" rating="165" silver="11000" vipOnly="1" wedding="1"/>
+            <item gold="46" icon="Steampunk22FloorIcon@house" id="steampunk22Floor" label="#steampunk22FloorLabel" library="steampunk22" loadType="file" name="Steampunk22Floor" priority="97" rating="138"/>
+            <item canBuy="0" gold="36" icon="FashionRoom22FloorIcon@house" id="fashionRoom22Floor" label="#fashionRoom22FloorLabel" library="fashionroom22" loadType="file" name="FashionRoom22Floor" priority="95" rating="90"/>
+            <item allowAnimation="1" canBuy="0" gold="109" icon="NightClub2022FloorIcon@house" id="nightClub2022Floor" label="#nightClub2022FloorLabel" library="nightclub2022" loadType="file" name="NightClub2022Floor" priority="98" rating="382" vipOnly="1"/>
+            <item canBuy="0" gold="27" icon="BathroomHiTech2022FloorIcon@house" id="bathroomHiTech2022Floor" label="#bathroomHiTech2022FloorLabel" library="bathroom/hitech2022" loadType="file" name="BathroomHiTech2022Floor" priority="102" rating="68">
+                <placement floor="1"/>
+            </item>
+            <item canBuy="0" gold="31" icon="Palace22FloorIcon@house" id="palace22Floor" label="#palace22FloorLabel" library="palace22" loadType="file" name="Palace22Floor" priority="100" rating="78"/>
+            <item canBuy="0" gold="44" icon="Veranda22FloorIcon@house" id="veranda22Floor" label="#veranda22FloorLabel" library="veranda22" loadType="file" name="Veranda22Floor" priority="101" rating="110"/>
+            <item icon="KidsRoom22FloorIcon@house" id="kidsRoom22Floor" label="#kidsRoom22FloorLabel" library="kidsroom22" loadType="file" name="KidsRoom22Floor" priority="103" rating="60" silver="6000"/>
+            <item canBuy="0" gold="51" icon="ElvenHarbor22FloorIcon@house" id="elvenHarbor22Floor" label="#elvenHarbor22FloorLabel" library="elvenharbor22" loadType="file" name="ElvenHarbor22Floor" priority="104" rating="128"/>
+            <item canBuy="0" gold="22" icon="BedroomModest2022FloorIcon@house" id="bedroomModest2022Floor" label="#bedroomModest2022FloorLabel" library="bedroommodest2022" loadType="file" name="BedroomModest2022Floor" priority="105" rating="55">
+                <placement floor="1"/>
+                <direction names="SW,SE"/>
+            </item>
+            <item canBuy="0" gold="101" icon="Aliens2022FloorIcon@decor" id="aliens2022Floor" label="#aliens2022FloorLabel" library="aliens2022" loadType="file" name="Aliens2022Floor" priority="106" rating="253" tags="cantEdit"/>
+            <item gold="22" icon="Jungle22FloorIcon@house" id="jungle22Floor" label="#jungle22FloorLabel" library="jungle22" loadType="file" name="Jungle22Floor" priority="107" rating="55"/>
+            <item canBuy="0" gold="62" icon="FloorHalloween22Icon@house" id="floorHalloween22" label="#floorHalloween22Label" library="halloween2022" loadType="file" name="FloorHalloween22" priority="108" rating="155"/>
+            <item canBuy="0" gold="75" icon="Dracula22FloorIcon@house" id="dracula22Floor" label="#dracula22FloorLabel" library="halloween2022/dracula22" loadType="file" name="Dracula22Floor" priority="109" rating="188"/>
+            <item canBuy="0" gold="42" icon="Prison22FloorIcon@house" id="prison22Floor" label="#prison22FloorLabel" library="halloween2022/prison22" loadType="file" name="Prison22Floor" priority="110" rating="105"/>
+            <item gold="79" icon="Square22FloorIcon@house" id="square22Floor" label="#square22FloorLabel" library="square22" loadType="file" name="Square22Floor" priority="111" rating="277" vipOnly="1"/>
+            <item canBuy="0" gold="36" icon="NY23FloorIcon@house" id="ny23Floor" label="#ny23FloorLabel" library="newyear2023" loadType="file" name="NY23Floor" priority="112" rating="90"/>
+            <item allowAnimation="1" icon="Underwater2022FloorIcon@house" id="underwater2022Floor" label="#underwater2022FloorLabel" library="underwater2022" loadType="file" name="Underwater2022Floor" priority="113" rating="188" silver="12500" vipOnly="1"/>
+            <item icon="MageRoom23FloorIcon@house" id="mageRoom23Floor" label="#mageRoom23FloorLabel" library="mageRoom2023" loadType="file" name="MageRoom23Floor" priority="115" rating="63" silver="6300"/>
+            <item canBuy="0" gold="229" icon="SV23FloorIcon@house" id="sv23Floor" label="#sv23FloorLabel" library="stvalentine2023" loadType="file" name="SV23Floor" rating="687" vipOnly="1"/>
+            <item canBuy="0" gold="37" icon="Avapark23FloorIcon@house" id="avapark23Floor" label="#avapark23FloorLabel" library="firstapril2023" loadType="file" name="Avapark23Floor" priority="116" rating="93"/>
+            <item gold="29" icon="Atomic2023FloorIcon@house" id="atomic2023Floor" label="#atomic2023FloorLabel" library="atomic2023" loadType="file" name="Atomic2023Floor" priority="117" rating="73"/>
+            <item canBuy="0" gold="43" icon="Ussr23FloorIcon@house" id="ussr23Floor" label="#ussr23FloorLabel" library="ussr23" loadType="file" name="Ussr23Floor" priority="119" rating="108"/>
+            <item canBuy="0" gold="72" icon="Game23FloorIcon@house" id="game23Floor" label="#game23FloorLabel" library="game2023" loadType="file" name="Game23Floor" priority="118" rating="252" vipOnly="1"/>
+            <item canBuy="0" gold="40" icon="Fair2023FloorIcon@house" id="fair2023Floor" label="#fair2023FloorLabel" library="fair2023" loadType="file" name="Fair2023Floor" priority="120" rating="100"/>
+            <item canBuy="0" gold="49" icon="LifeSpace2023FloorIcon@house" id="lifeSpace2023Floor" label="#lifeSpace2023FloorLabel" library="lifespace2023" loadType="file" name="LifeSpace2023Floor" priority="121" rating="123"/>
+            <item canBuy="0" gold="115" icon="DarkFantasy23FloorIcon@house" id="darkFantasy23Floor" label="#darkFantasy23FloorLabel" library="darkFantasy23" loadType="file" name="DarkFantasy23Floor" priority="122" rating="403" vipOnly="1"/>
+            <item icon="GameBar23FloorIcon@house" id="gameBar23Floor" label="#gameBar23FloorLabel" library="gameBar23" loadType="file" name="GameBar23Floor" priority="123" rating="111" silver="7400" vipOnly="1"/>
+            <item canBuy="0" gold="42" icon="Pixels23FloorIcon@house" id="pixels23Floor" label="#pixels23FloorLabel" library="pixels23" loadType="file" name="Pixels23Floor" priority="124" rating="105"/>
+            <item canBuy="0" gold="40" icon="Hut23FloorIcon@house" id="hut23Floor" label="#hut23FloorLabel" library="hut23" loadType="file" name="Hut23Floor" priority="125" rating="100"/>
+            <category id="intFloor" label="#intFloorCategory" visible="true">
+                <item allowAnimation="1" description="#floorDescription" fileVersion="3" gold="450" icon="FloorDanceIcon@house" id="intFlr1" label="#intFlr1Title" loadType="file" name="FloorDance" priority="34" rating="1500" vipOnly="1"/>
+                <item description="#floorDescription" fileVersion="3" gold="600" icon="FloorFlowerIcon@house" id="intFlr2" label="#intFlr2Title" loadType="file" name="FloorFlower" priority="35" rating="2500" vipOnly="1"/>
+                <item canBuy="0" allowAnimation="1" fileVersion="3" gold="613" icon="NY2023FloorInteractiveIcon@house" id="ny2023FloorInteractive" label="#ny2023FloorInteractiveLabel" loadType="file" name="NY2023FloorInteractive" priority="37" rating="1839" vipOnly="1"/>
+                <category id="activateOnStandFloor" visible="false">
+                    <item allowAnimation="1" canBuy="0" fileVersion="3" gold="599" icon="FloorInteractiveIceIcon@house" id="intIceFlr" label="#intIceFlrLabel" loadType="file" name="FloorInteractiveIce" priority="36" rating="1797"/>
+                </category>
+            </category>
+            <category id="flrSPCategory" label="#flrSPCategory" visible="true">
+                <item canBuy="0" gold="9999" icon="FloorSteampunkIcon@house" id="flrSP" label="#floorSteampunkLabel" loadType="file" name="FloorStempunk" priority="40" rating="300" tags="cantEdit"/>
+            </category>
+            <category id="floorWithHatchCategory" label="#floorWithHatchCategory" visible="true">
+                <item allowAnimation="1" canBuy="0" gold="299" icon="FloorBirthday2021Icon@house" id="floorAB21" label="#floorAB21Label" library="birthday2021" loadType="file" name="FloorBirthday2021" priority="81" rating="1047" vipOnly="1"/>
+            </category>
+        </category>
+    </category>
+</config>

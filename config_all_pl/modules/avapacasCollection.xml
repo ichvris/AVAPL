@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <avapacas>
+        <avapac id="avapacClassic" type="other" recipe="#avapacCanBuyRecipe" canBuy="1" gold="100"/>
+        <avapac id="avapacAutumn" type="other" recipe="#avapacCanBuyRecipe" canBuy="1" gold="150"/>
+        <avapac id="avapacKidsDay22" type="other" recipe="#avapacKidsDay22Recipe"/>
+        <avapac id="avapacZombie" type="other" recipe="#avapacZombieRecipe"/>
+        <avapac id="avapacNY2022Elf" type="other" recipe="#avapacNY2022ElfRecipe"/>
+        <avapac id="avapacFA2022P1" type="other" recipe="#avapacFA2022P1Recipe"/>
+        <avapac id="avapacBirthday22Pirate" type="other" recipe="#avapacBirthday22PirateRecipe"/>
+        <avapac id="avapacTraveler" type="other" recipe="#avapacTravelerRecipe"/>
+        <avapac id="avapacTwich" type="other" recipe="#avapacTwichRecipe"/>
+        <avapac id="avapacZGOT" type="other" recipe="#avapacZGOTRecipe"/>
+        <avapac id="avapacGentlemen" type="other" recipe="#avapacGentlemenRecipe"/>
+        <avapac id="avapacVampire" type="event" recipe="#avapacVampireRecipe"/>
+        <avapac id="avapacNY2022" type="event" recipe="#avapacCanBuyEventRecipe"/>
+        <avapac id="avapacSV2022" type="event" recipe="#avapacCanBuyEventRecipe"/>
+        <avapac id="avapacDzo2022" type="event" recipe="#avapacCanBuyEventRecipe"/>
+        <avapac id="avapacST22" type="event" recipe="#avapacCanBuyEventRecipe"/>
+        <avapac id="avapacFA2022P2" type="event" recipe="#avapacCanBuyEventRecipe"/>
+        <avapac id="avapacFair22" type="event" recipe="#avapacFair22tRecipe"/>
+        <avapac id="avapacBirthday22" type="event" recipe="#avapacCanBuyEventRecipe"/>
+        <avapac id="avapacAlien22" type="event" recipe="#avapacCanBuyEventRecipe"/>
+        <avapac id="avapacWerewolf" type="event" recipe="#avapacWerewolfRecipe"/>
+        <avapac id="avapacCybersanta" type="event" recipe="#avapacCybersantaRecipe"/>
+        <avapac id="avapacSV2023" type="event" recipe="#avapacCanBuyEventRecipe"/>
+        <avapac id="avapacHoli23" type="event" recipe="#avapacHoli23Recipe"/>
+        <avapac id="avapacStPatrick23" type="event" recipe="#avapacStPatrick23Recipe"/>
+        <avapac id="avapacFA23" type="event" recipe="#avapacFA23Recipe"/>
+        <avapac id="avapacDirector23" type="event" recipe="#avapacDirector23Recipe"/>
+        <avapac id="avapacGamer23" type="event" recipe="#avapacGamer23Recipe"/>
+        <avapac id="avapacRadiohost23" type="event" recipe="#avapacRadiohost23Recipe"/>
+        <avapac id="avapacTelegram23" type="event" recipe="#avapacTelegram23Recipe"/>
+        <avapac id="avapacFM23" type="event" recipe="#avapacFM23Recipe"/>
+        <avapac id="avapacTGC" type="event" recipe="#avapacTGCRecipe"/>
+        <avapac id="avapacGrowNews" type="event" recipe="#avapacGrowNewsRecipe"/>
+        <avapac inWork="1"/>
+    </avapacas>
+
+    <awards>
+        <award id="gold" type="resource" count="40" avapacCount="10"/>
+        <award id="carpetAVApac" type="furniture" avapacCount="17"/>
+        <award id="avapacStatue" type="furniture" avapacCount="24"/>
+    </awards>
+</config>

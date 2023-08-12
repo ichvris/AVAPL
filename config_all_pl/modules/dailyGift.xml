@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <dailyGift>
+        <rule index="1">
+            <gift itemType="resource" itemId="silver" count="1000"/>
+        </rule>
+        <rule index="2">
+            <gift itemType="game" itemId="happiness" count="14"/>
+        </rule>
+        <rule index="3">
+            <gift itemType="resource" itemId="gold" count="3"/>
+        </rule>
+        <rule index="4">
+            <gift itemType="resource" itemId="silver" count="2000"/>
+        </rule>
+        <rule index="5">
+            <gift itemType="game" itemId="vsgstBrush" count="5"/>
+        </rule>
+        <rule index="6">
+            <gift itemType="game" itemId="feather" count="10"/>
+        </rule>
+        <rule index="7">
+            <gift itemType="game" itemId="swordHilt" count="6"/>
+        </rule>
+        <rule index="8">
+            <gift itemType="resource" itemId="gold" count="5"/>
+        </rule>
+        <rule index="9">
+            <gift itemType="game" itemId="wrappingPaper" count="10"/>
+        </rule>
+        <rule index="10">
+            <gift itemType="resource" itemId="silver" count="3000"/>
+        </rule>
+        <rule index="11">
+            <gift itemType="game" itemId="sbRS1" count="1"/>
+        </rule>
+        <rule index="12">
+            <gift itemType="game" itemId="wrench" count="6"/>
+        </rule>
+        <rule index="13">
+            <gift itemType="resource" itemId="gold" count="7"/>
+        </rule>
+        <rule index="14">
+            <gift itemType="resource" itemId="silver" count="4000"/>
+        </rule>
+        <rule index="15">
+            <gift itemType="furniture" itemId="bubbleMachine" count="1"/>
+        </rule>
+        <rule index="16">
+            <gift itemType="game" itemId="film" count="10"/>
+        </rule>
+        <rule index="17">
+            <gift itemType="game" itemId="vsgstBrush" count="5"/>
+        </rule>
+        <rule index="18">
+            <gift itemType="resource" itemId="gold" count="10"/>
+        </rule>
+        <rule index="19">
+            <gift itemType="game" itemId="thread" count="12"/>
+        </rule>
+        <rule index="20">
+            <gift itemType="game" itemId="luck" count="10"/>
+        </rule>
+        <rule index="21">
+            <gift itemType="resource" itemId="silver" count="8000"/>
+        </rule>
+        <rule index="22">
+            <gift itemType="furniture" itemId="rockingChair" count="1"/>
+        </rule>
+        <rule index="23">
+            <gift itemType="resource" itemId="gold" count="15"/>
+        </rule>
+        <rule index="24">
+            <gift itemType="resource" itemId="silver" count="8000"/>
+        </rule>
+        <rule index="25">
+            <gift itemType="game" itemId="likeCoin" count="15"/>
+        </rule>
+        <rule index="26">
+            <gift itemType="game" itemId="film" count="10"/>
+        </rule>
+        <rule index="27">
+            <gift itemType="game" itemId="pearlNecklace" count="1"/>
+        </rule>
+        <rule index="28">
+            <gift itemType="resource" itemId="gold" count="20"/>
+        </rule>
+        <rule index="29">
+            <gift itemType="furniture" itemId="homeTheatreTv" count="1"/>
+        </rule>
+        <rule index="30">
+            <gift itemType="resource" itemId="ruby" count="10"/>
+            <goto index="21"/>
+        </rule>
+    </dailyGift>
+    <exclusiveGift>
+        <giftDay day="15">
+            <gift itemType="furniture" itemId="bubbleMachine"/>
+        </giftDay>
+
+        <giftDay day="60">
+            <gift itemType="clothes" itemId="boyHatShrekEDG21" gender="1"/>
+            <gift itemType="clothes" itemId="girlHatShrekEDG21" gender="2"/>
+        </giftDay>
+
+        <giftDay day="121">
+            <gift itemType="clothes" itemId="boyGlassesCyberEDG21" gender="1"/>
+            <gift itemType="clothes" itemId="girlGlassesCyberEDG21" gender="2"/>
+        </giftDay>
+
+        <giftDay day="182">
+            <gift itemType="clothes" itemId="boyAcsMickeyEDG21" gender="1"/>
+            <gift itemType="clothes" itemId="girlAcsMickeyEDG21" gender="2"/>
+        </giftDay>
+
+        <giftDay day="274">
+            <gift itemType="resource" itemId="gold" count="200"/>
+        </giftDay>
+
+        <giftDay day="365">
+            <gift itemType="trophy" itemId="everydayPresent"/>
+        </giftDay>
+
+        <giftDay day="487">
+            <gift itemType="furniture" itemId="bubbleWall2021"/>
+        </giftDay>
+
+
+        <giftDay day="610">
+            <gift itemType="clothes" itemId="boyBackpackFroggyEDG21" gender="1"/>
+            <gift itemType="clothes" itemId="girlBackpackFroggyEDG21" gender="2"/>
+        </giftDay>
+
+        <giftDay day="730">
+            <gift itemType="furniture" itemId="snakeGameMachine"/>
+        </giftDay>
+
+        <giftDay day="913">
+            <gift itemType="furniture" itemId="coffeeMachine2021"/>
+        </giftDay>
+
+        <giftDay day="1095">
+            <gift itemType="clothes" itemId="boyTShirtFriesEDG21" gender="1"/>
+            <gift itemType="clothes" itemId="girlTShirtBurgerEDG21" gender="2"/>
+        </giftDay>
+
+        <giftDay day="1278">
+            <gift itemType="game" itemId="ribbonAwardChatBubbleDecor"/>
+        </giftDay>
+
+        <giftDay day="1460">
+            <gift itemType="furniture" itemId="carBumblebee"/>
+        </giftDay>
+
+        <giftDay day="1825">
+            <gift itemType="clothesSet" itemId="boySpAgntSet" gender="1"/>
+            <gift itemType="clothesSet" itemId="girlSpAgntSet" gender="2"/>
+        </giftDay>
+    </exclusiveGift>
+</config>

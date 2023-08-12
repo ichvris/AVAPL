@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dictionary>
+    <locale name="pl">
+        <message key="asteroidDialogTitle">Рейд</message>
+        <message key="ab23ParticipateDialogTitle">Праздничный звездопад!</message>
+        <message key="ab23ParticipateDialogDescription">Ничего себе! В канун праздника небо озарилось таким сильным звездопадом! Говорят, на Пляже приземлился настоящий корабль космических пиратов! Их капитан, Сильвер, в поисках смельчаков для какой-то захватывающей миссии! Приходи на пляж и взгляни на это сам.</message>
+
+        <message key="ab23InfoDialogTitle">Планета Сокровищ!</message>
+        <message key="ab23LocationInfoPanelDescription">На наш пляж приземлились космические пираты! Их капитан в поисках смельчаков, готовых отправиться в космос на поиск Планеты Сокровищ! Скорее поговори с ним!</message>
+        <message key="ab23ShipInfoPanelDescription">Исследуй космос! На пристани стоит космический корабль – улучши его с помощью мастерской! Возможно тебе повезет найти Планету Сокровищ первым?</message>
+        <message key="ab23ShopInfoPanelDescription">Вселенная скрывает много сюрпризов. Найденные пиастры ты сможешь потратить в лавке Сильвера. Он привез с собой много занимательных вещей!</message>
+        <message key="ab23TrophyInfoPanelDescription">Собери :count: пиастров, и получи уникальный титул "Межзвёздный Корсар"</message>
+        <message key="ab23TimerPanelDescription">до окончания акции:</message>
+
+        <message key="ab23NewLevelInfoDialogTitle">Путь открыт!</message>
+        <message key="ab23NewLevelInfoDialogDescription">Приятель! Мне удалось найти карту "Планеты сокровищ"! Оказывается ее не выбросило в космос. Она всё время была здесь. Её затаил наш бесчестный боцман! Надеюсь, твой корабль готов к отправке. Быстрее отправляйся в путешествие – только самых смелых ждут несметные сокровища!</message>
+        <message key="ab23GoToBeachButtonLabel">на пляж</message>
+
+        <message key="ab23OpenGameActionLabel">начать полет</message>
+        <message key="ab23ServiceShipActionLabel">обслуживание корабля</message>
+
+        <message key="avaBirthday2023NpcName">Сильвер</message>
+        <message key="avaBirthday2023NpcMessage0">Йо-хо-хо, есть тут храбрецы?</message>
+        <message key="avaBirthday2023NpcMessage1">Вперед к звёздам, салага!</message>
+        <message key="avaBirthday2023NpcMessage2">Удачно я приземлился!</message>
+        <message key="avaBirthday2023NpcMessage3">Корабль нуждается в бережном уходе...</message>
+        <message key="avaBirthday2023NpcMessage4">Не проходи мимо! Столько вещей ты еще нигде не видел!</message>
+        <message key="avaBirthday2023NpcMessage5">Я открою тебе путь к несметным сокровищам, приятель!</message>
+        <message key="avaBirthday2023NpcMessage6">Мои ребята могут помочь с кораблём. Не пожалеешь!</message>
+        <message key="avaBirthday2023NpcMessage7">Космос опасен... Но и награда достойная!</message>
+        <message key="avaBirthday2023NpcMessage8">По дороге сюда мы оставили в космосе столько пиастров... Пропади оно всё пропадом!</message>
+        <message key="avaBirthday2023NpcMessage9">Солнечные батареи восполняют топливо корабля автоматически! Нужно только подождать.</message>
+        <message key="avaBirthday2023NpcMessage10">Эй, приятель! Не хочешь подзаработать?</message>
+        <message key="avaBirthday2023NpcMessage11">Только смелым покоряется космос!</message>
+        <message key="avaBirthday2023NpcMessage12">А мне у вас нравится! Думаю... мы еще увидимся.</message>
+        <message key="ab23AsteroidTopButtonTitle">топ пилотов</message>
+
+        <message key="ab23AwardDialogDescription">Забирай этот замечательный подарок в награду за прохождение акции. Не забудь поделиться этой новостью с друзьями!</message>
+        <message key="ab23AwardTopDialogDescription">Забирай этот замечательный подарок в награду за призовое место в топе. Не забудь поделиться этой новостью с друзьями!</message>
+        <message key="ab23WallGetAwardMessage">Мне подарили замечательный подарок в награду за прохождение акции! Хочешь такой же? Жду тебя в игре! :link:</message>
+
+        <message key="ab23NpcDialogTitle">Космический пират Сильвер</message>
+        <message key="ab23NpcDialogMessage1">Эй ты! Да – я к тебе обращаюсь! Что смотришь на меня, словно я с луны свалился? Ах-да, точно... Не важно! Мы приземлились тут не просто так, смекаешь? Мы уходили от погони. Такие же головорезы как мы гнались за нами по всей галактике! Думали, что у нас есть... а в прочем не важно. Скажем так – нам нужно залечь на дно, но дела не терпят! Нас немного потрепало, и вместе с пиастрами в космосе мы потеряли один очень важный предмет. Мне нужен тот, что возьмет на себя управление кораблем и поможет найти его. Возьмешься?</message>
+        <message key="ab23NpcDialogMessage2">Ты можешь взять этот "Баркас", чтобы отправиться в космос. Пиастры, что найдешь в космосе, можешь оставить себе. Считай это авансом.&#13;К слову, мои ребята могут помочь тебе с кораблем. Но за это им придется заплатить.</message>
+        <message key="ab23NpcDialogMessage3">Пока мы еще здесь, я могу продать тебе часть моих сокровищ за пиастры! Поверь мне - таких уникальных вещиц ты нигде не видел! А еще я могу попросить своих парней помочь тебе улучшить корабль, чтобы ты мог сразу ринуться в самые далекие уголки космоса!</message>
+        <message key="ab23NpcDialogMessage4">Проще простого! Иди на причал и посмотри сам. Главное помни, что "Баркас" стоит обслуживать. Нас потрепало, и его придется приводить в порядок. Следи за топливом и прочностью. И даже не думай взлетать, не убедившись, что топлива хватит! Команда может помочь с улучшением корабля, но бесплатно они точно работать не будут.</message>
+        <message key="ab23NpcDialogMessage5">Космос полон опасностей. Чем дальше – тем больше. Но не вешай нос и крепче держи штурвал! От метеоров можно уворачиваться в полете. Будешь ловко управляться с кораблем – попадешь в список моих любимых пилотов. Помни – лучших всегда ждет награда.</message>
+        <message key="ab23NpcDialogButtonLabel1">Хорошо</message>
+        <message key="ab23NpcDialogButtonLabel2">Что ты можешь мне предложить?</message>
+        <message key="ab23NpcDialogButtonLabel3">Как управляться с кораблем?</message>
+        <message key="ab23NpcDialogButtonLabel4">Что ждет меня в космосе?</message>
+        <message key="ab23NpcDialogButtonLabel5">Вернуться назад</message>
+        <message key="ab23NpcDialogButtonLabel6">До встречи!</message>
+
+        <message key="ab23BeachMenuDialogTitle">Пляжный бар</message>
+        <message key="ab23Cocktail1Title">"Юпитер"</message>
+        <message key="ab23Cocktail2Title">"Сатурн"</message>
+        <message key="ab23Cocktail3Title">"Андромеда"</message>
+
+        <message key="ab23NpcName">Марко</message>
+        <gender key="ab23PirateNpcName">
+                <form>Джон Крюк</form>
+                <form>Мэри Рид</form>
+        </gender>
+
+        <message key="ab23MarkoMessage1">Хочешь погладить Пушинку? Не стоит, если не хочешь остаться без руки</message>
+        <message key="ab23MarkoMessage2">Не проходите мимо! Ведь на сей раз, Марко привёз самого себя! Это просто праздник какой-то!</message>
+        <message key="ab23MarkoMessage3">Этот Сильвер – славный малый. Есть у нас что-то общее.</message>
+        <message key="ab23MarkoMessage4">Я ушел из торговли, приятель! Ваших.. кхм, моих пиастров мне теперь хватит до далёкой старости.</message>
+        <message key="ab23MarkoMessage5">В мое время, корабли только погружались под воду, а не парили над ней!</message>
+        <message key="ab23MarkoMessage6">Интересно, как там Кракен поживает?</message>
+        <message key="ab23MarkoMessage7">Прекрасный летний день!</message>
+        <message key="ab23MarkoMessage8">Подкинем монетку? Если выпадет орёл... ладно, не бери в голову.</message>
+        <message key="ab23MarkoMessage9">С прошлых лет тут многое изменилось!</message>
+        <message key="ab23MarkoMessage10">Работа не волк. Я верно говорю, Пушинка? Самое время прохладиться свеженьким коктейлем!</message>
+        <message key="ab23MarkoMessage11">Зоомагазин?! Где вы были пару лет назад?</message>
+        <message key="ab23MarkoMessage12">Батискаф? Ах, да.. Мне очень жаль, но он каким-то образом пропал. И это никак не связано с моим новым камзолом!</message>
+
+        <message key="ab23HookMessage1">Разрази меня гром! Сколько времени прошло с нашей последней встречи?</message>
+        <message key="ab23HookMessage2">Было время, когда мы перекопали здесь всё в поисках карты сокровищ..</message>
+        <message key="ab23HookMessage3">Не убирай далеко лопату! Вдруг пригодится еще, хе-хе-хе.</message>
+        <message key="ab23HookMessage4">Карта и впрямь оказалась на вес золота, поверь мне!</message>
+        <message key="ab23HookMessage5">Я здесь на долго не задержусь. Жизнь в Тропикании – сплошная сказка.</message>
+        <message key="ab23HookMessage6">Ты не встречала здесь Мэри Рид? Опять прохлаждается где-то, растяпа!</message>
+        <message key="ab23HookMessage7">Как насчет фото на память?</message>
+        <message key="ab23HookMessage8">Псс.. Скажу тебе по секрету, Марко тот еще тип.</message>
+        <message key="ab23HookMessage9">Никому не шевелиться! Куда подевался мой компас?!</message>
+        <message key="ab23HookMessage10">Сильвер обмолвился про целую планету набитую монетами. Звучит заманчиво..</message>
+
+        <message key="ab23MaryMessage1">Скучали по мне?</message>
+        <message key="ab23MaryMessage2">В прошлый раз мне здесь очень помогли. Я буду помнить об этом вечно, но больше ничего не обещаю.</message>
+        <message key="ab23MaryMessage3">Мой компас всегда со мной. С нашей последней встречи он перестал показывать на Север.</message>
+        <message key="ab23MaryMessage4">Моя лодка в ремонте. Сильвер радушно согласился подбросить нас.</message>
+        <message key="ab23MaryMessage5">Я здесь на долго не задержусь. Жизнь в Тропикании – сплошная сказка.</message>
+        <message key="ab23MaryMessage6">Тебе не попадался здесь Крюк? Этот бездельник снова где-то прохлаждается!</message>
+        <message key="ab23MaryMessage7">Как насчет фото на память? </message>
+        <message key="ab23MaryMessage8">Летающий корабль.. Не поверила бы, пока сама не увидела.</message>
+        <message key="ab23MaryMessage9">Пиастры по праву достаются смельчакам. Так что выше нос!</message>
+        <message key="ab23MaryMessage10">Сильвер рассказывал о планете набитой сокровищами. Жаль, что у меня нет корабля.</message>
+
+        <message key="ab23PhotoDialogDescription">Это твое фото с :npcName:!</message>
+        <message key="ab23PublishPhotoDialogDescription">На день рождения Аватарии, команда игры подготовила для вас множество увлекательных событий! Скорее присоединяйся чтобы ничего не пропустить! :link:</message>
+        <message key="ab23BuyPhotoButtonTitle">сделать фото за :count:</message>
+        <message key="ab23BuyPhotoDescription">Хочешь сделать крутую фотку с :name:?</message>
+        <message key="ab23EngineModuleLabel">Двигатель</message>
+        <message key="ab23CoverModuleLabel">Обшивка</message>
+        <message key="ab23ShieldModuleLabel">Щит</message>
+
+        <message key="ab23MoonDustLabel">Лунная пыль</message>
+        <message key="ab23MoonDustDescription">Можно получить в игре "Рейд"</message>
+        <message key="ab23BatteryLabel">Солнечная батарея</message>
+        <message key="ab23BatteryDescription">Можно получить в игре "Рейд"</message>
+        <message key="ab23FuseLabel">Предохранитель</message>
+        <message key="ab23FuseDescription">Можно получить в игре "Рейд"</message>
+
+        <message key="ab23FuelCraftHint">Осталось собрать :count: модулей для улучшения двигателя</message>
+        <message key="ab23CoverCraftHint">Осталось собрать :count: модулей для улучшения обшивки</message>
+        <message key="ab23ShieldCraftHint">Осталось собрать :count: модулей для улучшения щита</message>
+
+        <message key="ab23FuelCountHint">Топливо для полета. Полностью восстанавливается за :count:</message>
+        <message key="ab23CoverCountHint">Прочность корабля. Если у тебя закончилась прочность в полете - ты экстренно вернешься на Пляж. Восполняется каждый раз после полета.</message>
+        <message key="ab23ShieldCountHint">Максимальное время действия щита</message>
+        <message key="ab23MaxLevelUpgradeDescription">Достигнут максимальный уровень улучшений</message>
+        <message key="ab23MaxModuleLevelUpgradeDescription">Максимальный уровень</message>
+
+        <message key="ab23TopTitle">Топ пилотов</message>
+        <message key="ab23FuelNotificationTitle">Корабль готов к отправлению</message>
+        <message key="ab23FuelNotificationDescription">Эй, приятель! Корабль готов к отправлению в космос. Быстрее собирайся на Пляж!</message>
+
+        <message key="ab23CompleteTrophyDescription">День рождения Аватарии завершен! Ты получаешь в награду золото и титул "Космический Ас"</message>
+        <message key="ab23CompleteDescription">День рождения Аватарии завершен! Ты получаешь в награду золото</message>
+
+        <message key="ab23GameResultWinTitle">Поздравляем!</message>
+        <message key="ab23GameResultLoseTitle">Увы...</message>
+        <message key="ab23GameResultLoseDescription">Твой корабль получил критические повреждения! Немедленно возвращаемся!</message>
+        <message key="ab23GameResultLeaveTitle">Полет окончен!</message>
+        <gender key="ab23GameResultLeaveDescription">
+            <form>Ты завершил полет и благополучно вернулся</form>
+            <form>Ты завершила полет и благополучно вернулся</form>
+        </gender>
+        <gender key="ab23GameAwardHasFound">
+            <form>Ты нашел:</form>
+            <form>Ты нашла:</form>
+        </gender>
+        <gender key="ab23GameAwardNothingWasFound">
+            <form>Ты ничего не нашел</form>
+            <form>Ты ничего не нашла</form>
+        </gender>
+
+        <!--SHOP-->
+        <message key="avaBirthday2023ShopDialogTitle">Лавка&#13; Сильвера</message>
+        <message key="avaBirthday2023ShopHeaderTitle">Лавка Сильвера</message>
+        <message key="ab23SpecialOfferDescription">Сильвер явно скрывает от нас свои истинные планы! При покупке премиум уровня корабля, он останется с тобой в качестве уникального транспорта, на котором ты сможешь участвовать в гонках! А еще ты получишь карту, что откроет тебе возможность полететь к Планете Сокровищ уже прямо сейчас, а это значит, что ты сможешь получать призы на 4 уровне "Рейда" гораздо раньше остальных!</message>
+        <message key="ab23BuyProductConfirmDescription">Ты действительно подтверждаешь покупку?</message>
+        <message key="ab23SpecialOfferBoughtDialogTitle">Псс... только тихо!</message>
+        <message key="ab23SpecialOfferBoughtDialogDescription">Эй ты! Да – я к тебе обращаюсь! Вижу ты смышлен не меньше моего. Ты мне нравишься. Признаюсь честно, я хотел провести тебя и забрать все пиастры, что ты насобирал-бы в космосе. Но не будем об этом. А теперь, слушай внимательно... Корабль твой по праву, но это еще не всё. Я дам тебе тайную карту. О ней пока что никто не знает кроме нас двоих, смекаешь? Давай обойдем всех и первыми достигнем Планеты Сокровищ!</message>
+    </locale>
+</dictionary>

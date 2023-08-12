@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <challengeRating taskPeriod="30" competitionPeriod="604800" maxCountTopClans="20"
+        clanRatingUpdateDelta="10" clanRatingSaveDelta="20">
+        <awards place="1">
+            <award itemId="challengeKing" itemType="trophy" count="604800"/>
+            <award itemId="ruby" itemType="resource" count="1500"/>
+        </awards>
+        <awards place="2">
+            <award itemId="challengeKing" itemType="trophy" count="604800"/>
+            <award itemId="ruby" itemType="resource" count="1000"/>
+        </awards>
+        <awards place="3">
+            <award itemId="challengeKing" itemType="trophy" count="604800"/>
+            <award itemId="ruby" itemType="resource" count="800"/>
+        </awards>
+        <awards place="4">
+            <award itemId="challengeKing" itemType="trophy" count="604800"/>
+            <award itemId="gold" itemType="resource" count="50"/>
+        </awards>
+        <awards place="5">
+            <award itemId="challengeKing" itemType="trophy" count="604800"/>
+            <award itemId="gold" itemType="resource" count="50"/>
+        </awards>
+        <awards place="6">
+            <award itemId="challengeKing" itemType="trophy" count="604800"/>
+            <award itemId="gold" itemType="resource" count="50"/>
+        </awards>
+        <awards place="7">
+            <award itemId="challengeKing" itemType="trophy" count="604800"/>
+            <award itemId="gold" itemType="resource" count="50"/>
+        </awards>
+        <awards place="8">
+            <award itemId="challengeKing" itemType="trophy" count="604800"/>
+            <award itemId="gold" itemType="resource" count="50"/>
+        </awards>
+        <awards place="9">
+            <award itemId="challengeKing" itemType="trophy" count="604800"/>
+            <award itemId="gold" itemType="resource" count="50"/>
+        </awards>
+        <awards place="10">
+            <award itemId="challengeKing" itemType="trophy" count="604800"/>
+            <award itemId="gold" itemType="resource" count="50"/>
+        </awards>
+    </challengeRating>
+
+    <awards>
+        <award  clanLevel="1" place="1" clanCoin="700" experience="10" />
+        <award  clanLevel="1" place="2" clanCoin="350" experience="5"  />
+        <award  clanLevel="2" place="1" clanCoin="800" experience="10" />
+        <award  clanLevel="2" place="2" clanCoin="400" experience="5"/>
+        <award  clanLevel="3" place="1" clanCoin="900" experience="10" />
+        <award  clanLevel="3" place="2" clanCoin="450" experience="5"/>
+        <award  clanLevel="4" place="1" clanCoin="1100" experience="20" />
+        <award  clanLevel="4" place="2" clanCoin="550" experience="10"/>
+        <award  clanLevel="5" place="1" clanCoin="1300" experience="20" />
+        <award  clanLevel="5" place="2" clanCoin="650" experience="10"/>
+        <award  clanLevel="6" place="1" clanCoin="1400" experience="20" />
+        <award  clanLevel="6" place="2" clanCoin="700" experience="10"/>
+        <award  clanLevel="7" place="1" clanCoin="1500" experience="25" />
+        <award  clanLevel="7" place="2" clanCoin="750" experience="13"/>
+        <award  clanLevel="8" place="1" clanCoin="1600" experience="25" />
+        <award  clanLevel="8" place="2" clanCoin="800" experience="13"/>
+        <award  clanLevel="9" place="1" clanCoin="1700" experience="25" />
+        <award  clanLevel="9" place="2" clanCoin="850" experience="13"/>
+        <award  clanLevel="10" place="1" clanCoin="2000" experience="35" />
+        <award  clanLevel="10" place="2" clanCoin="1000" experience="18"/>
+        <award  clanLevel="11" place="1" clanCoin="2200" experience="35" />
+        <award  clanLevel="11" place="2" clanCoin="1100" experience="18"/>
+        <award  clanLevel="12" place="1" clanCoin="2400" experience="40" />
+        <award  clanLevel="12" place="2" clanCoin="1200" experience="20"/>
+        <award  clanLevel="13" place="1" clanCoin="2600" experience="50" />
+        <award  clanLevel="13" place="2" clanCoin="1300" experience="25"/>
+        <award  clanLevel="14" place="1" clanCoin="2900" experience="60" />
+        <award  clanLevel="14" place="2" clanCoin="1450" experience="30"/>
+        <award  clanLevel="15" place="1" clanCoin="3800" experience="75"/>
+        <award  clanLevel="15" place="2" clanCoin="1900" experience="38"/>
+    </awards>
+
+    <tasks>
+        <task id="0" typeId="throwCake" maxPersonalPoints="200"
+            title="throwCakeChallengeTaskTitle" description="throwCakeChallengeTaskDescription" rule="throwCakeChallengeRule">
+            <points>
+                <point id="0" type="ckStrwb" count="1" />
+                <point id="1" type="ckBlckb" count="1" />
+                <point id="2" type="ckOrng" count="2" />
+            </points>
+        </task>
+        <task id="1" typeId="canyonRace" maxPersonalPoints="200"
+            title="canyonRaceChallengeTaskTitle" description="canyonRaceChallengeTaskDescription" rule="canyonRaceChallengeRule">
+            <points>
+                <point id="0" type="win" count="1" />
+            </points>
+        </task>
+        <task id="2" typeId="beachRace" maxPersonalPoints="200"
+            title="beachRaceChallengeTaskTitle" description="beachRaceChallengeTaskDescription" rule="beachRaceChallengeRule">
+            <points>
+                <point id="0" type="win" count="1" />
+            </points>
+        </task>
+        <task id="3" typeId="snowboardRace" maxPersonalPoints="200"
+            title="snowboardRaceChallengeTaskTitle" description="snowboardRaceChallengeTaskDescription" rule="snowboardRaceChallengeRule">
+            <points>
+                <point id="0" type="win" count="1" />
+            </points>
+        </task>
+        <task id="4" typeId="meerkat" maxPersonalPoints="200"
+            title="meerkatChallengeTaskTitle" description="meerkatChallengeTaskDescription" rule="meerkatChallengeRule">
+            <points>
+                <point id="0" type="hit" count="1" />
+                <point id="1" type="win" count="5" />
+            </points>
+        </task>
+        <task id="5" typeId="pillow" maxPersonalPoints="150"
+            title="pillowChallengeTaskTitle" description="pillowChallengeTaskDescription" rule="pillowChallengeRule">
+            <points>
+                <point id="0" type="win" count="1" />
+            </points>
+        </task>
+        <task id="6" typeId="dance" maxPersonalPoints="150"
+            title="danceChallengeTaskTitle" description="danceChallengeTaskDescription" rule="danceChallengeRule">
+            <points>
+                <point id="0" type="dance" count="1" />
+            </points>
+        </task>
+        <task id="7" typeId="joke" maxPersonalPoints="250"
+            title="jokeChallengeTaskTitle" description="jokeChallengeTaskDescription" rule="jokeChallengeRule">
+            <points>
+                <point id="0" type="kick" count="1" />
+                <point id="1" type="slap" count="1" />
+                <point id="2" type="bomb" count="1" />
+                <point id="3" type="graffiti" count="2" />
+                <point id="4" type="broke" count="2" />
+            </points>
+        </task>
+        <task id="8" typeId="makeup" maxPersonalPoints="100"
+            title="makeupChallengeTaskTitle" description="makeupChallengeTaskDescription" rule="makeupChallengeRule">
+            <points>
+                <point id="0" type="makeup" count="1" />
+            </points>
+        </task>
+        <task id="9" typeId="photo" maxPersonalPoints="100"
+            title="photoChallengeTaskTitle" description="photoChallengeTaskDescription" rule="photoChallengeRule">
+            <points>
+                <point id="0" type="photo" count="1" />
+            </points>
+        </task>
+    </tasks>
+</config>

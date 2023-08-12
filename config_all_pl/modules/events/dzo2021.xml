@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<module active="true" id="dzo2020" trophy="dzo2021" starsProgress="3600">
+
+    <resourcesConfig>
+        <stars gold="1" count="4"
+               forOneEpaulelt="2" forThrowEpaulelt="2"
+               gardner="1" gardnerProbability="1"
+               janitor="1" janitorProbability="1"
+               friend="2" friendsProbability="1"
+               miniGameWin="4" miniGameWinProbability="1"
+               miniGameLoose="2" miniGameLoseProbability="1"
+               miniGameParticipate="2" miniGameParticipateProbability="1"/>
+        <epaulettes gold="4" count="10"
+                    gardner="1" gardnerProbability="0.1"
+                    janitor="1" janitorProbability="0.1"
+                    friend="1" friendsProbability="0.2"
+                    miniGameWin="1" miniGameWinProbability="0.5"
+                    miniGameLoose="1" miniGameLoseProbability="0.2"
+                    miniGameParticipate="1" miniGameParticipateProbability="0.2"
+                    maxHomeEpaulettesCount="10"/>
+    </resourcesConfig>
+
+    <packs>
+        <pack id="starsPack1" icon="StarsPack1" starsCount="4" gold="1"/>
+        <pack id="starsPack150" icon="StarsPack2" starsCount="400" bonus="50" gold="100"/>
+        <pack id="starsPack300" icon="StarsPack3" starsCount="800" bonus="150" gold="200"/>
+        <pack id="starsPack900" icon="StarsPack4" starsCount="1600" bonus="400" gold="400"/>
+    </packs>
+
+    <shops title="#shopsTitle">
+        <item id="dzo20Shop" index="8" category="dialog" targetId="dzo20Shop">
+            <icon name="Dzo20ShopIcon@dzo2020" title="#dzo2020ShopDialogTitle" titleGlowColor="0x174700"/>
+        </item>
+    </shops>
+
+    <shop>
+        <category id="dzo21" typeClass="Dzo20ShopItemType" priority="0">
+            <category id="dzo21Clothes" label="#clothesShopTitle" type="clothes" priority="1">
+                <category id="dzo21ClothesSets" label="#costumesLabel" type="clothesSet" priority="0">
+                    <item id="dzo21boyDZO21P2Set" itemId="boyDZO21P2Set" stars="1892" priority="1" isNew="1"/>
+                    <item id="dzo21boyDZO21P1Set" itemId="boyDZO21P1Set" stars="2276" priority="2" isNew="1"/>
+                    <item id="dzo21dzo14bcs" itemId="dzo14bcs" stars="2540" priority="3"/>
+                    <item id="dzo21boy23Feb19Set" itemId="boy23Feb19Set" stars="1096" priority="4"/>
+                    <item id="dzo21boyPnk23Feb19Set" itemId="boyPnk23Feb19Set" stars="808" priority="5"/>
+                    <item id="dzo21boyDZO20Set" itemId="boyDZO20Set" stars="2125" priority="6"/>
+
+                    <item id="dzo21girlDZO21P2Set" itemId="girlDZO21P2Set" stars="1764" priority="1" isNew="1"/>
+                    <item id="dzo21girlDZO21P1Set" itemId="girlDZO21P1Set" stars="2196" priority="2" isNew="1"/>
+                    <item id="dzo21dzo14gcs" itemId="dzo14gcs" stars="2332" priority="5"/>
+                    <item id="dzo21girl23Feb19Set" itemId="girl23Feb19Set" stars="1096" priority="6"/>
+                    <item id="dzo21girlPnk23Feb19Set" itemId="girlPnk23Feb19Set" stars="1050" priority="7"/>
+                    <item id="dzo21girlDZO20Set" itemId="girlDZO20Set" stars="2175" priority="8"/>
+                </category>
+
+                <category id="dzo21TopClothes" label="#clothesCategoryTops" type="clothes" priority="1">
+                    <item id="dzo21boyPllvrDZO21P2" itemId="boyPllvrDZO21P2" stars="496" priority="1" isNew="1"/>
+                    <item id="dzo21boyTShrtDZO21P1" itemId="boyTShrtDZO21P1" stars="424" priority="2" isNew="1"/>
+                    <item id="dzo21boyFb23Jck" itemId="boyFb23Jck" stars="512" priority="3"/>
+                    <item id="dzo21boyFb23Tsht" itemId="boyFb23Tsht" stars="396" priority="4"/>
+                    <item id="dzo21boyShrt23Feb19" itemId="boyShrt23Feb19" stars="256" priority="5"/>
+                    <item id="dzo21boyTShrtPnk23Feb19" itemId="boyTShrtPnk23Feb19" stars="176" priority="6"/>
+                    <item id="dzo21boyJcktPnk23Feb19" itemId="boyJcktPnk23Feb19" stars="216" priority="7"/>
+                    <item id="dzo21boyTShirtDZO20" itemId="boyTShirtDZO20" stars="350" priority="8"/>
+                    <item id="dzo21boyJcktDZO20" itemId="boyJcktDZO20" stars="500" priority="9"/>
+
+                    <item id="dzo21girlDressDZO21P1" itemId="girlDressDZO21P1" stars="744" priority="1" isNew="1"/>
+                    <item id="dzo21girlTopDZO21P2" itemId="girlTopDZO21P2" stars="536" priority="2" isNew="1"/>
+                    <item id="dzo21grlFb23Jck" itemId="grlFb23Jck" stars="512" priority="8"/>
+                    <item id="dzo21grlFb23Tsht" itemId="grlFb23Tsht" stars="396" priority="9"/>
+                    <item id="dzo21girlTShrt23Feb19" itemId="girlTShrt23Feb19" stars="256" priority="10"/>
+                    <item id="dzo21girlTShrtPnk23Feb19" itemId="girlTShrtPnk23Feb19" stars="200" priority="11"/>
+                    <item id="dzo21girlJcktPnk23Feb19" itemId="girlJcktPnk23Feb19" stars="264" priority="12"/>
+                    <item id="dzo21girlTopDZO20" itemId="girlTopDZO20" stars="350" priority="13"/>
+                    <item id="dzo21girlShrtDZO20" itemId="girlShrtDZO20" stars="400" priority="14"/>
+                </category>
+
+                <category id="dzo21BottomClothes" label="#clothesCategoryBottoms" type="clothes" priority="2">
+                    <item id="dzo21boyPntsDZO21P1" itemId="boyPntsDZO21P1" stars="528" priority="1" isNew="1"/>
+                    <item id="dzo21boyShortsDZO21P2" itemId="boyShortsDZO21P2" stars="284" priority="2" isNew="2"/>
+                    <item id="dzo21boyFb23Pts" itemId="boyFb23Pts" stars="444" priority="3"/>
+                    <item id="dzo21boyPnts23Feb19" itemId="boyPnts23Feb19" stars="216" priority="4"/>
+                    <item id="dzo21boyPntsPnk23Feb19" itemId="boyPntsPnk23Feb19" stars="200" priority="5"/>
+                    <item id="dzo21boyPntsDZO20" itemId="boyPntsDZO20" stars="450" priority="6"/>
+
+                    <item id="dzo21girlPntsDZO21P2" itemId="girlPntsDZO21P2" stars="284" priority="4" isNew="1"/>
+                    <item id="dzo21grlFb23Shrt" itemId="grlFb23Shrt" stars="444" priority="5"/>
+                    <item id="dzo21girlPnts23Feb19" itemId="girlPnts23Feb19" stars="216" priority="6"/>
+                    <item id="dzo21girlSktPnk23Feb19" itemId="girlSktPnk23Feb19" stars="168" priority="7"/>
+                    <item id="dzo21girlPntsDZO20" itemId="girlPntsDZO20" stars="450" priority="8"/>
+
+                </category>
+                <category id="dzo21ClothesShoes" label="#clothesCategoryShoes" type="clothes" priority="3">
+                    <item id="dzo21boyBtsDZO21P1" itemId="boyBtsDZO21P1" stars="280" priority="1" isNew="1"/>
+                    <item id="dzo21boyBtsDZO21P2" itemId="boyBtsDZO21P2" stars="488" priority="2" isNew="1"/>
+                    <item id="dzo21boyFb23Shs" itemId="boyFb23Shs" stars="348" priority="3"/>
+                    <item id="dzo21boyBts23Feb19" itemId="boyBts23Feb19" stars="192" priority="4"/>
+                    <item id="dzo21boyBtsPnk23Feb19" itemId="boyBtsPnk23Feb19" stars="152" priority="6"/>
+                    <item id="dzo21boyBtsDZO20" itemId="boyBtsDZO20" stars="400" priority="6"/>
+
+                    <item id="dzo21girlBtsDZO21P2" itemId="girlBtsDZO21P2" stars="488" priority="7" isNew="1"/>
+                    <item id="dzo21girlBtsDZO21P1" itemId="girlBtsDZO21P1" stars="280" priority="8" isNew="1"/>
+                    <item id="dzo21grlFb23Shs" itemId="grlFb23Shs" stars="108" priority="9"/>
+                    <item id="dzo21girlBts23Feb19" itemId="girlBts23Feb19" stars="192" priority="10"/>
+                    <item id="dzo21girlBtsPnk23Feb19" itemId="girlBtsPnk23Feb19" stars="242" priority="11"/>
+                    <item id="dzo21girlBtsDZO20" itemId="girlBtsDZO20" stars="400" priority="12"/>
+                </category>
+
+                <category id="dzo21ClothesOther" label="#clothesCategoryOther" type="clothes" priority="4">
+                    <item id="dzo21boyMskDZO21P2" itemId="boyMskDZO21P2" stars="328" priority="1" isNew="1"/>
+                    <item id="dzo21boyBgDZO21P2" itemId="boyBgDZO21P2" stars="296" priority="2" isNew="1"/>
+                    <item id="dzo21boyGlssDZO21P1" itemId="boyGlssDZO21P1" stars="312" priority="3" isNew="1"/>
+                    <item id="dzo21boyTattooDZO21P1" itemId="boyTattooDZO21P1" stars="104" priority="4" isNew="1"/>
+                    <item id="dzo21boyBgDZO21P1" itemId="boyBgDZO21P1" stars="480" priority="5" isNew="1"/>
+                    <item id="dzo21boyWatchDZO21P1" itemId="boyWatchDZO21P1" stars="148" priority="6" isNew="1"/>
+                    <item id="dzo21boyFb23Clk" itemId="boyFb23Clk" stars="180" priority="7"/>
+                    <item id="dzo21boyFb23Pdt" itemId="boyFb23Pdt" stars="216" priority="8"/>
+                    <item id="dzo21boyFb23Hat" itemId="boyFb23Hat" stars="444" priority="9"/>
+                    <item id="dzo21boyDzoMdl" itemId="boyDzoMdl" stars="495" priority="10"/>
+                    <item id="dzo21boyGlvs23Feb19" itemId="boyGlvs23Feb19" stars="72" priority="11"/>
+                    <item id="dzo21boyHat23Feb19" itemId="boyHat23Feb19" stars="360" priority="12"/>
+                    <item id="dzo21boyGlvsPnk23Feb19" itemId="boyGlvsPnk23Feb19" stars="64" priority="13"/>
+                    <item id="dzo21boyStrpDZO20" itemId="boyStrpDZO20" stars="175" priority="14"/>
+                    <item id="dzo21boyTtDZO20" itemId="boyTtDZO20" stars="250" priority="15"/>
+
+                    <item id="dzo21girlGlssDZO21P1" itemId="girlGlssDZO21P1" stars="312" priority="17" isNew="1"/>
+                    <item id="dzo21girlErrDZO21P1" itemId="girlErrDZO21P1" stars="232" priority="18" isNew="1"/>
+                    <item id="dzo21girlBgDZO21P1" itemId="girlBgDZO21P1" stars="480" priority="19" isNew="1"/>
+                    <item id="dzo21girlWatchDZO21P1" itemId="girlWatchDZO21P1" stars="148" priority="20" isNew="1"/>
+                    <item id="dzo21girlNeckDZO21P2" itemId="girlNeckDZO21P2" stars="128" priority="21" isNew="1"/>
+                    <item id="dzo21girlMskDZO21P2" itemId="girlMskDZO21P2" stars="328" priority="22" isNew="1"/>
+                    <item id="dzo21grlFb23Pdt" itemId="grlFb23Pdt" stars="216" priority="23"/>
+                    <item id="dzo21grlFb23Hat" itemId="grlFb23Hat" stars="356" priority="24"/>
+                    <item id="dzo21grlFb23Tght" itemId="grlFb23Tght" stars="300" priority="25"/>
+                    <item id="dzo21girlDzoMdl" itemId="girlDzoMdl" stars="495" priority="26"/>
+                    <item id="dzo21girlHat23Feb19" itemId="girlHat23Feb19" stars="360" priority="27"/>
+                    <item id="dzo21girlGlvs23Feb19" itemId="girlGlvs23Feb19" stars="72" priority="28"/>
+                    <item id="dzo21girlScksPnk23Feb19" itemId="girlScksPnk23Feb19" stars="112" priority="29"/>
+                    <item id="dzo21girlGlvsPnk23Feb19" itemId="girlGlvsPnk23Feb19" stars="64" priority="30"/>
+                    <item id="dzo21girlErrDZO20" itemId="girlErrDZO20" stars="250" priority="31"/>
+                    <item id="dzo21girlScksDZO20" itemId="girlScksDZO20" stars="150" priority="32"/>
+                    <item id="dzo21girlStrpDZO20" itemId="girlStrpDZO20" stars="175" priority="33"/>
+                </category>
+            </category>
+
+            <category id="dzo21Furniture" label="#furnitureCategory" type="furniture" priority="2">
+                    <category id="dzo21Furniture2014" label="2014" type="furniture" priority="1">
+                        <item id="dzo21clckFeb23" itemId="clckFeb23" stars="1200" priority="1"/>
+                        <item id="dzo21lmpFeb23" itemId="lmpFeb23" stars="300" priority="2"/>
+                        <item id="dzo21vntFeb23" itemId="vntFeb23" stars="600" priority="3"/>
+                        <item id="dzo21drFeb23" itemId="drFeb23" stars="1800" priority="4"/>
+                        <item id="dzo21wdwFeb23" itemId="wdwFeb23" stars="2000" priority="5"/>
+                        <item id="dzo21flrFeb23" itemId="flrFeb23" stars="480" priority="6"/>
+                        <item id="dzo21wllFeb23" itemId="wllFeb23" stars="180" priority="7"/>
+                    </category>
+
+                    <category id="dzo21Furniture2018" label="2018" type="furniture" priority="2">
+                        <item id="dzo21dzo18Pstr" itemId="dzo18Pstr" stars="800" priority="8"/>
+                        <item id="dzo21dzo18Stt" itemId="dzo18Stt" stars="2500" priority="9"/>
+                    </category>
+
+                    <category id="dzo21Furniture2019" label="2019" type="furniture" priority="3">
+                        <item id="dzo21dzo19Pln" itemId="dzo19Pln" stars="2000" priority="10"/>
+                    </category>
+
+                    <category id="dzo21Furniture2020" label="2020" type="furniture" priority="4">
+                        <item id="dzo21tankDzo20Pink" itemId="tankDzo20Pink" stars="2800" priority="11"/>
+                        <item id="dzo21tankDzo20Green" itemId="tankDzo20Green" stars="2400" priority="12"/>
+                    </category>
+
+                <category id="dzo21Furniture2021" label="2021" type="furniture" priority="5">
+                    <item id="dzo21zilDzo2021" itemId="zilDzo2021" stars="2520" priority="13" isNew="1"/>
+                </category>
+                </category>
+            </category>
+    </shop>
+
+    <inventory>
+        <category id="craftLoot">
+            <item id="dzo20epltts" name="EpaulettesLoot@dzo2020" icon="EpaulettesLootIcon@dzo2020"
+                  label="#epaulettesLootLabel"
+                  description="#epaulettesLootDescrioption" probability="0.3"
+                  gold="0" silver="0" canTrade="0" canSale="0"/>
+            <item id="dzo20str" name="StarsLoot@dzo2020" icon="StarsLootIcon@dzo2020" label="#starLootLabel"
+                  description="#starLootDescrioption" probability="0.15"
+                  gold="0" silver="0" canTrade="0" canSale="0"/>
+        </category>
+    </inventory>
+
+</module>

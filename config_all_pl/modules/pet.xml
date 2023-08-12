@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<config>
+    <moods>
+        <mood id="sick" value="0-19" skinAddition="sick"/>
+        <mood id="cry" value="20-40" skinAddition="default"/>
+        <mood id="calm" value="41-80" skinAddition="default"/>
+        <mood id="happy" value="81-100" skinAddition="default"/>
+    </moods>
+
+    <decreasingParameters>
+        <parameter id="happiness" timeInterval="3600" value="-14.5"/>
+        <parameter id="energy" timeInterval="3600" value="-3.1"/>
+        <parameter id="satiety" timeInterval="3600" value="-9.3"/>
+    </decreasingParameters>
+
+    <increasingParameters>
+        <parameter tag="sleep" id="energy" timeInterval="60" value="0.55"/>
+    </increasingParameters>
+
+    <healParameters value="20"/>
+
+    <levels>
+        <level id="1" value="0"/>
+        <level id="2" value="540"/>
+        <level id="3" value="1350"/>
+        <level id="4" value="2430"/>
+        <level id="5" value="3780"/>
+        <level id="6" value="5400"/>
+
+        <level id="7" value="7128"/>
+        <level id="8" value="9142"/>
+        <level id="9" value="11262"/>
+        <level id="10" value="13531"/>
+        <level id="11" value="16200"/>
+
+        <level id="12" value="19000"/>
+        <level id="13" value="22020"/>
+        <level id="14" value="25170"/>
+        <level id="15" value="28520"/>
+
+        <level id="16" value="32020"/>
+        <level id="17" value="35680"/>
+        <level id="18" value="39480"/>
+        <level id="19" value="43430"/>
+        <level id="20" value="47480"/>
+    </levels>
+
+    <skins>
+        <skin petType="Fox" id="default" name="">
+        </skin>
+        <skin petType="Fox" id="pink" name="Pink" level="6" awardDescription="petSkin6LevelAwardDescription">
+            <bonuses>
+                <bonus type="drink" value="4"/>
+                <bonus type="eat" value="4"/>
+                <bonus type="feed" value="4"/>
+            </bonuses>
+        </skin>
+        <skin petType="Fox" id="night" name="Night" level="11" awardDescription="petSkin11LevelAwardDescription">
+            <bonuses>
+                <bonus type="energyRegeneration" value="15"/>
+            </bonuses>
+        </skin>
+        <skin petType="Fox" id="lilac" name="Lilac" level="15" awardDescription="petSkin15LevelAwardDescription">
+            <bonuses>
+                <bonus type="dropDoubleResources" value="2"/>
+            </bonuses>
+        </skin>
+        <skin petType="Fox" id="brown" name="Brown" level="20" awardDescription="petSkin20LevelAwardDescription">
+            <bonuses>
+                <bonus type="petShopDiscount" value="5"/>
+            </bonuses>
+        </skin>
+
+        <skin petType="Dog" id="default" name="">
+        </skin>
+        <skin petType="Dog" id="pink" name="Pink" level="6" awardDescription="petSkin6LevelAwardDescription">
+            <bonuses>
+                <bonus type="drink" value="4"/>
+                <bonus type="eat" value="4"/>
+                <bonus type="feed" value="4"/>
+            </bonuses>
+        </skin>
+        <skin petType="Dog" id="night" name="Night" level="11" awardDescription="petSkin11LevelAwardDescription">
+            <bonuses>
+                <bonus type="energyRegeneration" value="15"/>
+            </bonuses>
+        </skin>
+        <skin petType="Dog" id="lilac" name="Lilac" level="15" awardDescription="petSkin15LevelAwardDescription">
+            <bonuses>
+                <bonus type="dropDoubleResources" value="2"/>
+            </bonuses>
+        </skin>
+        <skin petType="Dog" id="brown" name="Brown" level="20" awardDescription="petSkin20LevelAwardDescription">
+            <bonuses>
+                <bonus type="petShopDiscount" value="5"/>
+            </bonuses>
+        </skin>
+    </skins>
+
+    <renamePrice gold="20"/>
+
+    <tutorial>
+        <steps>
+            <step id="cardPet" priority="0">
+                <conditions>
+                    <condition name="location" value="house"/>
+                </conditions>
+                <actions>
+                    <action id="action1" index="0" applyActions="petRightMenu_open">
+                        <item type="1" target="petButtonPanel" direction="right" y="20"/>
+                        <item type="3" title="#petTutorialNpc1_1" width="600" x="100" y="130" direction="left"/>
+                    </action>
+                    <action id="action2" index="1" applyActions="petCardDialog_open">
+                        <item type="1" target="petButtonPanel_petCardButton" addToParent="1" direction="top"/>
+                        <item type="3" title="#petTutorialNpc1_2" width="600" x="100" y="130" direction="left"/>
+                    </action>
+                    <action id="action3" index="2" applyActions="npcMessage_next" cancelActions="petCardDialog_close">
+                        <item type="1" target="petCardDialog_satietyIcon" direction="bottom" x="48"/>
+                        <item type="1" target="petCardDialog_happinessIcon" direction="bottom" x="48"/>
+                        <item type="1" target="petCardDialog_energyIcon" direction="bottom" x="48"/>
+                        <item type="1" target="petCardDialog_moodIcon" direction="bottom"/>
+                        <item type="3" title="#petTutorialNpc1_3" width="600" x="100" y="130" direction="left"
+                              canContinue="1"/>
+                    </action>
+                    <action id="action4" index="3" applyActions="npcMessage_next">
+                        <item type="4" width="600" x="100" y="130" direction="left" canContinue="1"/>
+                        <item type="0"/>
+                    </action>
+                    <action id="action5" index="4" applyActions="npcMessage_end">
+                        <item type="3" title="#petTutorialNpc1_7" width="600" x="100" y="130" direction="left"
+                              canFinish="1"/>
+                    </action>
+                </actions>
+            </step>
+
+            <step id="petHeal" priority="1">
+                <conditions>
+                    <condition name="location" value="house"/>
+                    <condition name="petStatus" value="1"/>
+                    <condition name="petOnScreen"/>
+                    <condition name="petMood" value="sick"/>
+                </conditions>
+
+                <actions>
+                    <action id="action1" index="0" applyActions="petMenu_open">
+                        <item type="2" target="pet" direction="bottom" z="1"/>
+                        <item type="3" title="#petTutorialNpc2_1" width="600" x="100" y="130" direction="left"/>
+                    </action>
+                    <action id="action2" index="1" applyActions="petMenu_heal" cancelActions="petMenu_close">
+                        <item type="1" target="petMenu_heal" direction="bottom" x="13"/>
+                    </action>
+                    <action id="action3" index="2" applyActions="npcMessage_end">
+                        <item type="3" title="#petTutorialNpc2_2" width="600" x="100" y="130" direction="left"
+                              canFinish="1"/>
+                        <item type="0"/>
+                    </action>
+                </actions>
+            </step>
+
+            <step id="petFood" priority="1" startTriggers="petFoodDialog_open">
+                <conditions>
+                    <condition name="location" value="house"/>
+                    <condition name="petStatus" value="1"/>
+                    <condition name="petOnScreen"/>
+                </conditions>
+
+                <actions>
+                    <action id="action1" index="0" applyActions="buyPetFood" cancelActions="petFoodDialog_close">
+                        <item type="5" target="petFoodDialog_foodScrollBox"/>
+                        <item type="3" title="#petTutorialNpc3_1" width="600" x="100" y="130" direction="left"/>
+                    </action>
+                    <action id="action2" index="1" applyActions="npcMessage_end">
+                        <item type="3" title="#petTutorialNpc3_2" width="600" x="100" y="130" direction="left"
+                              canFinish="1"/>
+                        <item type="0"/>
+                    </action>
+                </actions>
+            </step>
+
+            <step id="petPlay" priority="1" startTriggers="petMenu_play">
+                <conditions>
+                    <condition name="location" value="house"/>
+                    <condition name="petStatus" value="1"/>
+                    <condition name="petOnScreen"/>
+                </conditions>
+
+                <actions>
+                    <action id="action1" index="0" applyActions="petMenu_playBall,petMenu_stroke,petMenu_playStick"
+                            cancelActions="petMenu_close">
+                        <item type="3" title="#petTutorialNpc4_1" width="600" x="100" y="130" direction="left"/>
+                    </action>
+                    <action id="action2" index="1" applyActions="npcMessage_end">
+                        <item type="3" genderTitle="#petTutorialNpc4_2" width="600" x="100" y="130" direction="left"
+                              canFinish="1"/>
+                        <item type="0"/>
+                    </action>
+                </actions>
+            </step>
+
+            <step id="petSleep" priority="1" startTriggers="petMenu_laySleep">
+                <conditions>
+                    <condition name="location" value="house"/>
+                    <condition name="petStatus" value="1"/>
+                    <condition name="petOnScreen"/>
+                </conditions>
+
+                <actions>
+                    <action id="action1" index="0" applyActions="npcMessage_next">
+                        <item type="3" title="#petTutorialNpc5_1" width="600" x="100" y="130" direction="left"
+                              canContinue="1"/>
+                    </action>
+                    <action id="action2" index="1" applyActions="npcMessage_end">
+                        <item type="3" title="#petTutorialNpc5_2" width="600" x="100" y="130" direction="left"
+                              canFinish="1"/>
+                        <item type="0"/>
+                    </action>
+                </actions>
+            </step>
+
+            <step id="petLocation" priority="1">
+                <conditions>
+                    <condition name="location" value="petLocation"/>
+                    <condition name="petStatus" value="1"/>
+                    <condition name="!petMood" value="sick"/>
+                </conditions>
+
+                <actions>
+                    <action id="action1" index="1" applyActions="petRightMenu_call">
+                        <item type="3" title="#petTutorialNpc6_1" width="600" x="100" y="130" direction="left"/>
+                        <item type="6" target="petButtonPanel"/>
+                        <item type="1" target="petButtonPanel_petCallButton" addToParent="1" direction="top"/>
+                    </action>
+                    <action id="action2" index="2" applyActions="petRightMenu_find">
+                        <item type="3" title="#petTutorialNpc6_2" width="600" x="100" y="130" direction="left"/>
+                        <item type="6" target="petButtonPanel"/>
+                        <item type="1" target="petButtonPanel_petFindButton" addToParent="1" direction="top"/>
+                    </action>
+                    <action id="action3" index="3" applyActions="petRightMenu_call">
+                        <item type="3" title="#petTutorialNpc6_3" width="600" x="100" y="130" direction="left"/>
+                        <item type="6" target="petButtonPanel"/>
+                        <item type="1" target="petButtonPanel_petCallButton" addToParent="1" direction="top"/>
+                    </action>
+
+                    <action id="action4" index="4" applyActions="npcMessage_next">
+                        <item type="3" title="#petTutorialNpc6_4" width="600" x="100" y="130" direction="left"
+                              canContinue="1"/>
+                        <item type="0"/>
+                    </action>
+                    <action id="action5" index="5" applyActions="npcMessage_next">
+                        <item type="3" title="#petTutorialNpc6_5" width="600" x="100" y="130" direction="left"
+                              canContinue="1"/>
+                    </action>
+                    <action id="action6" index="6" applyActions="npcMessage_end">
+                        <item type="3" title="#petTutorialNpc6_6" width="600" x="100" y="130" direction="left"
+                              canFinish="1"/>
+                    </action>
+                </actions>
+            </step>
+
+            <step id="petBackToHome" priority="2">
+                <conditions>
+                    <condition name="location" value="house"/>
+                    <condition name="petStatus" value="2"/>
+                    <condition name="objectClassOnScreen" value="HoldPetFurnitureObject"/>
+                </conditions>
+
+                <actions>
+                    <action id="action1" index="0" applyActions="holdPetFurniture_open">
+                        <item type="3" title="#petTutorialNpc7_1" width="600" x="100" y="130" direction="left"/>
+                        <item type="2" target="holdPetFurniture" direction="bottom"/>
+                    </action>
+                    <action id="action2" index="1" applyActions="holdPetFurniture_sit"
+                            cancelActions="holdPetFurniture_close">
+                        <item type="1" target="holdPetFurnitureMenu_sit" direction="bottom" x="13"/>
+                    </action>
+                    <action id="action3" index="2" applyActions="npcMessage_end">
+                        <item type="3" title="#petTutorialNpc7_2" width="600" x="100" y="130" direction="left"
+                              canFinish="1"/>
+                        <item type="0"/>
+                    </action>
+                </actions>
+            </step>
+        </steps>
+    </tutorial>
+
+    <clothesConflicts>
+        <!-- FOX -->
+        <conflict category1="petFoxOveralls" category2="petFoxCollars"/>
+
+        <!-- DOG -->
+        <conflict category1="petDogOveralls" category2="petDogCollars"/>
+    </clothesConflicts>
+</config>

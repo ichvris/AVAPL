@@ -1,0 +1,723 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <params donateFactor="2" joinMinLevel="15" numberOfClansSentToUser="50" clanLocationLockPriceInCoins="100"
+            clanLocationLockTimeInHours="4" clanChestMinLevel="2"/>
+    <newClan>
+        <price gold="100"/>
+        <condition minPlayerLevel="15"/>
+    </newClan>
+
+    <requests deleteRequestsTaskPeriod="1800" requestLifeTime="604800"/>
+    <memberActivity updateMemberCompetitionHour="21" noviceTreshold="1000"/>
+    <edit changeNamePrice="2500" changeTagPrice="1800" changeLogoPrice="3000"/>
+
+    <vitalityRequest requestTtl="14400" applyVitalityCount="4" maxVitalityForRequest="19"/>
+
+    <levels>
+        <level id="1" masterCount="1" memberCount="20" color="0x264157" experience="30">
+<!--            <awards>-->
+<!--                <award type="smallChest" value="2400" personal="120"/>-->
+<!--                <award type="mediumChest" value="4200" personal="210"/>-->
+<!--                <award type="bigChest" value="5400" personal="270"/>-->
+<!--            </awards>-->
+        </level>
+
+        <level id="2" masterCount="2" memberCount="20" color="0xa0111e" experience="70">
+            <awards>
+                <award type="smallChest" value="2000" personal="150"/>
+                <award type="mediumChest" value="3500" personal="175"/>
+                <award type="bigChest" value="4500" personal="225"/>
+            </awards>
+        </level>
+        <level id="3" masterCount="3" memberCount="20" color="0x046639" experience="240">
+            <awards>
+                <award type="smallChest" value="2240" personal="168"/>
+                <award type="mediumChest" value="3920" personal="196"/>
+                <award type="bigChest" value="5040" personal="252"/>
+            </awards>
+        </level>
+        <level id="4" masterCount="3" memberCount="25" color="0xc75000" experience="300">
+            <awards>
+                <award type="smallChest" value="3000" personal="180"/>
+                <award type="mediumChest" value="5250" personal="210"/>
+                <award type="bigChest" value="6750" personal="270"/>
+            </awards>
+        </level>
+        <level id="5" masterCount="3" memberCount="25" color="0x6a3474" experience="400">
+            <awards>
+                <award type="smallChest" value="3200" personal="192"/>
+                <award type="mediumChest" value="5600" personal="224"/>
+                <award type="bigChest" value="7200" personal="288"/>
+            </awards>
+        </level>
+        <level id="6" masterCount="3" memberCount="30" color="0xefb60a" experience="550">
+            <awards>
+                <award type="smallChest" value="4200" personal="210"/>
+                <award type="mediumChest" value="7350" personal="245"/>
+                <award type="bigChest" value="9450" personal="315"/>
+            </awards>
+        </level>
+        <level id="7" masterCount="3" memberCount="30" color="0xbadb1e" experience="650">
+            <awards>
+                <award type="smallChest" value="4440" personal="222"/>
+                <award type="mediumChest" value="7770" personal="259"/>
+                <award type="bigChest" value="9990" personal="333"/>
+            </awards>
+        </level>
+        <level id="8" masterCount="3" memberCount="35" color="0xbf318b" experience="900">
+            <awards>
+                <award type="smallChest" value="5460" personal="234"/>
+                <award type="mediumChest" value="9555" personal="273"/>
+                <award type="bigChest" value="12285" personal="351"/>
+            </awards>
+        </level>
+        <level id="9" masterCount="3" memberCount="35" color="0xbf318b" experience="1400">
+            <awards>
+                <award type="smallChest" value="5880" personal="252"/>
+                <award type="mediumChest" value="10290" personal="294"/>
+                <award type="bigChest" value="13230" personal="378"/>
+            </awards>
+        </level>
+        <level id="10" masterCount="3" memberCount="40" color="0xbf318b" experience="1750">
+            <awards>
+                <award type="smallChest" value="7040" personal="264"/>
+                <award type="mediumChest" value="12320" personal="308"/>
+                <award type="bigChest" value="15840" personal="396"/>
+            </awards>
+        </level>
+        <level id="11" masterCount="3" memberCount="40" color="0xbf318b" experience="2400">
+            <awards>
+                <award type="smallChest" value="7200" personal="270"/>
+                <award type="mediumChest" value="12600" personal="315"/>
+                <award type="bigChest" value="16200" personal="405"/>
+            </awards>
+        </level>
+        <level id="12" masterCount="3" memberCount="45" color="0xbf318b" experience="3500">
+            <awards>
+                <award type="smallChest" value="8460" personal="282"/>
+                <award type="mediumChest" value="14805" personal="329"/>
+                <award type="bigChest" value="19035" personal="423"/>
+            </awards>
+        </level>
+        <level id="13" masterCount="3" memberCount="45" color="0xbf318b" experience="4800">
+            <awards>
+                <award type="smallChest" value="8820" personal="294"/>
+                <award type="mediumChest" value="15435" personal="343"/>
+                <award type="bigChest" value="19845" personal="441"/>
+            </awards>
+        </level>
+        <level id="14" masterCount="3" memberCount="50" color="0xbf318b" experience="6750">
+            <awards>
+                <award type="smallChest" value="10000" personal="300"/>
+                <award type="mediumChest" value="17500" personal="350"/>
+                <award type="bigChest" value="22500" personal="450"/>
+            </awards>
+        </level>
+        <level id="15" masterCount="3" memberCount="50" color="0xbf318b" experience="6750">
+            <awards>
+                <award type="smallChest" value="10400" personal="312"/>
+                <award type="mediumChest" value="18200" personal="364"/>
+                <award type="bigChest" value="23400" personal="468"/>
+            </awards>
+        </level>
+    </levels>
+
+    <chestsAwards>
+<!--        <chests level="1">-->
+<!--            <chest type="smallChest" silver="250" ruby="10" energy="50"/>-->
+<!--            <chest type="mediumChest" silver="750" ruby="25" energy="50" resourceList="default" resourcesCount="2"/>-->
+<!--            <chest type="bigChest" gold="2" silver="750" ruby="45" energy="50" resourceList="default"-->
+<!--                   resourcesCount="4"/>-->
+<!--        </chests>-->
+        <chests level="2">
+            <chest type="smallChest" silver="250" ruby="10" energy="50"/>
+            <chest type="mediumChest" silver="850" ruby="25" energy="50" resourcesCount="2">
+                <resources resourceListId="default" count="2"/>
+            </chest>
+            <chest type="bigChest" gold="3" silver="850" ruby="45" energy="50" resourcesCount="4">
+                <resources resourceListId="default" count="2"/>
+                <resources resourceListId="default" count="2"/>
+            </chest>
+        </chests>
+
+        <chests level="3">
+            <chest type="smallChest" silver="500" ruby="15" energy="100"/>
+            <chest type="mediumChest" silver="1200" ruby="35" energy="100" resourcesCount="3">
+                <resources resourceListId="default" count="3"/>
+            </chest>
+            <chest type="bigChest" gold="4" silver="1200" ruby="60" energy="100" resourcesCount="9">
+                <resources resourceListId="default" count="3"/>
+                <resources resourceListId="default" count="3"/>
+                <resources onlyOneItem="false">
+                    <resource type="vsgstBrush" count="3"/>
+                </resources>
+            </chest>
+        </chests>
+
+        <chests level="4">
+            <chest type="smallChest" silver="600" ruby="20" energy="150"/>
+            <chest type="mediumChest" silver="1400" ruby="45" energy="150" resourcesCount="3">
+                <resources resourceListId="default" count="3"/>
+            </chest>
+            <chest type="bigChest" gold="4" silver="1400" ruby="75" energy="150" resourcesCount="11">
+                <resources resourceListId="default" count="3"/>
+                <resources resourceListId="default" count="3"/>
+                <resources onlyOneItem="false">
+                    <resource type="vsgstBrush" count="3"/>
+                    <resource type="film" count="2"/>
+                </resources>
+            </chest>
+        </chests>
+
+        <chests level="5">
+            <chest type="smallChest" silver="750" ruby="20" energy="150" resourcesCount="1">
+                <resources onlyOneItem="false">
+                    <resource type="bugsCan" count="1"/>
+                </resources>
+            </chest>
+            <chest type="mediumChest" silver="1650" ruby="45" energy="150" resourcesCount="5">
+                <resources resourceListId="default" count="4"/>
+                <resources onlyOneItem="false">
+                    <resource type="bugsCan" count="1"/>
+                </resources>
+            </chest>
+            <chest type="bigChest" gold="5" silver="1650" ruby="78" energy="150" resourcesCount="16" containsBoosters="true">
+                <resources resourceListId="default" count="4"/>
+                <resources resourceListId="default" count="4"/>
+                <resources probability="0.5">
+                    <resource type="freeCakesBooster" count="1"/>
+                    <resource type="freeSnowboardBooster" count="1"/>
+                </resources>
+                <resources onlyOneItem="false">
+                    <resource type="bugsCan" count="1"/>
+                    <resource type="vsgstBrush" count="4"/>
+                    <resource type="film" count="3"/>
+                </resources>
+            </chest>
+        </chests>
+
+        <chests level="6">
+            <chest type="smallChest" silver="900" ruby="25" energy="200" resourcesCount="1">
+                <resources onlyOneItem="false">
+                    <resource type="bugsCan" count="1"/>
+                </resources>
+            </chest>
+            <chest type="mediumChest" silver="1900" ruby="55" energy="200" resourcesCount="5">
+                <resources resourceListId="default" count="4"/>
+                <resources onlyOneItem="false">
+                    <resource type="bugsCan" count="1"/>
+                </resources>
+            </chest>
+            <chest type="bigChest" gold="6" silver="1900" ruby="90" energy="200" resourcesCount="17" containsBoosters="true">
+                <resources resourceListId="default" count="4"/>
+                <resources resourceListId="default" count="5"/>
+                <resources probability="0.5">
+                    <resource type="freeCakesBooster" count="1"/>
+                    <resource type="freeSnowboardBooster" count="1"/>
+                    <resource type="freeRaceBooster" count="1"/>
+                </resources>
+                <resources onlyOneItem="false">
+                    <resource type="bugsCan" count="1"/>
+                    <resource type="vsgstBrush" count="4"/>
+                    <resource type="film" count="3"/>
+                </resources>
+            </chest>
+        </chests>
+
+        <chests level="7">
+            <chest type="smallChest" silver="1000" ruby="25" energy="250" resourcesCount="2">
+                <resources onlyOneItem="false">
+                    <resource type="bugsCan" count="2"/>
+                </resources>
+            </chest>
+            <chest type="mediumChest" silver="2100" ruby="55" energy="250" resourcesCount="7">
+                <resources resourceListId="default" count="5"/>
+                <resources onlyOneItem="false">
+                    <resource type="bugsCan" count="2"/>
+                </resources>
+            </chest>
+            <chest type="bigChest" gold="7" silver="2100" ruby="90" energy="250" resourcesCount="21" containsBoosters="true">
+                <resources resourceListId="default" count="5"/>
+                <resources resourceListId="default" count="5"/>
+                <resources probability="0.5">
+                    <resource type="freeCakesBooster" count="1"/>
+                    <resource type="freeSnowboardBooster" count="1"/>
+                    <resource type="freeDanceBooster" count="1"/>
+                    <resource type="freeRaceBooster" count="1"/>
+                </resources>
+                <resources onlyOneItem="false">
+                    <resource type="bugsCan" count="2"/>
+                    <resource type="vsgstBrush" count="5"/>
+                    <resource type="film" count="4"/>
+                </resources>
+            </chest>
+        </chests>
+
+        <chests level="8">
+            <chest type="smallChest" silver="1200" ruby="30" energy="300" resourcesCount="2">
+                <resources onlyOneItem="false">
+                    <resource type="bugsCan" count="2"/>
+                </resources>
+            </chest>
+            <chest type="mediumChest" silver="2400" ruby="65" energy="300" resourcesCount="7">
+                <resources resourceListId="default" count="5"/>
+                <resources onlyOneItem="false">
+                    <resource type="bugsCan" count="2"/>
+                </resources>
+            </chest>
+            <chest type="bigChest" gold="8" silver="2400" ruby="105" energy="300" resourcesCount="22" containsBoosters="true">
+                <resources resourceListId="default" count="5"/>
+                <resources resourceListId="default" count="6"/>
+                <resources probability="0.5">
+                    <resource type="freeCakesBooster" count="1"/>
+                    <resource type="freeSnowboardBooster" count="1"/>
+                    <resource type="freeDanceBooster" count="1"/>
+                    <resource type="freeMeerkatBooster" count="1"/>
+                    <resource type="freeRaceBooster" count="1"/>
+                </resources>
+                <resources onlyOneItem="false">
+                    <resource type="bugsCan" count="2"/>
+                    <resource type="vsgstBrush" count="5"/>
+                    <resource type="film" count="4"/>
+                </resources>
+            </chest>
+        </chests>
+
+        <chests level="9">
+            <chest type="smallChest" silver="1300" ruby="30" energy="350" resourcesCount="2">
+                <resources onlyOneItem="false">
+                    <resource type="bugsCan" count="2"/>
+                </resources>
+            </chest>
+            <chest type="mediumChest" silver="2600" ruby="65" energy="350" resourcesCount="7">
+                <resources resourceListId="default" count="5"/>
+                <resources onlyOneItem="false">
+                    <resource type="bugsCan" count="2"/>
+                </resources>
+            </chest>
+            <chest type="bigChest" gold="9" silver="2600" ruby="105" energy="350" resourcesCount="23" containsBoosters="true">
+                <resources resourceListId="default" count="5"/>
+                <resources resourceListId="default" count="6"/>
+                <resources probability="0.5">
+                    <resource type="freeCakesBooster" count="1"/>
+                    <resource type="freeSnowboardBooster" count="1"/>
+                    <resource type="freeDanceBooster" count="1"/>
+                    <resource type="freeMeerkatBooster" count="1"/>
+                    <resource type="freeRaceBooster" count="1"/>
+                </resources>
+                <resources onlyOneItem="false">
+                    <resource type="bugsCan" count="2"/>
+                    <resource type="vsgstBrush" count="6"/>
+                    <resource type="film" count="4"/>
+                </resources>
+            </chest>
+        </chests>
+
+        <chests level="10">
+            <chest type="smallChest" silver="1600" ruby="35" energy="450" resourcesCount="3">
+                <resources onlyOneItem="false">
+                    <resource type="bugsCan" count="3"/>
+                </resources>
+            </chest>
+            <chest type="mediumChest" silver="3100" ruby="75" energy="450" resourcesCount="8">
+                <resources resourceListId="default" count="5"/>
+                <resources onlyOneItem="false">
+                    <resource type="bugsCan" count="3"/>
+                </resources>
+            </chest>
+            <chest type="bigChest" gold="10" silver="3100" ruby="120" energy="450" resourcesCount="24" containsBoosters="true">
+                <resources resourceListId="default" count="5"/>
+                <resources resourceListId="default" count="6"/>
+                <resources probability="0.5">
+                    <resource type="freeCakesBooster" count="2"/>
+                    <resource type="freeSnowboardBooster" count="2"/>
+                    <resource type="freeDanceBooster" count="2"/>
+                    <resource type="freeMeerkatBooster" count="2"/>
+                    <resource type="freeRaceBooster" count="2"/>
+                </resources>
+                <resources onlyOneItem="false">
+                    <resource type="bugsCan" count="3"/>
+                    <resource type="vsgstBrush" count="6"/>
+                    <resource type="film" count="5"/>
+                </resources>
+            </chest>
+        </chests>
+
+        <chests level="11">
+            <chest type="smallChest" silver="1600" ruby="35" energy="450" resourcesCount="3">
+                <resources onlyOneItem="false">
+                    <resource type="bugsCan" count="3"/>
+                </resources>
+            </chest>
+            <chest type="mediumChest" silver="3200" ruby="75" energy="450" resourcesCount="9">
+                <resources resourceListId="default" count="6"/>
+                <resources onlyOneItem="false">
+                    <resource type="bugsCan" count="3"/>
+                </resources>
+            </chest>
+            <chest type="bigChest" gold="12" silver="3200" ruby="120" energy="450" resourcesCount="28" containsBoosters="true">
+                <resources resourceListId="default" count="6"/>
+                <resources resourceListId="default" count="7"/>
+                <resources probability="0.5">
+                    <resource type="freeCakesBooster" count="2"/>
+                    <resource type="freeSnowboardBooster" count="2"/>
+                    <resource type="freeDanceBooster" count="2"/>
+                    <resource type="freeMeerkatBooster" count="2"/>
+                    <resource type="freeRaceBooster" count="2"/>
+                </resources>
+                <resources onlyOneItem="false">
+                    <resource type="bugsCan" count="3"/>
+                    <resource type="vsgstBrush" count="7"/>
+                    <resource type="film" count="5"/>
+                </resources>
+            </chest>
+        </chests>
+
+        <chests level="12">
+            <chest type="smallChest" silver="1600" ruby="40" energy="450" resourcesCount="3">
+                <resources onlyOneItem="false">
+                    <resource type="bugsCan" count="3"/>
+                </resources>
+            </chest>
+            <chest type="mediumChest" silver="3300" ruby="85" energy="450" resourcesCount="9">
+                <resources resourceListId="default" count="6"/>
+                <resources onlyOneItem="false">
+                    <resource type="bugsCan" count="3"/>
+                </resources>
+            </chest>
+            <chest type="bigChest" gold="13" silver="3300" ruby="135" energy="450" resourcesCount="29" containsBoosters="true">
+                <resources resourceListId="default" count="6"/>
+                <resources resourceListId="default" count="7"/>
+                <resources probability="0.5">
+                    <resource type="freeCakesBooster" count="2"/>
+                    <resource type="freeSnowboardBooster" count="2"/>
+                    <resource type="freeDanceBooster" count="2"/>
+                    <resource type="freeMeerkatBooster" count="2"/>
+                    <resource type="freeRaceBooster" count="2"/>
+                </resources>
+                <resources onlyOneItem="false">
+                    <resource type="bugsCan" count="3"/>
+                    <resource type="vsgstBrush" count="7"/>
+                    <resource type="film" count="6"/>
+                </resources>
+            </chest>
+        </chests>
+
+        <chests level="13">
+            <chest type="smallChest" silver="1600" ruby="40" energy="450" resourcesCount="4">
+                <resources onlyOneItem="false">
+                    <resource type="bugsCan" count="4"/>
+                </resources>
+            </chest>
+            <chest type="mediumChest" silver="3400" ruby="85" energy="450" resourcesCount="11">
+                <resources resourceListId="default" count="7"/>
+                <resources onlyOneItem="false">
+                    <resource type="bugsCan" count="4"/>
+                </resources>
+            </chest>
+            <chest type="bigChest" gold="14" silver="3400" ruby="135" energy="450" resourcesCount="34" containsBoosters="true">
+                <resources resourceListId="default" count="7"/>
+                <resources resourceListId="default" count="8"/>
+                <resources probability="0.5">
+                    <resource type="freeCakesBooster" count="2"/>
+                    <resource type="freeSnowboardBooster" count="2"/>
+                    <resource type="freeDanceBooster" count="2"/>
+                    <resource type="freeMeerkatBooster" count="2"/>
+                    <resource type="freeRaceBooster" count="2"/>
+                </resources>
+                <resources onlyOneItem="false">
+                    <resource type="bugsCan" count="4"/>
+                    <resource type="vsgstBrush" count="8"/>
+                    <resource type="film" count="7"/>
+                </resources>
+            </chest>
+        </chests>
+
+        <chests level="14">
+            <chest type="smallChest" silver="1600" ruby="45" energy="450" resourcesCount="4">
+                <resources onlyOneItem="false">
+                    <resource type="bugsCan" count="4"/>
+                </resources>
+            </chest>
+            <chest type="mediumChest" silver="3600" ruby="95" energy="450" resourcesCount="11">
+                <resources resourceListId="default" count="7"/>
+                <resources onlyOneItem="false">
+                    <resource type="bugsCan" count="4"/>
+                </resources>
+            </chest>
+            <chest type="bigChest" gold="15" silver="3600" ruby="150" energy="450" resourcesCount="35" containsBoosters="true">
+                <resources resourceListId="default" count="7"/>
+                <resources resourceListId="default" count="8"/>
+                <resources probability="0.5">
+                    <resource type="freeCakesBooster" count="3"/>
+                    <resource type="freeSnowboardBooster" count="3"/>
+                    <resource type="freeDanceBooster" count="3"/>
+                    <resource type="freeMeerkatBooster" count="3"/>
+                    <resource type="freeRaceBooster" count="3"/>
+                    <resource type="multActive2Booster" count="1"/>
+                </resources>
+                <resources onlyOneItem="false">
+                    <resource type="bugsCan" count="4"/>
+                    <resource type="vsgstBrush" count="8"/>
+                    <resource type="film" count="8"/>
+                </resources>
+            </chest>
+        </chests>
+
+        <chests level="15">
+            <chest type="smallChest" silver="1600" ruby="55" energy="450" resourcesCount="5">
+                <resources onlyOneItem="false">
+                    <resource type="bugsCan" count="5"/>
+                </resources>
+            </chest>
+            <chest type="mediumChest" silver="3800" ruby="115" energy="450" resourcesCount="13">
+                <resources resourceListId="default" count="8"/>
+                <resources onlyOneItem="false">
+                    <resource type="bugsCan" count="5"/>
+                </resources>
+            </chest>
+            <chest type="bigChest" gold="20" silver="3800" ruby="185" energy="450" resourcesCount="43" containsBoosters="true">
+                <resources resourceListId="default" count="8"/>
+                <resources resourceListId="default" count="10"/>
+                <resources probability="0.5">
+                    <resource type="freeCakesBooster" count="3"/>
+                    <resource type="freeSnowboardBooster" count="3"/>
+                    <resource type="freeDanceBooster" count="3"/>
+                    <resource type="freeMeerkatBooster" count="3"/>
+                    <resource type="freeRaceBooster" count="3"/>
+                    <resource type="multActive2Booster" count="1"/>
+                </resources>
+                <resources onlyOneItem="false">
+                    <resource type="bugsCan" count="5"/>
+                    <resource type="vsgstBrush" count="10"/>
+                    <resource type="film" count="10"/>
+                </resources>
+            </chest>
+        </chests>
+    </chestsAwards>
+
+    <chestResources>
+        <resourcesList id="default">
+            <resource type="clay"/>
+            <resource type="peaceOfWood"/>
+            <resource type="water"/>
+            <resource type="flowerBud"/>
+            <resource type="phial"/>
+            <resource type="bigPhial"/>
+            <resource type="bow"/>
+            <resource type="wrappingPaper"/>
+            <resource type="peaceOfIron"/>
+            <resource type="likeCoin"/>
+            <resource type="photograph"/>
+            <resource type="swordHilt"/>
+            <resource type="generosity"/>
+            <resource type="love"/>
+            <resource type="hatred"/>
+            <resource type="happiness"/>
+            <resource type="feather"/>
+            <resource type="wick"/>
+            <resource type="thread"/>
+            <resource type="coffeBean"/>
+            <resource type="mintLeaf"/>
+            <resource type="jarOfPaint"/>
+            <resource type="cloth"/>
+            <resource type="glass"/>
+            <resource type="grindstone"/>
+            <resource type="peaceOfWax"/>
+            <resource type="pollen"/>
+            <resource type="fasten"/>
+            <resource type="beauty"/>
+            <resource type="glamor"/>
+            <resource type="idea"/>
+            <resource type="muse"/>
+            <resource type="diligence"/>
+            <resource type="skill"/>
+            <resource type="industry"/>
+            <resource type="luck"/>
+            <resource type="pearl"/>
+            <resource type="shell"/>
+            <resource type="screw"/>
+            <resource type="wrench"/>
+        </resourcesList>
+    </chestResources>
+
+    <rating taskPeriod="30" competitionPeriod="604800" maxCountTopClans="20" clanRatingUpdateDelta="10"
+            clanRatingSaveDelta="100">
+        <awards place="1">
+            <award itemId="clan1Place" itemType="trophy" count="604800"/>
+            <award itemId="gold" itemType="resource" count="250"/>
+        </awards>
+        <awards place="2">
+            <award itemId="clan2Place" itemType="trophy" count="604800"/>
+            <award itemId="gold" itemType="resource" count="150"/>
+        </awards>
+        <awards place="3">
+            <award itemId="clan3Place" itemType="trophy" count="604800"/>
+            <award itemId="gold" itemType="resource" count="100"/>
+        </awards>
+        <awards place="4">
+            <award itemId="clan4Place" itemType="trophy" count="604800"/>
+            <award itemId="gold" itemType="resource" count="50"/>
+        </awards>
+        <awards place="5">
+            <award itemId="clan4Place" itemType="trophy" count="604800"/>
+            <award itemId="gold" itemType="resource" count="50"/>
+        </awards>
+        <awards place="6">
+            <award itemId="clan4Place" itemType="trophy" count="604800"/>
+            <award itemId="gold" itemType="resource" count="50"/>
+        </awards>
+        <awards place="7">
+            <award itemId="clan4Place" itemType="trophy" count="604800"/>
+            <award itemId="gold" itemType="resource" count="50"/>
+        </awards>
+        <awards place="8">
+            <award itemId="clan4Place" itemType="trophy" count="604800"/>
+            <award itemId="gold" itemType="resource" count="50"/>
+        </awards>
+        <awards place="9">
+            <award itemId="clan4Place" itemType="trophy" count="604800"/>
+            <award itemId="gold" itemType="resource" count="50"/>
+        </awards>
+        <awards place="10">
+            <award itemId="clan4Place" itemType="trophy" count="604800"/>
+            <award itemId="gold" itemType="resource" count="50"/>
+        </awards>
+    </rating>
+
+    <roomDesigns>
+        <roomDesign id="glamour" title="glamourClanTitle" description="glamourClanDescription" clanLevel="1"/>
+        <roomDesign id="scifi" title="scifiClanTitle" description="scifiClanDescription" clanLevel="1"/>
+        <roomDesign id="magic" title="magicClanTitle" description="magicClanDescription" clanLevel="1"/>
+        <roomDesign id="apocalypse" title="apocalypseClanTitle" description="apocalypseClanDescription" clanLevel="1"/>
+        <roomDesign id="paradise" title="paradiseClanTitle" description="paradiseClanDescription" clanLevel="6"/>
+        <roomDesign id="hell" title="hellClanTitle" description="hellClanDescription" clanLevel="6"/>
+    </roomDesigns>
+
+    <logos>
+        <logo id="1"/>
+        <logo id="2"/>
+        <logo id="3"/>
+        <logo id="4"/>
+        <logo id="5"/>
+        <logo id="6"/>
+        <logo id="7"/>
+        <logo id="8"/>
+        <logo id="9"/>
+        <logo id="10"/>
+        <logo id="11"/>
+        <logo id="12"/>
+        <logo id="13"/>
+        <logo id="14"/>
+        <logo id="15"/>
+        <logo id="16"/>
+        <logo id="17"/>
+        <logo id="18"/>
+        <logo id="19"/>
+        <logo id="20"/>
+        <logo id="21"/>
+        <logo id="22"/>
+        <logo id="23"/>
+        <logo id="24"/>
+        <logo id="25"/>
+        <logo id="26"/>
+        <logo id="27"/>
+        <logo id="28"/>
+        <logo id="29"/>
+        <logo id="30"/>
+        <logo id="31"/>
+        <logo id="32"/>
+        <logo id="33"/>
+        <logo id="34"/>
+        <logo id="35"/>
+        <logo id="36"/>
+        <logo id="37"/>
+        <logo id="38"/>
+        <logo id="39"/>
+        <logo id="40"/>
+        <logo id="41"/>
+        <logo id="42"/>
+        <logo id="43"/>
+        <logo id="44"/>
+        <logo id="45"/>
+        <logo id="46"/>
+        <logo id="47"/>
+        <logo id="48"/>
+        <logo id="49"/>
+        <logo id="50"/>
+        <logo id="51"/>
+        <logo id="52"/>
+        <logo id="53"/>
+        <logo id="54"/>
+        <logo id="55"/>
+        <logo id="56"/>
+        <logo id="57"/>
+        <logo id="58"/>
+        <logo id="59"/>
+        <logo id="60"/>
+        <logo id="61"/>
+        <logo id="62"/>
+        <logo id="63"/>
+        <logo id="64"/>
+        <logo id="65"/>
+        <logo id="66"/>
+        <logo id="67"/>
+        <logo id="68"/>
+        <logo id="69"/>
+        <logo id="70"/>
+        <logo id="71"/>
+        <logo id="72"/>
+        <logo id="73"/>
+        <logo id="74"/>
+        <logo id="75"/>
+        <logo id="76"/>
+        <logo id="77"/>
+        <logo id="78"/>
+        <logo id="79"/>
+        <logo id="80"/>
+        <!-- Tortuga clan logo-->
+        <!-- <logo id="81"/> -->
+        <logo id="82"/>
+        <logo id="83"/>
+        <logo id="84"/>
+        <logo id="85"/>
+        <logo id="86"/>
+        <logo id="87"/>
+        <logo id="88"/>
+        <logo id="89"/>
+        <logo id="90"/>
+        <logo id="91"/>
+        <logo id="92"/>
+        <logo id="93"/>
+        <logo id="94"/>
+        <logo id="95"/>
+        <logo id="96"/>
+        <logo id="97"/>
+        <logo id="98"/>
+        <logo id="99"/>
+        <logo id="100" minClanLevel="5"/>
+        <logo id="101" minClanLevel="5"/>
+        <logo id="102" minClanLevel="5"/>
+        <logo id="103" minClanLevel="5"/>
+        <logo id="104" minClanLevel="5"/>
+    </logos>
+
+    <roomPrices>
+        <room number="2" coinPrice="4000"/>
+        <room number="3" coinPrice="5000"/>
+        <room number="4" coinPrice="7000"/>
+        <room number="5" coinPrice="10000"/>
+        <room number="6" coinPrice="14000"/>
+        <room number="7" coinPrice="19000"/>
+        <room number="8" coinPrice="25000"/>
+        <room number="9" coinPrice="32000"/>
+        <room number="10" coinPrice="40000"/>
+        <room number="11" coinPrice="49000"/>
+        <room number="12" coinPrice="59000"/>
+        <room number="13" coinPrice="70000"/>
+        <room number="14" coinPrice="82000"/>
+        <room number="15" coinPrice="95000"/>
+        <room number="16" coinPrice="109000"/>
+        <room number="17" coinPrice="124000"/>
+    </roomPrices>
+</config>

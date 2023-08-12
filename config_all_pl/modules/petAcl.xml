@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config>
+    <permissions>
+        <rule action="play" checkRelations="true" relationDenyMessage="petFriendsRelationRule">
+            <deny mood="cry" message="petAclPlayLowMoodMessage"/>
+            <deny mood="sick" message="petAclPlayLowMoodMessage"/>
+        </rule>
+        <rule action="playBall" checkRelations="true" relationDenyMessage="petFriendsRelationRule">
+            <deny mood="cry" message="petAclLowMoodMessage"/>
+            <deny mood="sick" message="petSickMessage"/>
+        </rule>
+        <rule action="playStick" checkRelations="true" relationDenyMessage="petFriendsRelationRule">
+            <deny mood="cry" message="petAclLowMoodMessage"/>
+            <deny mood="sick" message="petSickMessage"/>
+        </rule>
+
+        <rule action="stroke" checkRelations="false">
+            <deny mood="sick" message="petSickMessage"/>
+        </rule>
+        <rule action="locatonStroke" checkRelations="false">
+            <deny mood="sick" message="petSickMessage"/>
+        </rule>
+
+        <rule action="follow" checkRelations="false">
+            <allow mood="happy"/>
+            <allow mood="calm"/>
+            <allow mood="cry"/>
+            <deny mood="sick" message="petAclCannotFollowMessage"/>
+        </rule>
+        <rule action="drink" checkRelations="true" relationDenyMessage="petFriendsRelationRule">
+            <deny satiety="100-100" message="petMaxSatietyMessage"/>
+            <deny mood="cry" message="petAclEatLowMoodMessage"/>
+            <deny mood="sick" message="petAclEatLowMoodMessage"/>
+        </rule>
+        <rule action="eat" checkRelations="true" relationDenyMessage="petFriendsRelationRule">
+            <deny satiety="100-100" message="petMaxSatietyMessage"/>
+            <deny mood="cry" message="petAclEatLowMoodMessage"/>
+            <deny mood="sick" message="petAclEatLowMoodMessage"/>
+        </rule>
+        <rule action="feed" checkRelations="false">
+            <deny satiety="100-100" message="petMaxSatietyMessage"/>
+            <deny mood="sick" message="petSickMessage"/>
+        </rule>
+        <rule action="locationFeed" checkRelations="false">
+            <deny satiety="100-100" message="petMaxSatietyMessage"/>
+            <deny mood="sick" message="petSickMessage"/>
+        </rule>
+
+        <rule action="laySleep" checkRelations="true" relationDenyMessage="petMarriedRelationRule">
+            <deny energy="100-100" message="petIsNotTiredMessage"/>
+            <deny mood="sick" message="petSickMessage"/>
+        </rule>
+        <rule action="wakeup" checkRelations="true" relationDenyMessage="petMarriedRelationRule">
+            <deny mood="sick" message="petSickMessage"/>
+        </rule>
+        <rule action="heal" checkRelations="true" relationDenyMessage="petHealRelationRule">
+            <allow mood="sick"/>
+        </rule>
+        <rule action="sit">
+        </rule>
+    </permissions>
+</config>

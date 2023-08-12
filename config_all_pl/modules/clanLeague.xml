@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <params vaultEndurance="5" bombEndurance="20" hintEndurance="6" />
+
+    <structure>
+        <group leagueType="1" index="1" indexShow="3" trophyGlory="1" roundGlory="10" title="3" leagueTitle="clanLeagueTitle1"
+        upLeagueCount="2" downLeagueCount="0"/>
+        <group leagueType="1" index="2" indexShow="2" trophyGlory="1" roundGlory="15" title="2" leagueTitle="clanLeagueTitle1"
+            upLeagueCount="2" downLeagueCount="1"/>
+        <group leagueType="1" index="3" indexShow="1" trophyGlory="1" roundGlory="20" title="1" leagueTitle="clanLeagueTitle1"
+            upLeagueCount="2" downLeagueCount="1"/>
+
+        <group leagueType="2" index="4" indexShow="3" trophyGlory="1" roundGlory="25" title="3" leagueTitle="clanLeagueTitle2"
+            upLeagueCount="2" downLeagueCount="1"/>
+        <group leagueType="2" index="5" indexShow="2" trophyGlory="1" roundGlory="30" title="2" leagueTitle="clanLeagueTitle2"
+            upLeagueCount="2" downLeagueCount="1"/>
+        <group leagueType="2" index="6" indexShow="1" trophyGlory="1" roundGlory="35" title="1" leagueTitle="clanLeagueTitle2"
+            upLeagueCount="2" downLeagueCount="1"/>
+
+        <group leagueType="3" index="7" indexShow="3" trophyGlory="1" roundGlory="40" title="3" leagueTitle="clanLeagueTitle3"
+            upLeagueCount="2" downLeagueCount="1"/>
+        <group leagueType="3" index="8" indexShow="2" trophyGlory="1" roundGlory="45" title="2" leagueTitle="clanLeagueTitle3"
+            upLeagueCount="2" downLeagueCount="1"/>
+        <group leagueType="3" index="9" indexShow="1" trophyGlory="1" roundGlory="50" title="1" leagueTitle="clanLeagueTitle3"
+            upLeagueCount="2" downLeagueCount="1"/>
+
+        <group leagueType="4" index="10" indexShow="2" trophyGlory="1" roundGlory="70" title="2" leagueTitle="clanLeagueTitle4"
+            upLeagueCount="1" downLeagueCount="1"/>
+        <group leagueType="4" index="11" indexShow="1" trophyGlory="1" roundGlory="100" title="1" leagueTitle="clanLeagueTitle4"
+            upLeagueCount="0" downLeagueCount="1"/>
+    </structure>
+
+    <awards>
+        <award groupIndex="1" place="1" ruby="300" />
+        <award groupIndex="1" place="2" ruby="250" />
+        <award groupIndex="1" place="3" ruby="200" />
+        <award groupIndex="1" place="4" ruby="100" />
+
+        <award groupIndex="2" place="1" ruby="350" />
+        <award groupIndex="2" place="2" ruby="300" />
+        <award groupIndex="2" place="3" ruby="250" />
+        <award groupIndex="2" place="4" ruby="200" />
+
+        <award groupIndex="3" place="1" ruby="450" />
+        <award groupIndex="3" place="2" ruby="400" />
+        <award groupIndex="3" place="3" ruby="350" />
+        <award groupIndex="3" place="4" ruby="300" />
+
+        <award groupIndex="4" place="1" ruby="600" />
+        <award groupIndex="4" place="2" ruby="500" />
+        <award groupIndex="4" place="3" ruby="450" />
+        <award groupIndex="4" place="4" ruby="400" />
+
+        <award groupIndex="5" place="1" ruby="700" />
+        <award groupIndex="5" place="2" ruby="600" />
+        <award groupIndex="5" place="3" ruby="500" />
+        <award groupIndex="5" place="4" ruby="450" />
+
+        <award groupIndex="6" place="1" ruby="800" />
+        <award groupIndex="6" place="2" ruby="700" />
+        <award groupIndex="6" place="3" ruby="600" />
+        <award groupIndex="6" place="4" ruby="500" />
+
+        <award groupIndex="7" place="1" ruby="1000" />
+        <award groupIndex="7" place="2" ruby="850" />
+        <award groupIndex="7" place="3" ruby="700" />
+        <award groupIndex="7" place="4" ruby="600" />
+
+        <award groupIndex="8" place="1" ruby="1200" />
+        <award groupIndex="8" place="2" ruby="1000" />
+        <award groupIndex="8" place="3" ruby="850" />
+        <award groupIndex="8" place="4" ruby="700" />
+
+        <award groupIndex="9" place="1" ruby="1400" />
+        <award groupIndex="9" place="2" ruby="1150" />
+        <award groupIndex="9" place="3" ruby="1000" />
+        <award groupIndex="9" place="4" ruby="900" />
+
+        <award groupIndex="10" place="1" ruby="1700" />
+        <award groupIndex="10" place="2" ruby="1400" />
+        <award groupIndex="10" place="3" ruby="1200" />
+        <award groupIndex="10" place="4" ruby="1000" />
+
+        <award groupIndex="11" place="1" ruby="2000" />
+        <award groupIndex="11" place="2" ruby="1700" />
+        <award groupIndex="11" place="3" ruby="1500" />
+        <award groupIndex="11" place="4" ruby="1300" />
+    </awards>
+
+    <battleLocation>
+        <location id="leagueBattle" zoneId="street" loadingContent="leagueBattle" defaultRoomId="r1">
+            <rooms>
+                <room id="r1" map="league_battle_map" userCount="1" criticalUserCount="1"
+                    backgroundSound="outside1,outside2"
+                    dresscode="outside" isPersonal="true"/>
+            </rooms>
+        </location>
+    </battleLocation>
+</config>

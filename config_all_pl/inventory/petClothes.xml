@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- LAST ITEM: 19 -->
+<config id="petClothes">
+    <category id="petClothes" label="#petClothesCategory" logCategory1="petClothes" priority="1" typeClass="petClothes"
+              visible="true">
+        <category id="petOveralls" label="#petOverallsCategory" logCategory2="petOveralls" priority="1" visible="true">
+            <category id="petFoxOveralls" visible="false">
+                <item id="foxJacketWhite" name="Jacket" label="#foxJacketWhiteLabel" icon="FoxJacketWhiteIcon@petClothes" library="petClothes"
+                      bones="797" priority="1" theme="fox" petType="Fox"/>
+                <item id="foxJacketGreen" name="JacketGreen" label="#foxJacketGreenLabel" icon="FoxJacketGreenIcon@petClothes" library="petClothes"
+                      bones="740" priority="2" theme="fox" petType="Fox"/>
+
+                <!--CM 2023-->
+                <item id="foxSweatshirtStream" name="SweatshirtStream" label="#petSweatshirtStreamLabel" icon="FoxSweatshirtStreamIcon@petClothes" library="petClothes"
+                      bones="1300" priority="11" theme="fox" petType="Fox" canBuy="0"/>
+                <item id="foxJumpsuitModum" name="JumpsuitModum" label="#petJumpsuitModumLabel" icon="FoxJumpsuitModumIcon@petClothes" library="petClothes"
+                      bones="1500" priority="12" theme="fox" petType="Fox" canBuy="0"/>
+                <item id="foxJacketGamer" name="JacketGamer" label="#petJacketGamerLabel" icon="FoxJacketGamerIcon@petClothes" library="petClothes"
+                      bones="1150" priority="13" theme="fox" petType="Fox" canBuy="0"/>
+            </category>
+            <category id="petDogOveralls" visible="false">
+                <item id="dogJacketYellow" name="JacketYellow" label="#dogJacketYellowLabel" icon="DogJacketYellowIcon@petClothes" library="petClothes"
+                      bones="840" priority="1" theme="dog" petType="Dog"/>
+                <item id="dogJacketRed" name="JacketRed" label="#dogJacketRedLabel" icon="DogJacketRedIcon@petClothes" library="petClothes"
+                      bones="758" priority="2" theme="dog" petType="Dog"/>
+
+                <!--CM 2023-->
+                <item id="dogSweatshirtStream" name="SweatshirtStream" label="#petSweatshirtStreamLabel" icon="DogSweatshirtStreamIcon@petClothes" library="petClothes"
+                      bones="1300" priority="11" theme="dog" petType="Dog" canBuy="0"/>
+                <item id="dogJumpsuitModum" name="JumpsuitModum" label="#petJumpsuitModumLabel" icon="DogJumpsuitModumIcon@petClothes" library="petClothes"
+                      bones="1500" priority="12" theme="dog" petType="Dog" canBuy="0"/>
+                <item id="dogJacketGamer" name="JacketGamer" label="#petJacketGamerLabel" icon="DogJacketGamerIcon@petClothes" library="petClothes"
+                      bones="1150" priority="13" theme="dog" petType="Dog" canBuy="0"/>
+            </category>
+        </category>
+        <category id="petEquipment" label="#petEquipmentCategory" logCategory2="petEquipment" priority="1" visible="true">
+            <category id="petFoxDecor" visible="false">
+                <category id="petFoxHats" visible="false">
+                    <item id="foxHatRed" name="HatRed" label="#petHatLabel" icon="FoxHatRedIcon@petClothes" library="petClothes"
+                          bones="515" priority="1" theme="fox" petType="Fox"/>
+
+                    <!--CM 2023-->
+                    <item id="foxRabbitEars" name="RabbitEars" label="#petRabbitEarsLabel" icon="FoxRabbitEarsIcon@petClothes" library="petClothes"
+                          bones="750" priority="14" theme="fox" petType="Fox" canBuy="0"/>
+                    <item id="foxHatPlay" name="HatPlay" label="#petHatPlayLabel" icon="FoxHatPlayIcon@petClothes" library="petClothes"
+                          bones="835" priority="15" theme="fox" petType="Fox" canBuy="0"/>
+                </category>
+
+                <category id="petFoxCollars" visible="false">
+                    <item id="foxCollarPink" name="CollarPink" label="#petCollarPinkLabel" icon="FoxCollarPinkIcon@petClothes" library="petClothes"
+                          bones="377" priority="5" theme="fox" petType="Fox"/>
+                    <item id="foxCollarBlue" name="CollarBlue" label="#petCollarBlueLabel" icon="FoxCollarBlueIcon@petClothes" library="petClothes"
+                          bones="381" priority="6" theme="fox" petType="Fox"/>
+                    <item id="foxCollarGreen" name="CollarGreen" label="#petCollarGreenLabel" icon="FoxCollarGreenIcon@petClothes" library="petClothes"
+                          bones="385" priority="7" theme="fox" petType="Fox"/>
+                    <item id="foxScarfCell" name="ScarfCell" label="#petScarfCellLabel" icon="FoxScarfCellIcon@petClothes" library="petClothes"
+                          bones="385" priority="8" theme="fox" petType="Fox"/>
+                    <item id="foxScarfHeart" name="ScarfHeart" label="#petScarfHeartLabel" icon="FoxScarfHeartIcon@petClothes" library="petClothes"
+                          bones="327" priority="9" theme="fox" petType="Fox"/>
+                    <item id="foxCollarBone" name="CollarBone" label="#petCollarBoneLabel" icon="FoxCollarBoneIcon@petClothes" library="petClothes"
+                          bones="420" priority="10" theme="fox" petType="Fox"/>
+
+                    <!--CM 2023-->
+                    <item id="foxHeadphoneAvaFm" name="HeadphoneAvaFm" label="#petHeadphoneAvaFmLabel" icon="FoxHeadphoneAvaFmIcon@petClothes" library="petClothes"
+                          bones="800" priority="16" theme="fox" petType="Fox" canBuy="0"/>
+                    <item id="foxNecklaceLucky" name="NecklaceLucky" label="#petNecklaceLuckyLabel" icon="FoxNecklaceLuckyIcon@petClothes" library="petClothes"
+                          bones="850" priority="17" theme="fox" petType="Fox" canBuy="0"/>
+                    <item id="foxCollarPhone" name="CollarPhone" label="#petCollarPhoneLabel" icon="FoxCollarPhoneIcon@petClothes" library="petClothes"
+                          bones="800" priority="18" theme="fox" petType="Fox" canBuy="0"/>
+                </category>
+
+                <category id="petFoxOtherHeadDecor" visible="false">
+                    <item id="foxBowRed" name="BowRed" label="#petBowRedLabel" icon="FoxBowRedIcon@petClothes" library="petClothes"
+                          bones="440" priority="2" theme="fox" petType="Fox"/>
+                    <item id="foxBowBlue" name="BowBlue" label="#petBowBlueLabel" icon="FoxBowBlueIcon@petClothes" library="petClothes"
+                          bones="462" priority="3" theme="fox" petType="Fox"/>
+                    <item id="foxBowViolet" name="BowViolet" label="#petBowVioletLabel" icon="FoxBowVioletIcon@petClothes" library="petClothes"
+                          bones="429" priority="4" theme="fox" petType="Fox"/>
+
+                    <!--CM 2023-->
+                    <item id="foxGlassGamer" name="GlassGamer" label="#petGlassGamerLabel" icon="FoxGlassGamerIcon@petClothes" library="petClothes"
+                          bones="875" priority="19" theme="fox" petType="Fox" canBuy="0"/>
+                </category>
+
+
+            </category>
+            <category id="petDogDecor" visible="false">
+                <category id="petDogHats" visible="false">
+                    <item id="dogHatGreen" name="HatGreen" label="#petHatLabel" icon="DogHatGreenIcon@petClothes" library="petClothes"
+                          bones="515" priority="1" theme="dog" petType="Dog"/>
+
+                    <!--CM 2023-->
+                    <item id="dogRabbitEars" name="RabbitEars" label="#petRabbitEarsLabel" icon="DogRabbitEarsIcon@petClothes" library="petClothes"
+                          bones="750" priority="14" theme="dog" petType="Dog" canBuy="0"/>
+                    <item id="dogHatPlay" name="HatPlay" label="#petHatPlayLabel" icon="DogHatPlayIcon@petClothes" library="petClothes"
+                          bones="835" priority="15" theme="dog" petType="Dog" canBuy="0"/>
+                </category>
+
+                <category id="petDogCollars" visible="false">
+                    <item id="dogCollarPink" name="CollarPink" label="#petCollarPinkLabel" icon="DogCollarPinkIcon@petClothes" library="petClothes"
+                          bones="377" priority="5" theme="dog" petType="Dog"/>
+                    <item id="dogCollarBlue" name="CollarBlue" label="#petCollarBlueLabel" icon="DogCollarBlueIcon@petClothes" library="petClothes"
+                          bones="381" priority="6" theme="dog" petType="Dog"/>
+                    <item id="dogCollarGreen" name="CollarGreen" label="#petCollarGreenLabel" icon="DogCollarGreenIcon@petClothes" library="petClothes"
+                          bones="385" priority="7" theme="dog" petType="Dog"/>
+                    <item id="dogScarfCell" name="ScarfCell" label="#petScarfCellLabel" icon="DogScarfCellIcon@petClothes" library="petClothes"
+                          bones="385" priority="8" theme="dog" petType="Dog"/>
+                    <item id="dogScarfHeart" name="ScarfHeart" label="#petScarfHeartLabel" icon="DogScarfHeartIcon@petClothes" library="petClothes"
+                          bones="327" priority="9" theme="dog" petType="Dog"/>
+                    <item id="dogCollarBone" name="CollarBone" label="#petCollarBoneLabel" icon="DogCollarBoneIcon@petClothes" library="petClothes"
+                          bones="420" priority="10" theme="dog" petType="Dog"/>
+
+                    <!--CM 2023-->
+                    <item id="dogHeadphoneAvaFm" name="HeadphoneAvaFm" label="#petHeadphoneAvaFmLabel" icon="DogHeadphoneAvaFmIcon@petClothes" library="petClothes"
+                          bones="800" priority="16" theme="dog" petType="Dog" canBuy="0"/>
+                    <item id="dogNecklaceLucky" name="NecklaceLucky" label="#petNecklaceLuckyLabel" icon="DogNecklaceLuckyIcon@petClothes" library="petClothes"
+                          bones="850" priority="17" theme="dog" petType="Dog" canBuy="0"/>
+                    <item id="dogCollarPhone" name="CollarPhone" label="#petCollarPhoneLabel" icon="DogCollarPhoneIcon@petClothes" library="petClothes"
+                          bones="800" priority="18" theme="dog" petType="Dog" canBuy="0"/>
+                </category>
+
+                <category id="petDogOtherHeadDecor" visible="false">
+                    <item id="dogBowRed" name="BowRed" label="#petBowRedLabel" icon="DogBowRedIcon@petClothes" library="petClothes"
+                          bones="440" priority="2" theme="dog" petType="Dog"/>
+                    <item id="dogBowBlue" name="BowBlue" label="#petBowBlueLabel" icon="DogBowBlueIcon@petClothes" library="petClothes"
+                          bones="462" priority="3" theme="dog" petType="Dog"/>
+                    <item id="dogBowViolet" name="BowViolet" label="#petBowVioletLabel" icon="DogBowVioletIcon@petClothes" library="petClothes"
+                          bones="429" priority="4" theme="dog" petType="Dog"/>
+
+                    <!--CM 2023-->
+                    <item id="dogGlassGamer" name="GlassGamer" label="#petGlassGamerLabel" icon="DogGlassGamerIcon@petClothes" library="petClothes"
+                          bones="875" priority="19" theme="dog" petType="Dog" canBuy="0"/>
+                </category>
+            </category>
+        </category>
+    </category>
+</config>

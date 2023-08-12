@@ -1,0 +1,433 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module id="blackFriday2022" maxDiscountPercent="75">
+    <products>
+        <!--LOCAL-->
+        <product id="bf22SpecialOffer" socialNetwork="local" points="35000" salePercent="40" tag="blackfriday22,complex"
+                 description="bf22SpecialOfferDescription" boyProductIcon="SpecialOfferBoyIcon@blackFriday2022"
+                 girlProductIcon="SpecialOfferGirlIcon@blackFriday2022" title="Специальное предложение"
+                 photo="http://cdn-sp.tortugasocial.com/avataria-ru/promo/modules/bf22/BF22SpecialOfferProductIcon.png">
+            <items>
+                <item id="boyGen13Set" type="clothesSet" gender="1" count="1" icon="SpecialOfferAwardBoyIcon@blackFriday2022"/>
+                <item id="girlGen13Set" type="clothesSet" gender="2" count="1" icon="SpecialOfferAwardGirlIcon@blackFriday2022"/>
+            </items>
+        </product>
+        <product id="NewPackSale400" points="21000" oldPoints="28000" gold="400" bonusGold="90" tag="campaign,blackfriday22"
+            title="400+90 золотых монет"
+            photo="http://cdn-sp.tortugasocial.com/avataria-ru/promo/GoldCoin.png"
+                 icon="OfferGoldPack50@ui"
+                 label="sale"
+            socialNetwork="local"
+        />
+        <product id="NewPackSale800" points="42000" oldPoints="56000" gold="800" bonusGold="200" tag="campaign,blackfriday22"
+            title="800+200 золотых монет"
+            photo="http://cdn-sp.tortugasocial.com/avataria-ru/promo/GoldCoin.png"
+                 icon="OfferGoldPack100@ui"
+                 label="topSale"
+            socialNetwork="local"
+        />
+        <product id="NewPackSale1600" points="75600" oldPoints="112000" gold="1600" bonusGold="430" tag="campaign,blackfriday22"
+            title="1600+430 золотых монет"
+            photo="http://cdn-sp.tortugasocial.com/avataria-ru/promo/GoldCoin.png"
+                 icon="OfferGoldPack200@ui"
+                 label="sale"
+            socialNetwork="local"
+        />
+        <product id="NewPackSale3500" points="172200" oldPoints="245000" gold="3500" bonusGold="900" tag="campaign,blackfriday22"
+            title="3500+900 золотых монет"
+            photo="http://cdn-sp.tortugasocial.com/avataria-ru/promo/GoldCoin.png"
+                 icon="OfferGoldPack500@ui"
+                 label="sale"
+            socialNetwork="local"
+        />
+
+        <!--TGC-->
+        <product id="bf22SpecialOffer" socialNetwork="tgc" points="35000" salePercent="40" tag="blackfriday22,complex"
+                 description="bf22SpecialOfferDescription" boyProductIcon="SpecialOfferBoyIcon@blackFriday2022"
+                 girlProductIcon="SpecialOfferGirlIcon@blackFriday2022" title="Специальное предложение"
+                 photo="http://cdn-sp.tortugasocial.com/avataria-ru/promo/modules/bf22/BF22SpecialOfferProductIcon.png">
+            <items>
+                <item id="boyGen13Set" type="clothesSet" gender="1" count="1" icon="SpecialOfferAwardBoyIcon@blackFriday2022"/>
+                <item id="girlGen13Set" type="clothesSet" gender="2" count="1" icon="SpecialOfferAwardGirlIcon@blackFriday2022"/>
+            </items>
+        </product>
+        <product id="NewPackSale400" points="21000" oldPoints="28000" gold="400" bonusGold="90" tag="campaign,blackfriday22"
+                 title="400+90 золотых монет"
+                 photo="http://cdn-sp.tortugasocial.com/avataria-ru/promo/GoldCoin.png"
+                 icon="OfferGoldPack50@ui"
+                 label="sale"
+                 socialNetwork="tgc"
+        />
+        <product id="NewPackSale800" points="42000" oldPoints="56000" gold="800" bonusGold="200" tag="campaign,blackfriday22"
+                 title="800+200 золотых монет"
+                 photo="http://cdn-sp.tortugasocial.com/avataria-ru/promo/GoldCoin.png"
+                 icon="OfferGoldPack100@ui"
+                 label="topSale"
+                 socialNetwork="tgc"
+        />
+        <product id="NewPackSale1600" points="75600" oldPoints="112000" gold="1600" bonusGold="430" tag="campaign,blackfriday22"
+                 title="1600+430 золотых монет"
+                 photo="http://cdn-sp.tortugasocial.com/avataria-ru/promo/GoldCoin.png"
+                 icon="OfferGoldPack200@ui"
+                 label="sale"
+                 socialNetwork="tgc"
+        />
+        <product id="NewPackSale3500" points="172200" oldPoints="245000" gold="3500" bonusGold="900" tag="campaign,blackfriday22"
+                 title="3500+900 золотых монет"
+                 photo="http://cdn-sp.tortugasocial.com/avataria-ru/promo/GoldCoin.png"
+                 icon="OfferGoldPack500@ui"
+                 label="sale"
+                 socialNetwork="tgc"
+        />
+
+        <!--TGC MOBILE-->
+        <product id="bf22SpecialOffer" socialNetwork="tgcMobile" points="35000" salePercent="40" tag="blackfriday22,complex"
+                 description="bf22SpecialOfferDescription" boyProductIcon="SpecialOfferBoyIcon@blackFriday2022"
+                 girlProductIcon="SpecialOfferGirlIcon@blackFriday2022" title="Специальное предложение"
+                 photo="http://cdn-sp.tortugasocial.com/avataria-ru/promo/modules/bf22/BF22SpecialOfferProductIcon.png">
+            <items>
+                <item id="boyGen13Set" type="clothesSet" gender="1" count="1" icon="SpecialOfferAwardBoyIcon@blackFriday2022"/>
+                <item id="girlGen13Set" type="clothesSet" gender="2" count="1" icon="SpecialOfferAwardGirlIcon@blackFriday2022"/>
+            </items>
+        </product>
+        <product id="NewPackSale400" points="21000" oldPoints="28000" gold="400" bonusGold="90" tag="campaign,blackfriday22"
+                 title="400+90 золотых монет"
+                 photo="http://cdn-sp.tortugasocial.com/avataria-ru/promo/GoldCoin.png"
+                 icon="OfferGoldPack50@ui"
+                 label="sale"
+                 socialNetwork="tgcMobile"
+        />
+        <product id="NewPackSale800" points="42000" oldPoints="56000" gold="800" bonusGold="200" tag="campaign,blackfriday22"
+                 title="800+200 золотых монет"
+                 photo="http://cdn-sp.tortugasocial.com/avataria-ru/promo/GoldCoin.png"
+                 icon="OfferGoldPack100@ui"
+                 label="topSale"
+                 socialNetwork="tgcMobile"
+        />
+        <product id="NewPackSale1600" points="75600" oldPoints="112000" gold="1600" bonusGold="430" tag="campaign,blackfriday22"
+                 title="1600+430 золотых монет"
+                 photo="http://cdn-sp.tortugasocial.com/avataria-ru/promo/GoldCoin.png"
+                 icon="OfferGoldPack200@ui"
+                 label="sale"
+                 socialNetwork="tgcMobile"
+        />
+        <product id="NewPackSale3500" points="172200" oldPoints="245000" gold="3500" bonusGold="900" tag="campaign,blackfriday22"
+                 title="3500+900 золотых монет"
+                 photo="http://cdn-sp.tortugasocial.com/avataria-ru/promo/GoldCoin.png"
+                 icon="OfferGoldPack500@ui"
+                 label="sale"
+                 socialNetwork="tgcMobile"
+        />
+
+        <!--TGC STANDALONE -->
+        <product id="bf22SpecialOffer" socialNetwork="tgcStandalone" points="35000" salePercent="40" tag="blackfriday22,complex"
+                 description="bf22SpecialOfferDescription" boyProductIcon="SpecialOfferBoyIcon@blackFriday2022"
+                 girlProductIcon="SpecialOfferGirlIcon@blackFriday2022" title="Специальное предложение"
+                 photo="http://cdn-sp.tortugasocial.com/avataria-ru/promo/modules/bf22/BF22SpecialOfferProductIcon.png">
+            <items>
+                <item id="boyGen13Set" type="clothesSet" gender="1" count="1" icon="SpecialOfferAwardBoyIcon@blackFriday2022"/>
+                <item id="girlGen13Set" type="clothesSet" gender="2" count="1" icon="SpecialOfferAwardGirlIcon@blackFriday2022"/>
+            </items>
+        </product>
+        <product id="NewPackSale400" points="21000" oldPoints="28000" gold="400" bonusGold="90" tag="campaign,blackfriday22"
+                 title="400+90 золотых монет"
+                 photo="http://cdn-sp.tortugasocial.com/avataria-ru/promo/GoldCoin.png"
+                 icon="OfferGoldPack50@ui"
+                 label="sale"
+                 socialNetwork="tgcStandalone"
+        />
+        <product id="NewPackSale800" points="42000" oldPoints="56000" gold="800" bonusGold="200" tag="campaign,blackfriday22"
+                 title="800+200 золотых монет"
+                 photo="http://cdn-sp.tortugasocial.com/avataria-ru/promo/GoldCoin.png"
+                 icon="OfferGoldPack100@ui"
+                 label="topSale"
+                 socialNetwork="tgcStandalone"
+        />
+        <product id="NewPackSale1600" points="75600" oldPoints="112000" gold="1600" bonusGold="430" tag="campaign,blackfriday22"
+                 title="1600+430 золотых монет"
+                 photo="http://cdn-sp.tortugasocial.com/avataria-ru/promo/GoldCoin.png"
+                 icon="OfferGoldPack200@ui"
+                 label="sale"
+                 socialNetwork="tgcStandalone"
+        />
+        <product id="NewPackSale3500" points="172200" oldPoints="245000" gold="3500" bonusGold="900" tag="campaign,blackfriday22"
+                 title="3500+900 золотых монет"
+                 photo="http://cdn-sp.tortugasocial.com/avataria-ru/promo/GoldCoin.png"
+                 icon="OfferGoldPack500@ui"
+                 label="sale"
+                 socialNetwork="tgcStandalone"
+        />
+
+        <!--TGC SOCIAL-->
+        <product id="bf22SpecialOffer" socialNetwork="tgcSocial" points="35000" salePercent="40" tag="blackfriday22,complex"
+                 description="bf22SpecialOfferDescription" boyProductIcon="SpecialOfferBoyIcon@blackFriday2022"
+                 girlProductIcon="SpecialOfferGirlIcon@blackFriday2022" title="Специальное предложение"
+                 photo="http://cdn-sp.tortugasocial.com/avataria-ru/promo/modules/bf22/BF22SpecialOfferProductIcon.png">
+            <items>
+                <item id="boyGen13Set" type="clothesSet" gender="1" count="1" icon="SpecialOfferAwardBoyIcon@blackFriday2022"/>
+                <item id="girlGen13Set" type="clothesSet" gender="2" count="1" icon="SpecialOfferAwardGirlIcon@blackFriday2022"/>
+            </items>
+        </product>
+        <product id="NewPackSale400" points="21000" oldPoints="28000" gold="400" bonusGold="90" tag="campaign,blackfriday22"
+                 title="400+90 золотых монет"
+                 photo="http://cdn-sp.tortugasocial.com/avataria-ru/promo/GoldCoin.png"
+                 icon="OfferGoldPack50@ui"
+                 label="sale"
+                 socialNetwork="tgcSocial"
+        />
+        <product id="NewPackSale800" points="42000" oldPoints="56000" gold="800" bonusGold="200" tag="campaign,blackfriday22"
+                 title="800+200 золотых монет"
+                 photo="http://cdn-sp.tortugasocial.com/avataria-ru/promo/GoldCoin.png"
+                 icon="OfferGoldPack100@ui"
+                 label="topSale"
+                 socialNetwork="tgcSocial"
+        />
+        <product id="NewPackSale1600" points="75600" oldPoints="112000" gold="1600" bonusGold="430" tag="campaign,blackfriday22"
+                 title="1600+430 золотых монет"
+                 photo="http://cdn-sp.tortugasocial.com/avataria-ru/promo/GoldCoin.png"
+                 icon="OfferGoldPack200@ui"
+                 label="sale"
+                 socialNetwork="tgcSocial"
+        />
+        <product id="NewPackSale3500" points="172200" oldPoints="245000" gold="3500" bonusGold="900" tag="campaign,blackfriday22"
+                 title="3500+900 золотых монет"
+                 photo="http://cdn-sp.tortugasocial.com/avataria-ru/promo/GoldCoin.png"
+                 icon="OfferGoldPack500@ui"
+                 label="sale"
+                 socialNetwork="tgcSocial"
+        />
+
+        <!--VKONTAKTE-->
+        <product id="bf22SpecialOffer" socialNetwork="vkontakte" points="35000" salePercent="40" tag="blackfriday22,complex"
+                 description="bf22SpecialOfferDescription" boyProductIcon="SpecialOfferBoyIcon@blackFriday2022"
+                 girlProductIcon="SpecialOfferGirlIcon@blackFriday2022" title="Специальное предложение"
+                 photo="http://cdn-sp.tortugasocial.com/avataria-ru/promo/modules/bf22/BF22SpecialOfferProductIcon.png">
+            <items>
+                <item id="boyGen13Set" type="clothesSet" gender="1" count="1" icon="SpecialOfferAwardBoyIcon@blackFriday2022"/>
+                <item id="girlGen13Set" type="clothesSet" gender="2" count="1" icon="SpecialOfferAwardGirlIcon@blackFriday2022"/>
+            </items>
+        </product>
+        <product id="NewPackSale400" points="21000" oldPoints="28000" gold="400" bonusGold="90" tag="campaign,blackfriday22"
+                 title="400+90 золотых монет"
+                 photo="http://cdn-sp.tortugasocial.com/avataria-ru/promo/GoldCoin.png"
+                 icon="OfferGoldPack50@ui"
+                 label="sale"
+                 socialNetwork="vkontakte"
+        />
+        <product id="NewPackSale800" points="42000" oldPoints="56000" gold="800" bonusGold="200" tag="campaign,blackfriday22"
+                 title="800+200 золотых монет"
+                 photo="http://cdn-sp.tortugasocial.com/avataria-ru/promo/GoldCoin.png"
+                 icon="OfferGoldPack100@ui"
+                 label="topSale"
+                 socialNetwork="vkontakte"
+        />
+        <product id="NewPackSale1600" points="75600" oldPoints="112000" gold="1600" bonusGold="430" tag="campaign,blackfriday22"
+                 title="1600+430 золотых монет"
+                 photo="http://cdn-sp.tortugasocial.com/avataria-ru/promo/GoldCoin.png"
+                 icon="OfferGoldPack200@ui"
+                 label="sale"
+                 socialNetwork="vkontakte"
+        />
+        <product id="NewPackSale3500" points="172200" oldPoints="245000" gold="3500" bonusGold="900" tag="campaign,blackfriday22"
+                 title="3500+900 золотых монет"
+                 photo="http://cdn-sp.tortugasocial.com/avataria-ru/promo/GoldCoin.png"
+                 icon="OfferGoldPack500@ui"
+                 label="sale"
+                 socialNetwork="vkontakte"
+        />
+
+        <!--ODNOKLASSNIKI-->
+        <product id="bf22SpecialOffer" socialNetwork="odnoklassniki" points="35000" salePercent="40" tag="blackfriday22,complex"
+                 description="bf22SpecialOfferDescription" boyProductIcon="SpecialOfferBoyIcon@blackFriday2022"
+                 girlProductIcon="SpecialOfferGirlIcon@blackFriday2022" title="Специальное предложение"
+                 photo="http://cdn-sp.tortugasocial.com/avataria-ru/promo/modules/bf22/BF22SpecialOfferProductIcon.png">
+            <items>
+                <item id="boyGen13Set" type="clothesSet" gender="1" count="1" icon="SpecialOfferAwardBoyIcon@blackFriday2022"/>
+                <item id="girlGen13Set" type="clothesSet" gender="2" count="1" icon="SpecialOfferAwardGirlIcon@blackFriday2022"/>
+            </items>
+        </product>
+        <product id="NewPackSale400" points="21000" oldPoints="28000" gold="400" bonusGold="90" tag="campaign,blackfriday22"
+                 title="400+90 золотых монет"
+                 photo="http://cdn-sp.tortugasocial.com/avataria-ru/promo/GoldCoin.png"
+                 icon="OfferGoldPack50@ui"
+                 label="sale"
+                 socialNetwork="odnoklassniki"
+        />
+        <product id="NewPackSale800" points="42000" oldPoints="56000" gold="800" bonusGold="200" tag="campaign,blackfriday22"
+                 title="800+200 золотых монет"
+                 photo="http://cdn-sp.tortugasocial.com/avataria-ru/promo/GoldCoin.png"
+                 icon="OfferGoldPack100@ui"
+                 label="topSale"
+                 socialNetwork="odnoklassniki"
+        />
+        <product id="NewPackSale1600" points="75600" oldPoints="112000" gold="1600" bonusGold="430" tag="campaign,blackfriday22"
+                 title="1600+430 золотых монет"
+                 photo="http://cdn-sp.tortugasocial.com/avataria-ru/promo/GoldCoin.png"
+                 icon="OfferGoldPack200@ui"
+                 label="sale"
+                 socialNetwork="odnoklassniki"
+        />
+        <product id="NewPackSale3500" points="172200" oldPoints="245000" gold="3500" bonusGold="900" tag="campaign,blackfriday22"
+                 title="3500+900 золотых монет"
+                 photo="http://cdn-sp.tortugasocial.com/avataria-ru/promo/GoldCoin.png"
+                 icon="OfferGoldPack500@ui"
+                 label="sale"
+                 socialNetwork="odnoklassniki"
+        />
+
+        <!--MAILRU-->
+        <product id="bf22SpecialOffer" socialNetwork="mailru" points="35000" salePercent="40" tag="blackfriday22,complex"
+                 description="bf22SpecialOfferDescription" boyProductIcon="SpecialOfferBoyIcon@blackFriday2022"
+                 girlProductIcon="SpecialOfferGirlIcon@blackFriday2022" title="Специальное предложение"
+                 photo="http://cdn-sp.tortugasocial.com/avataria-ru/promo/modules/bf22/BF22SpecialOfferProductIcon.png">
+            <items>
+                <item id="boyGen13Set" type="clothesSet" gender="1" count="1" icon="SpecialOfferAwardBoyIcon@blackFriday2022"/>
+                <item id="girlGen13Set" type="clothesSet" gender="2" count="1" icon="SpecialOfferAwardGirlIcon@blackFriday2022"/>
+            </items>
+        </product>
+        <product id="NewPackSale400" points="21000" oldPoints="28000" gold="400" bonusGold="90" tag="campaign,blackfriday22"
+                 title="400+90 золотых монет"
+                 photo="http://cdn-sp.tortugasocial.com/avataria-ru/promo/GoldCoin.png"
+                 icon="OfferGoldPack50@ui"
+                 label="sale"
+                 socialNetwork="mailru"
+        />
+        <product id="NewPackSale800" points="42000" oldPoints="56000" gold="800" bonusGold="200" tag="campaign,blackfriday22"
+                 title="800+200 золотых монет"
+                 photo="http://cdn-sp.tortugasocial.com/avataria-ru/promo/GoldCoin.png"
+                 icon="OfferGoldPack100@ui"
+                 label="topSale"
+                 socialNetwork="mailru"
+        />
+        <product id="NewPackSale1600" points="75600" oldPoints="112000" gold="1600" bonusGold="430" tag="campaign,blackfriday22"
+                 title="1600+430 золотых монет"
+                 photo="http://cdn-sp.tortugasocial.com/avataria-ru/promo/GoldCoin.png"
+                 icon="OfferGoldPack200@ui"
+                 label="sale"
+                 socialNetwork="mailru"
+        />
+        <product id="NewPackSale3500" points="172200" oldPoints="245000" gold="3500" bonusGold="900" tag="campaign,blackfriday22"
+                 title="3500+900 золотых монет"
+                 photo="http://cdn-sp.tortugasocial.com/avataria-ru/promo/GoldCoin.png"
+                 icon="OfferGoldPack500@ui"
+                 label="sale"
+                 socialNetwork="mailru"
+        />
+
+        <!--FOTOSTRANA-->
+        <product id="bf22SpecialOffer" socialNetwork="fotostrana" points="35700 " salePercent="40" tag="blackfriday22,complex"
+                 description="bf22SpecialOfferDescription" boyProductIcon="SpecialOfferBoyIcon@blackFriday2022"
+                 girlProductIcon="SpecialOfferGirlIcon@blackFriday2022" title="Специальное предложение"
+                 photo="http://cdn-sp.tortugasocial.com/avataria-ru/promo/modules/bf22/BF22SpecialOfferProductIcon.png">
+            <items>
+                <item id="boyGen13Set" type="clothesSet" gender="1" count="1" icon="SpecialOfferAwardBoyIcon@blackFriday2022"/>
+                <item id="girlGen13Set" type="clothesSet" gender="2" count="1" icon="SpecialOfferAwardGirlIcon@blackFriday2022"/>
+            </items>
+        </product>
+        <product id="NewPackSale400" points="22100" oldPoints="28900" gold="400" bonusGold="90" tag="campaign,blackfriday22"
+            title="400+90 золотых монет"
+            photo="http://cdn-sp.tortugasocial.com/avataria-ru/promo/GoldCoin.png"
+            icon="OfferGoldPack50@ui"
+            label="sale"
+            socialNetwork="fotostrana"
+        />
+        <product id="NewPackSale800" points="44200" oldPoints="57800" gold="800" bonusGold="200" tag="campaign,blackfriday22"
+            title="800+200 золотых монет"
+            photo="http://cdn-sp.tortugasocial.com/avataria-ru/promo/GoldCoin.png"
+            icon="OfferGoldPack100@ui"
+            label="topSale"
+            socialNetwork="fotostrana"
+        />
+        <product id="NewPackSale1600" points="75600" oldPoints="115600 " gold="1600" bonusGold="430" tag="campaign,blackfriday22"
+            title="1600+430 золотых монет"
+            photo="http://cdn-sp.tortugasocial.com/avataria-ru/promo/GoldCoin.png"
+            icon="OfferGoldPack200@ui"
+            label="sale"
+            socialNetwork="fotostrana"
+        />
+        <product id="NewPackSale3500" points="173400" oldPoints="246500" gold="3500" bonusGold="900" tag="campaign,blackfriday22"
+            title="3500+900 золотых монет"
+            photo="http://cdn-sp.tortugasocial.com/avataria-ru/promo/GoldCoin.png"
+            icon="OfferGoldPack500@ui"
+            label="sale"
+            socialNetwork="fotostrana"
+        />
+
+        <!--MY GAMES-->
+        <product id="bf22SpecialOffer" socialNetwork="gamesmailru" points="35000" salePercent="40" tag="blackfriday22,complex"
+                 description="bf22SpecialOfferDescription" boyProductIcon="SpecialOfferBoyIcon@blackFriday2022"
+                 girlProductIcon="SpecialOfferGirlIcon@blackFriday2022" title="Специальное предложение"
+                 photo="http://cdn-sp.tortugasocial.com/avataria-ru/promo/modules/bf22/BF22SpecialOfferProductIcon.png">
+            <items>
+                <item id="boyGen13Set" type="clothesSet" gender="1" count="1" icon="SpecialOfferAwardBoyIcon@blackFriday2022"/>
+                <item id="girlGen13Set" type="clothesSet" gender="2" count="1" icon="SpecialOfferAwardGirlIcon@blackFriday2022"/>
+            </items>
+        </product>
+        <product id="NewPackSale400" points="21000" oldPoints="28000" gold="400" bonusGold="90" tag="campaign,blackfriday22"
+                 title="400+90 золотых монет"
+                 photo="http://cdn-sp.tortugasocial.com/avataria-ru/promo/GoldCoin.png"
+                 icon="OfferGoldPack50@ui"
+                 label="sale"
+                 socialNetwork="gamesmailru"
+        />
+        <product id="NewPackSale800" points="42000" oldPoints="56000" gold="800" bonusGold="200" tag="campaign,blackfriday22"
+                 title="800+200 золотых монет"
+                 photo="http://cdn-sp.tortugasocial.com/avataria-ru/promo/GoldCoin.png"
+                 icon="OfferGoldPack100@ui"
+                 label="topSale"
+                 socialNetwork="gamesmailru"
+        />
+        <product id="NewPackSale1600" points="75600" oldPoints="112000" gold="1600" bonusGold="430" tag="campaign,blackfriday22"
+                 title="1600+430 золотых монет"
+                 photo="http://cdn-sp.tortugasocial.com/avataria-ru/promo/GoldCoin.png"
+                 icon="OfferGoldPack200@ui"
+                 label="sale"
+                 socialNetwork="gamesmailru"
+        />
+        <product id="NewPackSale3500" points="172200" oldPoints="245000" gold="3500" bonusGold="900" tag="campaign,blackfriday22"
+                 title="3500+900 золотых монет"
+                 photo="http://cdn-sp.tortugasocial.com/avataria-ru/promo/GoldCoin.png"
+                 icon="OfferGoldPack500@ui"
+                 label="sale"
+                 socialNetwork="gamesmailru"
+        />
+
+        <!--GAMEXP-->
+        <product id="bf22SpecialOffer" socialNetwork="gamexp" points="35200 " salePercent="40" tag="blackfriday22,complex"
+                 description="bf22SpecialOfferDescription" boyProductIcon="SpecialOfferBoyIcon@blackFriday2022"
+                 girlProductIcon="SpecialOfferGirlIcon@blackFriday2022" title="Специальное предложение"
+                 photo="http://cdn-sp.tortugasocial.com/avataria-ru/promo/modules/bf22/BF22SpecialOfferProductIcon.png">
+            <items>
+                <item id="boyGen13Set" type="clothesSet" gender="1" count="1" icon="SpecialOfferAwardBoyIcon@blackFriday2022"/>
+                <item id="girlGen13Set" type="clothesSet" gender="2" count="1" icon="SpecialOfferAwardGirlIcon@blackFriday2022"/>
+            </items>
+        </product>
+        <product id="NewPackSale400" points="22000" oldPoints="28600" gold="400" bonusGold="90" tag="campaign,blackfriday22"
+            title="400+90 золотых монет"
+            photo="http://cdn-sp.tortugasocial.com/avataria-ru/promo/GoldCoin.png"
+            icon="OfferGoldPack50@ui"
+            label="sale"
+            socialNetwork="gamexp"
+        />
+        <product id="NewPackSale800" points="44000" oldPoints="57200" gold="800" bonusGold="200" tag="campaign,blackfriday22"
+            title="800+200 золотых монет"
+            photo="http://cdn-sp.tortugasocial.com/avataria-ru/promo/GoldCoin.png"
+            icon="OfferGoldPack100@ui"
+            label="topSale"
+            socialNetwork="gamexp"
+        />
+        <product id="NewPackSale1600" points="77000" oldPoints="114400" gold="1600" bonusGold="430" tag="campaign,blackfriday22"
+            title="1600+430 золотых монет"
+            photo="http://cdn-sp.tortugasocial.com/avataria-ru/promo/GoldCoin.png"
+            icon="OfferGoldPack200@ui"
+            label="sale"
+            socialNetwork="gamexp"
+        />
+        <product id="NewPackSale3500" points="173800" oldPoints="246400" gold="3500" bonusGold="900" tag="campaign,blackfriday22"
+            title="3500+900 золотых монет"
+            photo="http://cdn-sp.tortugasocial.com/avataria-ru/promo/GoldCoin.png"
+            icon="OfferGoldPack500@ui"
+            label="sale"
+            socialNetwork="gamexp"
+        />
+    </products>
+</module>

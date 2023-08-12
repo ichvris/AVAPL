@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <params />
+
+    <tasks>
+        <task itemId="clanPictures"/>
+        <task itemId="clanCocktail"/>
+        <task itemId="clanCamera"/>
+        <task itemId="clanPaperFigure"/>
+        <task itemId="clanCoffee"/>
+        <task itemId="clanLotteryTicket"/>
+        <task itemId="clanFlowers"/>
+        <task itemId="clanShovel"/>
+        <task itemId="clanPetard"/>
+        <task itemId="clanBook"/>
+        <task itemId="clanCostume"/>
+        <task itemId="clanBirdhouse"/>
+    </tasks>
+
+    <awards>
+        <award place="1" clanCoin="4200" experience="20"/>
+        <award place="2" clanCoin="3100" experience="14"/>
+        <award place="3" clanCoin="2800" experience="8"/>
+        <award place="4" clanCoin="1000" experience="4"/>
+    </awards>
+</config>

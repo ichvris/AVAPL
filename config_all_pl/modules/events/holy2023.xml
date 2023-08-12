@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<module id="holy23">
+    <awards>
+        <award place="1" gold="250" trophy="holy2023" trophyIcon="TrophyIcon@holy2023" />
+        <award place="2" gold="200" trophy="holy2023" trophyIcon="TrophyIcon@holy2023" />
+        <award place="3" gold="150" trophy="holy2023" trophyIcon="TrophyIcon@holy2023" />
+        <award place="4" gold="100" />
+        <award place="5" gold="100" />
+        <award place="6" gold="100" />
+        <award place="7" gold="100" />
+        <award place="8" gold="100" />
+        <award place="9" gold="100" />
+        <award place="10" gold="100" />
+    </awards>
+</module>

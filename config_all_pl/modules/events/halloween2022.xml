@@ -1,0 +1,1401 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<module id="halloween2022" topUserUpdatePeriod="180" maxGoldPacksShowCount="2">
+    <trophy progress="3599" discount="20"/>
+
+    <farm>
+        <seeds>
+            <seed typeId="1" type="pumpkin" silver="333" ripeTime="1200" fruitTime="0" fadeTime="600"
+                name="#hlwn22PumpkinName" description="#hlwn22PumpkinPlantDescription"
+                dialogBg="PlantInfoDialogPumpkinBG@halloween2022">
+                <drop>
+                    <item type="hlwn22PumpkinMeat" count="3"/>
+                    <item type="hlwn22Swirls" count="3"/>
+                    <item type="hlwn22PumpkinJuice" count="3"/>
+                    <item type="hlwn22Petals" count="3"/>
+                </drop>
+            </seed>
+            <seed typeId="2" type="triffid" silver="666" ripeTime="1800" fruitTime="0" fadeTime="900"
+                name="#hlwn22TriffidName" description="#hlwn22TriffidPlantDescription"
+                dialogBg="PlantInfoDialogTriffidBG@halloween2022">
+                <drop>
+                    <item type="hlwn22Liquid" count="2"/>
+                    <item type="hlwn22Root" count="2"/>
+                    <item type="hlwn22Insects" count="2"/>
+                    <item type="hlwn22Sting" count="2"/>
+                </drop>
+            </seed>
+            <seed typeId="3" type="witchFlower" silver="999" ripeTime="2400" fruitTime="0" fadeTime="1200"
+                name="#hlwn22WitchFlowerName" description="#hlwn22WitchFlowerPlantDescription"
+                dialogBg="PlantInfoDialogWitchFlowerBG@halloween2022">
+                <drop>
+                    <item type="hlwn22Phosphorus" count="1"/>
+                    <item type="hlwn22Leaf" count="1"/>
+                    <item type="hlwn22Bud" count="1"/>
+                    <item type="hlwn22Pollen" count="1"/>
+                </drop>
+            </seed>
+        </seeds>
+        <boosters>
+            <booster typeId="1" type="fastGrowth" gold="20" growBoost="0.5"
+                     icon="FastGrowthBoosterIcon" title="hw22FastGrowthBoosterTitle" description="hw22FastGrowthBoosterDescription" />
+            <booster typeId="2" type="antiDecay" gold="13"
+                icon="AntiDecayBoosterIcon" title="hw22AntiDecayBoosterTitle" description="hw22AntiDecayBoosterDescription"/>
+            <booster typeId="3" type="multiHarvest" gold="35"
+                icon="MultiHarvestBoosterIcon" title="hw22MultiHarvestBoosterTitle" description="hw22MultiHarvestBoosterDescription">
+                <drop>
+                    <item probability="0.61" minDropCount="0"/>
+                    <item probability="0.22" minDropCount="3"/>
+                    <item probability="0.17" minDropCount="5"/>
+                    <item probability="0.05" minDropCount="7" minUseCount="3" maxUseCount="13"/>
+                </drop>
+            </booster>
+        </boosters>
+
+        <scarecrows>
+            <scarecrow id="1" gold="8" time="1800"/>
+            <scarecrow id="2" gold="15" time="3600"/>
+            <scarecrow id="3" gold="50" time="14400"/>
+        </scarecrows>
+        <energy plant="10" harvest="0" clear="5" booster="5"/>
+        <crows count="3" scareEnergy="5" minScareTime="420" maxScareTime="1140"/>
+    </farm>
+
+    <awards>
+        <award id="1" itemType="trophy" itemId="halloween2022"
+               count="0"
+               icon="Hw22AwardIcon@halloween2022"
+               label="#halloween2022Title"/>
+    </awards>
+
+    <ratingAwards>
+        <award id="boyMaskHW22Zombie" itemType="clothes" gender="1" icon="BoyBagRatingAwardIcon@halloween2022"/>
+        <award id="girlMaskHW22Zombie" itemType="clothes" gender="2" icon="GirlBagRatingAwardIcon@halloween2022"/>
+        <award id="alien2022" itemType="trophy" icon="TrophyRatingAwardIcon@halloween2022"/>
+    </ratingAwards>
+
+    <packs>
+        <pack id="candyPack75" candyCount="75" gold="75" bonus="0"/>
+        <pack id="candyPack150" candyCount="150" gold="150" bonus="20"/>
+        <pack id="candyPack300" candyCount="300" gold="300" bonus="50"/>
+        <pack id="candyPack500" candyCount="600" gold="600" bonus="180"/>
+    </packs>
+
+    <inventory>
+        <category id="game" typeClass="game">
+            <item id="hlwn22SpiritPotion" label="#hlwn22SpiritPotionLabel" description="#hw22PotionDescription"
+                name="SpiritPotion@halloween2022" icon="SpiritPotionIcon@halloween2022" canBuy="0"/>
+            <item id="hlwn22WitchPotion" label="#hlwn22WitchPotionLabel" description="#hw22PotionDescription"
+                name="WitchPotion@halloween2022" icon="WitchPotionIcon@halloween2022" canBuy="0"/>
+            <item id="hlwn22ShamanPotion" label="#hlwn22ShamanPotionLabel" description="#hw22PotionDescription"
+                name="ShamanPotion@halloween2022" icon="ShamanPotionIcon@halloween2022" canBuy="0"/>
+        </category>
+
+        <category id="craftLoot" typeClass="loot">
+            <item id="hw22Pumpkin" name="Pumpkin@halloween2022" gold="8" probability="0.5" ignoreVip="true"
+                ignoreReputation="true"/>
+            <item id="hw22Candy" name="Candy@halloween2022" gold="100"/>
+
+            <!--PUMPKIN LOOT-->
+            <item id="hlwn22PumpkinMeat" label="#hlwn22PumpkinMeatLabel" name="PumpkinMeat@halloween2022"
+                description="#hlwn22PumpkinLootDescription" icon="PumpkinMeatIcon@halloween2022" gold="200"/>
+            <item id="hlwn22Swirls" label="#hlwn22SwirlsLabel" name="Swirls@halloween2022"
+                description="#hlwn22PumpkinLootDescription" icon="SwirlsIcon@halloween2022" gold="200"/>
+            <item id="hlwn22PumpkinJuice" label="#hlwn22PumpkinJuiceLabel" name="PumpkinJuice@halloween2022"
+                description="#hlwn22PumpkinLootDescription" icon="PumpkinJuiceIcon@halloween2022" gold="200"/>
+            <item id="hlwn22Petals" label="#hlwn22PetalsLabel" name="Petals@halloween2022"
+                description="#hlwn22PumpkinLootDescription" icon="PetalsIcon@halloween2022" gold="200"/>
+
+            <!--TRIFFID LOOT-->
+            <item id="hlwn22Insects" label="#hlwn22InsectsLabel" name="Insects@halloween2022"
+                description="#hlwn22TriffidLootDescription" icon="InsectsIcon@halloween2022" gold="200"/>
+            <item id="hlwn22Liquid" label="#hlwn22LiquidLabel" name="Liquid@halloween2022"
+                description="#hlwn22TriffidLootDescription" icon="LiquidIcon@halloween2022" gold="200"/>
+            <item id="hlwn22Root" label="#hlwn22RootLabel" name="Root@halloween2022" icon="RootIcon@halloween2022"
+                description="#hlwn22TriffidLootDescription" gold="200"/>
+            <item id="hlwn22Sting" label="#hlwn22StingLabel" name="Sting@halloween2022" icon="StingIcon@halloween2022"
+                description="#hlwn22TriffidLootDescription" gold="200"/>
+
+            <!--WITCH FLOWER LOOT-->
+            <item id="hlwn22Phosphorus" label="#hlwn22PhosphorusLabel" name="Phosphorus@halloween2022"
+                description="#hlwn22WitchFlowerDescription" icon="PhosphorusIcon@halloween2022" gold="300"/>
+            <item id="hlwn22Leaf" label="#hlwn22LeafLabel" name="Leaf@halloween2022" icon="LeafIcon@halloween2022"
+                description="#hlwn22WitchFlowerDescription" gold="300"/>
+            <item id="hlwn22Bud" label="#hlwn22BudLabel" name="Bud@halloween2022" icon="BudIcon@halloween2022"
+                description="#hlwn22WitchFlowerDescription" gold="300"/>
+            <item id="hlwn22Pollen" label="#hlwn22PollenLabel" name="Pollen@halloween2022"
+                description="#hlwn22WitchFlowerDescription" icon="PollenIcon@halloween2022" gold="300"/>
+        </category>
+    </inventory>
+
+    <craft>
+        <craftedItem itemId="hlwn22SpiritPotion" holiday="">
+            <moduleComponent itemId="hlwn22Liquid" count="4"/>
+            <moduleComponent itemId="hlwn22Insects" count="4"/>
+            <moduleComponent itemId="hlwn22PumpkinMeat" count="6"/>
+            <moduleComponent itemId="hlwn22Petals" count="6"/>
+        </craftedItem>
+        <craftedItem itemId="hlwn22WitchPotion" holiday="">
+            <moduleComponent itemId="hlwn22Phosphorus" count="2"/>
+            <moduleComponent itemId="hlwn22Leaf" count="2"/>
+            <moduleComponent itemId="hlwn22Swirls" count="6"/>
+            <moduleComponent itemId="hlwn22PumpkinJuice" count="6"/>
+        </craftedItem>
+        <craftedItem itemId="hlwn22ShamanPotion" holiday="">
+            <moduleComponent itemId="hlwn22Pollen" count="2"/>
+            <moduleComponent itemId="hlwn22Bud" count="2"/>
+            <moduleComponent itemId="hlwn22Root" count="4"/>
+            <moduleComponent itemId="hlwn22Sting" count="4"/>
+        </craftedItem>
+    </craft>
+
+    <shop>
+        <category id="hw22" typeClass="hw22Type">
+            <category id="hw22Clothes" label="#hw19ClothesCategory" type="clothes" priority="1">
+                <category id="hw22ClothesSets" label="#costumesLabel" type="clothesSet" priority="1">
+                    <!--BOY SETS-->
+                    <item id="hw22boyAlexSet" itemId="boyAlexSet" candy="854" priority="1"/>
+                    <item id="hw22boyHttrSet" itemId="boyHttrSet" candy="780" priority="2"/>
+                    <item id="hw22boyDmnSet" itemId="boyDmnSet" candy="1249" priority="3"/>
+                    <item id="hw22boyDmnHntSet" itemId="boyDmnHntSet" candy="840" priority="4"/>
+                    <item id="hw22boyHlwnVmpSet" itemId="boyHlwnVmpSet" candy="710" priority="5"/>
+                    <item id="hw22boyJackOvrlSet" itemId="boyJackOvrlSet" candy="498" priority="6"/>
+                    <item id="hw22boyHlwnSawSet" itemId="boyHlwnSawSet" candy="1318" priority="7"/>
+                    <item id="hw22boyHlwnPyrmdSet" itemId="boyHlwnPyrmdSet" candy="876" priority="8"/>
+                    <item id="hw22boyHlwnPnnySet" itemId="boyHlwnPnnySet" candy="1118" priority="9"/>
+                    <item id="hw22hlwnBSt1" itemId="hlwnBSt1" candy="90" priority="10"/>
+                    <item id="hw22hlwnBSt2" itemId="hlwnBSt2" candy="230" priority="11"/>
+                    <item id="hw22hlwnBSt3" itemId="hlwnBSt3" candy="60"/>
+                    <item id="hw22hlwnBSt4" itemId="hlwnBSt4" candy="280" priority="12"/>
+                    <item id="hw22hlwnBSt5" itemId="hlwnBSt5" candy="150" priority="13"/>
+                    <item id="hw22hlwnBSt6" itemId="hlwnBSt6" candy="120" priority="14"/>
+                    <item id="hw22hlwnBSt7" itemId="hlwnBSt7" candy="220" priority="15"/>
+                    <item id="hw22hlwnBSt8" itemId="hlwnBSt8" candy="300" priority="16"/>
+                    <item id="hw22hlwnBSt9" itemId="hlwnBSt9" candy="310" priority="17"/>
+                    <item id="hw22hlwnBSt10" itemId="hlwnBSt10" candy="850" priority="18"/>
+                    <item id="hw22hlwnBSt11" itemId="hlwnBSt11" candy="870" priority="19"/>
+                    <item id="hw22BoyWarlockSet" itemId="boyWarlockHalloween2020Set" candy="1054" priority="20"/>
+                    <item id="hw22BoyWizzardSet" itemId="boyWizzardHalloween2020Set" candy="1073" priority="21"/>
+                    <item id="hw22boyHlwn21P1Set" itemId="boyHlwn21P1Set" candy="920" priority="22"/>
+                    <item id="hw22boyHlwn21P2Set" itemId="boyHlwn21P2Set" candy="780" priority="23"/>
+                    <item id="hw22boyCruella22Set" itemId="boyCruella22Set" candy="1046" isNew="1" priority="24"/>
+                    <item id="hw22boyRem22Set" itemId="boyRem22Set" candy="1299" isNew="1" priority="25"/>
+                    <!--GIRL SETS-->
+                    <item id="hw22girlAliceSet" itemId="girlAliceSet" candy="854" priority="26"/>
+                    <item id="hw22girlHatterSet" itemId="girlHatterSet" candy="780" priority="27"/>
+                    <item id="hw22girlDemonSet" itemId="girlDemonSet" candy="1249" priority="28"/>
+                    <item id="hw22girlDemonHunterSet" itemId="girlDemonHunterSet" candy="840" priority="29"/>
+                    <item id="hw22hlwnGSt1" itemId="hlwnGSt1" candy="60" priority="30"/>
+                    <item id="hw22hlwnGSt2" itemId="hlwnGSt2" candy="270" priority="31"/>
+                    <item id="hw22hlwnGSt3" itemId="hlwnGSt3" candy="200" priority="32"/>
+                    <item id="hw22hlwnGSt4" itemId="hlwnGSt4" candy="290" priority="32"/>
+                    <item id="hw22hlwnGSt5" itemId="hlwnGSt5" candy="230" priority="33"/>
+                    <item id="hw22hlwnGSt6" itemId="hlwnGSt6" candy="110" priority="34"/>
+                    <item id="hw22hlwnGSt7" itemId="hlwnGSt7" candy="160" priority="35"/>
+                    <item id="hw22hlwnGSt8" itemId="hlwnGSt8" candy="430" priority="36"/>
+                    <item id="hw22hlwnGSt9" itemId="hlwnGSt9" candy="300" priority="37"/>
+                    <item id="hw22hlwnGSt10" itemId="hlwnGSt10" candy="460" priority="38"/>
+                    <item id="hw22hlwnGSt11" itemId="hlwnGSt11" candy="1172" priority="39"/>
+                    <item id="hw22girlHlwnVmpSet" itemId="girlHlwnVmpSet" candy="600" priority="40"/>
+                    <item id="hw22girlJillOvrlSet" itemId="girlJillOvrlSet" candy="498" priority="41"/>
+                    <item id="hw22girHlwnSawSet" itemId="girHlwnSawSet" candy="1318" priority="42"/>
+                    <item id="hw22girHlwnCllSet" itemId="girHlwnCllSet" candy="958" priority="43"/>
+                    <item id="hw22girHlwnPnnySet" itemId="girHlwnPnnySet" candy="1118" priority="44"/>
+                    <item id="hw22GirlWarlockSet" itemId="girlWarlockHalloween2020Set" candy="1240" priority="45"/>
+                    <item id="hw22GirlWizzardSet" itemId="girlWizzardHalloween2020Set" candy="1070" priority="46"/>
+                    <item id="hw22girlHlwn21P1Set" itemId="girlHlwn21P1Set" candy="870" isNew="1" priority="47"/>
+                    <item id="hw22girlHlwn21P2Set" itemId="girlHlwn21P2Set" candy="830" isNew="1" priority="48"/>
+                    <item id="hw22girlCruella22Set" itemId="girlCruella22Set" candy="1174" isNew="1" priority="49"/>
+                    <item id="hw22girlRem22Set" itemId="girlRem22Set" candy="1337" isNew="1" priority="50"/>
+                </category>
+
+                <category id="hw22TopClothes" label="#clothesCategoryTops" type="clothes" priority="2">
+                    <!--BOY-->
+                    <item id="hw22boyHlwn27" itemId="boyHlwn27" candy="10" priority="1"/>
+                    <item id="hw22boyHlwn23" itemId="boyHlwn23" candy="30" priority="2"/>
+                    <item id="hw227boyHlwn2" itemId="boyHlwn2" candy="70" priority="3"/>
+                    <item id="hw22boyHlwn10" itemId="boyHlwn10" candy="70" priority="4"/>
+                    <item id="hw22boyHlwn26" itemId="boyHlwn26" candy="60" priority="5"/>
+                    <item id="hw22boyHlwn24" itemId="boyHlwn24" candy="50" priority="6"/>
+                    <item id="hw22boyHlwn9" itemId="boyHlwn9" candy="40" priority="7"/>
+                    <item id="hw22boyHlwn25" itemId="boyHlwn25" candy="20" priority="8"/>
+                    <item id="hw22boyHlwn35" itemId="boyHlwn35" candy="60" priority="9"/>
+                    <item id="hw22boyHlwn34" itemId="boyHlwn34" candy="70" priority="10"/>
+                    <item id="hw22hlwn2015PDCt" itemId="hlwn2015PDCt" candy="95" priority="11"/>
+                    <item id="hw22hlwn2015BShrt" itemId="hlwn2015BShrt" candy="130" priority="12"/>
+                    <item id="hw22boyHlwnVmpJkt" itemId="boyHlwnVmpJkt" candy="160" priority="13"/>
+                    <item id="hw22boyHlwnVmpTSht" itemId="boyHlwnVmpTSht" candy="90" priority="14"/>
+                    <item id="hw22boyTShrtHlwnSaw" itemId="boyTShrtHlwnSaw" candy="80" priority="15"/>
+                    <item id="hw22boyJcktHlnwSaw" itemId="boyJcktHlnwSaw" candy="200" priority="16"/>
+                    <item id="hw22boyJcktHlnwPnny" itemId="boyJcktHlnwPnny" candy="200" priority="17"/>
+                    <item id="hw22boyTShrtAlex" itemId="boyTShrtAlex" candy="140" priority="18"/>
+                    <item id="hw22boyJcktAlex" itemId="boyJcktAlex" candy="110" priority="19"/>
+                    <item id="hw22boyTShrtHttr" itemId="boyTShrtHttr" candy="80" priority="20"/>
+                    <item id="hw22boyJcktHttr" itemId="boyJcktHttr" candy="120" priority="21"/>
+                    <item id="hw22boyTShrtDmnHnt" itemId="boyTShrtDmnHnt" candy="100" priority="22"/>
+                    <item id="hw22boyJcktDmnHnt" itemId="boyJcktDmnHnt" candy="200" priority="23"/>
+                    <item id="hw22boyShrtWrlcHW20" itemId="boyShrtWrlcHW20" candy="178" priority="24"/>
+                    <item id="hw22boyCtWrlcHW20" itemId="boyCtWrlcHW20" candy="264" priority="25"/>
+                    <item id="hw22boyShrtWzrdHW20" itemId="boyShrtWzrdHW20" candy="238" priority="26"/>
+                    <item id="hw22boyCtWzrdHW20" itemId="boyCtWzrdHW20" candy="292" priority="27"/>
+                    <item id="hw22boyTShrtHlwn21P1" itemId="boyTShrtHlwn21P1" candy="96"  priority="28"/>
+                    <item id="hw22boyJcktHlwn21P1" itemId="boyJcktHlwn21P1" candy="231" priority="29"/>
+                    <item id="hw22boyTShrtHlwn21P2" itemId="boyTShrtHlwn21P2" candy="130" priority="30"/>
+                    <item id="hw22boyBlazerCruella22" itemId="boyBlazerCruella22" candy="365" isNew="1" priority="31"/>
+                    <item id="hw22boyJacketRem22" itemId="boyJacketRem22" candy="236" isNew="1" priority="32"/>
+
+                    <!--GIRL-->
+                    <item id="hw22girlHlwn7" itemId="girlHlwn7" candy="90" priority="33"/>
+                    <item id="hw22girlHlwn5" itemId="girlHlwn5" candy="80" priority="34"/>
+                    <item id="hw22girlHlwn3" itemId="girlHlwn3" candy="50" priority="35"/>
+                    <item id="hw22girlHlwn4" itemId="girlHlwn4" candy="30" priority="36"/>
+                    <item id="hw22girlHlwn6" itemId="girlHlwn6" candy="60" priority="37"/>
+                    <item id="hw22girlHlwn36" itemId="girlHlwn36" candy="200" priority="38"/>
+                    <item id="hw22girlHlwn40" itemId="girlHlwn40" candy="90" priority="39"/>
+                    <item id="hw22hlwn2015BWDrs" itemId="hlwn2015BWDrs" candy="250" priority="40"/>
+                    <item id="hw22hlwn2015GDrs" itemId="hlwn2015GDrs" candy="185" priority="41"/>
+                    <item id="hw22hlwn2015GPlrn" itemId="hlwn2015GPlrn" candy="425" priority="42"/>
+                    <item id="hw22grlHlwnVmpDrs" itemId="grlHlwnVmpDrs" candy="200" priority="43"/>
+                    <item id="hw22girlTShrtHlwnSaw" itemId="girlTShrtHlwnSaw" candy="80" priority="44"/>
+                    <item id="hw22girlJktHlwnSaw" itemId="girlJktHlwnSaw" candy="200" priority="45"/>
+                    <item id="hw22girlDrsHlwnCll" itemId="girlDrsHlwnCll" candy="200" priority="46"/>
+                    <item id="hw22girlDrsHlwnPnny" itemId="girlDrsHlwnPnny" candy="200" priority="47"/>
+                    <item id="hw22girlDrssAlice" itemId="girlDrssAlice" candy="270" priority="48"/>
+                    <item id="hw22girlTShrtHttr" itemId="girlTShrtHttr" candy="80" priority="49"/>
+                    <item id="hw22girlJcktHttr" itemId="girlJcktHttr" candy="120" priority="50"/>
+                    <item id="hw22girlJcktDmnHnt" itemId="girlJcktDmnHnt" candy="200" priority="51"/>
+                    <item id="hw22girlTShrtDmnHnt" itemId="girlTShrtDmnHnt" candy="100" priority="52"/>
+                    <item id="hw22girlTopWrlcHW20" itemId="girlTopWrlcHW20" candy="180" priority="53"/>
+                    <item id="hw22girlCtWrlcHW20" itemId="girlCtWrlcHW20" candy="260" priority="54"/>
+                    <item id="hw22girlDrssWzrdHW20" itemId="girlDrssWzrdHW20" candy="240" priority="55"/>
+                    <item id="hw22girlDressHlwn21P1" itemId="girlDressHlwn21P1" candy="311"  priority="56"/>
+                    <item id="hw22girlJcktHlwn21P2" itemId="girlJcktHlwn21P2" candy="154"  priority="57"/>
+                    <item id="hw22girlDressHlwn21P2" itemId="girlDressHlwn21P2" candy="226" priority="58"/>
+                    <item id="hw22girlDressCruella22" itemId="girlDressCruella22" candy="350" isNew="1" priority="59"/>
+                    <item id="hw22girlJacketRem22" itemId="girlJacketRem22" candy="236" isNew="1" priority="60"/>
+                </category>
+
+                <category id="hw22BottomClothes" label="#clothesCategoryBottoms" type="clothes" priority="3">
+                    <!--BOY-->
+                    <item id="hw22boyHlwn15" itemId="boyHlwn15" candy="20" priority="1"/>
+                    <item id="hw22boyHlwn14" itemId="boyHlwn14" candy="20" priority="2"/>
+                    <item id="hw22boyHlwn16" itemId="boyHlwn16" candy="20" priority="3"/>
+                    <item id="hw22boyHlwn12" itemId="boyHlwn12" candy="20" priority="4"/>
+                    <item id="hw22boyHlwn13" itemId="boyHlwn13" candy="20" priority="5"/>
+                    <item id="hw22boyHlwn30" itemId="boyHlwn30" candy="70" priority="6"/>
+                    <item id="hw22boyHlwn36" itemId="boyHlwn36" candy="30" priority="7"/>
+                    <item id="hw22bhlwn2015PDPnts" itemId="hlwn2015PDPnts" candy="100" priority="8"/>
+                    <item id="hw22bhlwn2015BPts" itemId="hlwn2015BPts" candy="260" priority="9"/>
+                    <item id="hw22boyHlwnVmpPnt" itemId="boyHlwnVmpPnt" candy="190" priority="10"/>
+                    <item id="hw22boyPntsHlwnSaw" itemId="boyPntsHlwnSaw" candy="60" priority="11"/>
+                    <item id="hw22boyHlwnPyrmdSkrt" itemId="boyHlwnPyrmdSkrt" candy="78" priority="12"/>
+                    <item id="hw22boyPntsHlwnPnny" itemId="boyPntsHlwnPnny" candy="40" priority="13"/>
+                    <item id="hw22boyPntsAlex" itemId="boyPntsAlex" candy="130" priority="14"/>
+                    <item id="hw22boyPntsHttr" itemId="boyPntsHttr" candy="120" priority="15"/>
+                    <item id="hw22boyPntsDmnHnt" itemId="boyPntsDmnHnt" candy="100" priority="16"/>
+                    <item id="hw22boyPntsWrlcHW20" itemId="boyPntsWrlcHW20" candy="112" priority="17"/>
+                    <item id="hw22boyPntsWzrdHW20" itemId="boyPntsWzrdHW20" candy="128" priority="18"/>
+                    <item id="hw22boyPntsHlwn21P1" itemId="boyPntsHlwn21P1" candy="162"  priority="19"/>
+                    <item id="hw22boyOvrllsHlwn21P2" itemId="boyOvrllsHlwn21P2" candy="191"  priority="20"/>
+                    <item id="hw22boyPantsCruella22" itemId="boyPantsCruella22" candy="153" isNew="1" priority="59"/>
+                    <item id="hw22boyPantsRem22" itemId="boyPantsRem22" candy="138" isNew="1" priority="59"/>
+
+                    <!--GIRL-->
+                    <item id="hw22girlHlwn31" itemId="girlHlwn31" candy="50" priority="21"/>
+                    <item id="hw22hlwn2015GStck" itemId="hlwn2015GStck" candy="100" priority="22"/>
+                    <item id="hw22girlPntsHlwnSaw" itemId="girlPntsHlwnSaw" candy="60" priority="23"/>
+                    <item id="hw22girlSksHlwnPnny" itemId="girlSksHlwnPnny" candy="40" priority="24"/>
+                    <item id="hw22girlTghtAlice" itemId="girlTghtAlice" candy="110" priority="25"/>
+                    <item id="hw22girlPntsHttr" itemId="girlPntsHttr" candy="120" priority="26"/>
+                    <item id="hw22girlPntsDmnHnt" itemId="girlPntsDmnHnt" candy="100" priority="27"/>
+                    <item id="hw22girlTghtsWrlcHW20" itemId="girlTghtsWrlcHW20" candy="110" priority="28"/>
+                    <item id="hw22girlSkrtWrlcHW20" itemId="girlSkrtWrlcHW20" candy="90" priority="29"/>
+                    <item id="hw22girlSkrtWzrdHW20" itemId="girlSkrtWzrdHW20" candy="290" priority="30"/>
+                    <item id="hw22girlHlwn44" itemId="girlHlwn44" candy="70" priority="31"/>
+                    <item id="hw22girlTghtsWzrdHW20" itemId="girlTghtsWzrdHW20" candy="130" priority="32"/>
+                    <item id="hw22girlPantsRem22" itemId="girlPantsRem22" candy="136" isNew="1" priority="59"/>
+                </category>
+
+                <category id="hw22ClothesShoes" label="#clothesCategoryShoes" type="clothes" priority="4">
+                    <!--BOY-->
+                    <item id="hw22boyHlwn20" itemId="boyHlwn20" candy="10" priority="1"/>
+                    <item id="hw22boyHlwn19" itemId="boyHlwn19" candy="10" priority="2"/>
+                    <item id="hw22boyHlwn21" itemId="boyHlwn21" candy="20" priority="3"/>
+                    <item id="hw22boyHlwn18" itemId="boyHlwn18" candy="30" priority="4"/>
+                    <item id="hw22boyHlwn22" itemId="boyHlwn22" candy="20" priority="5"/>
+                    <item id="hw22boyShoes9" itemId="boyShoes9" candy="40" priority="6"/>
+                    <item id="hw22boyHlwn33" itemId="boyHlwn33" candy="30" priority="7"/>
+                    <item id="hw22hlwn2015PDBts" itemId="hlwn2015PDBts" candy="40" priority="8"/>
+                    <item id="hw22hlwn2015BBts" itemId="hlwn2015BBts" candy="180" priority="9"/>
+                    <item id="hw22boyBtsDvl16" itemId="boyBtsDvl16" candy="40" priority="10"/>
+                    <item id="hw22boyHlwnVmpShs" itemId="boyHlwnVmpShs" candy="40" priority="11"/>
+                    <item id="hw22boyBtsHlwnSaw" itemId="boyBtsHlwnSaw" candy="120" priority="12"/>
+                    <item id="hw22boyBtsHlwnPyrmd" itemId="boyBtsHlwnPyrmd" candy="80" priority="13"/>
+                    <item id="hw22boyBtsHlwnPnny" itemId="boyBtsHlwnPnny" candy="60" priority="14"/>
+                    <item id="hw22boyBtsAlex" itemId="boyBtsAlex" candy="223" priority="15"/>
+                    <item id="hw22boyBtsHttr" itemId="boyBtsHttr" candy="60" priority="16"/>
+                    <item id="hw22boyBtsDmnHnt" itemId="boyBtsDmnHnt" candy="60" priority="17"/>
+                    <item id="hw22boyBtsWrlcHW20" itemId="boyBtsWrlcHW20" candy="94" priority="18"/>
+                    <item id="hw22boyBtsWzrdHW20" itemId="boyBtsWzrdHW20" candy="112" priority="19"/>
+                    <item id="hw22boyShsHlwn21P1" itemId="boyShsHlwn21P1" candy="136"  priority="20"/>
+                    <item id="hw22boyShsHlwn21P2" itemId="boyShsHlwn21P2" candy="128" priority="21"/>
+                    <item id="hw22boyBootsCruella22" itemId="boyBootsCruella22" candy="128" isNew="1" priority="22"/>
+                    <item id="hw22boyBootsRem22" itemId="boyBootsRem22" candy="115" isNew="1" priority="23"/>
+
+                    <!--GIRL-->
+                    <item id="hw22girlHlwn30" itemId="girlHlwn30" candy="40" priority="22"/>
+                    <item id="hw22girlHlwn28" itemId="girlHlwn28" candy="40" priority="23"/>
+                    <item id="hw22girlHlwn27" itemId="girlHlwn27" candy="20" priority="24"/>
+                    <item id="hw22girlHlwn26" itemId="girlHlwn26" candy="30" priority="25"/>
+                    <item id="hw22girlHlwn29" itemId="girlHlwn29" candy="20" priority="26"/>
+                    <item id="hw22girlHlwn42" itemId="girlHlwn42" candy="130" priority="27"/>
+                    <item id="hw22girlHlwn43" itemId="girlHlwn43" candy="30" priority="28"/>
+                    <item id="hw22hlwn2015BWBts" itemId="hlwn2015BWBts" candy="100" priority="29"/>
+                    <item id="hw22hlwn2015GBts" itemId="hlwn2015GBts" candy="100" priority="30"/>
+                    <item id="hw22grlBtsDvl16" itemId="grlBtsDvl16" candy="40" priority="31"/>
+                    <item id="hw22grlHlwnVmpShs" itemId="grlHlwnVmpShs" candy="90" priority="32"/>
+                    <item id="hw22girlBtsHlwnSaw" itemId="girlBtsHlwnSaw" candy="120" priority="33"/>
+                    <item id="hw22girlBtsHlwnCll" itemId="girlBtsHlwnCll" candy="40" priority="34"/>
+                    <item id="hw22girlBtsHlwnPnny" itemId="girlBtsHlwnPnny" candy="60" priority="35"/>
+                    <item id="hw22girlBtsAlice" itemId="girlBtsAlice" candy="220" priority="36"/>
+                    <item id="hw22girlBtsHttr" itemId="girlBtsHttr" candy="60" priority="37"/>
+                    <item id="hw22girlBtsDmnHnt" itemId="girlBtsDmnHnt" candy="60" priority="38"/>
+                    <item id="hw22girlBtsWrlcHW20" itemId="girlBtsWrlcHW20" candy="110" priority="39"/>
+                    <item id="hw22girlBtsWzrdHW20" itemId="girlBtsWzrdHW20" candy="110" priority="40"/>
+                    <item id="hw22girlShsHlwn21P2" itemId="girlShsHlwn21P2" candy="133"  priority="41"/>
+                    <item id="hw22girlShsHlwn21P1" itemId="girlShsHlwn21P1" candy="136"  priority="42"/>
+                    <item id="hw22girlBootsCruella22" itemId="girlBootsCruella22" candy="154" isNew="1" priority="43"/>
+                    <item id="hw22girlBootsRem22" itemId="girlBootsRem22" candy="115" isNew="1" priority="44"/>
+                </category>
+
+                <category id="hw22ClothesOther" label="#clothesCategoryOther" type="clothes" priority="5">
+                    <!--BOY-->
+                    <item id="hw22boyHw17Crsbw" itemId="boyHw17Crsbw" candy="299" priority="1"/>
+                    <item id="hw22boyHlwn3" itemId="boyHlwn3" candy="30" priority="2"/>
+                    <item id="hw22boyHlwn11" itemId="boyHlwn11" candy="230" priority="3"/>
+                    <item id="hw22boyHlwn5" itemId="boyHlwn5" candy="10" priority="4"/>
+                    <item id="hw22boyHlwn17" itemId="boyHlwn17" candy="10" priority="5"/>
+                    <item id="hw22boyHlwn7" itemId="boyHlwn7" candy="40" priority="6"/>
+                    <item id="hw22boyHlwn6" itemId="boyHlwn6" candy="50" priority="7"/>
+                    <item id="hw22boyHlwn4" itemId="boyHlwn4" candy="20" priority="8"/>
+                    <item id="hw22boyHlwn8" itemId="boyHlwn8" candy="80" priority="9"/>
+                    <item id="hw22boyHlwn1" itemId="boyHlwn1" candy="140" priority="10"/>
+                    <item id="hw22boyHlwn31" itemId="boyHlwn31" candy="90" priority="11"/>
+                    <item id="hw22boyHlwn37" itemId="boyHlwn37" candy="40" priority="12"/>
+                    <item id="hw22boyHlwn32" itemId="boyHlwn32" candy="150" priority="13"/>
+                    <item id="hw22boyHlwn28" itemId="boyHlwn28" candy="30" priority="14"/>
+                    <item id="hw22hlwn2015PDGlv" itemId="hlwn2015PDGlv" candy="223" priority="15"/>
+                    <item id="hw22hlwn2015PDHat" itemId="hlwn2015PDHat" candy="70" priority="16"/>
+                    <item id="hw22hlwn2015PDHlmt" itemId="hlwn2015PDHlmt" candy="170" priority="17"/>
+                    <item id="hw22hlwn2015PDRats" itemId="hlwn2015PDRats" candy="152" priority="18"/>
+                    <item id="hw22hlwn2015BHat" itemId="hlwn2015BHat" candy="90" priority="19"/>
+                    <item id="hw22hlwn2015BMncl" itemId="hlwn2015BMncl" candy="60" priority="20"/>
+                    <item id="hw22hlwn2015BStck" itemId="hlwn2015BStck" candy="150" priority="21"/>
+                    <item id="hw22boyHrnDvl16" itemId="boyHrnDvl16" candy="180" priority="22"/>
+                    <item id="hw22boyTalDvl16" itemId="boyTalDvl16" candy="110" priority="23"/>
+                    <item id="hw22boyMskHlb16" itemId="boyMskHlb16" candy="230" priority="24"/>
+                    <item id="hw22boyHlwnVmpScf" itemId="boyHlwnVmpScf" candy="30" priority="25"/>
+                    <item id="hw22boyHlwnVmpWng" itemId="boyHlwnVmpWng" candy="130" priority="26"/>
+                    <item id="hw22boyHlwnVmpHat" itemId="boyHlwnVmpHat" candy="70" priority="27"/>
+                    <item id="hw22boyJackOvrl" itemId="boyJackOvrl" candy="399" priority="28"/>
+                    <item id="hw22boyHlmtHlwnJack" itemId="boyHlmtHlwnJack" candy="99" priority="29"/>
+                    <item id="hw22boyGlvsHlwnSaw" itemId="boyGlvsHlwnSaw" candy="40" priority="30"/>
+                    <item id="hw22boyHandSaw" itemId="boyHandSaw" candy="399" priority="31"/>
+                    <item id="hw22boyHlwnSawMsk" itemId="boyHlwnSawMsk" candy="499" priority="32"/>
+                    <item id="hw22boyGlvsHlwnPyrmd" itemId="boyGlvsHlwnPyrmd" candy="20" priority="33"/>
+                    <item id="hw22boyHlwnPyrmdMsk" itemId="boyHlwnPyrmdMsk" candy="399" priority="34"/>
+                    <item id="hw22boyPyrmdKnf" itemId="boyPyrmdKnf" candy="299" priority="35"/>
+                    <item id="hw22boyGlvsHlwnPnny" itemId="boyGlvsHlwnPnny" candy="20" priority="36"/>
+                    <item id="hw22boyHandPnny" itemId="boyHandPnny" candy="399" priority="37"/>
+                    <item id="hw22boyHlwnPnnyMsk" itemId="boyHlwnPnnyMsk" candy="399" priority="38"/>
+                    <item id="hw22boyGlvsAlex" itemId="boyGlvsAlex" candy="111" priority="39"/>
+                    <item id="hw22boyDcrAlex" itemId="boyDcrAlex" candy="140" priority="40"/>
+                    <item id="hw22boySksHttr" itemId="boySksHttr" candy="40" priority="41"/>
+                    <item id="hw22boyHtHttr" itemId="boyHtHttr" candy="200" priority="42"/>
+                    <item id="hw22boyAcsHttr" itemId="boyAcsHttr" candy="60" priority="43"/>
+                    <item id="hw22boyHttrMsk" itemId="boyHttrMsk" candy="100" priority="44"/>
+                    <item id="hw22boyNclDmn" itemId="boyNclDmn" candy="34" priority="45"/>
+                    <item id="hw22boyAcsDmn" itemId="boyAcsDmn" candy="135" priority="46"/>
+                    <item id="hw22boyWngsDmn" itemId="boyWngsDmn" candy="500" priority="47"/>
+                    <item id="hw22boyHrnDmn" itemId="boyHrnDmn" candy="180" priority="48"/>
+                    <item id="hw22boyDmnMsk" itemId="boyDmnMsk" candy="300" priority="49"/>
+                    <item id="hw22boyDmnOvrl" itemId="boyDmnOvrl" candy="100" priority="50"/>
+                    <item id="hw22boyHtDmnHnt" itemId="boyHtDmnHnt" candy="100" priority="51"/>
+                    <item id="hw22boyGlvsDmnHnt" itemId="boyGlvsDmnHnt" candy="50" priority="52"/>
+                    <item id="hw22boyAcsDmnHnt" itemId="boyAcsDmnHnt" candy="70" priority="53"/>
+                    <item id="hw22boyDcrDmnHnt" itemId="boyDcrDmnHnt" candy="160" priority="54"/>
+                    <item id="hw22boyHtWrlcHW20" itemId="boyHtWrlcHW20" candy="94" priority="55"/>
+                    <item id="hw22boyErrWrlcHW20" itemId="boyErrWrlcHW20" candy="107" priority="56"/>
+                    <item id="hw22boyBltWrlcHW20" itemId="boyBltWrlcHW20" candy="100" priority="57"/>
+                    <item id="hw22boySkllWrlcHW20" itemId="boySkllWrlcHW20" candy="104" priority="58"/>
+                    <item id="hw22boyHtWzrdHW20" itemId="boyHtWzrdHW20" candy="82" priority="59"/>
+                    <item id="hw22boyGlvWzrdHW20" itemId="boyGlvWzrdHW20" candy="127" priority="60"/>
+                    <item id="hw22boyBkWzrdHW20" itemId="boyBkWzrdHW20" candy="94" priority="61"/>
+                    <item id="hw22boyMaskHlwn21P1" itemId="boyMaskHlwn21P1" candy="149" priority="62"/>
+                    <item id="hw22boyWpnHlwn21P1" itemId="boyWpnHlwn21P1" candy="138" priority="63"/>
+                    <item id="hw22boyWigHlwn21P2" itemId="boyWigHlwn21P2" candy="122" priority="64"/>
+                    <item id="hw22boyScrsHlwn21P2" itemId="boyScrsHlwn21P2" candy="98" priority="65"/>
+                    <item id="hw22boyKnifeHlwn21P2" itemId="boyKnifeHlwn21P2" candy="108" priority="66"/>
+                    <item id="hw22boyGlovesCruella22" itemId="boyGlovesCruella22" candy="111" isNew="1" priority="67"/>
+                    <item id="hw22boyMaskCruella22" itemId="boyMaskCruella22" candy="289" isNew="1" priority="68"/>
+                    <item id="hw22boyMaskRem22" itemId="boyMaskRem22" candy="289" isNew="1" priority="69"/>
+                    <item id="hw22boyAppleRem22" itemId="boyAppleRem22" candy="150" isNew="1" priority="70"/>
+                    <item id="hw22boyWingsRem22" itemId="boyWingsRem22" candy="371" isNew="1" priority="71"/>
+                    <!--GIRL-->
+                    <item id="hw22girlHw17Crsbw" itemId="girlHw17Crsbw" candy="299" priority="72"/>
+                    <item id="hw22girlHlwn33" itemId="girlHlwn33" candy="10" priority="73"/>
+                    <item id="hw22girlHlwn19" itemId="girlHlwn19" candy="40" priority="74"/>
+                    <item id="hw22girlHlwn25" itemId="girlHlwn25" candy="10" priority="75"/>
+                    <item id="hw22girlHlwn14" itemId="girlHlwn14" candy="20" priority="76"/>
+                    <item id="hw22girlHlwn24" itemId="girlHlwn24" candy="20" priority="77"/>
+                    <item id="hw22girlHlwn1" itemId="girlHlwn1" candy="30" priority="78"/>
+                    <item id="hw22girlHlwn22" itemId="girlHlwn22" candy="40" priority="79"/>
+                    <item id="hw22girlHlwn12" itemId="girlHlwn12" candy="30" priority="80"/>
+                    <item id="hw22girlHlwn17" itemId="girlHlwn17" candy="30" priority="81"/>
+                    <item id="hw22girlDecor104" itemId="girlDecor104" candy="10" priority="82"/>
+                    <item id="hw22girlHlwn10" itemId="girlHlwn10" candy="20" priority="83"/>
+                    <item id="hw22girlHlwn2" itemId="girlHlwn2" candy="70" priority="84"/>
+                    <item id="hw22girlHlwn32" itemId="girlHlwn32" candy="40" priority="85"/>
+                    <item id="hw22girlHlwn11" itemId="girlHlwn11" candy="30" priority="86"/>
+                    <item id="hw22girlHlwn21" itemId="girlHlwn21" candy="200" priority="87"/>
+                    <item id="hw22girlHlwn13" itemId="girlHlwn13" candy="10" priority="88"/>
+                    <item id="hw22girlHlwn9" itemId="girlHlwn9" candy="10" priority="89"/>
+                    <item id="hw22girlHlwn35" itemId="girlHlwn35" candy="10" priority="90"/>
+                    <item id="hw22girlHlwn16" itemId="girlHlwn16" candy="20" priority="91"/>
+                    <item id="hw22girlHlwn8" itemId="girlHlwn8" candy="20" priority="92"/>
+                    <item id="hw22girlHlwn34" itemId="girlHlwn34" candy="20" priority="92"/>
+                    <item id="hw22girlHlwn23" itemId="girlHlwn23" candy="40" priority="93"/>
+                    <item id="hw22girlHlwn37" itemId="girlHlwn37" candy="100" priority="94"/>
+                    <item id="hw22girlHlwn38" itemId="girlHlwn38" candy="30" priority="95"/>
+                    <item id="hw22girlHlwn39" itemId="girlHlwn39" candy="50" priority="96"/>
+                    <item id="hw22girlHlwn41" itemId="girlHlwn41" candy="30" priority="97"/>
+                    <item id="hw22hlwn2015GGlv" itemId="hlwn2015GGlv" candy="162" priority="98"/>
+                    <item id="hw22hlwn2015GHat" itemId="hlwn2015GHat" candy="70" priority="99"/>
+                    <item id="hw22hlwn2015GPndnt" itemId="hlwn2015GPndnt" candy="130" priority="100"/>
+                    <item id="hw22grlMskVmp16" itemId="grlMskVmp16" candy="200" priority="101"/>
+                    <item id="hw22grlTalDvl16" itemId="grlTalDvl16" candy="110" priority="102"/>
+                    <item id="hw22grlHlwnVmpGlv" itemId="grlHlwnVmpGlv" candy="30" priority="103"/>
+                    <item id="hw22grlHlwnVmpHat" itemId="grlHlwnVmpHat" candy="110" priority="104"/>
+                    <item id="hw22grlHlwnVmpNckl" itemId="grlHlwnVmpNckl" candy="40" priority="105"/>
+                    <item id="hw22grlHlwnVmpWng" itemId="grlHlwnVmpWng" candy="130" priority="106"/>
+                    <item id="hw22girlJillOvrl" itemId="girlJillOvrl" candy="399" priority="107"/>
+                    <item id="hw22girlHlmtHlwnJill" itemId="girlHlmtHlwnJill" candy="99" priority="108"/>
+                    <item id="hw22girlGlvsHlwnSaw" itemId="girlGlvsHlwnSaw" candy="40" priority="109"/>
+                    <item id="hw22girlHandSaw" itemId="girlHandSaw" candy="399" priority="110"/>
+                    <item id="hw22girlMskHlwnSaw" itemId="girlMskHlwnSaw" candy="499" priority="111"/>
+                    <item id="hw22girlSksHlwnCll" itemId="girlSksHlwnCll" candy="20" priority="112"/>
+                    <item id="hw22girlAcsCll" itemId="girlAcsCll" candy="299" priority="113"/>
+                    <item id="hw22girlMskHlwnCll" itemId="girlMskHlwnCll" candy="399" priority="114"/>
+                    <item id="hw22girlAcsPnny" itemId="girlAcsPnny" candy="399" priority="115"/>
+                    <item id="hw22girlMskHlwnPnny" itemId="girlMskHlwnPnny" candy="399" priority="116"/>
+                    <item id="hw22girlDcrAlice" itemId="girlDcrAlice" candy="110" priority="118"/>
+                    <item id="hw22girlKnfAlice" itemId="girlKnfAlice" candy="140" priority="119"/>
+                    <item id="hw22girlSksHttr" itemId="girlSksHttr" candy="40" priority="120"/>
+                    <item id="hw22girlHtHttr" itemId="girlHtHttr" candy="200" priority="121"/>
+                    <item id="hw22girlHttrMsk" itemId="girlHttrMsk" candy="100" priority="122"/>
+                    <item id="hw22girlAcsHttr" itemId="girlAcsHttr" candy="60" priority="123"/>
+                    <item id="hw22girlDmnOvrl" itemId="girlDmnOvrl" candy="100" priority="124"/>
+                    <item id="hw22girlHrnDmn" itemId="girlHrnDmn" candy="180" priority="125"/>
+                    <item id="hw22girlDmnMsk" itemId="girlDmnMsk" candy="300" priority="126"/>
+                    <item id="hw22girlWngDmn" itemId="girlWngDmn" candy="500" priority="127"/>
+                    <item id="hw22girlNcklDmn" itemId="girlNcklDmn" candy="34" priority="128"/>
+                    <item id="hw22girlAcsDmn" itemId="girlAcsDmn" candy="135" priority="129"/>
+                    <item id="hw22girlHtDmnHnt" itemId="girlHtDmnHnt" candy="100" priority="130"/>
+                    <item id="hw22girlGlvDmnHnt" itemId="girlGlvDmnHnt" candy="50" priority="131"/>
+                    <item id="hw22girlBltDmnHnt" itemId="girlBltDmnHnt" candy="70" priority="132"/>
+                    <item id="hw22girlAcsDmnHnt" itemId="girlAcsDmnHnt" candy="160" priority="133"/>
+                    <item id="hw22grlMskWtc16" itemId="grlMskWtc16" candy="230" priority="134"/>
+                    <item id="hw22girlHtWrlcHW20" itemId="girlHtWrlcHW20" candy="90" priority="135"/>
+                    <item id="hw22girlErrWrlcHW20" itemId="girlErrWrlcHW20" candy="110" priority="136"/>
+                    <item id="hw22girlGlvsWrlcHW20" itemId="girlGlvsWrlcHW20" candy="90" priority="137"/>
+                    <item id="hw22girlBltWrlcHW20" itemId="girlBltWrlcHW20" candy="100" priority="138"/>
+                    <item id="hw22girlSkllWrlcHW20" itemId="girlSkllWrlcHW20" candy="100" priority="139"/>
+                    <item id="hw22girlHlwn20" itemId="girlHlwn20" candy="60" priority="140"/>
+                    <item id="hw22hlwn2015BWHat" itemId="hlwn2015BWHat" candy="110" priority="141"/>
+                    <item id="hw22girlHatWzrdHW20" itemId="girlHatWzrdHW20" candy="80" priority="142"/>
+                    <item id="hw22girlGlvsWzrdHW20" itemId="girlGlvsWzrdHW20" candy="130" priority="143"/>
+                    <item id="hw22girlBkWzrdHW20" itemId="girlBkWzrdHW20" candy="90" priority="144"/>
+                    <item id="hw22girlGlvsHlwnPnny" itemId="girlGlvsHlwnPnny" candy="20" priority="145"/>
+                    <item id="hw22girlHlwn18" itemId="girlHlwn18" candy="20" priority="146"/>
+                    <item id="hw22girlDiademHlwn21P1" itemId="girlDiademHlwn21P1" candy="132"  priority="147"/>
+                    <item id="hw22girlMaskHlwn21P1" itemId="girlMaskHlwn21P1" candy="149"  priority="148"/>
+                    <item id="hw22girlWpnHlwn21P1" itemId="girlWpnHlwn21P1" candy="138"  priority="149"/>
+                    <item id="hw22girlWigHlwn21P2" itemId="girlWigHlwn21P2" candy="106"  priority="150"/>
+                    <item id="hw22girlTattooHlwn21P2" itemId="girlTattooHlwn21P2" candy="100"  priority="151"/>
+                    <item id="hw22girlGunHlwn21P2" itemId="girlGunHlwn21P2" candy="108"  priority="152"/>
+                    <item id="hw22girlHairstyleCruella22" itemId="girlHairstyleCruella22" candy="289" isNew="1" priority="153"/>
+                    <item id="hw22girlMaskCruella22" itemId="girlMaskCruella22" candy="83" isNew="1" priority="154"/>
+                    <item id="hw22girlEarringsCruella22" itemId="girlEarringsCruella22" candy="82" isNew="1" priority="155"/>
+                    <item id="hw22girlCaneCruella22" itemId="girlCaneCruella22" candy="167" isNew="1" priority="156"/>
+                    <item id="hw22girlChokerCruella22" itemId="girlChokerCruella22" candy="78" isNew="1" priority="157"/>
+                    <item id="hw22girlMaskRem22" itemId="girlMaskRem22" candy="289" isNew="1" priority="158"/>
+                    <item id="hw22girlChokerRem22" itemId="girlChokerRem22" candy="92" isNew="1" priority="159"/>
+                    <item id="hw22girlBookRem22" itemId="girlBookRem22" candy="208" isNew="1" priority="160"/>
+                    <item id="hw22girlWingsRem22" itemId="girlWingsRem22" candy="261" isNew="1" priority="161"/>
+                </category>
+            </category>
+
+            <category id="hw22Furniture" label="#furnitureShopTitle" type="furniture" priority="2">
+                <category id="hw22Furniture2014" label="2014-2018" type="furniture" priority="1">
+                    <item id="hw22hlwnKitchenDecor1" itemId="hlwnKitchenDecor1" candy="10" priority="15"/>
+                    <item id="hw22hlwnTable1" itemId="hlwnTable1" candy="43" priority="16"/>
+                    <item id="hw22hlwnChair1" itemId="hlwnChair1" candy="18" priority="17"/>
+                    <item id="hw22hlwnChair2" itemId="hlwnChair2" candy="18" priority="18"/>
+                    <item id="hw22hlwnChair3" itemId="hlwnChair3" candy="19" priority="19"/>
+                    <item id="hw22hlwnChair4" itemId="hlwnChair4" candy="19" priority="20"/>
+                    <item id="hw22sofaHlwn1" itemId="sofaHlwn1" candy="30" priority="21"/>
+                    <item id="hw22sofaHlwn2" itemId="sofaHlwn2" candy="30" priority="22"/>
+                    <item id="hw22sofaHlwn3" itemId="sofaHlwn3" candy="130" priority="23"/>
+                    <item id="hw22caseHlwn1" itemId="caseHlwn1" candy="50" priority="24"/>
+                    <item id="hw22caseHlwn2" itemId="caseHlwn2" candy="50" priority="25"/>
+                    <item id="hw22treeHlwn" itemId="treeHlwn" candy="50" priority="26"/>
+                    <item id="hw22pumpkinSmall" itemId="pumpkinSmall" candy="10" priority="27"/>
+                    <item id="hw22broomHlwn" itemId="broomHlwn" candy="10" priority="28"/>
+                    <item id="hw22batHlwn" itemId="batHlwn" candy="14" priority="29"/>
+                    <item id="hw22batHlwnRed" itemId="batHlwnRed" candy="14" priority="30"/>
+                    <item id="hw22webHlwn" itemId="webHlwn" candy="15" priority="31"/>
+                    <item id="hw22wreathBlack" itemId="wreathBlack" candy="13" priority="32"/>
+                    <item id="hw22candleCobweb" itemId="candleCobweb" candy="29" priority="33"/>
+                    <item id="hw22candleWallHlwn" itemId="candleWallHlwn" candy="22" priority="34"/>
+                    <item id="hw22ghostBlack" itemId="ghostBlack" candy="19" priority="35"/>
+                    <item id="hw22pumpkinBlack" itemId="pumpkinBlack" candy="17" priority="36"/>
+                    <item id="hw22pumpkinHlwn" itemId="pumpkinHlwn" candy="20" priority="37"/>
+                    <item id="hw22pumpkinSilver" itemId="pumpkinSilver" candy="10" priority="38"/>
+                    <item id="hw22scullCandle" itemId="scullCandle" candy="10" priority="39"/>
+                    <item id="hw22carpetGhost" itemId="carpetGhost" candy="20" priority="40"/>
+                    <item id="hw22wall24" itemId="wall24" candy="30" priority="41"/>
+                    <item id="hw22wall25" itemId="wall25" candy="20" priority="42"/>
+                    <item id="hw22door8" itemId="door8" candy="10" priority="43"/>
+                    <item id="hw22door9" itemId="door9" candy="60" priority="44"/>
+                    <item id="hw22floor24" itemId="floor24" candy="20" priority="45"/>
+                    <item id="hw22floor25" itemId="floor25" candy="20" priority="46"/>
+                    <item id="hw22hlwnMrrw" itemId="hlwnMrrw" candy="369" priority="47"/>
+                    <item id="hw22hlwnBlrmCndl" itemId="hlwnBlrmCndl" candy="40" priority="48"/>
+                    <item id="hw22hlwnBlrmVs" itemId="hlwnBlrmVs" candy="70" priority="49"/>
+                    <item id="hw22hlwnBlrmPn" itemId="hlwnBlrmPn" candy="600" priority="50"/>
+                    <item id="hw22hlwnBlrmLmp" itemId="hlwnBlrmLmp" candy="138" priority="51"/>
+                    <item id="hw22hlwnBlrmSf" itemId="hlwnBlrmSf" candy="373" priority="52"/>
+                    <item id="hw22hlwnBlrmChr" itemId="hlwnBlrmChr" candy="165" priority="53"/>
+                    <item id="hw22wllBlkRs" itemId="wllBlkRs" candy="191" priority="1"/>
+                    <item id="hw22drBlkRs" itemId="drBlkRs" candy="324" priority="2"/>
+                    <item id="hw22flrBlkRs" itemId="flrBlkRs" candy="383" priority="3"/>
+                    <item id="hw22bdBlkRs" itemId="bdBlkRs" candy="360" priority="4"/>
+                    <item id="hw22armchrBlkRs" itemId="armchrBlkRs" candy="94" priority="5"/>
+                    <item id="hw22pctBlkRs1" itemId="pctBlkRs1" candy="133" priority="6"/>
+                    <item id="hw22pctBlkRs2" itemId="pctBlkRs2" candy="83" priority="7"/>
+                    <item id="hw22pctBlkRs3" itemId="pctBlkRs3" candy="83" priority="8"/>
+                    <item id="hw22pctBlkRs4" itemId="pctBlkRs4" candy="83" priority="9"/>
+                    <item id="hw22wdwBlkRs" itemId="wdwBlkRs" candy="443" priority="10"/>
+                    <item id="hw22bookBlkRs" itemId="bookBlkRs" candy="50" priority="11"/>
+                    <item id="hw22tblBlkRs" itemId="tblBlkRs" candy="160" priority="12"/>
+                    <item id="hw22musCentBlkRs" itemId="musCentBlkRs" candy="249" priority="13"/>
+                    <item id="hw22sfBlkRs" itemId="sfBlkRs" candy="291" priority="14"/>
+                    <item id="hw22hlwn18Wnd" itemId="hlwn18Wnd" candy="98" priority="54"/>
+                    <item id="hw22evilFlower" itemId="evilFlower" candy="298" priority="55"/>
+                    <item id="hw22infernalRabbit" itemId="infernalRabbit" candy="498" priority="56"/>
+                    <item id="hw22fireplaceWitchHlwn2018" itemId="fireplaceWitchHlwn2018" candy="600" priority="57"/>
+                </category>
+
+                <category id="hw22Furniture2019" label="2019"  type="furniture" priority="3">
+                    <item id="hw22hw2019Chr" itemId="hw2019Chr" candy="50" priority="58"/>
+                    <item id="hw22grlndHW2019" itemId="grlndHW2019" candy="70" priority="59"/>
+                    <item id="hw22hw2019Dr" itemId="hw2019Dr" candy="80" priority="60"/>
+                    <item id="hw22hw2019Sf" itemId="hw2019Sf" candy="60" priority="61"/>
+                    <item id="hw22pntngHW2019" itemId="pntngHW2019" candy="90" priority="62"/>
+                    <item id="hw22hw2019Wll" itemId="hw2019Wll" candy="70" priority="63"/>
+                    <item id="hw22hw2019Wnd" itemId="hw2019Wnd" candy="80" priority="64"/>
+                    <item id="hw22hw2019Flr" itemId="hw2019Flr" candy="40" priority="65"/>
+                    <item id="hw22sphrHW2019" itemId="sphrHW2019" candy="90" priority="66"/>
+                    <item id="hw22wrdrbHW2019" itemId="wrdrbHW2019" candy="60" priority="67"/>
+                    <item id="hw22tblHW2019" itemId="tblHW2019" candy="90" priority="68"/>
+                    <item id="hw22drgn2019Dr" itemId="drgn2019Dr" candy="90" priority="69"/>
+                    <item id="hw22drgnSkull2019" itemId="drgnSkull2019" candy="70" priority="70"/>
+                    <item id="hw22drgn2019Wll" itemId="drgn2019Wll" candy="70" priority="71"/>
+                    <item id="hw22drgn2019Flr" itemId="drgn2019Flr" candy="240" priority="72"/>
+                    <item id="hw22drgnChst2019" itemId="drgnChst2019" candy="110" priority="73"/>
+                    <item id="hw22drgnThrn2019" itemId="drgnThrn2019" candy="100" priority="74"/>
+                    <item id="hw22drgnFrplc2019" itemId="drgnFrplc2019" candy="50" priority="75"/>
+                    <item id="hw22drgnFntn2019" itemId="drgnFntn2019" candy="160" priority="76"/>
+                </category>
+
+                <category id="hw22Furniture2020" label="2020" type="furniture" priority="4">
+                    <item id="hw22drHW20" itemId="drHW20" candy="210" priority="77"/>
+                    <item id="hw22flrHW20" itemId="flrHW20" candy="56" priority="78"/>
+                    <item id="hw22wlHW20" itemId="wlHW20" candy="270" priority="79"/>
+                    <item id="hw22hw20Bln" itemId="hw20Bln" candy="58" priority="80"/>
+                    <item id="hw22hw20BxDcr" itemId="hw20BxDcr" candy="57" priority="81"/>
+                    <item id="hw22hw20Csh" itemId="hw20Csh" candy="54" priority="82"/>
+                    <item id="hw22hw20ExArr" itemId="hw20ExArr" candy="72" priority="83"/>
+                    <item id="hw22hw20MskDcr" itemId="hw20MskDcr" candy="35" priority="84"/>
+                    <item id="hw22hw20Ppcrn" itemId="hw20Ppcrn" candy="116" priority="85"/>
+                    <item id="hw22hw20Pstr1" itemId="hw20Pstr1" candy="24" priority="86"/>
+                    <item id="hw22hw20Pstr2" itemId="hw20Pstr2" candy="24" priority="87"/>
+                    <item id="hw22hw20Tbl" itemId="hw20Tbl" candy="81" priority="88"/>
+                    <item id="hw22hw20BlChr" itemId="hw20BlChr" candy="47" priority="89"/>
+                    <item id="hw22hw20RdChr" itemId="hw20RdChr" candy="47" priority="90"/>
+                    <item id="hw22hw20Crrg" itemId="hw20Crrg" candy="380" priority="91"/>
+                    <item id="hw22hw20SprlDcr" itemId="hw20SprlDcr" candy="40" priority="92"/>
+                </category>
+
+                <category id="hw22Furniture2021" label="2021" type="furniture" priority="5">
+                    <item id="hw22floorHL21" itemId="floorHL21" candy="87"  priority="93"/>
+                    <item id="hw22wallHL21" itemId="wallHL21" candy="102" priority="94"/>
+                    <item id="hw22doorHL21" itemId="doorHL21" candy="120" priority="95"/>
+                    <item id="hw22hl21Bed" itemId="hl21Bed" candy="373" priority="96"/>
+                    <item id="hw22hl21Brain" itemId="hl21Brain" candy="245" priority="97"/>
+                    <item id="hw22hl21Armchair" itemId="hl21Armchair" candy="219" priority="98"/>
+                    <item id="hw22hl21Eye" itemId="hl21Eye" candy="90" priority="99"/>
+                    <item id="hw22hl21Dresser" itemId="hl21Dresser" candy="80" priority="100"/>
+                    <item id="hw22hl21Monitor" itemId="hl21Monitor" candy="217" priority="101"/>
+                    <item id="hw22hl21Table" itemId="hl21Table" candy="115" priority="102"/>
+                    <item id="hw22hl21SmallTable" itemId="hl21SmallTable" candy="77" priority="103"/>
+                    <item id="hw22hl21Lamp" itemId="hl21Lamp" candy="97" priority="104"/>
+                    <item id="hw22hl21Chair" itemId="hl21Chair" candy="87" priority="105"/>
+                    <item id="hw22hl21Flask2" itemId="hl21Flask2" candy="105" priority="106"/>
+                    <item id="hw22hl21ChestXRay" itemId="hl21ChestXRay" candy="60" priority="107"/>
+                    <item id="hw22hl21FootXRay" itemId="hl21FootXRay" candy="57" priority="108"/>
+                    <item id="hw22hl21Flask1" itemId="hl21Flask1" candy="52" priority="109"/>
+                    <item id="hw22hl21Sewerage1" itemId="hl21Sewerage1" candy="60" priority="110"/>
+                    <item id="hw22hl21Hand" itemId="hl21Hand" candy="43" priority="111"/>
+                    <item id="hw22hl21Jaw" itemId="hl21Jaw" candy="47" priority="112"/>
+                    <item id="hw22hl21Panel" itemId="hl21Panel" candy="67" priority="113"/>
+                    <item id="hw22hl21Sewerage2" itemId="hl21Sewerage2" candy="45" priority="114"/>
+                </category>
+
+                <category id="hw22Furniture2022" label="2022" type="furniture" priority="6">
+                    <item id="hw22floorHalloween22" itemId="floorHalloween22" candy="129" isNew="1" priority="115"/>
+                    <item id="hw22wallHalloween22" itemId="wallHalloween22" candy="80" isNew="1" priority="116"/>
+                    <item id="hw22halloween22Elevator" itemId="halloween22Elevator" candy="394" isNew="1" priority="117"/>
+                    <item id="hw22halloween22Window" itemId="halloween22Window" candy="309" isNew="1" priority="118"/>
+                    <item id="hw22doorHalloween22" itemId="doorHalloween22" candy="183" isNew="1" priority="119"/>
+                    <item id="hw22halloween22BarLocker" itemId="halloween22BarLocker" candy="146" isNew="1" priority="120"/>
+                    <item id="hw22halloween22BarTable" itemId="halloween22BarTable" candy="154" isNew="1" priority="121"/>
+                    <item id="hw22halloween22Mirror" itemId="halloween22Mirror" candy="180" isNew="1" priority="122"/>
+                    <item id="hw22halloween22Bike" itemId="halloween22Bike" candy="138" isNew="1" priority="123"/>
+                    <item id="hw22" itemId="halloween22Carpet" candy="125" isNew="1" priority="124"/>
+                    <item id="hw22halloween22Table" itemId="halloween22Table" candy="123" isNew="1" priority="125"/>
+                    <item id="hw22Halloween22Chair1" itemId="halloween22Chair1" candy="83" isNew="1" priority="126"/>
+                    <item id="hw22Halloween22Chair2" itemId="halloween22Chair2" candy="83" isNew="1" priority="127"/>
+                    <item id="hw22halloween22Lamp" itemId="halloween22Lamp" candy="79" isNew="1" priority="128"/>
+                    <item id="hw22halloween22Typewriter" itemId="halloween22Typewriter" candy="53" isNew="1" priority="129"/>
+                    <item id="hw22halloween22Newspaper" itemId="halloween22Newspaper" candy="36" isNew="1" priority="130"/>
+                </category>
+            </category>
+
+            <category id="hw22Other" label="#miscCategory" priority="3">
+                <item id="hw22batChatBubbleDecor" itemId="batChatBubbleDecor" candy="500" type="chatDecor" priority="1"/>
+                <item id="hw22ghostMobileAccessory" itemId="ghostMobileAccessory" candy="200" type="mobileDecor" priority="2"/>
+                <item id="hw22jackStickerPack" itemId="jackStickerPack" candy="1666" type="stickerPack" priority="3"/>
+                <item id="hw22halloween2018" itemId="halloween2018" candy="2000" cooldown="0" type="trophy" priority="4"/>
+                <item id="hw22pumpkinsMobileAccessory" itemId="pumpkinsMobileAccessory" candy="389" cooldown="0" type="mobileDecor" priority="5"/>
+                <item id="hw22webMobileAccessory" itemId="webMobileAccessory" candy="369" cooldown="0" type="mobileDecor"  priority="6"/>
+                <item id="hw22witchChatBubbleDecor" itemId="witchChatBubbleDecor" candy="499" cooldown="0" type="chatDecor"  priority="7"/>
+                <item id="hw22pumpkinChatBubbleDecor" itemId="pumpkinChatBubbleDecor" candy="489" cooldown="0" type="chatDecor"  priority="8"/>
+                <item id="hw22wllGrfHalloween2022Pumpkin" itemId="wllGrfHalloween2022Pumpkin" candy="55" type="graffity" priority="9" isNew="1"/>
+                <item id="hw22hw22Gft1" itemId="hw22Gft1" candy="125" type="presents" priority="10" isNew="1"/>
+                <item id="hw22hw22Gft2" itemId="hw22Gft2" candy="199" type="presents" priority="11" isNew="1"/>
+                <item id="hw22hw22Gft3" itemId="hw22Gft3" candy="249" type="presents" priority="12" isNew="1"/>
+            </category>
+        </category>
+    </shop>
+
+    <locations>
+        <location id="park" zoneId="street" loadingContent="parkHlwn,landscape" defaultRoomId="p1">
+            <rooms>
+                <room id="p1" map="modules/map/halloween2018_park_map" userCount="15" criticalUserCount="30"
+                    backgroundSound="hwSound1,hwSound2,hwSound3,hwSound4,hwSound5"
+                    dresscode="outside"/>
+                <room id="p1e" map="modules/map/halloween2018_park_map" userCount="30" criticalUserCount="45"
+                    backgroundSound="hwSound1,hwSound2,hwSound3,hwSound4,hwSound5"
+                    dresscode="outside"/>
+            </rooms>
+        </location>
+
+        <location id="hw22Farm" zoneId="street" loadingContent="halloween2022" defaultRoomId="hw22">
+            <rooms>
+                <room id="hw22" map="modules/map/pumpkin_farm_map_2022" userCount="1" criticalUserCount="1"
+                    dresscode="outside"
+                    backgroundSound="hwSound1,hwSound2,hwSound3,hwSound4,hwSound5"/>
+            </rooms>
+        </location>
+
+        <location id="ballroom" zoneId="street" loadingContent="ballroomHlwn, halloween2017" defaultRoomId="br1">
+            <rooms>
+                <room id="br1" map="modules/map/halloween2020_ballroom_map" userCount="15" criticalUserCount="20"
+                    backgroundSound="Piano1,Piano2,Piano3,Piano4,Piano5" dresscode="outside"/>
+                <room id="br1e" map="modules/map/halloween2020_ballroom_map" userCount="15" criticalUserCount="20"
+                    backgroundSound="Piano1,Piano2,Piano3,Piano4,Piano5" dresscode="outside"/>
+            </rooms>
+        </location>
+        <location id="club" zoneId="street" loadingContent="club,vip" defaultRoomId="cl1">
+            <rooms>
+                <room id="cl1" map="modules/map/club_halloween_1_map" userCount="15" criticalUserCount="30"
+                    backgroundSound="club1" minLevel="4" dresscode="outside"/>
+                <room id="cl1e" map="modules/map/club_halloween_1_map" userCount="30" criticalUserCount="48"
+                    backgroundSound="club1" minLevel="4" dresscode="outside"/>
+
+                <room id="v1" map="vip_1_map" userCount="15" criticalUserCount="30" backgroundSound="vip1" vip="1"
+                    dresscode="outside"/>
+                <room id="v1e" map="vip_1_map" userCount="30" criticalUserCount="48" backgroundSound="vip1" vip="1"
+                    dresscode="outside"/>
+            </rooms>
+        </location>
+    </locations>
+
+    <potions>
+        <!--SPIRIT POTION ENCHANTMENTS-->
+        <potion id="hlwn22SpiritPotion">
+            <enchantment id="boySpiritEnch1" gender="1">
+                <item type="clothes" id="boyCostumeHW22Zombie"/>
+                <item type="clothes" id="boyMaskHW22Zombie"/>
+            </enchantment>
+
+            <enchantment id="girlSpiritEnch1" gender="2">
+                <item type="clothes" id="girlCostumeHW22Zombie"/>
+                <item type="clothes" id="girlMaskHW22Zombie"/>
+            </enchantment>
+        </potion>
+
+        <!--WITCH POTION ENCHANTMENTS-->
+        <potion id="hlwn22WitchPotion">
+            <enchantment id="boyWitchEnch1" gender="1">
+                <item type="clothes" id="boyCostumeHW22Werewolf"/>
+                <item type="clothes" id="boyMaskHW22Werewolf"/>
+            </enchantment>
+
+            <enchantment id="girlWitchEnch1" gender="2">
+                <item type="clothes" id="girlCostumeHW22Werewolf"/>
+                <item type="clothes" id="girlMaskHW22Werewolf"/>
+            </enchantment>
+        </potion>
+
+        <!--SHAMAN POTION ENCHANTMENTS-->
+        <potion id="hlwn22ShamanPotion">
+            <enchantment id="boyShamanEnch1" gender="1">
+                <item type="clothes" id="boyCostumeHW22Lizard"/>
+                <item type="clothes" id="boyMaskHW22Lizard"/>
+            </enchantment>
+
+            <enchantment id="girlShamanEnch1" gender="2">
+                <item type="clothes" id="girlCostumeHW22Lizard"/>
+                <item type="clothes" id="girlMaskHW22Lizard"/>
+            </enchantment>
+        </potion>
+    </potions>
+
+    <colors>
+        <skinSet index="8">
+            <color name="0" value="0x546475"/>
+            <color name="1" value="0x404C56"/>
+            <color name="2" value="0x363F4C"/>
+            <color name="3" value="0x363F4C"/>
+            <color name="4" value="0x232833"/>
+            <color name="5" value="0x1B1F26"/>
+        </skinSet>
+
+        <skinSet index="9">
+            <color name="0" value="0xF2F7F9"/>
+            <color name="1" value="0xF2F7F9"/>
+            <color name="2" value="0xD7E9F2"/>
+            <color name="3" value="0xD7E9F2"/>
+            <color name="4" value="0x9FB8D6"/>
+            <color name="5" value="0x8D9FB7"/>
+        </skinSet>
+
+        <skinSet index="10">
+            <color name="0" value="0xEA5E5E"/>
+            <color name="1" value="0xD65F5F"/>
+            <color name="2" value="0xB7504B"/>
+            <color name="3" value="0xB7504B"/>
+            <color name="4" value="0x9B3434"/>
+            <color name="5" value="0x7C2323"/>
+        </skinSet>
+
+        <skinSet index="11">
+            <color name="0" value="0xC38FDB"/>
+            <color name="1" value="0xB084BF"/>
+            <color name="2" value="0x916FA5"/>
+            <color name="3" value="0x916FA5"/>
+            <color name="4" value="0x6F4E89"/>
+            <color name="5" value="0x583D72"/>
+        </skinSet>
+
+        <skinSet index="12">
+            <color name="0" value="0x58B9DB"/>
+            <color name="1" value="0x69A6C9"/>
+            <color name="2" value="0x568DB2"/>
+            <color name="3" value="0x568DB2"/>
+            <color name="4" value="0x28678E"/>
+            <color name="5" value="0x29536D"/>
+        </skinSet>
+
+        <skinSet index="13">
+            <color name="0" value="0x52BF90"/>
+            <color name="1" value="0x52AF7C"/>
+            <color name="2" value="0x3E8C63"/>
+            <color name="3" value="0x3E8C63"/>
+            <color name="4" value="0x2B704A"/>
+            <color name="5" value="0x1F5938"/>
+        </skinSet>
+    </colors>
+
+    <messages>
+        <message stageId="0" messageKey="hw18NpcMessage1"/>
+        <message stageId="0" messageKey="hw18NpcMessage2"/>
+
+        <message stageId="1" messageKey="hw18NpcMessage3"/>
+        <message stageId="1" messageKey="hw18NpcMessage4"/>
+        <message stageId="1" messageKey="hw18NpcMessage5"/>
+        <message stageId="1" messageKey="hw18NpcMessage6"/>
+        <message stageId="1" messageKey="hw18NpcMessage7"/>
+
+        <message stageId="1" messageKey="hw18NpcMessage4"/>
+        <message stageId="1" messageKey="hw18NpcMessage7"/>
+        <message stageId="1" messageKey="hw18NpcMessage8"/>
+        <message stageId="1" messageKey="hw18NpcMessage9"/>
+        <message stageId="1" messageKey="hw18NpcMessage10"/>
+
+        <message stageId="1" messageKey="hw18NpcMessage4"/>
+        <message stageId="1" messageKey="hw18NpcMessage9"/>
+        <message stageId="1" messageKey="hw18NpcMessage11"/>
+        <message stageId="1" messageKey="hw18NpcMessage12"/>
+        <message stageId="1" messageKey="hw18NpcMessage13"/>
+
+        <message stageId="1" messageKey="hw18NpcMessage4"/>
+        <message stageId="1" messageKey="hw18NpcMessage11"/>
+        <message stageId="1" messageKey="hw18NpcMessage15"/>
+        <message stageId="1" messageKey="hw18NpcMessage16"/>
+        <message stageId="1" messageKey="hw18NpcMessage17"/>
+    </messages>
+
+    <gifts>
+        <gift id="hw22Gft1">
+            <content>
+                <block order="1" title="clothesShopTitle" image="HWGift1ClothesBoy" gender="1"/>
+                <block order="1" title="clothesShopTitle" image="HWGift1ClothesGirl" gender="2"/>
+                <block order="2" title="furnitureShopTitle" image="HWGift1FurnitureDracula"/>
+                <block order="3" title="furnitureShopTitle" image="HWGift1FurniturePrison"/>
+
+                <block order="4" title="uniqueItemTitle" image="HWGift1Graffity"/>
+                <block order="5" title="uniqueItemTitle" image="HWGift1ClothesWitchcraftBoy" gender="1" label="moreItemLabel"/>
+                <block order="5" title="uniqueItemTitle" image="HWGift1ClothesWitchcraftGirl" gender="2" label="moreItemLabel"/>
+            </content>
+        </gift>
+        <gift id="hw22Gft2">
+            <content>
+                <block order="1" title="clothesShopTitle" image="HWGift2ClothesBoy" gender="1"/>
+                <block order="1" title="clothesShopTitle" image="HWGift2ClothesGirl" gender="2"/>
+                <block order="2" title="furnitureShopTitle" image="HWGift2FurnitureDracula"/>
+                <block order="3" title="furnitureShopTitle" image="HWGift2FurniturePrison"/>
+
+                <block order="4" title="uniqueItemTitle" image="HWGift2Graffity"/>
+                <block order="5" title="uniqueItemTitle" image="HWGift2MobileSkin"/>
+                <block order="6" title="uniqueItemTitle" image="HWGift2ClothesWitchcraftBoy" gender="1" label="moreItemLabel"/>
+                <block order="6" title="uniqueItemTitle" image="HWGift2ClothesWitchcraftGirl" gender="2" label="moreItemLabel"/>
+            </content>
+        </gift>
+        <gift id="hw22Gft3">
+            <content>
+                <block order="1" title="clothesShopTitle" image="HWGift3ClothesBoy" gender="1"/>
+                <block order="1" title="clothesShopTitle" image="HWGift3ClothesGirl" gender="2"/>
+                <block order="2" title="furnitureShopTitle" image="HWGift3FurnitureDracula"/>
+                <block order="3" title="furnitureShopTitle" image="HWGift3FurniturePrison"/>
+
+                <block order="4" title="uniqueItemTitle" image="HWGift3GraffityAndBaloon"/>
+                <block order="5" title="uniqueItemTitle" image="HWGift3Car"/>
+                <block order="6" title="uniqueItemTitle" image="HWGift3FurnitureWindow"/>
+                <block order="7" title="uniqueItemTitle" image="HWGift3ClothesWitchcraftBoy" gender="1" label="moreItemLabel"/>
+                <block order="7" title="uniqueItemTitle" image="HWGift3ClothesWitchcraftGirl" gender="2" label="moreItemLabel"/>
+            </content>
+        </gift>
+    </gifts>
+
+    <everydayBonus>
+        <day day="1" itemType="craft" itemId="hlwn22PumpkinJuice" icon="PumpkinJuiceIcon@halloween2022" label="#hlwn22PumpkinJuiceLabel"
+             count="9"/>
+        <day day="2" itemType="craft" itemId="hlwn22PumpkinMeat" icon="PumpkinMeatIcon@halloween2022" label="#hlwn22PumpkinMeatLabel"
+             count="9"/>
+        <day day="3" itemType="craft" itemId="hlwn22Petals" icon="PetalsIcon@halloween2022" label="#hlwn22PetalsLabel"
+             count="9"/>
+        <day day="4" itemType="craft" itemId="hlwn22Swirls" icon="SwirlsIcon@halloween2022" label="#hlwn22SwirlsLabel"
+             count="9"/>
+        <day day="5" itemType="booster" itemId="2" icon="AntiDecayBoosterIcon@halloween2022" label="#hw22AntiDecayBoosterTitle"
+             count="5"/>
+        <day day="6" itemType="craft" itemId="hlwn22Sting" icon="StingIcon@halloween2022" label="#hlwn22StingLabel"
+             count="6"/>
+        <day day="7" itemType="craft" itemId="hlwn22Liquid" icon="LiquidIcon@halloween2022" label="#hlwn22LiquidLabel"
+             count="6"/>
+        <day day="8" itemType="craft" itemId="hlwn22Root" icon="RootIcon@halloween2022" label="#hlwn22RootLabel"
+             count="6"/>
+        <day day="9" itemType="craft" itemId="hlwn22Insects" icon="InsectsIcon@halloween2022" label="#hlwn22InsectsLabel"
+             count="6"/>
+        <day day="10" itemType="craft" itemId="hlwn22Leaf" icon="LeafIcon@halloween2022" label="#hlwn22LeafLabel"
+             count="3"/>
+        <day day="11" itemType="craft" itemId="hlwn22Phosphorus" icon="PhosphorusIcon@halloween2022" label="#hlwn22PhosphorusLabel"
+             count="3"/>
+        <day day="12" itemType="craft" itemId="hlwn22Pollen" icon="PollenIcon@halloween2022" label="#hlwn22PollenLabel"
+             count="3"/>
+        <day day="13" itemType="craft" itemId="hlwn22Bud" icon="BudIcon@halloween2022" label="#hlwn22BudLabel"
+             count="3"/>
+        <day day="14" itemType="booster" itemId="1" icon="FastGrowthBoosterIcon@halloween2022" label="#hw22FastGrowthBoosterTitle"
+             count="5"/>
+        <day day="15" itemType="furniture" itemId="avapacWerewolf" icon="AVApacWerewolfIcon@furniture" label="#avapacWerewolfLabel"
+             count="1"/>
+    </everydayBonus>
+
+    <products>
+        <externalOffer>
+            <!--LOCAL-->
+            <product id="hw22Pack100" socialNetwork="local" gold="100" bonusGold="20" points="5600" oldPoints="7000"
+                     icon="GoldPack1@halloween2022"
+                     title="100+20 золотых монет"
+                     photo="http://cdn-sp.tortugasocial.com/avataria-ru/promo/GoldCoin.png"
+                     tag="specialGoldOfferHW22"/>
+            <product id="hw22Pack400" socialNetwork="local" gold="400" bonusGold="100" points="22400" oldPoints="28000"
+                     icon="GoldPack2@halloween2022"
+                     title="400+100 золотых монет"
+                     photo="http://cdn-sp.tortugasocial.com/avataria-ru/promo/GoldCoin.png"
+                     tag="specialGoldOfferHW22"/>
+            <product id="hw22Pack800" socialNetwork="local" gold="800" bonusGold="280" points="42000" oldPoints="56000"
+                     icon="GoldPack3@halloween2022"
+                     title="800+280 золотых монет"
+                     photo="http://cdn-sp.tortugasocial.com/avataria-ru/promo/GoldCoin.png"
+                     tag="specialGoldOfferHW22"/>
+
+            <!--TGC-->
+            <product id="hw22Pack100" socialNetwork="tgc" gold="100" bonusGold="20" points="5600" oldPoints="7000"
+                     icon="GoldPack1@halloween2022"
+                     title="100+20 золотых монет"
+                     photo="http://cdn-sp.tortugasocial.com/avataria-ru/promo/GoldCoin.png"
+                     tag="specialGoldOfferHW22"/>
+            <product id="hw22Pack400" socialNetwork="tgc" gold="400" bonusGold="100" points="22400" oldPoints="28000"
+                     icon="GoldPack2@halloween2022"
+                     title="400+100 золотых монет"
+                     photo="http://cdn-sp.tortugasocial.com/avataria-ru/promo/GoldCoin.png"
+                     tag="specialGoldOfferHW22"/>
+            <product id="hw22Pack800" socialNetwork="tgc" gold="800" bonusGold="280" points="42000" oldPoints="56000"
+                     icon="GoldPack3@halloween2022"
+                     title="800+280 золотых монет"
+                     photo="http://cdn-sp.tortugasocial.com/avataria-ru/promo/GoldCoin.png"
+                     tag="specialGoldOfferHW22"/>
+
+            <!--TGC STANDALONE-->
+            <product id="hw22Pack100" socialNetwork="tgcStandalone" gold="100" bonusGold="20" points="5600" oldPoints="7000"
+                     icon="GoldPack1@halloween2022"
+                     title="100+20 золотых монет"
+                     photo="http://cdn-sp.tortugasocial.com/avataria-ru/promo/GoldCoin.png"
+                     tag="specialGoldOfferHW22"/>
+            <product id="hw22Pack400" socialNetwork="tgcStandalone" gold="400" bonusGold="100" points="22400" oldPoints="28000"
+                     icon="GoldPack2@halloween2022"
+                     title="400+100 золотых монет"
+                     photo="http://cdn-sp.tortugasocial.com/avataria-ru/promo/GoldCoin.png"
+                     tag="specialGoldOfferHW22"/>
+            <product id="hw22Pack800" socialNetwork="tgcStandalone" gold="800" bonusGold="280" points="42000" oldPoints="56000"
+                     icon="GoldPack3@halloween2022"
+                     title="800+280 золотых монет"
+                     photo="http://cdn-sp.tortugasocial.com/avataria-ru/promo/GoldCoin.png"
+                     tag="specialGoldOfferHW22"/>
+
+            <!--TGC SOCIAL-->
+            <product id="hw22Pack100" socialNetwork="tgcSocial" gold="100" bonusGold="20" points="5600" oldPoints="7000"
+                     icon="GoldPack1@halloween2022"
+                     title="100+20 золотых монет"
+                     photo="http://cdn-sp.tortugasocial.com/avataria-ru/promo/GoldCoin.png"
+                     tag="specialGoldOfferHW22"/>
+            <product id="hw22Pack400" socialNetwork="tgcSocial" gold="400" bonusGold="100" points="22400" oldPoints="28000"
+                     icon="GoldPack2@halloween2022"
+                     title="400+100 золотых монет"
+                     photo="http://cdn-sp.tortugasocial.com/avataria-ru/promo/GoldCoin.png"
+                     tag="specialGoldOfferHW22"/>
+            <product id="hw22Pack800" socialNetwork="tgcSocial" gold="800" bonusGold="280" points="42000" oldPoints="56000"
+                     icon="GoldPack3@halloween2022"
+                     title="800+280 золотых монет"
+                     photo="http://cdn-sp.tortugasocial.com/avataria-ru/promo/GoldCoin.png"
+                     tag="specialGoldOfferHW22"/>
+
+            <!--TGC MOBILE-->
+            <product id="hw22Pack100" socialNetwork="tgcMobile" gold="100" bonusGold="20" points="5600" oldPoints="7000"
+                     icon="GoldPack1@halloween2022"
+                     title="100+20 золотых монет"
+                     photo="http://cdn-sp.tortugasocial.com/avataria-ru/promo/GoldCoin.png"
+                     tag="specialGoldOfferHW22"/>
+            <product id="hw22Pack400" socialNetwork="tgcMobile" gold="400" bonusGold="100" points="22400" oldPoints="28000"
+                     icon="GoldPack2@halloween2022"
+                     title="400+100 золотых монет"
+                     photo="http://cdn-sp.tortugasocial.com/avataria-ru/promo/GoldCoin.png"
+                     tag="specialGoldOfferHW22"/>
+            <product id="hw22Pack800" socialNetwork="tgcMobile" gold="800" bonusGold="280" points="42000" oldPoints="56000"
+                     icon="GoldPack3@halloween2022"
+                     title="800+280 золотых монет"
+                     photo="http://cdn-sp.tortugasocial.com/avataria-ru/promo/GoldCoin.png"
+                     tag="specialGoldOfferHW22"/>
+
+            <!--VKONTAKTE-->
+            <product id="hw22Pack100" socialNetwork="vkontakte" gold="100" bonusGold="20" points="5600" oldPoints="7000"
+                     icon="GoldPack1@halloween2022"
+                     title="100+20 золотых монет"
+                     photo="http://cdn-sp.tortugasocial.com/avataria-ru/promo/GoldCoin.png"
+                     tag="specialGoldOfferHW22"/>
+            <product id="hw22Pack400" socialNetwork="vkontakte" gold="400" bonusGold="100" points="22400" oldPoints="28000"
+                     icon="GoldPack2@halloween2022"
+                     title="400+100 золотых монет"
+                     photo="http://cdn-sp.tortugasocial.com/avataria-ru/promo/GoldCoin.png"
+                     tag="specialGoldOfferHW22"/>
+            <product id="hw22Pack800" socialNetwork="vkontakte" gold="800" bonusGold="280" points="42000" oldPoints="56000"
+                     icon="GoldPack3@halloween2022"
+                     title="800+280 золотых монет"
+                     photo="http://cdn-sp.tortugasocial.com/avataria-ru/promo/GoldCoin.png"
+                     tag="specialGoldOfferHW22"/>
+
+            <!--ODNOKLASSNIKI-->
+            <product id="hw22Pack100" socialNetwork="odnoklassniki" gold="100" bonusGold="20" points="5600" oldPoints="7000"
+                     icon="GoldPack1@halloween2022"
+                     title="100+20 золотых монет"
+                     photo="http://cdn-sp.tortugasocial.com/avataria-ru/promo/GoldCoin.png"
+                     tag="specialGoldOfferHW22"/>
+            <product id="hw22Pack400" socialNetwork="odnoklassniki" gold="400" bonusGold="100" points="22400" oldPoints="28000"
+                     icon="GoldPack2@halloween2022"
+                     title="400+100 золотых монет"
+                     photo="http://cdn-sp.tortugasocial.com/avataria-ru/promo/GoldCoin.png"
+                     tag="specialGoldOfferHW22"/>
+            <product id="hw22Pack800" socialNetwork="odnoklassniki" gold="800" bonusGold="280" points="42000" oldPoints="56000"
+                     icon="GoldPack3@halloween2022"
+                     title="800+280 золотых монет"
+                     photo="http://cdn-sp.tortugasocial.com/avataria-ru/promo/GoldCoin.png"
+                     tag="specialGoldOfferHW22"/>
+
+            <!--MAILRU-->
+            <product id="hw22Pack100" socialNetwork="mailru" gold="100" bonusGold="20" points="5600" oldPoints="7000"
+                     icon="GoldPack1@halloween2022"
+                     title="100+20 золотых монет"
+                     photo="http://cdn-sp.tortugasocial.com/avataria-ru/promo/GoldCoin.png"
+                     tag="specialGoldOfferHW22"/>
+            <product id="hw22Pack400" socialNetwork="mailru" gold="400" bonusGold="100" points="22400" oldPoints="28000"
+                     icon="GoldPack2@halloween2022"
+                     title="400+100 золотых монет"
+                     photo="http://cdn-sp.tortugasocial.com/avataria-ru/promo/GoldCoin.png"
+                     tag="specialGoldOfferHW22"/>
+            <product id="hw22Pack800" socialNetwork="mailru" gold="800" bonusGold="280" points="42000" oldPoints="56000"
+                     icon="GoldPack3@halloween2022"
+                     title="800+280 золотых монет"
+                     photo="http://cdn-sp.tortugasocial.com/avataria-ru/promo/GoldCoin.png"
+                     tag="specialGoldOfferHW22"/>
+
+            <!--MY GAMES-->
+            <product id="hw22Pack100" socialNetwork="gamesmailru" gold="100" bonusGold="20" points="5600" oldPoints="7000"
+                     icon="GoldPack1@halloween2022"
+                     title="100+20 золотых монет"
+                     photo="http://cdn-sp.tortugasocial.com/avataria-ru/promo/GoldCoin.png"
+                     tag="specialGoldOfferHW22"/>
+            <product id="hw22Pack400" socialNetwork="gamesmailru" gold="400" bonusGold="100" points="22400" oldPoints="28000"
+                     icon="GoldPack2@halloween2022"
+                     title="400+100 золотых монет"
+                     photo="http://cdn-sp.tortugasocial.com/avataria-ru/promo/GoldCoin.png"
+                     tag="specialGoldOfferHW22"/>
+            <product id="hw22Pack800" socialNetwork="gamesmailru" gold="800" bonusGold="280" points="42000" oldPoints="56000"
+                     icon="GoldPack3@halloween2022"
+                     title="800+280 золотых монет"
+                     photo="http://cdn-sp.tortugasocial.com/avataria-ru/promo/GoldCoin.png"
+                     tag="specialGoldOfferHW22"/>
+
+            <!--GAME XP-->
+            <product id="hw22Pack100" socialNetwork="gamexp" gold="100" bonusGold="50" points="6600" oldPoints="8800"
+                     icon="GoldPack1@halloween2022"
+                     title="100+50 золотых монет"
+                     photo="http://cdn-sp.tortugasocial.com/avataria-ru/promo/GoldCoin.png"
+                     tag="specialGoldOfferHW22"/>
+            <product id="hw22Pack400" socialNetwork="gamexp" gold="400" bonusGold="100" points="26400" oldPoints="28600"
+                     icon="GoldPack2@halloween2022"
+                     title="400+100 золотых монет"
+                     photo="http://cdn-sp.tortugasocial.com/avataria-ru/promo/GoldCoin.png"
+                     tag="specialGoldOfferHW22"/>
+            <product id="hw22Pack800" socialNetwork="gamexp" gold="800" bonusGold="280" points="44000" oldPoints="57200"
+                     icon="GoldPack3@halloween2022"
+                     title="800+280 золотых монет"
+                     photo="http://cdn-sp.tortugasocial.com/avataria-ru/promo/GoldCoin.png"
+                     tag="specialGoldOfferHW22"/>
+
+            <!--FOTOSTRANA-->
+            <product id="hw22Pack100" socialNetwork="fotostrana" gold="100" bonusGold="20" points="5100" oldPoints="6800"
+                     icon="GoldPack1@halloween2022"
+                     title="100+20 золотых монет"
+                     photo="http://cdn-sp.tortugasocial.com/avataria-ru/promo/GoldCoin.png"
+                     tag="specialGoldOfferHW22"/>
+            <product id="hw22Pack400" socialNetwork="fotostrana" gold="400" bonusGold="100" points="22100" oldPoints="28900"
+                     icon="GoldPack2@halloween2022"
+                     title="400+100 золотых монет"
+                     photo="http://cdn-sp.tortugasocial.com/avataria-ru/promo/GoldCoin.png"
+                     tag="specialGoldOfferHW22"/>
+            <product id="hw22Pack800" socialNetwork="fotostrana" gold="800" bonusGold="280" points="44200" oldPoints="56100"
+                     icon="GoldPack3@halloween2022"
+                     title="1080 золотых монет"
+                     photo="http://cdn-sp.tortugasocial.com/avataria-ru/promo/GoldCoin.png"
+                     tag="specialGoldOfferHW22"/>
+        </externalOffer>
+        <specialOffer>
+            <!--LOCAL-->
+            <product id="HW22MaskSpecialOffer" socialNetwork="local" points="248500" salePercent="40"
+                description="hw22MaskSpecialOfferDescription" shopIcon="HW22MaskSpecialOfferIcon" productIcon="HW22MaskSpecialOfferProductIcon@halloween2022"
+                tag="halloween2022,complex" campaign="hw22MaskSpecialOffer"
+                title="Специальное предложение"
+                photo="http://cdn-sp.tortugasocial.com/avataria-ru/promo/modules/hw22/HW22MaskSpecialOfferProductIcon.png">
+                <items>
+                    <item id="boyScareHW22Mask" type="clothes" gender="1" count="1" icon="BoyMaskSpecialOfferAwardIcon@halloween2022" />
+                    <item id="girlScareHW22Mask" type="clothes" gender="2" count="1" icon="GirlMaskSpecialOfferAwardIcon@halloween2022" />
+                    <item id="candies" type="moduleItem" count="300" icon="CandiesSpecialOfferAwardIcon@halloween2022" label="#hw22CandiesTitle" />
+                    <item id="multiHarvestBooster" type="moduleItem" count="3" icon="BoosterSpecialOfferAwardIcon@halloween2022" label="#hw22MultiHarvestBoosterTitle" />
+                </items>
+            </product>
+            <product id="HW22ChatBalloonSpecialOffer" socialNetwork="local" points="248500" salePercent="35"
+                description="hw22ChatBalloonSpecialOffer" shopIcon="HW22ChatBalloonSpecialOfferIcon" productIcon="HW22ChatBalloonSpecialOfferProductIcon@halloween2022"
+                tag="halloween2022,complex" campaign="hw22ChatBalloonSpecialOffer"
+                title="Специальное предложение"
+                photo="http://cdn-sp.tortugasocial.com/avataria-ru/promo/modules/hw22/HW22ChatBalloonSpecialOfferProductIcon.png">
+                <items>
+                    <item id="halloweenChatBubble" type="moduleItem" icon="ChatBalloonSpecialOfferAwardIcon@halloween2022" label="#halloweenChatBubbleTypeTitle" />
+                    <item id="candies" type="moduleItem" count="150" icon="CandiesSpecialOfferAwardIcon@halloween2022" label="#hw22CandiesTitle" />
+                </items>
+            </product>
+
+            <!--TGC-->
+            <product id="HW22MaskSpecialOffer" socialNetwork="tgc" points="35000" salePercent="40"
+                description="hw22MaskSpecialOfferDescription" shopIcon="HW22MaskSpecialOfferIcon" productIcon="HW22MaskSpecialOfferProductIcon@halloween2022"
+                tag="halloween2022,complex" campaign="hw22MaskSpecialOffer"
+                title="Специальное предложение"
+                photo="http://cdn-sp.tortugasocial.com/avataria-ru/promo/modules/hw22/HW22MaskSpecialOfferProductIcon.png">
+                <items>
+                    <item id="boyScareHW22Mask" type="clothes" gender="1" count="1" icon="BoyMaskSpecialOfferAwardIcon@halloween2022" />
+                    <item id="girlScareHW22Mask" type="clothes" gender="2" count="1" icon="GirlMaskSpecialOfferAwardIcon@halloween2022" />
+                    <item id="candies" type="moduleItem" count="300" icon="CandiesSpecialOfferAwardIcon@halloween2022" label="#hw22CandiesTitle" />
+                    <item id="multiHarvestBooster" type="moduleItem" count="3" icon="BoosterSpecialOfferAwardIcon@halloween2022" label="#hw22MultiHarvestBoosterTitle" />
+                </items>
+            </product>
+            <product id="HW22ChatBalloonSpecialOffer" socialNetwork="tgc" points="21000" salePercent="35"
+                description="hw22ChatBalloonSpecialOffer" shopIcon="HW22ChatBalloonSpecialOfferIcon" productIcon="HW22ChatBalloonSpecialOfferProductIcon@halloween2022"
+                tag="halloween2022,complex" campaign="hw22ChatBalloonSpecialOffer"
+                title="Специальное предложение"
+                photo="http://cdn-sp.tortugasocial.com/avataria-ru/promo/modules/hw22/HW22ChatBalloonSpecialOfferProductIcon.png">
+                <items>
+                    <item id="halloweenChatBubble" type="moduleItem" icon="ChatBalloonSpecialOfferAwardIcon@halloween2022" label="#halloweenChatBubbleTypeTitle" />
+                    <item id="candies" type="moduleItem" count="150" icon="CandiesSpecialOfferAwardIcon@halloween2022" label="#hw22CandiesTitle" />
+                </items>
+            </product>
+
+            <!--TGC STANDALONE -->
+            <product id="HW22MaskSpecialOffer" socialNetwork="tgcStandalone" points="35000" salePercent="40"
+                description="hw22MaskSpecialOfferDescription" shopIcon="HW22MaskSpecialOfferIcon" productIcon="HW22MaskSpecialOfferProductIcon@halloween2022"
+                tag="halloween2022,complex" campaign="hw22MaskSpecialOffer"
+                title="Специальное предложение"
+                photo="http://cdn-sp.tortugasocial.com/avataria-ru/promo/modules/hw22/HW22MaskSpecialOfferProductIcon.png">
+                <items>
+                    <item id="boyScareHW22Mask" type="clothes" gender="1" count="1" icon="BoyMaskSpecialOfferAwardIcon@halloween2022" />
+                    <item id="girlScareHW22Mask" type="clothes" gender="2" count="1" icon="GirlMaskSpecialOfferAwardIcon@halloween2022" />
+                    <item id="candies" type="moduleItem" count="300" icon="CandiesSpecialOfferAwardIcon@halloween2022" label="#hw22CandiesTitle" />
+                    <item id="multiHarvestBooster" type="moduleItem" count="3" icon="BoosterSpecialOfferAwardIcon@halloween2022" label="#hw22MultiHarvestBoosterTitle" />
+                </items>
+            </product>
+            <product id="HW22ChatBalloonSpecialOffer" socialNetwork="tgcStandalone" points="21000" salePercent="35"
+                description="hw22ChatBalloonSpecialOffer" shopIcon="HW22ChatBalloonSpecialOfferIcon" productIcon="HW22ChatBalloonSpecialOfferProductIcon@halloween2022"
+                tag="halloween2022,complex" campaign="hw22ChatBalloonSpecialOffer"
+                title="Специальное предложение"
+                photo="http://cdn-sp.tortugasocial.com/avataria-ru/promo/modules/hw22/HW22ChatBalloonSpecialOfferProductIcon.png">
+                <items>
+                    <item id="halloweenChatBubble" type="moduleItem" icon="ChatBalloonSpecialOfferAwardIcon@halloween2022" label="#halloweenChatBubbleTypeTitle" />
+                    <item id="candies" type="moduleItem" count="150" icon="CandiesSpecialOfferAwardIcon@halloween2022" label="#hw22CandiesTitle" />
+                </items>
+            </product>
+
+            <!--TGC SOCIAL-->
+            <product id="HW22MaskSpecialOffer" socialNetwork="tgcSocial" points="35000" salePercent="40"
+                description="hw22MaskSpecialOfferDescription" shopIcon="HW22MaskSpecialOfferIcon" productIcon="HW22MaskSpecialOfferProductIcon@halloween2022"
+                tag="halloween2022,complex" campaign="hw22MaskSpecialOffer"
+                title="Специальное предложение"
+                photo="http://cdn-sp.tortugasocial.com/avataria-ru/promo/modules/hw22/HW22MaskSpecialOfferProductIcon.png">
+                <items>
+                    <item id="boyScareHW22Mask" type="clothes" gender="1" count="1" icon="BoyMaskSpecialOfferAwardIcon@halloween2022" />
+                    <item id="girlScareHW22Mask" type="clothes" gender="2" count="1" icon="GirlMaskSpecialOfferAwardIcon@halloween2022" />
+                    <item id="candies" type="moduleItem" count="300" icon="CandiesSpecialOfferAwardIcon@halloween2022" label="#hw22CandiesTitle" />
+                    <item id="multiHarvestBooster" type="moduleItem" count="3" icon="BoosterSpecialOfferAwardIcon@halloween2022" label="#hw22MultiHarvestBoosterTitle" />
+                </items>
+            </product>
+            <product id="HW22ChatBalloonSpecialOffer" socialNetwork="tgcSocial" points="21000" salePercent="35"
+                description="hw22ChatBalloonSpecialOffer" shopIcon="HW22ChatBalloonSpecialOfferIcon" productIcon="HW22ChatBalloonSpecialOfferProductIcon@halloween2022"
+                tag="halloween2022,complex" campaign="hw22ChatBalloonSpecialOffer"
+                title="Специальное предложение"
+                photo="http://cdn-sp.tortugasocial.com/avataria-ru/promo/modules/hw22/HW22ChatBalloonSpecialOfferProductIcon.png">
+                <items>
+                    <item id="halloweenChatBubble" type="moduleItem" icon="ChatBalloonSpecialOfferAwardIcon@halloween2022" label="#halloweenChatBubbleTypeTitle" />
+                    <item id="candies" type="moduleItem" count="150" icon="CandiesSpecialOfferAwardIcon@halloween2022" label="#hw22CandiesTitle" />
+                </items>
+            </product>
+
+            <!--TGC MOBILE-->
+            <product id="HW22MaskSpecialOffer" socialNetwork="tgcMobile" points="35000" salePercent="40"
+                description="hw22MaskSpecialOfferDescription" shopIcon="HW22MaskSpecialOfferIcon" productIcon="HW22MaskSpecialOfferProductIcon@halloween2022"
+                tag="halloween2022,complex" campaign="hw22MaskSpecialOffer"
+                title="Специальное предложение"
+                photo="http://cdn-sp.tortugasocial.com/avataria-ru/promo/modules/hw22/HW22MaskSpecialOfferProductIcon.png">
+                <items>
+                    <item id="boyScareHW22Mask" type="clothes" gender="1" count="1" icon="BoyMaskSpecialOfferAwardIcon@halloween2022" />
+                    <item id="girlScareHW22Mask" type="clothes" gender="2" count="1" icon="GirlMaskSpecialOfferAwardIcon@halloween2022" />
+                    <item id="candies" type="moduleItem" count="300" icon="CandiesSpecialOfferAwardIcon@halloween2022" label="#hw22CandiesTitle" />
+                    <item id="multiHarvestBooster" type="moduleItem" count="3" icon="BoosterSpecialOfferAwardIcon@halloween2022" label="#hw22MultiHarvestBoosterTitle" />
+                </items>
+            </product>
+            <product id="HW22ChatBalloonSpecialOffer" socialNetwork="tgcMobile" points="21000" salePercent="35"
+                description="hw22ChatBalloonSpecialOffer" shopIcon="HW22ChatBalloonSpecialOfferIcon" productIcon="HW22ChatBalloonSpecialOfferProductIcon@halloween2022"
+                tag="halloween2022,complex" campaign="hw22ChatBalloonSpecialOffer"
+                title="Специальное предложение"
+                photo="http://cdn-sp.tortugasocial.com/avataria-ru/promo/modules/hw22/HW22ChatBalloonSpecialOfferProductIcon.png">
+                <items>
+                    <item id="halloweenChatBubble" type="moduleItem" icon="ChatBalloonSpecialOfferAwardIcon@halloween2022" label="#halloweenChatBubbleTypeTitle" />
+                    <item id="candies" type="moduleItem" count="150" icon="CandiesSpecialOfferAwardIcon@halloween2022" label="#hw22CandiesTitle" />
+                </items>
+            </product>
+
+            <!--VKONTAKTE-->
+            <product id="HW22MaskSpecialOffer" socialNetwork="vkontakte" points="35000" salePercent="40"
+                description="hw22MaskSpecialOfferDescription" shopIcon="HW22MaskSpecialOfferIcon" productIcon="HW22MaskSpecialOfferProductIcon@halloween2022"
+                tag="halloween2022,complex" campaign="hw22MaskSpecialOffer"
+                title="Специальное предложение"
+                photo="http://cdn-sp.tortugasocial.com/avataria-ru/promo/modules/hw22/HW22MaskSpecialOfferProductIcon.png">
+                <items>
+                    <item id="boyScareHW22Mask" type="clothes" gender="1" count="1" icon="BoyMaskSpecialOfferAwardIcon@halloween2022" />
+                    <item id="girlScareHW22Mask" type="clothes" gender="2" count="1" icon="GirlMaskSpecialOfferAwardIcon@halloween2022" />
+                    <item id="candies" type="moduleItem" count="300" icon="CandiesSpecialOfferAwardIcon@halloween2022" label="#hw22CandiesTitle" />
+                    <item id="multiHarvestBooster" type="moduleItem" count="3" icon="BoosterSpecialOfferAwardIcon@halloween2022" label="#hw22MultiHarvestBoosterTitle" />
+                </items>
+            </product>
+            <product id="HW22ChatBalloonSpecialOffer" socialNetwork="vkontakte" points="21000" salePercent="35"
+                description="hw22ChatBalloonSpecialOffer" shopIcon="HW22ChatBalloonSpecialOfferIcon" productIcon="HW22ChatBalloonSpecialOfferProductIcon@halloween2022"
+                tag="halloween2022,complex" campaign="hw22ChatBalloonSpecialOffer"
+                title="Специальное предложение"
+                photo="http://cdn-sp.tortugasocial.com/avataria-ru/promo/modules/hw22/HW22ChatBalloonSpecialOfferProductIcon.png">
+                <items>
+                    <item id="halloweenChatBubble" type="moduleItem" icon="ChatBalloonSpecialOfferAwardIcon@halloween2022" label="#halloweenChatBubbleTypeTitle" />
+                    <item id="candies" type="moduleItem" count="150" icon="CandiesSpecialOfferAwardIcon@halloween2022" label="#hw22CandiesTitle" />
+                </items>
+            </product>
+
+            <!--ODNOKLASSNIKI-->
+            <product id="HW22MaskSpecialOffer" socialNetwork="odnoklassniki" points="35000" salePercent="40"
+                description="hw22MaskSpecialOfferDescription" shopIcon="HW22MaskSpecialOfferIcon" productIcon="HW22MaskSpecialOfferProductIcon@halloween2022"
+                tag="halloween2022,complex" campaign="hw22MaskSpecialOffer"
+                title="Специальное предложение"
+                photo="http://cdn-sp.tortugasocial.com/avataria-ru/promo/modules/hw22/HW22MaskSpecialOfferProductIcon.png">
+                <items>
+                    <item id="boyScareHW22Mask" type="clothes" gender="1" count="1" icon="BoyMaskSpecialOfferAwardIcon@halloween2022" />
+                    <item id="girlScareHW22Mask" type="clothes" gender="2" count="1" icon="GirlMaskSpecialOfferAwardIcon@halloween2022" />
+                    <item id="candies" type="moduleItem" count="300" icon="CandiesSpecialOfferAwardIcon@halloween2022" label="#hw22CandiesTitle" />
+                    <item id="multiHarvestBooster" type="moduleItem" count="3" icon="BoosterSpecialOfferAwardIcon@halloween2022" label="#hw22MultiHarvestBoosterTitle" />
+                </items>
+            </product>
+            <product id="HW22ChatBalloonSpecialOffer" socialNetwork="odnoklassniki" points="21000" salePercent="35"
+                description="hw22ChatBalloonSpecialOffer" shopIcon="HW22ChatBalloonSpecialOfferIcon" productIcon="HW22ChatBalloonSpecialOfferProductIcon@halloween2022"
+                tag="halloween2022,complex" campaign="hw22ChatBalloonSpecialOffer"
+                title="Специальное предложение"
+                photo="http://cdn-sp.tortugasocial.com/avataria-ru/promo/modules/hw22/HW22ChatBalloonSpecialOfferProductIcon.png">
+                <items>
+                    <item id="halloweenChatBubble" type="moduleItem" icon="ChatBalloonSpecialOfferAwardIcon@halloween2022" label="#halloweenChatBubbleTypeTitle" />
+                    <item id="candies" type="moduleItem" count="150" icon="CandiesSpecialOfferAwardIcon@halloween2022" label="#hw22CandiesTitle" />
+                </items>
+            </product>
+
+            <!--MAILRU-->
+            <product id="HW22MaskSpecialOffer" socialNetwork="mailru" points="35000" salePercent="40"
+                description="hw22MaskSpecialOfferDescription" shopIcon="HW22MaskSpecialOfferIcon" productIcon="HW22MaskSpecialOfferProductIcon@halloween2022"
+                tag="halloween2022,complex" campaign="hw22MaskSpecialOffer"
+                title="Специальное предложение"
+                photo="http://cdn-sp.tortugasocial.com/avataria-ru/promo/modules/hw22/HW22MaskSpecialOfferProductIcon.png">
+                <items>
+                    <item id="boyScareHW22Mask" type="clothes" gender="1" count="1" icon="BoyMaskSpecialOfferAwardIcon@halloween2022" />
+                    <item id="girlScareHW22Mask" type="clothes" gender="2" count="1" icon="GirlMaskSpecialOfferAwardIcon@halloween2022" />
+                    <item id="candies" type="moduleItem" count="300" icon="CandiesSpecialOfferAwardIcon@halloween2022" label="#hw22CandiesTitle" />
+                    <item id="multiHarvestBooster" type="moduleItem" count="3" icon="BoosterSpecialOfferAwardIcon@halloween2022" label="#hw22MultiHarvestBoosterTitle" />
+                </items>
+            </product>
+            <product id="HW22ChatBalloonSpecialOffer" socialNetwork="mailru" points="21000" salePercent="35"
+                description="hw22ChatBalloonSpecialOffer" shopIcon="HW22ChatBalloonSpecialOfferIcon" productIcon="HW22ChatBalloonSpecialOfferProductIcon@halloween2022"
+                tag="halloween2022,complex" campaign="hw22ChatBalloonSpecialOffer"
+                title="Специальное предложение"
+                photo="http://cdn-sp.tortugasocial.com/avataria-ru/promo/modules/hw22/HW22ChatBalloonSpecialOfferProductIcon.png">
+                <items>
+                    <item id="halloweenChatBubble" type="moduleItem" icon="ChatBalloonSpecialOfferAwardIcon@halloween2022" label="#halloweenChatBubbleTypeTitle" />
+                    <item id="candies" type="moduleItem" count="150" icon="CandiesSpecialOfferAwardIcon@halloween2022" label="#hw22CandiesTitle" />
+                </items>
+            </product>
+
+            <!--MY GAMES-->
+            <product id="HW22MaskSpecialOffer" socialNetwork="gamesmailru" points="35000" salePercent="40"
+                description="hw22MaskSpecialOfferDescription" shopIcon="HW22MaskSpecialOfferIcon" productIcon="HW22MaskSpecialOfferProductIcon@halloween2022"
+                tag="halloween2022,complex" campaign="hw22MaskSpecialOffer"
+                title="Специальное предложение"
+                photo="http://cdn-sp.tortugasocial.com/avataria-ru/promo/modules/hw22/HW22MaskSpecialOfferProductIcon.png">
+                <items>
+                    <item id="boyScareHW22Mask" type="clothes" gender="1" count="1" icon="BoyMaskSpecialOfferAwardIcon@halloween2022" />
+                    <item id="girlScareHW22Mask" type="clothes" gender="2" count="1" icon="GirlMaskSpecialOfferAwardIcon@halloween2022" />
+                    <item id="candies" type="moduleItem" count="300" icon="CandiesSpecialOfferAwardIcon@halloween2022" label="#hw22CandiesTitle" />
+                    <item id="multiHarvestBooster" type="moduleItem" count="3" icon="BoosterSpecialOfferAwardIcon@halloween2022" label="#hw22MultiHarvestBoosterTitle" />
+                </items>
+            </product>
+            <product id="HW22ChatBalloonSpecialOffer" socialNetwork="gamesmailru" points="21000" salePercent="35"
+                description="hw22ChatBalloonSpecialOffer" shopIcon="HW22ChatBalloonSpecialOfferIcon" productIcon="HW22ChatBalloonSpecialOfferProductIcon@halloween2022"
+                tag="halloween2022,complex" campaign="hw22ChatBalloonSpecialOffer"
+                title="Специальное предложение"
+                photo="http://cdn-sp.tortugasocial.com/avataria-ru/promo/modules/hw22/HW22ChatBalloonSpecialOfferProductIcon.png">
+                <items>
+                    <item id="halloweenChatBubble" type="moduleItem" icon="ChatBalloonSpecialOfferAwardIcon@halloween2022" label="#halloweenChatBubbleTypeTitle" />
+                    <item id="candies" type="moduleItem" count="150" icon="CandiesSpecialOfferAwardIcon@halloween2022" label="#hw22CandiesTitle" />
+                </items>
+            </product>
+
+            <!--GAME XP-->
+            <product id="HW22MaskSpecialOffer" socialNetwork="gamexp" points="35200" salePercent="40"
+                description="hw22MaskSpecialOfferDescription" shopIcon="HW22MaskSpecialOfferIcon" productIcon="HW22MaskSpecialOfferProductIcon@halloween2022"
+                tag="halloween2022,complex" campaign="hw22MaskSpecialOffer"
+                title="Специальное предложение"
+                photo="http://cdn-sp.tortugasocial.com/avataria-ru/promo/modules/hw22/HW22MaskSpecialOfferProductIcon.png">
+                <items>
+                    <item id="boyScareHW22Mask" type="clothes" gender="1" count="1" icon="BoyMaskSpecialOfferAwardIcon@halloween2022" />
+                    <item id="girlScareHW22Mask" type="clothes" gender="2" count="1" icon="GirlMaskSpecialOfferAwardIcon@halloween2022" />
+                    <item id="candies" type="moduleItem" count="300" icon="CandiesSpecialOfferAwardIcon@halloween2022" label="#hw22CandiesTitle" />
+                    <item id="multiHarvestBooster" type="moduleItem" count="3" icon="BoosterSpecialOfferAwardIcon@halloween2022" label="#hw22MultiHarvestBoosterTitle" />
+                </items>
+            </product>
+            <product id="HW22ChatBalloonSpecialOffer" socialNetwork="gamexp" points="22000" salePercent="35"
+                description="hw22ChatBalloonSpecialOffer" shopIcon="HW22ChatBalloonSpecialOfferIcon" productIcon="HW22ChatBalloonSpecialOfferProductIcon@halloween2022"
+                tag="halloween2022,complex" campaign="hw22ChatBalloonSpecialOffer"
+                title="Специальное предложение"
+                photo="http://cdn-sp.tortugasocial.com/avataria-ru/promo/modules/hw22/HW22ChatBalloonSpecialOfferProductIcon.png">
+                <items>
+                    <item id="halloweenChatBubble" type="moduleItem" icon="ChatBalloonSpecialOfferAwardIcon@halloween2022" label="#halloweenChatBubbleTypeTitle" />
+                    <item id="candies" type="moduleItem" count="150" icon="CandiesSpecialOfferAwardIcon@halloween2022" label="#hw22CandiesTitle" />
+                </items>
+            </product>
+
+            <!--FOTOSTRANA-->
+            <product id="HW22MaskSpecialOffer" socialNetwork="fotostrana" points="35700" salePercent="40"
+                description="hw22MaskSpecialOfferDescription" shopIcon="HW22MaskSpecialOfferIcon" productIcon="HW22MaskSpecialOfferProductIcon@halloween2022"
+                tag="halloween2022,complex" campaign="hw22MaskSpecialOffer"
+                title="Специальное предложение"
+                photo="http://cdn-sp.tortugasocial.com/avataria-ru/promo/modules/hw22/HW22MaskSpecialOfferProductIcon.png">
+                <items>
+                    <item id="boyScareHW22Mask" type="clothes" gender="1" count="1" icon="BoyMaskSpecialOfferAwardIcon@halloween2022" />
+                    <item id="girlScareHW22Mask" type="clothes" gender="2" count="1" icon="GirlMaskSpecialOfferAwardIcon@halloween2022" />
+                    <item id="candies" type="moduleItem" count="300" icon="CandiesSpecialOfferAwardIcon@halloween2022" label="#hw22CandiesTitle" />
+                    <item id="multiHarvestBooster" type="moduleItem" count="3" icon="BoosterSpecialOfferAwardIcon@halloween2022" label="#hw22MultiHarvestBoosterTitle" />
+                </items>
+            </product>
+            <product id="HW22ChatBalloonSpecialOffer" socialNetwork="fotostrana" points="20400" salePercent="35"
+                description="hw22ChatBalloonSpecialOffer" shopIcon="HW22ChatBalloonSpecialOfferIcon" productIcon="HW22ChatBalloonSpecialOfferProductIcon@halloween2022"
+                tag="halloween2022,complex" campaign="hw22ChatBalloonSpecialOffer"
+                title="Специальное предложение"
+                photo="http://cdn-sp.tortugasocial.com/avataria-ru/promo/modules/hw22/HW22ChatBalloonSpecialOfferProductIcon.png">
+                <items>
+                    <item id="halloweenChatBubble" type="moduleItem" icon="ChatBalloonSpecialOfferAwardIcon@halloween2022" label="#halloweenChatBubbleTypeTitle" />
+                    <item id="candies" type="moduleItem" count="150" icon="CandiesSpecialOfferAwardIcon@halloween2022" label="#hw22CandiesTitle" />
+                </items>
+            </product>
+        </specialOffer>
+    </products>
+</module>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module id="bubblegum2022" bubblegumProgress="2000" trashCount="5" trashEnergyPrice="2">
+
+    <award id="1" itemType="trophy" itemId="bubblegum2022" count="0"/>
+
+    <inventory>
+        <category id="craftLoot" typeClass="loot">
+            <item id="bg22Bubblegum" label="#bg22BubblegumLabel" name="Bg22Bubblegum@bubblegum2022"
+                  icon="Bg22BubblegumIcon@bubblegum2022" canBuy="0"/>
+        </category>
+    </inventory>
+
+    <trashDrop>
+        <trash relationMin="20" relationMax="27" gold="0" silver="4" bubblegum="1" probability="1"/>
+        <trash relationMin="40" relationMax="43" gold="1" silver="0" bubblegum="3" probability="0.5"/>
+    </trashDrop>
+
+    <actionsDrop>
+        <action id="kiss" freq="5" minCount="1" maxCount="2">
+            <item id="clay"/>
+            <item id="peaceOfWood"/>
+            <item id="skill"/>
+        </action>
+        <action id="giveFive" freq="4" minCount="1" maxCount="2">
+            <item id="phial"/>
+            <item id="generosity"/>
+            <item id="beauty"/>
+        </action>
+        <action id="hug" freq="4" minCount="1" maxCount="2">
+            <item id="peaceOfIron"/>
+            <item id="feather"/>
+            <item id="industry"/>
+        </action>
+        <action id="handShake" freq="3" minCount="1" maxCount="2">
+            <item id="idea"/>
+            <item id="flowerBud"/>
+            <item id="water"/>
+            <item id="hatred"/>
+        </action>
+    </actionsDrop>
+</module>

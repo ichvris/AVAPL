@@ -1,0 +1,79 @@
+<?xml version="1.0" ?>
+<map width="35" length="33">
+    <viewport x="480" y="-464" width="1196" height="840" />
+    <items>
+        <item class="backgroundItem" skin="NYWinterBattleBG@newyear2023" wx="22" wy="-7" />
+        <item class="landscapeItem" wx="15" wy="15" wz="0" kind="nyFir" id="nyFir" />
+        <item class="workSculptItem" wx="7" wy="21" wz="0" kind="sculptSnowman1" id="workSculptItem1"
+            servicedSkinName="SculptSnowman1@newyear2023,SculptSnowman2@newyear2023,SculptSnowman3@newyear2023,SculptSnowman4@newyear2023"
+            unservicedSkinName="SnowHeap1@newyear2023,SnowHeap2@newyear2023,SculptSnowman3@newyear2023" />
+        <item class="workSculptItem" wx="12" wy="15" wz="0" kind="sculptSnowman2" id="workSculptItem2"
+            servicedSkinName="SculptSnowman1@newyear2023,SculptSnowman2@newyear2023,SculptSnowman3@newyear2023,SculptSnowman4@newyear2023"
+            unservicedSkinName="SnowHeap1@newyear2023,SnowHeap2@newyear2023,SculptSnowman3@newyear2023" />
+        <item class="workSculptItem" wx="13" wy="20" wz="0" kind="sculptSnowman3" id="workSculptItem3"
+            servicedSkinName="SculptSnowman1@newyear2023,SculptSnowman2@newyear2023,SculptSnowman3@newyear2023,SculptSnowman4@newyear2023"
+            unservicedSkinName="SnowHeap1@newyear2023,SnowHeap2@newyear2023,SculptSnowman3@newyear2023" />
+        <item class="workSculptItem" wx="16" wy="10" wz="0" kind="sculptSnowman1" id="workSculptItem4"
+            servicedSkinName="SculptSnowman1@newyear2023,SculptSnowman2@newyear2023,SculptSnowman3@newyear2023,SculptSnowman4@newyear2023"
+            unservicedSkinName="SnowHeap1@newyear2023,SnowHeap2@newyear2023,SculptSnowman3@newyear2023" />
+        <item class="workSculptItem" wx="19" wy="5" wz="0" kind="sculptSnowman2" id="workSculptItem5"
+            servicedSkinName="SculptSnowman1@newyear2023,SculptSnowman2@newyear2023,SculptSnowman3@newyear2023,SculptSnowman4@newyear2023"
+            unservicedSkinName="SnowHeap1@newyear2023,SnowHeap2@newyear2023,SculptSnowman3@newyear2023" />
+        <item class="workSculptItem" wx="20" wy="19" wz="0" kind="sculptSnowman3" id="workSculptItem6"
+            servicedSkinName="SculptSnowman1@newyear2023,SculptSnowman2@newyear2023,SculptSnowman3@newyear2023,SculptSnowman4@newyear2023"
+            unservicedSkinName="SnowHeap1@newyear2023,SnowHeap2@newyear2023,SculptSnowman3@newyear2023" />
+        <item class="workSculptItem" wx="23" wy="7" wz="0" kind="sculptSnowman1" id="workSculptItem7"
+            servicedSkinName="SculptSnowman1@newyear2023,SculptSnowman2@newyear2023,SculptSnowman3@newyear2023,SculptSnowman4@newyear2023"
+            unservicedSkinName="SnowHeap1@newyear2023,SnowHeap2@newyear2023,SculptSnowman3@newyear2023" />
+        <item class="workSculptItem" wx="10" wy="10" wz="0" kind="sculptSnowman2" id="workSculptItem8"
+            servicedSkinName="SculptSnowman1@newyear2023,SculptSnowman2@newyear2023,SculptSnowman3@newyear2023,SculptSnowman4@newyear2023"
+            unservicedSkinName="SnowHeap1@newyear2023,SnowHeap2@newyear2023,SculptSnowman3@newyear2023" />
+        <item class="workSculptItem" wx="17" wy="24" wz="0" kind="sculptSnowman3" id="workSculptItem9"
+            servicedSkinName="SculptSnowman1@newyear2023,SculptSnowman2@newyear2023,SculptSnowman3@newyear2023,SculptSnowman4@newyear2023"
+            unservicedSkinName="SnowHeap1@newyear2023,SnowHeap2@newyear2023,SculptSnowman3@newyear2023" />
+        <item class="workSculptItem" wx="12" wy="25" wz="0" kind="sculptSnowman1" id="workSculptItem10"
+            servicedSkinName="SculptSnowman1@newyear2023,SculptSnowman2@newyear2023,SculptSnowman3@newyear2023,SculptSnowman4@newyear2023"
+            unservicedSkinName="SnowHeap1@newyear2023,SnowHeap2@newyear2023,SculptSnowman3@newyear2023" />
+
+        <item class="walkingGridItem" cols="35" rows="33">
+            <grid>
+                <row values="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" />
+                <row values="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0" />
+                <row values="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0" />
+                <row values="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0" />
+                <row values="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0" />
+                <row values="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0" />
+                <row values="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0" />
+                <row values="0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0" />
+                <row values="0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0" />
+                <row values="0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0" />
+                <row values="0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0" />
+                <row values="0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0" />
+                <row values="0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0" />
+                <row values="0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0" />
+                <row values="0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0" />
+                <row values="0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0" />
+                <row values="0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0" />
+                <row values="0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0" />
+                <row values="0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0" />
+                <row values="0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0" />
+                <row values="0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0" />
+                <row values="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0" />
+                <row values="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0" />
+                <row values="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0" />
+                <row values="0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0" />
+                <row values="0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0" />
+                <row values="0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0" />
+                <row values="0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" />
+                <row values="0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" />
+                <row values="0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" />
+                <row values="0,0,0,0,0,0,0,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" />
+                <row values="0,0,0,0,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" />
+                <row values="0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" />
+            </grid>
+        </item>
+        <item class="dispositionItem" wx="3" wy="23" id="dispositionItem1" />
+        <item class="dispositionItem" wx="6" wy="27" id="dispositionItem2" />
+        <item class="dispositionItem" wx="10" wy="31" id="dispositionItem3" />
+    </items>
+</map>

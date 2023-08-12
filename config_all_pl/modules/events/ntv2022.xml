@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<module id="ntv2022">
+
+    <quests>
+        <quest id="ntv22Quest1" type="2" queue="0" holiday="ntv2022" icon="QuestTaskIcon@ntv2022">
+            <title>#ntv22Quest1Title</title>
+            <description>#ntv22Quest1Description</description>
+            <award>
+                <silver>2000</silver>
+                <item count="5" typeId="likeCoin"/>
+            </award>
+            <tasks>
+                <task gold="20" maxProgress="20" title="#ntv22Quest1Task1Description" type="pickTrash"/>
+            </tasks>
+        </quest>
+
+        <quest id="ntv22Quest2" type="2" queue="1" holiday="ntv2022" icon="QuestTaskIcon@ntv2022">
+            <title>#ntv22Quest2Title</title>
+            <description>#ntv22Quest2Description</description>
+            <award>
+                <item count="1" typeId="ntv22Signboard"/>
+            </award>
+            <tasks>
+                <task maxProgress="3" title="#ntv22Quest2Task1Description" type="doneWorkSession" workId="garden"/>
+                <task maxProgress="4" title="#ntv22Quest2Task2Description" type="doneWorkSession" workId="garbage"/>
+            </tasks>
+            <helpButton action="dialog" target="workLocations" title="#professionTitle"/>
+        </quest>
+
+        <quest id="ntv22Quest3" type="2" queue="2" holiday="ntv2022" icon="QuestTaskIcon@ntv2022">
+            <title>#ntv22Quest3Title</title>
+            <description>#ntv22Quest3Description</description>
+            <award>
+                <silver>5000</silver>
+                <energy>100</energy>
+            </award>
+            <tasks>
+                <task locationId="street" maxProgress="10" title="#ntv22Quest3Task1Description" type="dance"/>
+                <task locationId="club" maxProgress="10" title="#ntv22Quest3Task2Description" type="dance"/>
+                <task locationId="yard" maxProgress="10" title="#ntv22Quest3Task3Description" type="dance"/>
+            </tasks>
+            <helpButton action="dialog" target="publicLocations" title="#publicPlacesTitle"/>
+        </quest>
+
+        <quest id="ntv22Quest4" type="2" queue="3" holiday="ntv2022" icon="QuestTaskIcon@ntv2022">
+            <title>#ntv22Quest4Title</title>
+            <description>#ntv22Quest4Description</description>
+            <award>
+                <energy>100</energy>
+                <item count="20" typeId="happiness"/>
+                <gold>3</gold>
+            </award>
+            <tasks>
+                <task maxProgress="10" title="#ntv22Quest4Task1Description" type="emotion" emotionType="PillowWin"/>
+                <task maxProgress="10" title="#ntv22Quest4Task2Description" type="emotion" emotionType="EmotionApplaud"/>
+                <task maxProgress="10" title="#ntv22Quest4Task3Description" type="emotion" emotionType="EmotionDab"/>
+            </tasks>
+        </quest>
+
+        <quest id="ntv22Quest5" type="2" queue="4" holiday="ntv2022" icon="QuestTaskIcon@ntv2022">
+            <title>#ntv22Quest5Title</title>
+            <description>#ntv22Quest5Description</description>
+            <award>
+                <energy>100</energy>
+                <item count="20" typeId="clay"/>
+                <gold>3</gold>
+            </award>
+            <tasks>
+                <task maxProgress="10" title="#ntv22Quest5Task1Description" type="emotion" emotionType="EmotionGratitude"/>
+                <task maxProgress="10" title="#ntv22Quest5Task2Description" type="emotion" emotionType="EmotionProud"/>
+                <task maxProgress="10" title="#ntv22Quest5Task3Description" type="emotion" emotionType="EmotionYes"/>
+            </tasks>
+        </quest>
+
+        <quest id="ntv22Quest6" type="2" queue="5" holiday="ntv2022" icon="QuestTaskIcon@ntv2022">
+            <title>#ntv22Quest6Title</title>
+            <description>#ntv22Quest6Description</description>
+            <award>
+                <item count="1" typeId="boyShoesNTV22"/>
+            </award>
+            <rules>
+                <gender value="boy"/>
+            </rules>
+            <tasks>
+                <task maxProgress="5" title="#ntv22Quest6Task1Description" type="addBuddy" gold="35"/>
+            </tasks>
+        </quest>
+
+        <quest id="ntv22Quest7" type="2" queue="6" holiday="ntv2022" icon="QuestTaskIcon@ntv2022">
+            <title>#ntv22Quest6Title</title>
+            <description>#ntv22Quest6Description</description>
+            <award>
+                <item count="1" typeId="girlBootsNTV22"/>
+            </award>
+            <rules>
+                <gender value="girl"/>
+            </rules>
+            <tasks>
+                <task maxProgress="5" title="#ntv22Quest6Task1Description" type="addBuddy" gold="35"/>
+            </tasks>
+        </quest>
+
+        <quest id="ntv22Quest8" type="2" queue="7" holiday="ntv2022" icon="QuestTaskIcon@ntv2022">
+            <title>#ntv22Quest8Title</title>
+            <description>#ntv22Quest8Description</description>
+            <award>
+                <energy>100</energy>
+                <item count="20" typeId="love"/>
+                <gold>3</gold>
+            </award>
+            <tasks>
+                <task maxProgress="10" title="#ntv22Quest8Task1Description" type="emotion" emotionType="EmotionAmazement"/>
+                <task maxProgress="10" title="#ntv22Quest8Task2Description" type="emotion" emotionType="EmotionDiscontent"/>
+                <task maxProgress="10" title="#ntv22Quest8Task3Description" type="cry"/>
+            </tasks>
+        </quest>
+
+        <quest id="ntv22Quest9" type="2" queue="8" holiday="ntv2022" icon="QuestTaskIcon@ntv2022">
+            <title>#ntv22Quest9Title</title>
+            <description>#ntv22Quest9Description</description>
+            <award>
+                <item count="5" typeId="film"/>
+                <item count="1" typeId="boyStickNTV22"/>
+            </award>
+            <rules>
+                <gender value="boy"/>
+            </rules>
+            <tasks>
+                <task gold="40" maxProgress="5" title="#ntv22Quest9Task1Description" type="selfie" needFriend="false"/>
+            </tasks>
+        </quest>
+
+        <quest id="ntv22Quest10" type="2" queue="9" holiday="ntv2022" icon="QuestTaskIcon@ntv2022">
+            <title>#ntv22Quest9Title</title>
+            <description>#ntv22Quest9Description</description>
+            <award>
+                <item count="5" typeId="film"/>
+                <item count="1" typeId="girlBasketNTV22"/>
+            </award>
+            <rules>
+                <gender value="girl"/>
+            </rules>
+            <tasks>
+                <task gold="40" maxProgress="5" title="#ntv22Quest9Task1Description" type="selfie" needFriend="false"/>
+            </tasks>
+        </quest>
+
+        <quest id="ntv22Quest11" type="2" queue="10" holiday="ntv2022" icon="QuestTaskIcon@ntv2022">
+            <title>#ntv22Quest11Title</title>
+            <description>#ntv22Quest11Description</description>
+            <award>
+                <energy>100</energy>
+                <gold>4</gold>
+            </award>
+            <tasks>
+                <task maxProgress="10" title="#ntv22Quest11Task1Description" type="hug"/>
+                <task maxProgress="10" title="#ntv22Quest11Task2Description" type="kiss"/>
+            </tasks>
+        </quest>
+
+        <quest id="ntv22Quest12" type="2" queue="11" holiday="ntv2022" icon="QuestTaskIcon@ntv2022">
+            <title>#ntv22Quest12Title</title>
+            <description>#ntv22Quest12Description</description>
+            <award>
+                <energy>100</energy>
+                <gold>4</gold>
+            </award>
+            <tasks>
+                <task maxProgress="10" title="#ntv22Quest12Task1Description" type="handShake"/>
+                <task gold="10" maxProgress="10" title="#ntv22Quest12Task2Description" type="giveFive"/>
+            </tasks>
+        </quest>
+
+        <quest id="ntv22Quest13" type="2" queue="12" holiday="ntv2022" icon="QuestTaskIcon@ntv2022">
+            <title>#ntv22Quest13Title</title>
+            <description>#ntv22Quest13Description</description>
+            <award>
+                <item count="5" typeId="film"/>
+                <item count="1" typeId="boyPantsNTV22"/>
+            </award>
+            <rules>
+                <gender value="boy"/>
+            </rules>
+            <tasks>
+                <task gold="40" maxProgress="5" title="#ntv22Quest13Task1Description" type="selfie" needFriend="true"/>
+            </tasks>
+        </quest>
+
+        <quest id="ntv22Quest14" type="2" queue="13" holiday="ntv2022" icon="QuestTaskIcon@ntv2022">
+            <title>#ntv22Quest13Title</title>
+            <description>#ntv22Quest13Description</description>
+            <award>
+                <item count="5" typeId="film"/>
+                <item count="1" typeId="girlCloakNTV22"/>
+            </award>
+            <rules>
+                <gender value="girl"/>
+            </rules>
+            <tasks>
+                <task gold="40" maxProgress="5" title="#ntv22Quest13Task1Description" type="selfie" needFriend="true"/>
+            </tasks>
+        </quest>
+
+        <quest id="ntv22Quest15" type="2" queue="14" holiday="ntv2022" icon="QuestTaskIcon@ntv2022">
+            <title>#ntv22Quest15Title</title>
+            <description>#ntv22Quest15Description</description>
+            <award>
+                <silver>3500</silver>
+                <item count="25" typeId="generosity"/>
+            </award>
+            <tasks>
+                <task maxProgress="10" title="#ntv22Quest15Task1Description" type="giftRandomItem">
+                    <item typeId="cfCak"/>
+                    <item typeId="cfCof"/>
+                    <item typeId="cfPiz"/>
+                </task>
+                <task maxProgress="10" title="#ntv22Quest15Task2Description" type="giftRandomItem">
+                    <item typeId="clMoc"/>
+                    <item typeId="clBlr"/>
+                    <item typeId="clB52"/>
+                </task>
+            </tasks>
+            <helpButton action="dialog" target="publicLocations" title="#publicPlacesTitle"/>
+        </quest>
+
+        <quest id="ntv22Quest16" type="2" queue="15" holiday="ntv2022" icon="QuestTaskIcon@ntv2022">
+            <title>#ntv22Quest16Title</title>
+            <description>#ntv22Quest16Description</description>
+            <award>
+                <item count="1" typeId="boyCardiganNTV22"/>
+            </award>
+            <rules>
+                <gender value="boy"/>
+            </rules>
+            <tasks>
+                <task maxProgress="10" title="#ntv22Quest16Task1Description" type="pillowFight"/>
+                <task maxProgress="10" title="#ntv22Quest16Task2Description" type="winSnowboardRaceTask"/>
+            </tasks>
+            <helpButton action="dialog" target="game" title="#gamesTitle"/>
+        </quest>
+
+        <quest id="ntv22Quest17" type="2" queue="16" holiday="ntv2022" icon="QuestTaskIcon@ntv2022">
+            <title>#ntv22Quest16Title</title>
+            <description>#ntv22Quest16Description</description>
+            <award>
+                <item count="1" typeId="girlDressNTV22"/>
+            </award>
+            <rules>
+                <gender value="girl"/>
+            </rules>
+            <tasks>
+                <task maxProgress="10" title="#ntv22Quest16Task1Description" type="pillowFight"/>
+                <task maxProgress="10" title="#ntv22Quest16Task2Description" type="winSnowboardRaceTask"/>
+            </tasks>
+            <helpButton action="dialog" target="game" title="#gamesTitle"/>
+        </quest>
+
+        <quest id="ntv22Quest18" type="2" queue="17" holiday="ntv2022" icon="QuestTaskIcon@ntv2022">
+            <title>#ntv22Quest18Title</title>
+            <description>#ntv22Quest18Description</description>
+            <award>
+                <item count="1" typeId="boyHelmetNTV22"/>
+            </award>
+            <rules>
+                <gender value="boy"/>
+            </rules>
+            <tasks>
+                <task maxProgress="10" title="#ntv22Quest18Task1Description" type="winBeachRaceTask"/>
+                <task maxProgress="10" title="#ntv22Quest18Task2Description" type="winCarRaceTask"/>
+            </tasks>
+            <helpButton action="dialog" target="game" title="#gamesTitle"/>
+        </quest>
+
+        <quest id="ntv22Quest19" type="2" queue="18" holiday="ntv2022" icon="QuestTaskIcon@ntv2022">
+            <title>#ntv22Quest18Title</title>
+            <description>#ntv22Quest18Description</description>
+            <award>
+                <item count="1" typeId="girlHatNTV22"/>
+            </award>
+            <rules>
+                <gender value="girl"/>
+            </rules>
+            <tasks>
+                <task maxProgress="10" title="#ntv22Quest18Task1Description" type="winBeachRaceTask"/>
+                <task maxProgress="10" title="#ntv22Quest18Task2Description" type="winCarRaceTask"/>
+            </tasks>
+            <helpButton action="dialog" target="game" title="#gamesTitle"/>
+        </quest>
+
+        <quest id="ntv22Quest20" type="2" queue="19" holiday="ntv2022" icon="QuestTaskIcon@ntv2022">
+            <title>#ntv22Quest20Title</title>
+            <description>#ntv22Quest20Description</description>
+            <award>
+                <item count="1" typeId="ntvButton"/>
+                <gold>40</gold>
+            </award>
+            <tasks>
+                <task maxProgress="5" title="#ntv22Quest20Task1Description" type="doneWorkSession" workId="garden"/>
+                <task maxProgress="8" title="#ntv22Quest20Task2Description" type="doneWorkSession" workId="garbage"/>
+            </tasks>
+            <helpButton action="dialog" target="workLocations" title="#professionTitle"/>
+        </quest>
+
+    </quests>
+
+</module>
