@@ -14,7 +14,7 @@ class Parser():
                 gender = "boy"
             else:
                 gender = "girl"
-            doc = etree.parse("config_fb_tr/inventory/"+filename,
+            doc = etree.parse("config_all_pl/inventory/"+filename,
                               parser=self.parser)
             root = doc.getroot()
             for category in root.findall(".//category[@logCategory2]"):
