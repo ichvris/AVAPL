@@ -1,3 +1,4 @@
+
 <?xml version="1.0"?>
 
 <config>
@@ -11,7 +12,6 @@
     <loginCallback>/prelogin</loginCallback>
     <applicationId>avataria-local</applicationId>
     <production>true</production>
-    <locale>pl</locale>
 
     <serverconfig protocol="binary" encrypted="false" compressed="false" checksumed="true"/>
     <hardVirality>false</hardVirality>
@@ -21,9 +21,6 @@
         <!-- school = yandexSchool, schoolAvataria = casual school. See more ids in WorkScenarioTypes.as -->
         <item id="school" on="false" allowedIds=""/>
         <item id="schoolAvataria" on="false" allowedIds=""/>
-		<item id="canyon" on="true" allowedIds=""/>
-		<item id="canyon" on="true" allowedIds=""/>
-		<item id="canyon" on="true" allowedIds="" layer2Active="true"/>
     </locationRestrictions>
 
     <startUpDialog>
@@ -34,14 +31,14 @@
     <globalNews active="true"/>
 
     <clan>
-        <logoUrl>185-229-227-61.cloud-xip.com/files/promo/clan/logo/{$id}.png</logoUrl>
+        <logoUrl>{{ address }}/files/promo/clan/logo/{$id}.png</logoUrl>
     </clan>
 
     <contentConfigs>
         <contentConfig cdn="default">
-            <contentUrl>185-229-227-61.cloud-xip.com/files/</contentUrl>
+            <contentUrl>{{ address }}/files/</contentUrl>
             <contentMirrorUrl></contentMirrorUrl>
-            <furnitureUrl>185-229-227-61.cloud-xip.com/files/swf/furniture/</furnitureUrl>
+            <furnitureUrl>{{ address }}/files/swf/furniture/</furnitureUrl>
             <furnitureMirrorUrl></furnitureMirrorUrl>
         </contentConfig>
     </contentConfigs>
@@ -55,18 +52,18 @@
     <offersAllowed>false</offersAllowed>
     <activityRating on="false"/>
 
-    <allowedIds>61918559,42017633</allowedIds>
+    <allowedIds></allowedIds>
 
     <preloaderThemes>
-        <theme id="pillows" url="185-229-227-61.cloud-xip.com/files/swf/preloader/PillowFightComix_ru.swf"/>
-        <theme id="romance" url="185-229-227-61.cloud-xip.com/files/swf/preloader/RomanceComix_ru.swf"/>
-        <theme id="dresses" url="185-229-227-61.cloud-xip.com/files/swf/preloader/GirlsDressesComix_ru.swf"/>
+        <theme id="pillows" url="{{ address }}/files/swf/preloader/PillowFightComix_ru.swf"/>
+        <theme id="romance" url="{{ address }}/files/swf/preloader/RomanceComix_ru.swf"/>
+        <theme id="dresses" url="{{ address }}/files/swf/preloader/GirlsDressesComix_ru.swf"/>
     </preloaderThemes>
 
     <appNotAvailableUrls bgUrl="{{ address }}/files/promo/error/ErrorMessageBg.png">
-        <message>185-229-227-61.cloud-xip.com/files/promo/error/ErrorMessage1_ru.png</message>
-        <message>185-229-227-61.cloud-xip.com/files/promo/error/ErrorMessage2_ru.png</message>
-        <message>185-229-227-61.cloud-xip.com/files/promo/error/ErrorMessage3_ru.png</message>
+        <message>{{ address }}/files/promo/error/ErrorMessage1_ru.png</message>
+        <message>{{ address }}/files/promo/error/ErrorMessage2_ru.png</message>
+        <message>{{ address }}/files/promo/error/ErrorMessage3_ru.png</message>
     </appNotAvailableUrls>
 
     <social>
@@ -78,19 +75,19 @@
         </application>
     </social>
     
-    <adminServer>185.229.227.61</adminServer>
+    <adminServer>{{ip}}</adminServer>
     <adminPort>8123</adminPort>
 
-    <outsideServer>185.229.227.61</outsideServer>
+    <outsideServer>{{ip}}</outsideServer>
     <outsidePort>8123</outsidePort>
 
-    <houseServer>185.229.227.61</houseServer>
+    <houseServer>{{ip}}</houseServer>
     <housePort>8123</housePort>
 
-    <workServer>185.229.227.61</workServer>
+    <workServer>{{ip}}</workServer>
     <workPort>8123</workPort>
 
-    <islandServer>185.229.227.61</islandServer>
+    <islandServer>{{ip}}</islandServer>
     <islandPort>8123</islandPort>
     
     <resourseMap>
