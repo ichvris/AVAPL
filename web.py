@@ -133,7 +133,7 @@ async def main():
     aiohttp_jinja2.setup(app, loader=jinja2.FileSystemLoader("templates"))
     runner = web.AppRunner(app)
     await runner.setup()
-    site = web.TCPSite(runner, "0.0.0.0", int(config["webserver"]["web_port"]))
+    site = web.TCPSite(runner, "185.229.227.61", int(config["webserver"]["web_port"]))
     await site.start()
 
 
